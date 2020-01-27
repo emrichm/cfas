@@ -1,0 +1,68 @@
+/*
+Theme Name: OceanWP CFaS
+Description: OceanWP Childtheme für CrossFit am See
+Author: Mark Emrich
+Template: oceanwp
+Version: 1.0
+Tags:
+*/
+/*Füge deinen Code unter dieser Zeile ein. Nutze ggf. !important, um Styles aus dem Haupttheme zu überschreiben.*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Scroll arrows up and down */
+.scroll-wrapper {
+    text-align: center;
+}
+
+.scroll {
+    font-size: 50px;
+    color: #aaa;
+
+    -webkit-animation: scrolling 3s ease infinite;
+    -moz-animation: scrolling 3s ease infinite;
+    -o-animation: scrolling 3s ease infinite;
+    animation: scrolling 3s ease infinite;
+}
+
+.scroll:hover {
+    color: #0F64C8;
+}
+
+.avatar-img>div>div>img {
+    border-radius: 50%;
+}
+
+.avatar-img-decent>div>div>img {
+    border-radius: 20%;
+}
+
+.bt>div>div>p {
+    text-shadow: 0 0 10px #171717 !important;
+}
+
+.bt-rotate {
+    transform: rotate(-15deg);
+}
+
+.current-menu-item span {
+    text-decoration: underline;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(0, 10px);
+    }
+
+
+    100% {
+        transform: translate(0);
+    }
+}
