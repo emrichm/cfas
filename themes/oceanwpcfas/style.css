@@ -40,12 +40,13 @@ Tags:
     border-radius: 20%;
 }
 
-.bt>div>div>p {
-    text-shadow: 0 0 10px #171717 !important;
+.bt div div {
+    text-shadow: 0 0 20px #171717 !important;
 }
 
-.bt-rotate {
-    transform: rotate(-15deg);
+.bt-rotate,
+.bt div div {
+    transform: rotate(-10deg);
 }
 
 .current-menu-item span {
