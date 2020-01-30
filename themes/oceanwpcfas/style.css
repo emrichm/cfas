@@ -54,6 +54,10 @@ Tags:
     border: none !important;
 }
 
+#cf7md-form button {
+    width: 100%;
+}
+
 @keyframes scrolling {
     0% {
         transform: translate(0);
