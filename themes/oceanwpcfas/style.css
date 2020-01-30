@@ -49,8 +49,9 @@ Tags:
     transform: rotate(-10deg);
 }
 
-.current-menu-item span {
-    text-decoration: underline;
+.ocgml_main {
+    padding: 0;
+    border: none;
 }
 
 @keyframes scrolling {

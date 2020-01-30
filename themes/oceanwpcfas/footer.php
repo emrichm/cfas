@@ -80,7 +80,7 @@ function openWOD() {
     });
     var day = new Date().getDay();
     day = day == 0 ? 7 : day;
-    var elements = document.querySelectorAll('div[data-tab="' + day + '"]');
+    var elements = document.querySelectorAll('#wods div[data-tab="' + day + '"]');
     elements[0].classList.add('elementor-active');
     elements[1].classList.add('elementor-active');
     elements[1].style.display = 'block';
