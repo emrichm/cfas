@@ -50,8 +50,8 @@ Tags:
 }
 
 .ocgml_main {
-    padding: 0;
-    border: none;
+    padding: 0 !important;
+    border: none !important;
 }
 
 @keyframes scrolling {
