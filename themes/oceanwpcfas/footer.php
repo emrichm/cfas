@@ -81,34 +81,13 @@ function openWOD() {
     var day = new Date().getDay();
     day = day == 0 ? 7 : day;
     var elements = document.querySelectorAll('#wods div[data-tab="' + day + '"]');
-    if(elements.size > 0) {
+    if(elements.length > 0) {
         elements[0].classList.add('elementor-active');
         elements[1].classList.add('elementor-active');
         elements[1].style.display = 'block';
     }
 }
 jQuery(openWOD);
-</script>
-<script type="application/javascript">
-
-function resizeIFrameToFitContent( iFrame ) {
-
-    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
-}
-
-window.addEventListener('DOMContentLoaded', function(e) {
-
-    var iFrame = document.getElementById( 'iframe-teamup' );
-    resizeIFrameToFitContent( iFrame );
-
-    // // or, to resize all iframes:
-    // var iframes = document.querySelectorAll("iframe");
-    // for( var i = 0; i < iframes.length; i++) {
-    //     resizeIFrameToFitContent( iframes[i] );
-    // }
-} );
-
 </script>
 </body>
 </html>
