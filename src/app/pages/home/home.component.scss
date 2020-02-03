@@ -1,6 +1,6 @@
 header {
   position: relative;
-  height: 75vh;
+  // height: 75vh;
   min-height: 35rem;
   width: 100%;
   overflow: hidden;
@@ -11,7 +11,7 @@ header video {
   top: 40%;
   left: 50%;
   min-width: 100%;
-  min-height: 100%;
+  min-height: calc(100% + 100px);
   width: auto;
   height: auto;
   z-index: 0;
@@ -59,12 +59,12 @@ header .overlay {
         -2px -2px 5px black;
       position: absolute;
       top: 120px;
-      left: 35px;
+      left: 30px;
       transform: rotate(-10deg);
       z-index: 3;
 
-      @media (max-width: 960px) {
-        top: 90px;
+      @media (max-width: 600px) {
+        top: 130px;
         font-size: 4rem;
       }
     }
@@ -72,11 +72,12 @@ header .overlay {
     button {
       font-size: 1.1rem;
       color: white;
+      background-color: rgba($color: #212121, $alpha: 0.6);
       border: solid 2px white;
       border-radius: 25px;
 
       &:hover {
-        background-color: rgba($color: white, $alpha: 0.1);
+        background-color: #212121;
       }
     }
   }

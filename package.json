@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:ghp": "ng build --prod --base-href='https://emrichm.github.io/cfas' && sudo ngh"
+    "deploy:ghp": "ng build --prod --base-href='https://emrichm.github.io/cfas/' && sudo ngh --dir dist/crossfitamsee"
   },
   "private": true,
   "dependencies": {
