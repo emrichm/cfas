@@ -1,7 +1,17 @@
-mat-toolbar {
-  opacity: 0.95;
+.mat-toolbar {
+  background-color: black;
+  opacity: 0.9;
 }
 
 button {
   font-size: 1.1em;
+  height: 100%;
+
+  &:hover {
+    background-color: rgba(white, 0.05);
+  }
+
+  &.active {
+    background-color: rgba(white, 0.1);
+  }
 }

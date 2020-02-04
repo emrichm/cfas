@@ -6,12 +6,14 @@ import { CoreModule } from './core/core.module';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SharedModule } from './shared/shared.module';
+import { WodOverviewComponent } from './components/wod-overview/wod-overview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    WodOverviewComponent
   ],
   imports: [
     BrowserModule,

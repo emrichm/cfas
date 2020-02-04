@@ -8,10 +8,10 @@
   <ng-template #screenNav>
     <ng-container *ngFor="let menuItem of menu">
       <ng-container *ngIf="!menuItem.subMenuItems; else withSubMenu">
-        <button mat-button [routerLink]="menuItem.path">{{ menuItem.name }}</button>
+        <button mat-button [routerLink]="menuItem.path" routerLinkActive="active">{{ menuItem.name }}</button>
       </ng-container>
       <ng-template #withSubMenu>
-        <button mat-button [matMenuTriggerFor]="subMenu">
+        <button mat-button [matMenuTriggerFor]="subMenu" routerLinkActive="active">
           {{ menuItem.name }}
           <mat-icon>arrow_drop_down</mat-icon>
         </button>
