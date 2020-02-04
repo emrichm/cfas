@@ -12,7 +12,7 @@
       </a>
       <ng-container *ngFor="let subMenuItem of menuItem.subMenuItems">
         <a mat-list-item class="border-bottom" [routerLink]="subMenuItem.path" (click)="closeSidenav()">
-          <mat-icon>arrow_right</mat-icon> <span class="nav-caption">{{ subMenuItem.name }}</span>
+          <mat-icon svgIcon="arrow_right"></mat-icon> <span class="nav-caption">{{ subMenuItem.name }}</span>
         </a>
       </ng-container>
     </ng-template>
