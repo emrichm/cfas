@@ -10,6 +10,11 @@
 /* Default Light Background Theme */
 @include mat-themes($my-light-theme);
 
+/* Light Background Theme (on all usages within Class) */
+.light {
+  @include mat-themes($my-light-theme);
+}
+
 /* Dark Background Theme (on all usages within Class) */
 .dark {
   @include mat-themes($my-dark-theme);
