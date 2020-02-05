@@ -1,0 +1,13 @@
+.row {
+  margin: 2rem auto;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+
+  @media (min-width: 960px) {
+    max-height: 6rem;
+    max-width: 20rem;
+  }
+}

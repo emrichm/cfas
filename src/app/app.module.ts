@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { SharedModule } from './shared/shared.module';
 import { WodOverviewComponent } from './components/wod-overview/wod-overview.component';
 import { PageTeaserComponent } from './components/page-teaser/page-teaser.component';
+import { PartnersComponent } from './components/partners/partners.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PageTeaserComponent } from './components/page-teaser/page-teaser.compon
     HomeComponent,
     ContactComponent,
     WodOverviewComponent,
-    PageTeaserComponent
+    PageTeaserComponent,
+    PartnersComponent
   ],
   imports: [
     BrowserModule,
