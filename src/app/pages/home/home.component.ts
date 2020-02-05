@@ -14,7 +14,11 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.pagesTeaser = this.pagesTeaserService.pagesTeaser;
-    console.log(this.pagesTeaser);
+    this.playHeaderVideo();
   }
 
+  private playHeaderVideo() {
+    const video: HTMLMediaElement = document.getElementById('header-video') as HTMLMediaElement;
+    video.play();
+  }
 }
