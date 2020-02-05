@@ -1,7 +1,8 @@
-<mat-nav-list>
+<mat-nav-list id="nav-list">
   <ng-container *ngFor="let menuItem of menu">
     <ng-container *ngIf="!menuItem.subMenuItems; else withSubMenu">
-      <a mat-list-item class="border-bottom" [routerLink]="menuItem.path" (click)="closeSidenav()">
+      <a mat-list-item class="border-bottom" [routerLink]="menuItem.path" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }" (click)="closeSidenav()">
         <span class="nav-caption">{{ menuItem.name }}</span>
       </a>
     </ng-container>
@@ -11,7 +12,8 @@
         <span class="nav-caption">{{ menuItem.name }}</span>
       </a>
       <ng-container *ngFor="let subMenuItem of menuItem.subMenuItems">
-        <a mat-list-item class="border-bottom" [routerLink]="subMenuItem.path" (click)="closeSidenav()">
+        <a mat-list-item class="border-bottom" [routerLink]="subMenuItem.path" routerLinkActive="active"
+          (click)="closeSidenav()">
           <mat-icon svgIcon="arrow_right"></mat-icon> <span class="nav-caption">{{ subMenuItem.name }}</span>
         </a>
       </ng-container>

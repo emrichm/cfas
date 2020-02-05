@@ -15,13 +15,12 @@
         <button mat-button [matMenuTriggerFor]="subMenu" routerLinkActive="active">
           {{ menuItem.name }}
           <mat-icon>arrow_drop_down</mat-icon>
+          <mat-menu #subMenu="matMenu">
+            <ng-container *ngFor="let subMenuItem of menuItem.subMenuItems">
+              <button mat-menu-item [routerLink]="subMenuItem.path">{{ subMenuItem.name }}</button>
+            </ng-container>
+          </mat-menu>
         </button>
-        <mat-menu #subMenu="matMenu">
-          <ng-container *ngFor="let subMenuItem of menuItem.subMenuItems">
-            <button mat-menu-item [routerLink]="subMenuItem.path"
-              routerLinkActive="active">{{ subMenuItem.name }}</button>
-          </ng-container>
-        </mat-menu>
       </ng-template>
     </ng-container>
   </ng-template>

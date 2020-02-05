@@ -18,19 +18,19 @@ export class MenuService {
         subMenuItems: [
           {
             name: 'Philosophy',
-            path: '/philosophy'
+            path: '/our-box/philosophy'
           },
           {
             name: 'Coaches',
-            path: null
+            path: '/our-box/coaches'
           },
           {
             name: 'Halle 1',
-            path: null
+            path: '/our-box/halle1'
           },
           {
             name: 'Werkstatt',
-            path: null
+            path: '/our-box/werkstatt'
           }
         ]
       },
@@ -40,15 +40,15 @@ export class MenuService {
         subMenuItems: [
           {
             name: 'Kursplan',
-            path: null
-          },
-          {
-            name: 'Preise',
-            path: null
+            path: '/offer/schedule'
           },
           {
             name: 'Kurse',
-            path: null
+            path: '/offer/courses'
+          },
+          {
+            name: 'Preise',
+            path: '/offer/prices'
           }
         ]
       },
