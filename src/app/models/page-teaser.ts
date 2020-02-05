@@ -1,7 +1,10 @@
 export interface PageTeaser {
     title: string;
     paragraphs: string[];
-    buttonText: string;
+    button: {
+        text: string;
+        link: string;
+    };
     image: {
         url: string;
         alt: string;

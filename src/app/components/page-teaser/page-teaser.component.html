@@ -14,8 +14,8 @@
     <div [ngClass]="{'text-left pl-md-5': !(index % 2), 'text-right pr-md-5': index % 2}">
       <h2 class="mb-3">{{ pageTeaser.title }}</h2>
       <p *ngFor="let paragraph of pageTeaser.paragraphs">{{ paragraph }}</p>
-      <button mat-stroked-button
-        class="mt-3 py-2 px-3 text-uppercase align-text-bottom">{{ pageTeaser.buttonText }}</button>
+      <button mat-stroked-button [routerLink]="pageTeaser.button.link"
+        class="mt-3 py-2 px-3 text-uppercase align-text-bottom">{{ pageTeaser.button.text }}</button>
     </div>
   </div>
 </ng-template>

@@ -13,7 +13,10 @@ export class PageTeaserService {
           `Du möchtest unsere Coaches kennen lernen? 
           Wir stellen Sie vor! Persönliches und Qualifikationen findest Du hier.`
         ],
-        buttonText: 'Meet \'n Greet',
+        button: {
+          text: 'Meet \'n Greet',
+          link: '/our-box/coaches'
+        },
         image: {
           url: 'assets/images/GruppeHandstand3.jpg',
           alt: ''
@@ -25,7 +28,10 @@ export class PageTeaserService {
           `Bei uns steht die COMMUNITY im Mittelpunkt. 
           Unser Leitbild und die damit verbundenen Werte HAPPY, HEALTHY, HUNGRY stellen wir Dir hier vor.`
         ],
-        buttonText: 'Informier Dich!',
+        button: {
+          text: 'Informier Dich!',
+          link: '/our-box/philosophy'
+        },
         image: {
           url: 'assets/images/fitness-pyramide.jpg',
           alt: ''
@@ -38,7 +44,10 @@ export class PageTeaserService {
           Erste Anlaufstelle und Hauptbühne der CrossFit am See Athleten.`,
           `Hier hat alles begonnen und hier findet klassisches CrossFit statt.`
         ],
-        buttonText: 'Take a look',
+        button: {
+          text: 'Take a look',
+          link: '/our-box/halle1'
+        },
         image: {
           url: 'assets/images/halle1-rower-bg-logo.jpg',
           alt: ''
@@ -51,7 +60,10 @@ export class PageTeaserService {
           ist reserviert für Open Gym und jegliche Art an Spezialkursen.`,
           `Hier gibt es den Extraplatz zum individuellen trainieren für alle.`
         ],
-        buttonText: 'Umsehen',
+        button: {
+          text: 'Umsehen',
+          link: '/our-box/werkstatt'
+        },
         image: {
           url: 'assets/images/werkstatt-top.jpg',
           alt: ''
@@ -63,7 +75,10 @@ export class PageTeaserService {
           `Unser ROMWOD-Bereich ist der Werkstatt angegliedert und dient der Erweiterung deiner „Range of Motion“.`,
           `Hier kannst Du jederzeit per Video angeleitet an Deiner Mobilität, Flexibilität, Atmung und Entspannung arbeiten.`
         ],
-        buttonText: 'See the Sensation',
+        button: {
+          text: 'See the Sensation',
+          link: '/our-box/romwod'
+        },
         image: {
           url: 'assets/images/romwod-sign.jpg',
           alt: ''
@@ -75,7 +90,10 @@ export class PageTeaserService {
           `Beschreibungen der verschiedenen Klassen, 
           sowie den aktuellen Kursplan findest du auf den folgenden Seiten.`
         ],
-        buttonText: 'Ansehen',
+        button: {
+          text: 'Ansehen',
+          link: '/offer/schedule'
+        },
         image: {
           url: 'assets/images/teamup-calender.png',
           alt: ''
@@ -88,7 +106,10 @@ export class PageTeaserService {
           Dann bist du hier genau richtig.
           Wir bieten Dir faire Preise für klassisches CrossFit und das Etwas an mehr!`
         ],
-        buttonText: 'Informier Dich!',
+        button: {
+          text: 'Informier Dich!',
+          link: '/offer/prices'
+        },
         image: {
           url: 'assets/images/mitgliedschaften.jpg',
           alt: ''
