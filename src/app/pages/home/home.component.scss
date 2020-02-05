@@ -1,7 +1,7 @@
 header {
   position: relative;
   // height: 75vh;
-  min-height: 35rem;
+  min-height: 40rem;
   width: 100%;
   overflow: hidden;
 }
@@ -41,7 +41,7 @@ header .overlay {
   padding-top: 120px;
 
   div {
-    width: 400px;
+    width: 600px;
     max-width: 90%;
     position: relative;
 
@@ -51,26 +51,21 @@ header .overlay {
     }
 
     .jaeggers {
-      font-size: 5rem;
+      font-size: 7rem;
       text-shadow:
         2px 2px 5px black,
         -2px 2px 5px black,
         2px -2px 5px black,
         -2px -2px 5px black;
       position: absolute;
-      top: 120px;
+      top: 165px;
       left: 30px;
       transform: rotate(-10deg);
       z-index: 3;
 
       @media (max-width: 600px) {
-        top: 130px;
-        font-size: 4rem;
-      }
-
-      @media (max-width: 425px) {
-        top: 40%;
-        font-size: 3.5rem;
+        top: 35%;
+        font-size: 20vw;
       }
     }
 
