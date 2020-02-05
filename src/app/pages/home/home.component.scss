@@ -63,6 +63,22 @@ header .overlay {
       transform: rotate(-10deg);
       z-index: 3;
 
+      opacity: 0;
+      animation: fadeInAnimation ease 3s;
+      animation-delay: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+
+      @keyframes fadeInAnimation {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
       @media (max-width: 600px) {
         top: 35%;
         font-size: 20vw;
