@@ -111,7 +111,7 @@ export class PageTeaserService {
           link: '/offer/prices'
         },
         image: {
-          url: 'assets/images/mitgliedschaften.jpg',
+          url: 'assets/images/style-images/mitgliedschaften.jpg',
           alt: ''
         }
       }

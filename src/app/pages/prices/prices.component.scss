@@ -1,0 +1,49 @@
+header {
+  height: 50%;
+  background-image: url(src/assets/images/style-images/mitgliedschaften.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+#introduction {
+  p {
+    font-size: 2.2rem;
+    font-weight: 400;
+
+    @media screen and (max-width: 960px) {
+      font-size: 4vw;
+    }
+  }
+}
+
+mat-card {
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contract-name {
+  font-size: 9.0rem;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 5.0rem;
+  padding-bottom: 0;
+}
+
+.per-month {
+  margin-top: -10px;
+  font-size: 2.0rem;
+}
+
+button {
+  font-size: 2.2rem;
+  border: solid 2px #212121 !important;
+  border-radius: 25px;
+
+  &:hover {
+    background-color: rgba($color: #212121, $alpha: 0.1);
+  }
+}
