@@ -2,7 +2,7 @@
   <mat-sidenav #sidenav role="navigation">
     <cfas-sidenav [menu]="menu" (sidenavClose)="sidenav.close()"></cfas-sidenav>
   </mat-sidenav>
-  <mat-sidenav-content class="dark">
+  <mat-sidenav-content>
     <cfas-navbar class="fixed-top" [menu]="menu" (sidenavToggle)="sidenav.toggle()"></cfas-navbar>
     <router-outlet></router-outlet>
     <cfas-footer></cfas-footer>

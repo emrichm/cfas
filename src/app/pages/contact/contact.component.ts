@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'cfas-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent implements OnInit {
-
+export class ContactComponent {
+  showMap = false;
   constructor() { }
 
-  ngOnInit() {
+  acceptMap() {
+    this.showMap = !this.showMap;
   }
 
 }
