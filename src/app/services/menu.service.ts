@@ -44,7 +44,7 @@ export class MenuService {
           },
           {
             name: 'Kurse',
-            path: '/offer/courses'
+            path: '/offer/classes'
           },
           {
             name: 'Preise',
