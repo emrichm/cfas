@@ -1,0 +1,34 @@
+<!-- <header></header> -->
+<div id="wrapper">
+  <section id="title"
+    [ngStyle]="(isHandset$ | async) && {'background-image': 'url(assets/images/style-images/pvc-pipes.jpg)'}">
+    <div class="text-center">
+      <h1 class="jaeggers text-uppercase">Classes</h1>
+    </div>
+  </section>
+
+  <section class="grey-section">
+    <div class="container mx-auto">
+      <div class="row justify-content-center">
+        <div class="col-10 col-md-8">
+          <div class="row">
+            <div class="col description text-center">
+              Alle unsere Stunden beginnen am Whiteboard. Dort wird der Ablauf Deiner besten Stunde des Tages genau
+              besprochen
+              und das Workout erklärt. Nach einem gemeinsamen Warm-up wiederholen wir die nötigen Techniken und passen
+              das
+              Workout und die Movements entsprechend Deiner Bedürfnisse an. Dann geht’s ins Workout und schlussendlich
+              gibt
+              es
+              noch einen gemeinsamen Cool-down.
+            </div>
+          </div>
+
+          <ng-container *ngFor="let classDescription of classDescriptions">
+            <cfas-class-description [classDescription]="classDescription"></cfas-class-description>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
