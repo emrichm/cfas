@@ -1,0 +1,25 @@
+header {
+  height: 50%;
+  background-image: url(src/assets/images/style-images/maps-bg.jpg);
+  background-attachment: fixed;
+}
+
+mat-list {
+  width: fit-content;
+}
+
+mat-list button {
+  font-size: 1.1rem;
+  border: solid 2px #212121 !important;
+  border-radius: 25px;
+
+  &:hover {
+    background-color: rgba($color: #212121, $alpha: 0.1);
+  }
+}
+
+#map {
+  height: 300px;
+  background-image: url(src/assets/images/dummy-1.png);
+  background-size: 50%;
+}

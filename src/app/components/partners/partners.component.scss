@@ -1,5 +1,5 @@
 .row {
-  margin: 2rem auto;
+  margin: 4rem auto;
 }
 
 img {
@@ -7,7 +7,7 @@ img {
   max-width: 100%;
 
   @media (min-width: 960px) {
-    max-height: 6rem;
-    max-width: 20rem;
+    max-height: 15rem;
+    max-width: 50rem;
   }
 }

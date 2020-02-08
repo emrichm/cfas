@@ -2,13 +2,24 @@ html,
 body {
   margin: 0;
   height: 100%;
+  font-size: 10px;
 }
 
 * {
+  font-size: 1.6rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   &:active,
   :focus {
     outline: none !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #navbar button span {
+    font-size: 2.2rem;
   }
 }

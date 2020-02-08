@@ -1,9 +1,12 @@
 header {
   position: relative;
-  // height: 75vh;
-  min-height: 40rem;
+  height: 80rem;
   width: 100%;
   overflow: hidden;
+
+  @media screen and (max-width: 600px) {
+    height: 50rem;
+  }
 }
 
 header video {
@@ -11,7 +14,7 @@ header video {
   top: 40%;
   left: 50%;
   min-width: 100%;
-  min-height: calc(100% + 100px);
+  min-height: calc(100% + 150px);
   width: auto;
   height: auto;
   z-index: 0;
@@ -51,7 +54,7 @@ header .overlay {
     }
 
     .jaeggers {
-      font-size: 7rem;
+      font-size: 10rem;
       text-shadow:
         2px 2px 5px black,
         -2px 2px 5px black,
@@ -79,7 +82,7 @@ header .overlay {
         }
       }
 
-      @media (max-width: 600px) {
+      @media screen and (max-width: 600px) {
         top: 35%;
         font-size: 20vw;
       }
@@ -100,10 +103,9 @@ header .overlay {
 }
 
 .big_icon {
-  $size: 4rem;
+  $size: 4.0rem;
 
   font-size: $size;
   height: $size;
   width: $size;
-  margin-bottom: 2rem;
 }

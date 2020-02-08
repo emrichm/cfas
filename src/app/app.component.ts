@@ -31,5 +31,21 @@ export class AppComponent {
       `kettlebell`,
       this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/kettlebell.svg`)
     );
+    this.matIconRegistry.addSvgIcon(
+      `facebook_black`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/facebook_black.svg`)
+    );
+    this.matIconRegistry.addSvgIcon(
+      `facebook_white`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/facebook_white.svg`)
+    );
+    this.matIconRegistry.addSvgIcon(
+      `instagram_black`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/instagram_black.svg`)
+    );
+    this.matIconRegistry.addSvgIcon(
+      `instagram_white`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/instagram_white.svg`)
+    );
   }
 }

@@ -1,4 +1,4 @@
-<mat-toolbar class="justify-content-end">
+<mat-toolbar id="navbar" class="justify-content-end">
   <ng-container *ngIf="(isHandset$ | async); else screenNav">
     <button mat-button (click)="toggleSidenav()">
       <mat-icon>menu</mat-icon>
