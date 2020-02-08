@@ -4,7 +4,7 @@
   background-position: center;
 
   @media screen and (max-width: 960px) {
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -16,6 +16,6 @@
   background-color: white;
 
   @media screen and (max-width: 960px) {
-    padding: 40px;
+    padding: 25px;
   }
 }

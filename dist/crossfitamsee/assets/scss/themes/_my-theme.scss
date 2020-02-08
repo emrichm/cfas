@@ -1,0 +1,8 @@
+@import './cfas-theme-colors';
+
+$primary: mat-palette($mat-indigo);
+$accent: mat-palette($cfas-blue);
+$warn: mat-palette($mat-red);
+
+$my-light-theme: mat-light-theme($primary, $accent, $warn);
+$my-dark-theme: mat-dark-theme($primary, $accent, $warn);
