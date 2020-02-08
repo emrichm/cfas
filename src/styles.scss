@@ -12,6 +12,17 @@
 
 @import "assets/scss/mat-themes";
 
+h1 {
+  font-weight: 600;
+  font-size: 5.0rem;
+  letter-spacing: 1.7rem;
+
+  @media screen and (max-width: 960px) {
+    font-size: 5vw;
+    letter-spacing: 1.2rem;
+  }
+}
+
 h2 {
   font-weight: 700;
   font-size: 2.5rem !important;

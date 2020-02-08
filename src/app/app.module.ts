@@ -10,6 +10,7 @@ import { CoreModule } from './core/core.module';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SharedModule } from './shared/shared.module';
+import { PricesComponent } from './pages/prices/prices.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SharedModule } from './shared/shared.module';
     WodOverviewComponent,
     PageTeaserComponent,
     PartnersComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    PricesComponent
   ],
   imports: [
     BrowserModule,
