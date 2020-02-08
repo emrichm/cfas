@@ -11,6 +11,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SharedModule } from './shared/shared.module';
 import { PricesComponent } from './pages/prices/prices.component';
+import { ClassesComponent } from './pages/classes/classes.component';
+import { ClassDescriptionComponent } from './components/class-description/class-description.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { PricesComponent } from './pages/prices/prices.component';
     PageTeaserComponent,
     PartnersComponent,
     ContactFormComponent,
-    PricesComponent
+    PricesComponent,
+    ClassesComponent,
+    ClassDescriptionComponent
   ],
   imports: [
     BrowserModule,
