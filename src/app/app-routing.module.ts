@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ClassesComponent } from './pages/classes/classes.component';
+import { CoachProfileComponent } from './pages/coach-profile/coach-profile.component';
+import { CoachesOverviewComponent } from './pages/coaches-overview/coaches-overview.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PricesComponent } from './pages/prices/prices.component';
@@ -11,7 +13,8 @@ const routes: Routes = [
     path: 'our-box',
     children: [
       { path: 'philosophy', component: HomeComponent },
-      { path: 'coaches', component: HomeComponent },
+      { path: 'coaches/:name', component: CoachProfileComponent, pathMatch: 'full' },
+      { path: 'coaches', component: CoachesOverviewComponent },
       { path: 'halle1', component: HomeComponent },
       { path: 'werkstatt', component: HomeComponent },
       { path: 'romwod', component: HomeComponent }

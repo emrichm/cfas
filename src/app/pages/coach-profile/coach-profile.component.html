@@ -1,0 +1,34 @@
+<header>
+  <div class="row">
+    <div id="title" class="col-10 col-md-6 mx-auto text-center">
+      <h1 class="jaeggers">{{ coach.name }}</h1>
+      <p>{{ coach.position }}</p>
+    </div>
+  </div>
+  <div id="profile-picture" class="row">
+    <div class="col-8 col-4 mx-auto text-center">
+      <img [src]="coach.image.url" [alt]="coach.image.alt">
+    </div>
+  </div>
+</header>
+
+<section id="interview">
+  <div class="row">
+    <div class="col-10 col-md-6 mx-auto">
+      <div class="row">
+        <div class="col-12 col-md-6 px-3 py-4 text-center text-md-right border">
+          <div *ngFor="let question of firstHalfQuestions">
+            <h4 class="mt-4 mb-2">{{ question.question }}</h4>
+            <p class="my-0" *ngFor="let answerLine of question.answer">{{ answerLine}} </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mt-4 mt-md-0 px-3 py-4 text-center text-md-left border">
+          <div *ngFor="let question of lastHalfQuestions">
+            <h4 class="mt-4 mb-2">{{ question.question }}</h4>
+            <p class="my-0" *ngFor="let answerLine of question.answer">{{ answerLine}} </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
