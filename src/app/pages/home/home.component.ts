@@ -10,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   pagesTeaser: PageTeaser[];
 
-  constructor(private pagesTeaserService: PageTeaserService) { }
+  constructor(
+    private pagesTeaserService: PageTeaserService
+  ) { }
 
   ngOnInit() {
     this.pagesTeaser = this.pagesTeaserService.pagesTeaser;

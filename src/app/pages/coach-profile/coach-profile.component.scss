@@ -1,0 +1,70 @@
+header {
+  margin-top: 100px;
+
+  #title {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 #212121;
+  }
+
+  h1 {
+    font-size: 9.0rem;
+    text-shadow:
+      1px 1px 3px #212121,
+      -1px 1px 3px #212121,
+      1px -1px 3px #212121,
+      -1px -1px 3px #212121;
+
+    opacity: 0;
+    animation: fadeInAnimation ease 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    @keyframes fadeInAnimation {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+
+  p {
+    margin-top: -10px;
+  }
+
+  #profile-picture {
+    margin-top: 40px;
+
+    img {
+      width: 300px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px 0 #212121;
+    }
+  }
+}
+
+#interview {
+  h4 {
+    font-size: 1.7rem;
+    font-weight: 800;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+}
+
+.border {
+  box-shadow: 0 0 7px 0 #212121;
+}
+
+#qualy-title {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #212121;
+}

@@ -1,0 +1,21 @@
+<div class="row light my-5">
+  <ng-container *ngIf="index % 2 || (isHandset$ | async); then image; else description"></ng-container>
+  <ng-container *ngIf="!(index % 2) && !(isHandset$ | async); then image; else description"></ng-container>
+</div>
+
+<ng-template #image>
+  <div class="col-md-3 p-0" [ngClass]="{'mb-4 mb-md-0': index % 2, 'mt-4 mt-md-0': !(index % 2)}">
+    <img class="shadow-lg" [src]="coachTeaser.image.url" [alt]="coachTeaser.image.alt">
+  </div>
+</ng-template>
+
+<ng-template #description>
+  <div class="col-md mx-auto d-flex align-items-center">
+    <div [ngClass]="{'text-left pl-md-5': index % 2, 'text-right pr-md-5': !(index % 2)}">
+      <h2 class="mb-3">{{ coachTeaser.name }}</h2>
+      <p *ngFor="let teaserParagraph of coachTeaser.teaser">{{ teaserParagraph }}</p>
+      <button mat-stroked-button [routerLink]="['/our-box/coaches', coachTeaser.name.toLowerCase()]"
+        class="mt-3 py-2 px-3 text-uppercase">{{ coachTeaser.buttonText }}</button>
+    </div>
+  </div>
+</ng-template>

@@ -6,7 +6,8 @@ body {
 }
 
 * {
-  font-size: 2.0rem;
+  font-size: 1.8rem;
+  font-weight: 300;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   &:active,
@@ -26,4 +27,27 @@ body {
   .mat-menu-content .mat-menu-item {
     font-size: 2.0rem;
   }
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem !important;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 2.0rem !important;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.grey-section {
+  background-color: #f0f0f0;
 }
