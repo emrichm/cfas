@@ -29,6 +29,18 @@
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div id="qualy-title" class="my-4 mx-auto p-3 text-center">
+          <h2 class="m-0 text-uppercase">Qualifikationen</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="qualies" class="col mx-auto p-3 border text-center">
+          <p class="m-1" *ngFor="let qualy of coach.qualifications">{{ qualy }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

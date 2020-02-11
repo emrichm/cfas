@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+
+import { Component, OnInit } from '@angular/core';
 import { MatIconRegistry } from '@angular/material';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MenuItem } from './models/menu-item';
@@ -9,7 +10,7 @@ import { MenuService } from './services/menu.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   menu: MenuItem[];
 
   constructor(
@@ -17,8 +18,6 @@ export class AppComponent {
     private matIconRegistry: MatIconRegistry,
     private domSanitizer: DomSanitizer
   ) {
-    this.menu = this.menuService.menu;
-
     this.matIconRegistry.addSvgIcon(
       `arrow_right`,
       this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/arrow_right-24px.svg`)
@@ -47,5 +46,9 @@ export class AppComponent {
       `instagram_white`,
       this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/instagram_white.svg`)
     );
+  }
+
+  ngOnInit() {
+    this.menu = this.menuService.menu;
   }
 }

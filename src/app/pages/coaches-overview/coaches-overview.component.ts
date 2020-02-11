@@ -10,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 export class CoachesOverviewComponent implements OnInit {
   coachesTeaser: CoachTeaser[];
 
-  constructor(private coachesService: CoachesService) { }
+  constructor(
+    private coachesService: CoachesService
+  ) { }
 
   ngOnInit() {
     this.coachesTeaser = this.coachesService.coachesTeaser;
