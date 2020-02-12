@@ -17,6 +17,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { PricesComponent } from './pages/prices/prices.component';
 import { SharedModule } from './shared/shared.module';
 import { RouterOutletDirective } from './directives/router-outlet.directive';
+import { PhilosophyComponent } from './pages/philosophy/philosophy.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { RouterOutletDirective } from './directives/router-outlet.directive';
     CoachesOverviewComponent,
     CoachTeaserComponent,
     CoachProfileComponent,
-    RouterOutletDirective
+    RouterOutletDirective,
+    PhilosophyComponent
   ],
   imports: [
     BrowserModule,

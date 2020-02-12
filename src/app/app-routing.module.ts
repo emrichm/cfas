@@ -5,6 +5,7 @@ import { CoachProfileComponent } from './pages/coach-profile/coach-profile.compo
 import { CoachesOverviewComponent } from './pages/coaches-overview/coaches-overview.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
+import { PhilosophyComponent } from './pages/philosophy/philosophy.component';
 import { PricesComponent } from './pages/prices/prices.component';
 
 const routes: Routes = [
@@ -12,7 +13,7 @@ const routes: Routes = [
   {
     path: 'our-box',
     children: [
-      { path: 'philosophy', component: HomeComponent },
+      { path: 'philosophy', component: PhilosophyComponent },
       { path: 'coaches/:name', component: CoachProfileComponent, pathMatch: 'full' },
       { path: 'coaches', component: CoachesOverviewComponent },
       { path: 'halle1', component: HomeComponent },

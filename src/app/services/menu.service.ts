@@ -17,7 +17,7 @@ export class MenuService {
         path: null,
         subMenuItems: [
           {
-            name: 'Philosophy',
+            name: 'Philosophie',
             path: '/our-box/philosophy'
           },
           {

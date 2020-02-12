@@ -14,22 +14,6 @@ header {
       -1px 1px 3px #212121,
       1px -1px 3px #212121,
       -1px -1px 3px #212121;
-
-    opacity: 0;
-    animation: fadeInAnimation ease 3s;
-    animation-delay: 0.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-    @keyframes fadeInAnimation {
-      0% {
-        opacity: 0;
-      }
-
-      100% {
-        opacity: 1;
-      }
-    }
   }
 
   p {
