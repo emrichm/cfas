@@ -7,6 +7,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PhilosophyComponent } from './pages/philosophy/philosophy.component';
 import { PricesComponent } from './pages/prices/prices.component';
+import { ScheduleComponent } from './pages/schedule/schedule.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -24,7 +25,7 @@ const routes: Routes = [
   {
     path: 'offer',
     children: [
-      { path: 'schedule', component: HomeComponent },
+      { path: 'schedule', component: ScheduleComponent },
       { path: 'classes', component: ClassesComponent },
       { path: 'prices', component: PricesComponent }
     ]

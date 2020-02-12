@@ -9,15 +9,16 @@ import { PageTeaserComponent } from './components/page-teaser/page-teaser.compon
 import { PartnersComponent } from './components/partners/partners.component';
 import { WodOverviewComponent } from './components/wod-overview/wod-overview.component';
 import { CoreModule } from './core/core.module';
+import { RouterOutletDirective } from './directives/router-outlet.directive';
 import { ClassesComponent } from './pages/classes/classes.component';
 import { CoachProfileComponent } from './pages/coach-profile/coach-profile.component';
 import { CoachesOverviewComponent } from './pages/coaches-overview/coaches-overview.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
-import { PricesComponent } from './pages/prices/prices.component';
-import { SharedModule } from './shared/shared.module';
-import { RouterOutletDirective } from './directives/router-outlet.directive';
 import { PhilosophyComponent } from './pages/philosophy/philosophy.component';
+import { PricesComponent } from './pages/prices/prices.component';
+import { ScheduleComponent } from './pages/schedule/schedule.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { PhilosophyComponent } from './pages/philosophy/philosophy.component';
     CoachTeaserComponent,
     CoachProfileComponent,
     RouterOutletDirective,
-    PhilosophyComponent
+    PhilosophyComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,
