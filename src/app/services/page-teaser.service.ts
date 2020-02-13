@@ -95,7 +95,7 @@ export class PageTeaserService {
           link: '/offer/schedule'
         },
         image: {
-          url: 'assets/images/teamup-calender.png',
+          url: 'assets/images/teamup-calendar.png',
           alt: ''
         }
       },
