@@ -1,21 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { InquiryFormComponent } from './inquiry-form.component';
 
-import { ContactFormComponent } from './contact-form.component';
-
-describe('ContactFormComponent', () => {
-  let component: ContactFormComponent;
-  let fixture: ComponentFixture<ContactFormComponent>;
+describe('InquiryFormComponent', () => {
+  let component: InquiryFormComponent;
+  let fixture: ComponentFixture<InquiryFormComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ContactFormComponent ],
+      declarations: [InquiryFormComponent],
       imports: [
         NoopAnimationsModule,
         ReactiveFormsModule,
@@ -29,7 +28,7 @@ describe('ContactFormComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ContactFormComponent);
+    fixture = TestBed.createComponent(InquiryFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

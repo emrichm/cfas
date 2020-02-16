@@ -3,14 +3,14 @@
 <section class="grey-section">
   <div class="container mx-auto">
     <div class="row justify-content-center">
-      <div class="col-10 col-md-8">
+      <div class="col-11 col-md-8">
         <div class="row">
-          <div class="col-md-8">
-            <cfas-contact-form></cfas-contact-form>
+          <div class="col-md-8 dark">
+            <cfas-contact-form (sentMail)="displaySuccessMessage($event)"></cfas-contact-form>
           </div>
-          <div class="col-md-4 p-4">
+          <div class="light col-md-4 p-md-4">
             <mat-list id="contact-info" class="mx-auto text-center">
-              <h2 mat-subheader class="justify-content-center">CrossFit am See</h2>
+              <h2 mat-header class="justify-content-center">CrossFit am See</h2>
               <mat-list-item>
                 <mat-icon mat-list-icon>my_location</mat-icon>
                 <p mat-line>Anton-Sommer-Str. 7<br>88046 Friedrichshafen</p>

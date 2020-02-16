@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ClassDescriptionComponent } from './components/class-description/class-description.component';
 import { CoachTeaserComponent } from './components/coach-teaser/coach-teaser.component';
-import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { InquiryFormComponent } from './components/inquiry-form/inquiry-form.component';
 import { PageTeaserComponent } from './components/page-teaser/page-teaser.component';
 import { PartnersComponent } from './components/partners/partners.component';
 import { WodOverviewComponent } from './components/wod-overview/wod-overview.component';
@@ -28,7 +28,7 @@ import { SharedModule } from './shared/shared.module';
     WodOverviewComponent,
     PageTeaserComponent,
     PartnersComponent,
-    ContactFormComponent,
+    InquiryFormComponent,
     PricesComponent,
     ClassesComponent,
     ClassDescriptionComponent,

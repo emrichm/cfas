@@ -1,4 +1,4 @@
-<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+<form [formGroup]="inquiryForm" (ngSubmit)="onSubmit()">
   <mat-card class="contact-form-card">
     <mat-card-header class="text-center">
       <mat-card-title>Schreib uns doch!</mat-card-title>
@@ -8,57 +8,46 @@
         <div class="col">
           <mat-form-field class="full-width">
             <input matInput placeholder="Vorname" formControlName="firstName">
-            <mat-error *ngIf="contactForm.controls['firstName'].hasError('required')">
-              <strong>Der Vorname wird benötigt</strong>
-            </mat-error>
           </mat-form-field>
         </div>
         <div class="col">
           <mat-form-field class="full-width">
             <input matInput placeholder="Nachname" formControlName="lastName">
-            <mat-error *ngIf="contactForm.controls['lastName'].hasError('required')">
-              <strong>Der Nachname wird benötigt</strong>
-            </mat-error>
           </mat-form-field>
         </div>
       </div>
 
       <div class="row mb-md-3">
-        <div class="col col-md-6">
+        <div class="col">
           <mat-form-field class="full-width">
             <input matInput placeholder="E-Mail-Adresse" formControlName="email">
-            <mat-error *ngIf="contactForm.controls['email'].hasError('required')">
-              <strong>Die E-Mail-Adresse wird benötigt</strong>
-            </mat-error>
           </mat-form-field>
         </div>
       </div>
 
       <div class="row">
-        <div class="col col-md-4">
+        <div class="col">
           <mat-form-field class="full-width">
             <mat-select placeholder="Betreff" formControlName="subject">
               <mat-option *ngFor="let subject of subjects" [value]="subject">
                 {{ subject }}
               </mat-option>
             </mat-select>
-            <mat-error *ngIf="contactForm.controls['subject'].hasError('required')">
-              <strong>Der Betreff wird benötigt</strong>
-            </mat-error>
           </mat-form-field>
         </div>
-        <div class="col col-md-4">
-          <mat-form-field class="full-width"
-            *ngIf="this.contactForm.controls['subject'].value && this.contactForm.controls['subject'].value != 'Anderes'">
+      </div>
+      <div class="row" *ngIf="this.inquiry.subject && this.inquiry.subject != 'Anderes'">
+        <div class="col col-md-6">
+          <mat-form-field class="full-width">
             <input matInput [min]="fromDate" [max]="toDate" [matDatepicker]="picker" placeholder="Wunschdatum"
               formControlName="wishDate" (dateChange)="setHours()">
             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
             <mat-datepicker #picker></mat-datepicker>
           </mat-form-field>
         </div>
-        <div class="col col-md-4">
-          <mat-form-field class="full-width" *ngIf="this.contactForm.controls['wishDate'].value">
-            <mat-select placeholder="Uhrzeit" formControlName="hour">
+        <div class="col col-md-6">
+          <mat-form-field class="full-width">
+            <mat-select placeholder="Uhrzeit" formControlName="hour" [disabled]="!this.inquiry.wishDate">
               <mat-option *ngFor="let hour of hours" [value]="hour">
                 {{ hour }}
               </mat-option>
@@ -83,7 +72,8 @@
       </div>
 
       <mat-card-actions class="px-3">
-        <button mat-raised-button color="primary" type="submit" [disabled]="contactForm.invalid">Anfrage
+        <button mat-raised-button color="primary" type="submit"
+          [disabled]="inquiryForm.invalid || inquiryForm.disabled">Anfrage
           senden</button>
       </mat-card-actions>
     </mat-card-content>
