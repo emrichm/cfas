@@ -4,10 +4,12 @@ import { ClassesComponent } from './pages/classes/classes.component';
 import { CoachProfileComponent } from './pages/coach-profile/coach-profile.component';
 import { CoachesOverviewComponent } from './pages/coaches-overview/coaches-overview.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { Halle1Component } from './pages/halle1/halle1.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PhilosophyComponent } from './pages/philosophy/philosophy.component';
 import { PricesComponent } from './pages/prices/prices.component';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
+import { WerkstattComponent } from './pages/werkstatt/werkstatt.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,8 +19,8 @@ const routes: Routes = [
       { path: 'philosophy', component: PhilosophyComponent },
       { path: 'coaches/:name', component: CoachProfileComponent, pathMatch: 'full' },
       { path: 'coaches', component: CoachesOverviewComponent },
-      { path: 'halle1', component: HomeComponent },
-      { path: 'werkstatt', component: HomeComponent },
+      { path: 'halle1', component: Halle1Component },
+      { path: 'werkstatt', component: WerkstattComponent },
       { path: 'romwod', component: HomeComponent }
     ]
   },
