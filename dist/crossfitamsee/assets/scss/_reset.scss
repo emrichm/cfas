@@ -16,7 +16,6 @@ body {
     outline: none !important;
   }
 
-
   a,
   a:hover {
     color: inherit;
@@ -52,4 +51,12 @@ section {
 
 .grey-section {
   background-color: #f0f0f0;
+}
+
+.page-wrapper {
+  background:
+    linear-gradient(135deg, #f8f8f8 21px, #ffffff 22px, #ffffff 24px, transparent 24px, transparent 67px, #ffffff 67px, #ffffff 69px, transparent 69px),
+    linear-gradient(225deg, #f8f8f8 21px, #ffffff 22px, #ffffff 24px, transparent 24px, transparent 67px, #ffffff 67px, #ffffff 69px, transparent 69px)0 64px;
+  background-color: #f8f8f8;
+  background-size: 64px 128px;
 }
