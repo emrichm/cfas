@@ -14,84 +14,68 @@
 </header>
 
 <section class="grey-section">
-  <div class="container mx-auto">
+  <div class="container mx-auto col-10 col-md-8">
     <div class="row justify-content-center">
-      <div class="col-10 col-md-8">
-        <div class="row">
-          <div class="col-0 col-md" style="
+      <div class="col-0 col-md" style="
             background-image: url(assets/images/CrossFit-in-100-words-thumbnail.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             ">
-          </div>
-          <div class="col-12 col-md text-center" style="background-color: #dddddd;">
-            <div style="margin: 15%">
-              <mat-icon class="big_icon" svgIcon="barbell"></mat-icon>
-              <h3 class="text-uppercase my-3">Das tun wir hier!</h3>
-              <p>CrossFit &#8211; konstant variierende, hochintensive funktionelle Bewegungen in Workouts, gepaart mit
-                gesunder Ernährung.</p>
-              <p>Unsere Trainings sind kurz, knackig und jeden Tag anders.</p>
-            </div>
-          </div>
+      </div>
+      <div class="col-12 col-md text-center" style="background-color: #dddddd;">
+        <div style="margin: 15%">
+          <mat-icon class="big_icon" svgIcon="barbell"></mat-icon>
+          <h3 class="text-uppercase my-3">Das tun wir hier!</h3>
+          <p>CrossFit &#8211; konstant variierende, hochintensive funktionelle Bewegungen in Workouts, gepaart mit
+            gesunder Ernährung.</p>
+          <p>Unsere Trainings sind kurz, knackig und jeden Tag anders.</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container mx-auto mt-3 mt-md-0">
+  <div class="container mx-auto col-10 col-md-8 mt-3 mt-md-0 ">
     <div class="row justify-content-center">
-      <div class="col-10 col-md-8">
-        <div class="row">
-          <div class="col-12 col-md text-center" style="background-color: #dddddd;">
-            <div style="margin: 15%">
-              <mat-icon class="big_icon" svgIcon="kettlebell"></mat-icon>
-              <h3 class="text-uppercase my-3">Das bekommst Du!</h3>
-              <p>Gemeinschaft, Spaß, Motivation und Verbesserung Deiner Lebensqualität. Durch konsistente Ausführung
-                funktioneller Bewegungsabläufe, sichergestellt durch die Intensive Betreuung von uns Coaches in
-                Kleingruppen (maximal 12 Personen).</p>
-            </div>
-          </div>
-          <div class="col-0 col-md" style="
+      <div class="col-12 col-md text-center" style="background-color: #dddddd;">
+        <div style="margin: 15%">
+          <mat-icon class="big_icon" svgIcon="kettlebell"></mat-icon>
+          <h3 class="text-uppercase my-3">Das bekommst Du!</h3>
+          <p>Gemeinschaft, Spaß, Motivation und Verbesserung Deiner Lebensqualität. Durch konsistente Ausführung
+            funktioneller Bewegungsabläufe, sichergestellt durch die Intensive Betreuung von uns Coaches in
+            Kleingruppen (maximal 12 Personen).</p>
+        </div>
+      </div>
+      <div class="col-0 col-md" style="
             background-image: url(assets/images/clean-progression-hang.jpeg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             ">
-          </div>
-        </div>
       </div>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="container mx-auto">
-    <div class="row justify-content-center">
-      <div class="col-10 col-md-8 dark">
-        <cfas-wod-overview></cfas-wod-overview>
-      </div>
-    </div>
+  <div class="container mx-auto col-10 col-md-8 dark">
+    <cfas-wod-overview></cfas-wod-overview>
   </div>
 </section>
 
 <section class="grey-section">
-  <div class="container mx-auto">
+  <div class="container mx-auto col-10 col-md-8">
     <div class="row justify-content-center">
-      <div class="col-10 col-md-8">
-        <ng-container *ngFor="let pageTeaser of pagesTeaser; let i = index">
-          <cfas-page-teaser [pageTeaser]="pageTeaser" [index]="i"></cfas-page-teaser>
-        </ng-container>
-      </div>
+      <ng-container *ngFor="let pageTeaser of pagesTeaser; let i = index">
+        <cfas-page-teaser [pageTeaser]="pageTeaser" [index]="i"></cfas-page-teaser>
+      </ng-container>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="container mx-auto">
+  <div class="container mx-auto col-10 col-sm-8">
     <div class="row justify-content-center">
-      <div class="col-10 col-md-8">
-        <cfas-partners class="text-center"></cfas-partners>
-      </div>
+      <cfas-partners class="text-center"></cfas-partners>
     </div>
   </div>
 </section>

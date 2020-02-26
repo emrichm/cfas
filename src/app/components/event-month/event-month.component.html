@@ -1,0 +1,11 @@
+<mat-card>
+  <img mat-card-image [src]="eventMonth.image.url" [alt]="eventMonth.image.alt">
+  <mat-card-content>
+    <h2 class="text-center">{{ eventMonth.month }}</h2>
+    <mat-divider class="mx-auto"></mat-divider>
+    <div *ngFor="let event of eventMonth.events">
+      <h3 mat-line>{{ event.date }} - {{ event.time }} Uhr</h3>
+      <p> {{ event.description }} </p>
+    </div>
+  </mat-card-content>
+</mat-card>

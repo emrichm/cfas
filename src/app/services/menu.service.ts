@@ -13,6 +13,24 @@ export class MenuService {
         path: '/'
       },
       {
+        name: 'Newcomer!',
+        path: null,
+        subMenuItems: [
+          {
+            name: 'Das ist CrossFit!',
+            path: '/our-box/philosophy'
+          },
+          {
+            name: 'Dein Einstieg',
+            path: '/our-box/coaches'
+          },
+          {
+            name: 'CrossFit Dictionary',
+            path: '/our-box/halle1'
+          }
+        ]
+      },
+      {
         name: 'Unsere Box',
         path: null,
         subMenuItems: [
@@ -31,6 +49,10 @@ export class MenuService {
           {
             name: 'Werkstatt',
             path: '/our-box/werkstatt'
+          },
+          {
+            name: 'Eindrücke',
+            path: '/our-box/impressions'
           }
         ]
       },
@@ -38,6 +60,10 @@ export class MenuService {
         name: 'Angebot',
         path: null,
         subMenuItems: [
+          {
+            name: 'Events',
+            path: '/offer/events'
+          },
           {
             name: 'Kursplan',
             path: '/offer/schedule'

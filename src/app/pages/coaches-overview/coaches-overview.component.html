@@ -1,13 +1,11 @@
 <header></header>
 
 <section class="grey-section">
-  <div class="container mx-auto">
+  <div class="container mx-auto col-10 col-md-8">
     <div class="row justify-content-center">
-      <div class="col-10 col-md-8">
-        <cfas-coach-teaser *ngFor="let coachTeaser of coachesTeaser; let i = index" [coachTeaser]="coachTeaser"
-          [index]="i">
-        </cfas-coach-teaser>
-      </div>
+      <cfas-coach-teaser *ngFor="let coachTeaser of coachesTeaser; let i = index" [coachTeaser]="coachTeaser"
+        [index]="i">
+      </cfas-coach-teaser>
     </div>
   </div>
 </section>

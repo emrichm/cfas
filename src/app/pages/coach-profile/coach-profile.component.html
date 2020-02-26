@@ -13,33 +13,31 @@
 </header>
 
 <section id="interview">
-  <div class="row">
-    <div class="col-10 col-md-6 mx-auto">
-      <div class="row">
-        <div class="col-12 col-md-6 px-3 py-4 text-center text-md-right border">
-          <div *ngFor="let question of firstHalfQuestions">
-            <h4 class="mt-4 mb-2">{{ question.question }}</h4>
-            <p class="my-0" *ngFor="let answerLine of question.answer">{{ answerLine}} </p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 mt-4 mt-md-0 px-3 py-4 text-center text-md-left border">
-          <div *ngFor="let question of lastHalfQuestions">
-            <h4 class="mt-4 mb-2">{{ question.question }}</h4>
-            <p class="my-0" *ngFor="let answerLine of question.answer">{{ answerLine}} </p>
-          </div>
+  <div class="col-10 col-md-8 mx-auto">
+    <div class="row">
+      <div class="col-12 col-md-6 px-3 py-4 text-center text-md-right border">
+        <div *ngFor="let question of firstHalfQuestions">
+          <h4 class="mt-4 mb-2">{{ question.question }}</h4>
+          <p class="my-0" *ngFor="let answerLine of question.answer">{{ answerLine}} </p>
         </div>
       </div>
-
-      <div class="row">
-        <div id="qualy-title" class="my-4 mx-auto p-3 text-center">
-          <h2 class="m-0 text-uppercase">Qualifikationen</h2>
+      <div class="col-12 col-md-6 mt-4 mt-md-0 px-3 py-4 text-center text-md-left border">
+        <div *ngFor="let question of lastHalfQuestions">
+          <h4 class="mt-4 mb-2">{{ question.question }}</h4>
+          <p class="my-0" *ngFor="let answerLine of question.answer">{{ answerLine}} </p>
         </div>
       </div>
+    </div>
 
-      <div class="row">
-        <div id="qualies" class="col mx-auto p-3 border text-center">
-          <p class="m-1" *ngFor="let qualy of coach.qualifications">{{ qualy }}</p>
-        </div>
+    <div class="row">
+      <div id="qualy-title" class="my-4 mx-auto p-3 text-center">
+        <h2 class="m-0 text-uppercase">Qualifikationen</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="qualies" class="col mx-auto p-3 border text-center">
+        <p class="m-1" *ngFor="let qualy of coach.qualifications">{{ qualy }}</p>
       </div>
     </div>
   </div>

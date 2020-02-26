@@ -1,0 +1,22 @@
+mat-card {
+  width: 100%;
+  min-height: 600px;
+  margin-top: 25px;
+
+  mat-divider {
+    position: relative;
+    width: 25%;
+    margin: 15px;
+    border-top: 5px solid #0f64c8;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+  }
+}

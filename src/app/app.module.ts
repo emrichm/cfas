@@ -23,6 +23,10 @@ import { ScheduleComponent } from './pages/schedule/schedule.component';
 import { SharedModule } from './shared/shared.module';
 import { ImageGalleryModalComponent } from './components/image-gallery-modal/image-gallery-modal.component';
 import { WerkstattComponent } from './pages/werkstatt/werkstatt.component';
+import { ImpressComponent } from './pages/impress/impress.component';
+import { ImpressionsComponent } from './pages/impressions/impressions.component';
+import { EventsComponent } from './pages/events/events.component';
+import { EventMonthComponent } from './components/event-month/event-month.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +49,11 @@ import { WerkstattComponent } from './pages/werkstatt/werkstatt.component';
     Halle1Component,
     ImageGalleryComponent,
     ImageGalleryModalComponent,
-    WerkstattComponent
+    WerkstattComponent,
+    ImpressComponent,
+    ImpressionsComponent,
+    EventsComponent,
+    EventMonthComponent
   ],
   imports: [
     BrowserModule,

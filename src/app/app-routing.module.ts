@@ -4,8 +4,11 @@ import { ClassesComponent } from './pages/classes/classes.component';
 import { CoachProfileComponent } from './pages/coach-profile/coach-profile.component';
 import { CoachesOverviewComponent } from './pages/coaches-overview/coaches-overview.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { EventsComponent } from './pages/events/events.component';
 import { Halle1Component } from './pages/halle1/halle1.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ImpressComponent } from './pages/impress/impress.component';
+import { ImpressionsComponent } from './pages/impressions/impressions.component';
 import { PhilosophyComponent } from './pages/philosophy/philosophy.component';
 import { PricesComponent } from './pages/prices/prices.component';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
@@ -21,18 +24,21 @@ const routes: Routes = [
       { path: 'coaches', component: CoachesOverviewComponent },
       { path: 'halle1', component: Halle1Component },
       { path: 'werkstatt', component: WerkstattComponent },
-      { path: 'romwod', component: HomeComponent }
+      { path: 'romwod', component: HomeComponent },
+      { path: 'impressions', component: ImpressionsComponent }
     ]
   },
   {
     path: 'offer',
     children: [
+      { path: 'events', component: EventsComponent },
       { path: 'schedule', component: ScheduleComponent },
       { path: 'classes', component: ClassesComponent },
       { path: 'prices', component: PricesComponent }
     ]
   },
   { path: 'contact', component: ContactComponent },
+  { path: 'impress', component: ImpressComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 

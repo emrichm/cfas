@@ -5,7 +5,7 @@ header {
   overflow: hidden;
 
   @media screen and (max-width: 600px) {
-    height: 50rem;
+    height: 60rem;
   }
 }
 
@@ -83,7 +83,7 @@ header .overlay {
 
       @media screen and (max-width: 600px) {
         top: 35%;
-        font-size: 20vw;
+        font-size: 15vw;
       }
     }
 
