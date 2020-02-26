@@ -52,3 +52,21 @@ header {
   border-radius: 10px;
   box-shadow: 0 0 10px 0 #212121;
 }
+
+#backButton {
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+
+  a {
+    padding: 0;
+    background-color: #f0f0f0;
+
+    mat-icon {
+      font-size: 5.0rem;
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+    }
+  }
+}

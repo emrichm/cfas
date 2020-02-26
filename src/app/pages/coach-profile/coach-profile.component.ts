@@ -2,6 +2,7 @@ import { Subscription } from 'rxjs';
 import { Interview } from 'src/app/models/coach';
 import { CoachInterview } from 'src/app/models/coach-interview';
 import { CoachesService } from 'src/app/services/coaches.service';
+import { Location } from '@angular/common';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 
@@ -17,7 +18,8 @@ export class CoachProfileComponent implements OnInit, OnDestroy {
 
   constructor(
     private route: ActivatedRoute,
-    private coachesService: CoachesService
+    private coachesService: CoachesService,
+    private location: Location
   ) { }
 
   ngOnInit() {
@@ -36,5 +38,9 @@ export class CoachProfileComponent implements OnInit, OnDestroy {
 
   get lastHalfQuestions(): Interview[] {
     return this.coach.interview.slice(this.coach.interview.length / 2);
+  }
+
+  navigateBack() {
+    this.location.back();
   }
 }
