@@ -4,6 +4,7 @@ import { ClassesComponent } from './pages/classes/classes.component';
 import { CoachProfileComponent } from './pages/coach-profile/coach-profile.component';
 import { CoachesOverviewComponent } from './pages/coaches-overview/coaches-overview.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { DictionaryComponent } from './pages/dictionary/dictionary.component';
 import { EventsComponent } from './pages/events/events.component';
 import { Halle1Component } from './pages/halle1/halle1.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -16,6 +17,14 @@ import { WerkstattComponent } from './pages/werkstatt/werkstatt.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  {
+    path: 'newcomer',
+    children: [
+      { path: 'crossfit', component: HomeComponent },
+      { path: 'your-entry', component: HomeComponent },
+      { path: 'cf-dictionary', component: DictionaryComponent },
+    ]
+  },
   {
     path: 'our-box',
     children: [

@@ -27,6 +27,7 @@ import { ImpressComponent } from './pages/impress/impress.component';
 import { ImpressionsComponent } from './pages/impressions/impressions.component';
 import { EventsComponent } from './pages/events/events.component';
 import { EventMonthComponent } from './components/event-month/event-month.component';
+import { DictionaryComponent } from './pages/dictionary/dictionary.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { EventMonthComponent } from './components/event-month/event-month.compon
     ImpressComponent,
     ImpressionsComponent,
     EventsComponent,
-    EventMonthComponent
+    EventMonthComponent,
+    DictionaryComponent
   ],
   imports: [
     BrowserModule,

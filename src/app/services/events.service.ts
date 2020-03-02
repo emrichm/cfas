@@ -7,7 +7,7 @@ let eventMonths: EventMonth[];
   providedIn: 'root'
 })
 export class EventsService {
-  get events() {
+  get events(): EventMonth[] {
     return eventMonths;
   }
 }

@@ -18,15 +18,15 @@ export class MenuService {
         subMenuItems: [
           {
             name: 'Das ist CrossFit!',
-            path: '/our-box/philosophy'
+            path: '/newcomer/crossfit'
           },
           {
             name: 'Dein Einstieg',
-            path: '/our-box/coaches'
+            path: '/newcomer/your-entry'
           },
           {
             name: 'CrossFit Dictionary',
-            path: '/our-box/halle1'
+            path: '/newcomer/cf-dictionary'
           }
         ]
       },
