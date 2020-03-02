@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ClassesComponent } from './pages/classes/classes.component';
-import { CoachProfileComponent } from './pages/coach-profile/coach-profile.component';
-import { CoachesOverviewComponent } from './pages/coaches-overview/coaches-overview.component';
+import { CoachProfileComponent } from './pages/about-us/coaches/coach-profile/coach-profile.component';
+import { CoachesOverviewComponent } from './pages/about-us/coaches/coaches.component';
+import { Halle1Component } from './pages/about-us/halle1/halle1.component';
+import { ImpressionsComponent } from './pages/about-us/impressions/impressions.component';
+import { PhilosophyComponent } from './pages/about-us/philosophy/philosophy.component';
+import { WerkstattComponent } from './pages/about-us/werkstatt/werkstatt.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { DictionaryComponent } from './pages/dictionary/dictionary.component';
-import { EventsComponent } from './pages/events/events.component';
-import { Halle1Component } from './pages/halle1/halle1.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ImpressComponent } from './pages/impress/impress.component';
-import { ImpressionsComponent } from './pages/impressions/impressions.component';
-import { PhilosophyComponent } from './pages/philosophy/philosophy.component';
-import { PricesComponent } from './pages/prices/prices.component';
-import { ScheduleComponent } from './pages/schedule/schedule.component';
-import { WerkstattComponent } from './pages/werkstatt/werkstatt.component';
+import { DictionaryComponent } from './pages/new-comer/dictionary/dictionary.component';
+import { ClassesComponent } from './pages/offer/classes/classes.component';
+import { EventsComponent } from './pages/offer/events/events.component';
+import { PricesComponent } from './pages/offer/prices/prices.component';
+import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

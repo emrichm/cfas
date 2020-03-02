@@ -3,9 +3,9 @@ import { CoachesService } from 'src/app/services/coaches.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'cfas-coaches-overview',
-  templateUrl: './coaches-overview.component.html',
-  styleUrls: ['./coaches-overview.component.scss']
+  selector: 'cfas-coaches',
+  templateUrl: './coaches.component.html',
+  styleUrls: ['./coaches.component.scss']
 })
 export class CoachesOverviewComponent implements OnInit {
   coachesTeaser: CoachTeaser[];
