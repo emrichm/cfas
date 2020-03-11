@@ -22,7 +22,7 @@ export class MenuService {
           },
           {
             name: 'Dein Einstieg',
-            path: '/newcomer/your-entry'
+            path: '/newcomer/entry'
           },
           {
             name: 'CrossFit Dictionary',
@@ -75,10 +75,6 @@ export class MenuService {
           {
             name: 'Preise',
             path: '/offer/prices'
-          },
-          {
-            name: 'Shop',
-            path: '/offer/shop'
           }
         ]
       },

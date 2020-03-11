@@ -11,11 +11,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { ImpressComponent } from './pages/impress/impress.component';
 import { CrossfitComponent } from './pages/new-comer/crossfit/crossfit.component';
 import { DictionaryComponent } from './pages/new-comer/dictionary/dictionary.component';
+import { EntryComponent } from './pages/new-comer/entry/entry.component';
 import { ClassesComponent } from './pages/offer/classes/classes.component';
 import { EventsComponent } from './pages/offer/events/events.component';
 import { PricesComponent } from './pages/offer/prices/prices.component';
 import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
-import { ShopComponent } from './pages/offer/shop/shop.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -23,7 +23,7 @@ const routes: Routes = [
     path: 'newcomer',
     children: [
       { path: 'crossfit', component: CrossfitComponent },
-      { path: 'your-entry', component: HomeComponent },
+      { path: 'entry', component: EntryComponent },
       { path: 'cf-dictionary', component: DictionaryComponent },
     ]
   },
@@ -45,8 +45,7 @@ const routes: Routes = [
       { path: 'events', component: EventsComponent },
       { path: 'schedule', component: ScheduleComponent },
       { path: 'classes', component: ClassesComponent },
-      { path: 'prices', component: PricesComponent },
-      { path: 'shop', component: ShopComponent }
+      { path: 'prices', component: PricesComponent }
     ]
   },
   { path: 'contact', component: ContactComponent },

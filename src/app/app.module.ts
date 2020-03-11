@@ -29,7 +29,7 @@ import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
 import { ImageGalleryModalComponent } from './shared/components/image-gallery-modal/image-gallery-modal.component';
 import { ImageGalleryComponent } from './shared/components/image-gallery/image-gallery.component';
 import { SharedModule } from './shared/shared.module';
-import { ShopComponent } from './pages/offer/shop/shop.component';
+import { EntryComponent } from './pages/new-comer/entry/entry.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +59,7 @@ import { ShopComponent } from './pages/offer/shop/shop.component';
     EventMonthComponent,
     DictionaryComponent,
     CrossfitComponent,
-    ShopComponent
+    EntryComponent
   ],
   imports: [
     BrowserModule,
