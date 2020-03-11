@@ -1,0 +1,57 @@
+$imageHeight: calc(100vh - 55px);
+$imageWidth: calc(#{$imageHeight} / 3 * 2);
+
+$aspect: "(min-aspect-ratio: 3/2)";
+
+
+.imageContainer {
+  text-align: center;
+  background-color: #212121;
+
+  @media #{$aspect} {
+    text-align: left;
+    float: left;
+    width: $imageWidth;
+    height: 100%;
+  }
+
+  img {
+    width: 100%;
+
+    @media (min-width: 750px) {
+      width: 50%;
+    }
+
+    @media #{$aspect} {
+      position: fixed;
+      height: $imageHeight;
+      width: $imageWidth;
+      z-index: 100;
+    }
+  }
+}
+
+
+#contentContainer {
+  text-align: center;
+
+  @media #{$aspect} {
+    width: calc(99% - #{$imageWidth});
+    float: left;
+    text-align: justify;
+  }
+
+  .row {
+    padding: 10.0rem;
+
+    h2 {
+      font-size: 10.0rem;
+      font-weight: 400;
+      display: inline-block;
+    }
+
+    p {
+      font-size: 2.2rem;
+    }
+  }
+}

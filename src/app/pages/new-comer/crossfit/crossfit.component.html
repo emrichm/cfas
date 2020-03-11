@@ -1,0 +1,14 @@
+<div class="imageContainer">
+  <img id="100words" src="assets/images/crossfit-in-100-words.jpg" alt="CrossFit in 100 words">
+</div>
+
+<div id="contentContainer">
+  <div class="row" *ngFor="let description of descriptions, let even = even;" [ngClass]="{ 'grey-section': even }">
+    <div class="col-12 col-lg-10">
+      <h2 class="mb-3 jaeggers">{{ description.title }}</h2>
+      <p *ngFor="let paragraph of description.description">
+        {{ paragraph }}
+      </p>
+    </div>
+  </div>
+</div>

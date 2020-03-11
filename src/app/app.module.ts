@@ -18,6 +18,7 @@ import { PageTeaserComponent } from './pages/home/page-teaser/page-teaser.compon
 import { PartnersComponent } from './pages/home/partners/partners.component';
 import { WodOverviewComponent } from './pages/home/wod-overview/wod-overview.component';
 import { ImpressComponent } from './pages/impress/impress.component';
+import { CrossfitComponent } from './pages/new-comer/crossfit/crossfit.component';
 import { DictionaryComponent } from './pages/new-comer/dictionary/dictionary.component';
 import { ClassDescriptionComponent } from './pages/offer/classes/class-description/class-description.component';
 import { ClassesComponent } from './pages/offer/classes/classes.component';
@@ -28,6 +29,7 @@ import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
 import { ImageGalleryModalComponent } from './shared/components/image-gallery-modal/image-gallery-modal.component';
 import { ImageGalleryComponent } from './shared/components/image-gallery/image-gallery.component';
 import { SharedModule } from './shared/shared.module';
+import { ShopComponent } from './pages/offer/shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { SharedModule } from './shared/shared.module';
     ImpressionsComponent,
     EventsComponent,
     EventMonthComponent,
-    DictionaryComponent
+    DictionaryComponent,
+    CrossfitComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,

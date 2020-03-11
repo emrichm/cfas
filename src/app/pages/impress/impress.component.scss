@@ -1,0 +1,23 @@
+header {
+  height: 50vh;
+  line-height: 50vh;
+  background-image: url(src/assets/images/style-images/maps-bg.jpg);
+  background-attachment: fixed;
+  vertical-align: baseline;
+
+  h1 {
+    width: fit-content;
+    margin: auto;
+    font-size: 15vw;
+    color: white;
+    text-shadow:
+      2px 2px 5px black,
+      -2px 2px 5px black,
+      2px -2px 5px black,
+      -2px -2px 5px black;
+
+    @media (min-width: 720px) {
+      font-size: 10.0rem;
+    }
+  }
+}

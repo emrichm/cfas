@@ -9,18 +9,20 @@ import { WerkstattComponent } from './pages/about-us/werkstatt/werkstatt.compone
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ImpressComponent } from './pages/impress/impress.component';
+import { CrossfitComponent } from './pages/new-comer/crossfit/crossfit.component';
 import { DictionaryComponent } from './pages/new-comer/dictionary/dictionary.component';
 import { ClassesComponent } from './pages/offer/classes/classes.component';
 import { EventsComponent } from './pages/offer/events/events.component';
 import { PricesComponent } from './pages/offer/prices/prices.component';
 import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
+import { ShopComponent } from './pages/offer/shop/shop.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   {
     path: 'newcomer',
     children: [
-      { path: 'crossfit', component: HomeComponent },
+      { path: 'crossfit', component: CrossfitComponent },
       { path: 'your-entry', component: HomeComponent },
       { path: 'cf-dictionary', component: DictionaryComponent },
     ]
@@ -43,7 +45,8 @@ const routes: Routes = [
       { path: 'events', component: EventsComponent },
       { path: 'schedule', component: ScheduleComponent },
       { path: 'classes', component: ClassesComponent },
-      { path: 'prices', component: PricesComponent }
+      { path: 'prices', component: PricesComponent },
+      { path: 'shop', component: ShopComponent }
     ]
   },
   { path: 'contact', component: ContactComponent },

@@ -1,16 +1,12 @@
 #wrapper {
   background-color: #212121;
   background-image: url(src/assets/images/style-images/kw34.jpg);
-  position: absolute;
   background-size: cover;
   background-attachment: fixed;
-  z-index: 0;
 
   >div {
-    position: relative;
     background-color: rgba($color: #000000, $alpha: 0.75);
-    padding-top: 100px;
-    z-index: 10;
+    padding-top: 25px;
   }
 
   .container {

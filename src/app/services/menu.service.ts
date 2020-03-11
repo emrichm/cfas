@@ -69,12 +69,16 @@ export class MenuService {
             path: '/offer/schedule'
           },
           {
-            name: 'Kurse',
+            name: 'Classes',
             path: '/offer/classes'
           },
           {
             name: 'Preise',
             path: '/offer/prices'
+          },
+          {
+            name: 'Shop',
+            path: '/offer/shop'
           }
         ]
       },

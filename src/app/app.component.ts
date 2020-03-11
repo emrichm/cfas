@@ -1,4 +1,6 @@
-
+import { Observable } from 'rxjs';
+import { map, shareReplay } from 'rxjs/operators';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, OnInit } from '@angular/core';
 import { MatIconRegistry } from '@angular/material';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -12,11 +14,17 @@ import { MenuService } from './services/menu.service';
 })
 export class AppComponent implements OnInit {
   menu: MenuItem[];
+  isHandset$: Observable<boolean> = this.breakpointObserver.observe([Breakpoints.XSmall, Breakpoints.Small, Breakpoints.Handset])
+    .pipe(
+      map(result => result.matches),
+      shareReplay()
+    );
 
   constructor(
     private menuService: MenuService,
     private matIconRegistry: MatIconRegistry,
-    private domSanitizer: DomSanitizer
+    private domSanitizer: DomSanitizer,
+    private breakpointObserver: BreakpointObserver
   ) {
     this.matIconRegistry.addSvgIcon(
       `arrow_right`,
