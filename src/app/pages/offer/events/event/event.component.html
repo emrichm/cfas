@@ -1,0 +1,9 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ event.date }} - {{ event.time }}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="event.image.url" [alt]="event.image.alt">
+  <mat-card-content>
+    <p>{{ event.description }}</p>
+  </mat-card-content>
+</mat-card>

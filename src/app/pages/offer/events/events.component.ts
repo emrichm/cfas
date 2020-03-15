@@ -1,5 +1,5 @@
-import { EventMonth } from 'src/app/models/event';
-import { EventsService } from 'src/app/services/events.service';
+import { Event } from 'src/app/pages/offer/events/event';
+import { EventsService } from 'src/app/pages/offer/events/events.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./events.component.scss']
 })
 export class EventsComponent implements OnInit {
-  eventMonths: EventMonth[];
+  events: Event[];
 
   constructor(private eventsService: EventsService) { }
 
   ngOnInit() {
-    this.eventMonths = this.eventsService.events;
+    this.events = this.eventsService.events;
   }
 
 }

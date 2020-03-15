@@ -23,7 +23,7 @@ import { DictionaryComponent } from './pages/new-comer/dictionary/dictionary.com
 import { EntryComponent } from './pages/new-comer/entry/entry.component';
 import { ClassDescriptionComponent } from './pages/offer/classes/class-description/class-description.component';
 import { ClassesComponent } from './pages/offer/classes/classes.component';
-import { EventMonthComponent } from './pages/offer/events/event-month/event-month.component';
+import { EventComponent } from './pages/offer/events/event/event.component';
 import { EventsComponent } from './pages/offer/events/events.component';
 import { PricesComponent } from './pages/offer/prices/prices.component';
 import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
@@ -56,7 +56,7 @@ import { SharedModule } from './shared/shared.module';
     ImpressComponent,
     ImpressionsComponent,
     EventsComponent,
-    EventMonthComponent,
+    EventComponent,
     DictionaryComponent,
     CrossfitComponent,
     EntryComponent
