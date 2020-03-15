@@ -1,7 +1,9 @@
 html,
 body {
   margin: 0;
+  padding: 0;
   height: 100%;
+  width: 100%;
   font-size: 10px;
 }
 
@@ -53,47 +55,3 @@ section {
 .grey-section {
   background-color: #f0f0f0;
 }
-
-// Weave light
-// .page-wrapper {
-//   background:
-//     linear-gradient(135deg, #fbfbfb 21px, #ffffff 22px, #ffffff 24px, transparent 24px, transparent 67px, #ffffff 67px, #ffffff 69px, transparent 69px),
-//     linear-gradient(225deg, #fbfbfb 21px, #ffffff 22px, #ffffff 24px, transparent 24px, transparent 67px, #ffffff 67px, #ffffff 69px, transparent 69px)0 64px;
-//   background-color: #fbfbfb;
-//   background-size: 64px 128px;
-// }
-
-// Carbon dark
-// .page-wrapper {
-//   background:
-//     linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-//     linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-//     linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-//     linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-//     linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-//     linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-//   background-color: #131313;
-//   background-size: 20px 20px;
-// }
-
-// Carbon light
-// .page-wrapper {
-//   background:
-//     linear-gradient(27deg, #eaeaea 5px, transparent 5px) 0 5px,
-//     linear-gradient(207deg, #eaeaea 5px, transparent 5px) 10px 0px,
-//     linear-gradient(27deg, #dddddd 5px, transparent 5px) 0px 10px,
-//     linear-gradient(207deg, #dddddd 5px, transparent 5px) 10px 5px,
-//     linear-gradient(90deg, #e4e4e4 10px, transparent 10px),
-//     linear-gradient(#e2e2e2 25%, #e5e5e5 25%, #e5e5e5 50%, transparent 50%, transparent 75%, #dbdbdb 75%, #dbdbdb);
-//   background-color: #ececec;
-//   background-size: 20px 20px;
-// }
-
-// Pyramid
-// .page-wrapper {
-//   background: linear-gradient(315deg, transparent 75%, #f3f3f3 0)-25px 0,
-//     linear-gradient(45deg, transparent 75%, #f3f3f3 0)-25px 0,
-//     linear-gradient(135deg, #ececec 50%, transparent 0) 0 0,
-//     linear-gradient(45deg, #e5e5e5 50%, #e2e2e2 0) 0 0 #e2e2e2;
-//   background-size: 50px 50px;
-// }
