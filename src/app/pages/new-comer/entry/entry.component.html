@@ -15,9 +15,59 @@
         </div>
       </div>
 
-      <ng-container *ngFor="let classDescription of classDescriptions">
-        <cfas-class-description [classDescription]="classDescription"></cfas-class-description>
-      </ng-container>
+      <div class="row my-4">
+        <div class="col-12 col-md-4 image" [style.background-image]="'url(/assets/images/entry/first.jpeg)'"
+          [style.background-position]="'top'"></div>
+        <div class="col-12 col-md-8 description" [ngClass]="{'text-center': (isHandset$ | async)}">
+          <h2 class="mb-4">FIRST - Kostenloses Probetraining</h2>
+          <p>Wir laden Dich herzlich zu Deinem kostenlosen Probetraining ein! Dies kannst Du jederzeit in einer unseren
+            regulären Klassen machen und dich umfassend bei unseren Mitgliedern und von den Coaches informieren und
+            beraten lassen.</p>
+          <a mat-stroked-button [routerLink]="['/contact']" class="float-right py-1 px-3 text-uppercase">Zum
+            Probetraining</a>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col-12 col-md-4 image" [style.background-image]="'url(/assets/images/entry/second.jpeg)'"
+          [style.background-position]="'right'"></div>
+        <div class="col-12 col-md-8 description" [ngClass]="{'text-center': (isHandset$ | async)}">
+          <h2 class="mb-4">SECOND - Mitgliedschaft</h2>
+          <p>Dir hat Dein Probetraining gefallen!</p>
+          <p>Jetzt entscheidest Du Dich für Deine passende Mitgliedschaft. Ganz ohne Zwänge entscheidest Du, welches
+            Modell am besten zu Dir passt und</p>
+          <a mat-stroked-button [routerLink]="['/offer/prices']" class="float-right py-1 px-3 text-uppercase">Deine
+            Mitgliedschaft</a>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col-12 col-md-4 image" [style.background-image]="'url(/assets/images/entry/third.jpeg)'"
+          [style.background-position]="'top'"></div>
+        <div class="col-12 col-md-8 description" [ngClass]="{'text-center': (isHandset$ | async)}">
+          <h2 class="mb-4">THIRD - Basic Classes</h2>
+          <p>Unsere Basic Classes bringen Dir Schritt für Schritt die fundamentalen Grundlagen der verschiedenen Übungen
+            im CrossFit näher. Diese Klassen empfehlen wir jedem Neueinsteiger, aber auch unseren „alten Hasen“ um sich
+            regelmäßig Zeit zu nehmen, damit die Technik sitzt.</p>
+          <a mat-stroked-button [routerLink]="['/offer/schedule']" class="float-right py-1 px-3 text-uppercase">Dein
+            Kursplan</a>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col-12 col-md-4 image" [style.background-image]="'url(/assets/images/entry/recovery.jpeg)'"
+          [style.background-position]="'top'"></div>
+        <div class="col-12 col-md-8 description" [ngClass]="{'text-center': (isHandset$ | async)}">
+          <h2 class="mb-4">Recovery Phasen</h2>
+          <p>Jeder Körper braucht nach einer Anstrengung auch Erholung!</p>
+          <p>So genannte „Rest-Days“ sind für Dich und Deinen Körper extrem wichtig. Um seinem Körper auch aktiv Ruhe
+            und Entspannung bieten zu können, findest Du in unserem Kursplan die „Active Recovery Class“ und hast
+            jederzeit Zugang zu unserer ROMWOD-AREA in der Werkstatt.</p>
+          <a mat-stroked-button href="http://romwod.com" target="_blank"
+            class="float-right py-1 px-3 text-uppercase">What's
+            ROMWOD?</a>
+        </div>
+      </div>
     </div>
   </section>
 </div>

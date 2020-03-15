@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 import { ClassDescription } from 'src/app/models/class-description';
-import { ClassDescriptionService } from 'src/app/services/class-description.service';
+import { ClassDescriptionService } from 'src/app/pages/offer/classes/class-description.service';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, OnInit } from '@angular/core';
 
