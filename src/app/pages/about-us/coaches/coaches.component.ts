@@ -1,5 +1,5 @@
-import { CoachTeaser } from 'src/app/models/coach-teaser';
-import { CoachesService } from 'src/app/services/coaches.service';
+import { CoachTeaser } from 'src/app/pages/about-us/coaches/models/coach-teaser';
+import { CoachesService } from 'src/app/pages/about-us/coaches/services/coaches.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

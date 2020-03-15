@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
-import { CoachTeaser } from 'src/app/models/coach-teaser';
+import { CoachTeaser } from 'src/app/pages/about-us/coaches/models/coach-teaser';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, Input } from '@angular/core';
 

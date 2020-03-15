@@ -30,7 +30,7 @@ coaches = [
     name: 'Anna',
     position: 'Headcoach',
     image: {
-      url: 'assets/images/coaches/anna.jpg',
+      url: 'assets/images/coaches/Anna.jpg',
       alt: ''
     },
     teaser: [
@@ -109,7 +109,7 @@ coaches = [
     name: 'Patrick',
     position: 'Coach',
     image: {
-      url: 'assets/images/coaches/patrick.jpg',
+      url: 'assets/images/coaches/Pat.jpg',
       alt: ''
     },
     teaser: [
@@ -185,7 +185,7 @@ coaches = [
     name: 'Axel',
     position: 'Coach',
     image: {
-      url: 'assets/images/coaches/patrick.jpg',
+      url: 'assets/images/coaches/Axel.jpg',
       alt: ''
     },
     teaser: [
@@ -257,7 +257,7 @@ Handstand Push-Up`]
     name: 'Silvia',
     position: 'Coach',
     image: {
-      url: 'assets/images/coaches/patrick.jpg',
+      url: 'assets/images/coaches/Silvia.jpg',
       alt: ''
     },
     teaser: [
@@ -344,7 +344,7 @@ Burpees over Bar`]
     name: 'Mark',
     position: 'Coach',
     image: {
-      url: 'assets/images/coaches/patrick.jpg',
+      url: 'assets/images/coaches/Mark.jpg',
       alt: ''
     },
     teaser: [
@@ -425,7 +425,7 @@ For Time:
     name: 'Jan',
     position: 'Coach',
     image: {
-      url: 'assets/images/coaches/patrick.jpg',
+      url: 'assets/images/coaches/Jan.jpg',
       alt: ''
     },
     teaser: [
@@ -501,7 +501,7 @@ For Time:
     name: 'Colin',
     position: 'Coach',
     image: {
-      url: 'assets/images/coaches/patrick.jpg',
+      url: 'assets/images/coaches/Colin.jpg',
       alt: ''
     },
     teaser: [

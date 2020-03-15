@@ -4,9 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { RouterOutletDirective } from './directives/router-outlet.directive';
-import { CoachProfileComponent } from './pages/about-us/coaches/coach-profile/coach-profile.component';
-import { CoachTeaserComponent } from './pages/about-us/coaches/coach-teaser/coach-teaser.component';
 import { CoachesOverviewComponent } from './pages/about-us/coaches/coaches.component';
+import { CoachProfileComponent } from './pages/about-us/coaches/components/coach-profile/coach-profile.component';
+import { CoachTeaserComponent } from './pages/about-us/coaches/components/coach-teaser/coach-teaser.component';
 import { Halle1Component } from './pages/about-us/halle1/halle1.component';
 import { ImpressionsComponent } from './pages/about-us/impressions/impressions.component';
 import { PhilosophyComponent } from './pages/about-us/philosophy/philosophy.component';
@@ -20,6 +20,7 @@ import { WodOverviewComponent } from './pages/home/wod-overview/wod-overview.com
 import { ImpressComponent } from './pages/impress/impress.component';
 import { CrossfitComponent } from './pages/new-comer/crossfit/crossfit.component';
 import { DictionaryComponent } from './pages/new-comer/dictionary/dictionary.component';
+import { EntryComponent } from './pages/new-comer/entry/entry.component';
 import { ClassDescriptionComponent } from './pages/offer/classes/class-description/class-description.component';
 import { ClassesComponent } from './pages/offer/classes/classes.component';
 import { EventMonthComponent } from './pages/offer/events/event-month/event-month.component';
@@ -29,7 +30,6 @@ import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
 import { ImageGalleryModalComponent } from './shared/components/image-gallery-modal/image-gallery-modal.component';
 import { ImageGalleryComponent } from './shared/components/image-gallery/image-gallery.component';
 import { SharedModule } from './shared/shared.module';
-import { EntryComponent } from './pages/new-comer/entry/entry.component';
 
 @NgModule({
   declarations: [

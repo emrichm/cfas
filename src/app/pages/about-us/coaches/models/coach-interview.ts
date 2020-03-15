@@ -12,6 +12,5 @@ export class CoachInterview {
 
     constructor(coach: Coach) {
         Object.assign(this, coach);
-        this.image.url = this.image.url.split('.')[0] + '300x300.' + this.image.url.split('.')[1];
     }
 }

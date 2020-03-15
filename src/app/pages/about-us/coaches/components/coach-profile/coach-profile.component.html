@@ -7,7 +7,7 @@
   </div>
   <div id="profile-picture" class="row">
     <div class="col-8 col-4 mx-auto text-center">
-      <img [src]="coach.image.url" [alt]="coach.image.alt">
+      <img [src]="imageUrl" [alt]="coach.image.alt">
     </div>
   </div>
 </header>
@@ -44,7 +44,7 @@
 </section>
 
 <div id="backButton">
-  <a mat-raised-button (click)="navigateBack()">
+  <a mat-raised-button [routerLink]="['/our-box/coaches']">
     <mat-icon>chevron_left</mat-icon>
   </a>
 </div>

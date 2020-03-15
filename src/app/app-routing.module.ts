@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CoachProfileComponent } from './pages/about-us/coaches/coach-profile/coach-profile.component';
 import { CoachesOverviewComponent } from './pages/about-us/coaches/coaches.component';
+import { CoachProfileComponent } from './pages/about-us/coaches/components/coach-profile/coach-profile.component';
 import { Halle1Component } from './pages/about-us/halle1/halle1.component';
 import { ImpressionsComponent } from './pages/about-us/impressions/impressions.component';
 import { PhilosophyComponent } from './pages/about-us/philosophy/philosophy.component';

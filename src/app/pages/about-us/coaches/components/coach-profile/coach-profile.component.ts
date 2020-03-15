@@ -1,8 +1,7 @@
 import { Subscription } from 'rxjs';
-import { Interview } from 'src/app/models/coach';
-import { CoachInterview } from 'src/app/models/coach-interview';
-import { CoachesService } from 'src/app/services/coaches.service';
-import { Location } from '@angular/common';
+import { Interview } from 'src/app/pages/about-us/coaches/models/coach';
+import { CoachInterview } from 'src/app/pages/about-us/coaches/models/coach-interview';
+import { CoachesService } from 'src/app/pages/about-us/coaches/services/coaches.service';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 
@@ -13,19 +12,20 @@ import { ActivatedRoute, Params } from '@angular/router';
 })
 export class CoachProfileComponent implements OnInit, OnDestroy {
   coach: CoachInterview;
+  imageUrl: string;
 
   private subscription: Subscription;
 
   constructor(
     private route: ActivatedRoute,
-    private coachesService: CoachesService,
-    private location: Location
+    private coachesService: CoachesService
   ) { }
 
   ngOnInit() {
     this.subscription = this.route.params.subscribe((params: Params) =>
       this.coach = this.coachesService.getCoachInterview(params.name)
     );
+    this.imageUrl = this.coach.image.url.replace('.jpg', '_moving.jpg');
   }
 
   ngOnDestroy() {
@@ -40,7 +40,7 @@ export class CoachProfileComponent implements OnInit, OnDestroy {
     return this.coach.interview.slice(this.coach.interview.length / 2);
   }
 
-  navigateBack() {
-    this.location.back();
-  }
+  // navigateBack() {
+  //   this.location.back();
+  // }
 }
