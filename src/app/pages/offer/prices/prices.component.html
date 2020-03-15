@@ -59,7 +59,8 @@
 
     <div class="row">
       <div class="col my-4 text-center">
-        <button mat-stroked-button [routerLink]="['/contact']" class="text-uppercase">Kontakt aufnehmen</button>
+        <button mat-stroked-button [routerLink]="['/contact']" [queryParams]="{trail: true}"
+          class="text-uppercase">Kontakt aufnehmen</button>
       </div>
     </div>
 

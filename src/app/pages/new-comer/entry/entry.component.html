@@ -23,7 +23,8 @@
           <p>Wir laden Dich herzlich zu Deinem kostenlosen Probetraining ein! Dies kannst Du jederzeit in einer unseren
             regulären Klassen machen und dich umfassend bei unseren Mitgliedern und von den Coaches informieren und
             beraten lassen.</p>
-          <a mat-stroked-button [routerLink]="['/contact']" class="float-right py-1 px-3 text-uppercase">Zum
+          <a mat-stroked-button [routerLink]="['/contact']" [queryParams]="{trail: true}"
+            class="float-right py-1 px-3 text-uppercase">Zum
             Probetraining</a>
         </div>
       </div>

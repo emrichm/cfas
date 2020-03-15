@@ -1,8 +1,10 @@
+import { filter } from 'rxjs/operators';
 import { Inquiry } from 'src/app/models/inquiry';
 import { ClassHoursService } from 'src/app/services/class-hours.service';
 import { MailerService } from 'src/app/services/utils/mailer.service';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'cfas-contact-form',
@@ -13,14 +15,14 @@ export class InquiryFormComponent implements OnInit {
   @Output() sentMail = new EventEmitter<boolean>();
   private _inquiry: Inquiry = new Inquiry();
   inquiryForm = this.fb.group({
-    firstName: ['Mark', Validators.required],
-    lastName: ['Emrich', Validators.required],
-    email: ['m.emrich@gmx.de', [Validators.required, Validators.email]],
-    subject: ['Anderes', Validators.required],
+    firstName: ['', Validators.required],
+    lastName: ['', Validators.required],
+    email: ['', [Validators.required, Validators.email]],
+    subject: ['', Validators.required],
     wishDate: [null],
     hour: [null],
-    message: ['Test'],
-    agreement: [true, Validators.requiredTrue]
+    message: [''],
+    agreement: [false, Validators.requiredTrue]
   });
   subjects = ['Drop-In', 'Probetraining', 'Anderes']
   fromDate: Date;
@@ -34,11 +36,18 @@ export class InquiryFormComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     private classHoursService: ClassHoursService,
-    private mailerService: MailerService
+    private mailerService: MailerService,
+    private route: ActivatedRoute
   ) { }
 
   ngOnInit(): void {
     this.setFromToDates();
+    this.route.queryParams.pipe(filter(params => params.trail))
+      .subscribe(trail => {
+        if (trail) {
+          this.inquiryForm.controls['subject'].setValue('Probetraining');
+        }
+      });
   }
 
   onSubmit(): void {
