@@ -8,7 +8,7 @@ import { CoachesOverviewComponent } from './pages/about-us/coaches/coaches.compo
 import { CoachProfileComponent } from './pages/about-us/coaches/components/coach-profile/coach-profile.component';
 import { CoachTeaserComponent } from './pages/about-us/coaches/components/coach-teaser/coach-teaser.component';
 import { Halle1Component } from './pages/about-us/halle1/halle1.component';
-import { ImpressionsComponent } from './pages/about-us/impressions/impressions.component';
+import { InsightsComponent } from './pages/about-us/insights/insights.component';
 import { PhilosophyComponent } from './pages/about-us/philosophy/philosophy.component';
 import { WerkstattComponent } from './pages/about-us/werkstatt/werkstatt.component';
 import { ContactComponent } from './pages/contact/contact.component';
@@ -54,7 +54,7 @@ import { SharedModule } from './shared/shared.module';
     ImageGalleryModalComponent,
     WerkstattComponent,
     ImpressComponent,
-    ImpressionsComponent,
+    InsightsComponent,
     EventsComponent,
     EventComponent,
     DictionaryComponent,

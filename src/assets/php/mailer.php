@@ -20,7 +20,7 @@
             $message = $inquiry['message'];
 
             // Create the email and send the message
-            $myemail = 'mark.emrich@gmx.de';
+            $myemail = $email; //'mark.emrich@gmx.de';
             $email_subject = "Webseiten-Anfrage: $subject";
             $email_body = "Name: $firstName $lastName";
             if ($wishDate) {

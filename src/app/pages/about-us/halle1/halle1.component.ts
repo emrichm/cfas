@@ -1,4 +1,4 @@
-import { ImageService } from 'src/app/services/image.service';
+import { ImageService } from 'src/app/shared/services/image.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
