@@ -58,7 +58,8 @@ export class PageTeaserService {
         paragraphs: [
           `Unsere zweite Halle, die WERKSTATT, 
           ist reserviert für Open Gym und jegliche Art an Spezialkursen.`,
-          `Hier gibt es den Extraplatz zum individuellen Trainieren für alle.`
+          `Hier gibt es den Extraplatz zum individuellen Trainieren für alle.`,
+          `Auch unser ROMWOD-Bereich ist hier angegliedert und dient der Erweiterung deiner "Range of Motion"`
         ],
         button: {
           text: 'Umsehen',
@@ -66,21 +67,6 @@ export class PageTeaserService {
         },
         image: {
           url: 'assets/images/werkstatt-top.jpg',
-          alt: ''
-        }
-      },
-      {
-        title: 'ROMWOD',
-        paragraphs: [
-          `Unser ROMWOD-Bereich ist der Werkstatt angegliedert und dient der Erweiterung deiner „Range of Motion“.`,
-          `Hier kannst Du jederzeit per Video angeleitet an Deiner Mobilität, Flexibilität, Atmung und Entspannung arbeiten.`
-        ],
-        button: {
-          text: 'See the Sensation',
-          link: '/our-box/romwod'
-        },
-        image: {
-          url: 'assets/images/romwod-sign.jpg',
           alt: ''
         }
       },
