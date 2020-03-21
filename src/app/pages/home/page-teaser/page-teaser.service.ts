@@ -18,7 +18,7 @@ export class PageTeaserService {
           link: '/our-box/coaches'
         },
         image: {
-          url: 'assets/images/GruppeHandstand3.jpg',
+          url: 'assets/images/style-images/GruppeHandstand3.jpg',
           alt: ''
         }
       },
