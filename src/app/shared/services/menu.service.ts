@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { MenuItem } from '../models/menu-item';
+import { MenuItem } from '../../models/menu-item';
 
 @Injectable({
   providedIn: 'root'
@@ -51,7 +51,7 @@ export class MenuService {
             path: '/our-box/werkstatt'
           },
           {
-            name: 'Eindrücke',
+            name: 'Einblicke',
             path: '/our-box/impressions'
           }
         ]

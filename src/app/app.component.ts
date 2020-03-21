@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatIconRegistry } from '@angular/material';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MenuItem } from './models/menu-item';
-import { MenuService } from './services/menu.service';
+import { MenuService } from './shared/services/menu.service';
 
 @Component({
   selector: 'cfas-root',
