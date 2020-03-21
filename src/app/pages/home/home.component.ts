@@ -1,5 +1,5 @@
 import { PageTeaser } from 'src/app/models/page-teaser';
-import { PageTeaserService } from 'src/app/services/page-teaser.service';
+import { PageTeaserService } from 'src/app/pages/home/page-teaser/page-teaser.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

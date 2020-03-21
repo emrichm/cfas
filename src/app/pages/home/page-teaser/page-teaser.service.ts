@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { PageTeaser } from '../models/page-teaser';
+import { PageTeaser } from '../../../models/page-teaser';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +11,7 @@ export class PageTeaserService {
         title: 'CFaS Coaches-Team',
         paragraphs: [
           `Du möchtest unsere Coaches kennen lernen? 
-          Wir stellen Sie vor! Persönliches und Qualifikationen findest Du hier.`
+          Wir stellen sie vor! Persönliches und Qualifikationen findest Du hier.`
         ],
         button: {
           text: 'Meet \'n Greet',
@@ -58,7 +58,7 @@ export class PageTeaserService {
         paragraphs: [
           `Unsere zweite Halle, die WERKSTATT, 
           ist reserviert für Open Gym und jegliche Art an Spezialkursen.`,
-          `Hier gibt es den Extraplatz zum individuellen trainieren für alle.`
+          `Hier gibt es den Extraplatz zum individuellen Trainieren für alle.`
         ],
         button: {
           text: 'Umsehen',
@@ -87,8 +87,8 @@ export class PageTeaserService {
       {
         title: 'Kursplan & Klassen',
         paragraphs: [
-          `Beschreibungen der verschiedenen Klassen, 
-          sowie den aktuellen Kursplan findest du auf den folgenden Seiten.`
+          `Beschreibungen der verschiedenen Klassen 
+          sowie den aktuellen Kursplan findest Du auf den folgenden Seiten.`
         ],
         button: {
           text: 'Ansehen',
@@ -102,9 +102,9 @@ export class PageTeaserService {
       {
         title: 'Preise',
         paragraphs: [
-          `Du möchtest Dich informieren was eine Mitgliedschaft bei CrossFit am See kostet? 
-          Dann bist du hier genau richtig.
-          Wir bieten Dir faire Preise für klassisches CrossFit und das Etwas an mehr!`
+          `Du möchtest Dich informieren, was eine Mitgliedschaft bei CrossFit am See kostet? 
+          Dann bist Du hier genau richtig.
+          Wir bieten Dir faire Preise für klassisches CrossFit und das gewisse Etwas an mehr!`
         ],
         button: {
           text: 'Informier Dich!',
