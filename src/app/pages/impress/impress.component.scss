@@ -1,23 +1,63 @@
-header {
-  height: 50vh;
-  line-height: 50vh;
-  background-image: url(src/assets/images/style-images/maps-bg.jpg);
-  background-attachment: fixed;
-  vertical-align: baseline;
+@import "../../../assets/scss/variables";
 
-  h1 {
-    width: fit-content;
-    margin: auto;
-    font-size: 15vw;
-    color: white;
-    text-shadow:
-      2px 2px 5px black,
-      -2px 2px 5px black,
-      2px -2px 5px black,
-      -2px -2px 5px black;
+cfas-impress {
 
-    @media (min-width: 720px) {
-      font-size: 10.0rem;
+  .row {
+    margin-bottom: 25px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  header {
+    height: 50vh;
+    line-height: 50vh;
+    background-image: url(src/assets/images/style-images/maps-bg.jpg);
+    background-attachment: fixed;
+    vertical-align: baseline;
+
+    h1 {
+      width: fit-content;
+      margin: auto;
+      font-size: 15vw;
+      color: white;
+      text-shadow:
+        2px 2px 5px black,
+        -2px 2px 5px black,
+        2px -2px 5px black,
+        -2px -2px 5px black;
+
+      @media (min-width: 720px) {
+        font-size: 10.0rem;
+      }
+    }
+  }
+
+  .mat-tab-header {
+    border: none;
+
+    .mat-tab-label-container {
+      width: 100%;
+
+      .mat-ink-bar {
+        visibility: hidden !important;
+      }
+
+      .mat-tab-label {
+        width: 50%;
+        box-shadow: inset 0px 1px 5px 0px black;
+      }
+
+      .mat-tab-label-content {
+        font-size: 2.5rem;
+      }
+    }
+
+    .mat-tab-label-active {
+      background-color: $bgGrey;
+      opacity: 1;
+      box-shadow: none !important;
     }
   }
 }

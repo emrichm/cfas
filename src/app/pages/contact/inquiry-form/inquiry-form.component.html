@@ -17,7 +17,7 @@
         </div>
       </div>
 
-      <div class="row mb-md-3">
+      <div class="row">
         <div class="col">
           <mat-form-field class="full-width">
             <input matInput placeholder="E-Mail-Adresse" formControlName="email">
@@ -66,12 +66,16 @@
       </div>
 
       <div class="row">
-        <div class="col">
-          <mat-checkbox formControlName="agreement">DSGVO-Bedingungen gelesen</mat-checkbox>
+        <div class="col" class="agreement">
+          <mat-checkbox formControlName="agreement"></mat-checkbox>
+          <label>
+            <a class="link" [routerLink]="['/dataprotection']" target="_blank">Datenschutzinformationen</a>
+            wurden gelesen und akzeptiert
+          </label>
         </div>
       </div>
 
-      <mat-card-actions class="px-3">
+      <mat-card-actions class="px-3 mt-3">
         <button mat-raised-button color="primary" type="submit"
           [disabled]="inquiryForm.invalid || inquiryForm.disabled">Anfrage
           senden</button>

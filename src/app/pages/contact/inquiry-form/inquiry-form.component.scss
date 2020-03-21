@@ -21,3 +21,20 @@
 button {
   width: 100%;
 }
+
+.agreement {
+  position: relative;
+
+  mat-checkbox {
+    padding-left: 15px;
+    position: absolute;
+  }
+
+  label {
+    padding-left: 50px;
+
+    .link {
+      text-decoration: underline;
+    }
+  }
+}

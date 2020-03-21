@@ -50,6 +50,7 @@ const routes: Routes = [
   },
   { path: 'contact', component: ContactComponent },
   { path: 'impress', component: ImpressComponent },
+  { path: 'dataprotection', component: ImpressComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 
