@@ -8,9 +8,17 @@
     padding-top: 50px;
     font-size: 9.0rem;
 
+    @media (max-width: 960px) {
+      padding-top: 100px;
+      padding-bottom: 0;
+    }
+
     h1 {
       font-weight: 700;
       font-size: 12.0rem;
+      width: fit-content;
+      margin: auto;
+
       text-shadow:
         2px 2px 10px black,
         -2px 2px 10px black,
