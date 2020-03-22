@@ -2,7 +2,7 @@
   padding-top: 25vh;
   font-size: 9.0rem;
 
-  @media screen and (max-width: 960px) {
+  @media (max-width: 960px) {
     background-size: cover;
   }
 
@@ -10,7 +10,7 @@
     font-weight: 600;
     font-size: 10.0rem;
 
-    @media screen and (max-width: 960px) {
+    @media (max-width: 960px) {
       font-size: 15vw;
       text-shadow:
         2px 2px 5px white,
@@ -24,7 +24,7 @@
 section {
   height: 100%;
 
-  @media screen and (min-width: 960px) {
+  @media (min-width: 960px) {
     background-image: url(src/assets/images/style-images/pvc-pipes.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -37,8 +37,12 @@ section {
   line-height: 3.5rem;
   background-color: white;
 
-  @media screen and (max-width: 960px) {
-    padding: 50px;
+  @media (max-width: 960px) {
+    padding: 25px;
+  }
+
+  .mat-stroked-button {
+    width: 100%;
   }
 }
 
@@ -47,7 +51,7 @@ section {
   background-size: cover;
   background-position: center;
 
-  @media screen and (max-width: 960px) {
+  @media (max-width: 960px) {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
