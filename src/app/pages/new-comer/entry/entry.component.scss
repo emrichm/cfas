@@ -23,14 +23,30 @@
   }
 }
 
-section {
-  height: 100%;
+@media (min-width: 960px) {
+  .grey-section {
+    background-color: transparent;
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
 
-  @media (min-width: 960px) {
-    background-image: url(src/assets/images/style-images/pvc-pipes.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: bottom right;
+    &::before {
+      background-image: url(src/assets/images/style-images/pvc-pipes.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: bottom right;
+
+      background-color: black;
+      position: fixed;
+
+      content: '';
+      height: 100%;
+      left: 0;
+      top: 0;
+      width: 100%;
+      will-change: transform;
+      z-index: -1;
+    }
   }
 }
 
@@ -57,7 +73,7 @@ section {
   background-position: center;
 
   @media (max-width: 960px) {
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
   }

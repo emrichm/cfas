@@ -1,8 +1,23 @@
 .page-wrapper {
-  background-color: black;
-  background-image: url(/assets/images/style-images/bg-floor.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+
+
+  &::before {
+    background-color: black;
+    background-image: url(/assets/images/style-images/bg-floor.jpg);
+    background-size: cover;
+    position: fixed;
+
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: -1;
+  }
 
   #title {
     padding-top: 50px;
