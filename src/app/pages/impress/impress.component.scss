@@ -6,7 +6,11 @@ cfas-impress {
     margin-bottom: 25px;
 
     &:last-child {
-      margin: 0;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      text-align: center;
     }
   }
 
@@ -34,31 +38,40 @@ cfas-impress {
     }
   }
 
-  .mat-tab-header {
-    border: none;
+  mat-tab-group {
 
-    .mat-tab-label-container {
-      width: 100%;
+    .mat-tab-header {
+      border: none;
 
-      .mat-ink-bar {
-        visibility: hidden !important;
+      .mat-tab-header-pagination {
+        display: none !important;
       }
 
-      .mat-tab-label {
-        width: 50%;
-        box-shadow: inset 0px 1px 5px 0px black;
+      .mat-tab-label-container {
+
+        .mat-ink-bar {
+          display: none !important;
+        }
+
+        .mat-tab-label {
+          box-shadow: inset 0px 1px 5px 0px black;
+        }
+
+        .mat-tab-label-content {
+          font-size: 2.5rem;
+
+          @media (max-width: 350px) {
+            font-size: 6vw;
+          }
+        }
       }
 
-      .mat-tab-label-content {
-        font-size: 2.5rem;
+      .mat-tab-label-active {
+        background-color: $bgGrey;
+        opacity: 1;
+        box-shadow: none !important;
+        cursor: unset;
       }
-    }
-
-    .mat-tab-label-active {
-      background-color: $bgGrey;
-      opacity: 1;
-      box-shadow: none !important;
-      cursor: unset;
     }
   }
 }
