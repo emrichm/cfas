@@ -3,7 +3,7 @@
 <section class="grey-section text-center">
 
   <div class="container mx-auto col-10 px-4">
-    <div class="row justify-content-center mb-4 pt-md-4 p-4 roof">
+    <div class="row justify-content-center mb-4 pt-md-4 p-4" [ngClass]="{'roof': !(isHandset$ | async)}">
       <h1 class="jaeggers mt-4 mb-5">better together</h1>
       <p>Gestützt durch die Pfeiler HAPPY. HEALTH. HUNGRY.
         steht bei uns die COMMUNITY im Mittelpunkt an oberster Stelle!</p>
@@ -16,7 +16,7 @@
   <div class="container mx-auto col-10">
     <div class="row justify-content-center">
 
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4 mb-4">
         <div class="phil-card p-4">
           <h2 class="jaeggers">Happy.</h2>
           <p>Der Spaß und die Freude am Sport, bringt uns zusammen und beides findet massig Platz in unseren
@@ -26,7 +26,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4 mb-4">
         <div class="phil-card p-4">
           <h2 class="jaeggers">Healthy.</h2>
           <p>Ein, bis ins hohe Alter, gesundes Leben zu führen ist unser Ziel.</p>
@@ -39,7 +39,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4 mb-4">
         <div class="phil-card p-4">
           <h2 class="jaeggers">Hungry.</h2>
           <p>Wir sind Hungrig. Nicht nur bezogen auf unsere Ernährung. Wir sind hungrig nach unseren Zielen welche
