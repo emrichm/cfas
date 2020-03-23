@@ -1,3 +1,5 @@
+@import "./variables";
+
 @font-face {
   font-family: 'Jaeggers';
   font-style: normal;
@@ -12,7 +14,7 @@
 
 .jaeggers {
   font-family: 'Jaeggers';
-  color: #0f64c8;
+  color: $jeaggerBlue;
   transform: rotate(-10deg);
 }
 
