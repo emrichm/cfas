@@ -2,11 +2,10 @@
   <img src="/assets/images/style-images/GruppeHandstand3.jpg" alt="">
 </header>
 
-<section class="grey-section">
+<section [ngClass]="{'grey-section': i % 2}" *ngFor="let coachTeaser of coachesTeaser; let i = index">
   <div class="container mx-auto col-10 col-md-8">
     <div class="row justify-content-center">
-      <cfas-coach-teaser *ngFor="let coachTeaser of coachesTeaser; let i = index" [coachTeaser]="coachTeaser"
-        [index]="i">
+      <cfas-coach-teaser [coachTeaser]="coachTeaser" [index]="i">
       </cfas-coach-teaser>
     </div>
   </div>
