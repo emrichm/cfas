@@ -1,7 +1,12 @@
 header {
-  height: 50%;
-  background-image: url(src/assets/images/style-images/maps-bg.jpg);
-  background-attachment: fixed;
+  height: 65%;
+  background-image: url(src/assets/images/style-images/philosophy-hero.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+
+section {
+  padding-top: 0 !important;
 }
 
 .roof {
