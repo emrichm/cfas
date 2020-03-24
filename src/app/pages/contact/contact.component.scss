@@ -1,7 +1,23 @@
 header {
-  height: 50%;
-  background-image: url(src/assets/images/style-images/maps-bg.jpg);
-  background-attachment: fixed;
+  min-height: 80%;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    background-color: black;
+    background-image: url(src/assets/images/style-images/contact-hero.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: fixed;
+
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: -1;
+  }
 }
 
 mat-list {
