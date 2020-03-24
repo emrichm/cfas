@@ -7,6 +7,13 @@ header {
 .roof {
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.13);
   border-radius: 100% 100% 0 0 / 200% 200% 0 0;
+
+  div {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    padding-bottom: 30px;
+  }
 }
 
 .phil-card {
