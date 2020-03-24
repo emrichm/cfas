@@ -12,7 +12,7 @@
 
 <ng-template #description>
   <div class="col-sm-12 col-md-9 mx-auto d-flex align-items-center">
-    <div [ngClass]="{'text-left pl-md-5': index % 2, 'text-right pr-md-5': !(index % 2)}">
+    <div class="text-justify" [ngClass]="{'pl-md-5': index % 2, 'pr-md-5': !(index % 2)}">
       <h2 class="mb-3">{{ coachTeaser.name }}</h2>
       <p *ngFor="let teaserParagraph of coachTeaser.teaser">{{ teaserParagraph }}</p>
       <button mat-stroked-button [routerLink]="['/our-box/coaches', coachTeaser.name.toLowerCase()]"
