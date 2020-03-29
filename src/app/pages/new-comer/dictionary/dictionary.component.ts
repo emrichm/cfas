@@ -1,5 +1,5 @@
 import { DictionaryItem } from 'src/app/models/dictionary-item';
-import { DictionaryService } from 'src/app/services/dictionary.service';
+import { DictionaryService } from 'src/app/pages/new-comer/dictionary/dictionary.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

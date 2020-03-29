@@ -1,7 +1,7 @@
 import { filter } from 'rxjs/operators';
 import { Inquiry } from 'src/app/models/inquiry';
-import { ClassHoursService } from 'src/app/services/class-hours.service';
-import { MailerService } from 'src/app/services/utils/mailer.service';
+import { ClassHoursService } from 'src/app/shared/services/class-hours.service';
+import { MailerService } from 'src/app/shared/utils/mailer.service';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
