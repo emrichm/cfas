@@ -16,6 +16,7 @@ import { InquiryFormComponent } from './pages/contact/inquiry-form/inquiry-form.
 import { HomeComponent } from './pages/home/home.component';
 import { PageTeaserComponent } from './pages/home/page-teaser/page-teaser.component';
 import { PartnersComponent } from './pages/home/partners/partners.component';
+import { GermanWeekDayPipe } from './pages/home/wod-overview/pipes/german-week-day.pipe';
 import { WodOverviewComponent } from './pages/home/wod-overview/wod-overview.component';
 import { ImpressComponent } from './pages/impress/impress.component';
 import { CrossfitComponent } from './pages/new-comer/crossfit/crossfit.component';
@@ -59,7 +60,8 @@ import { SharedModule } from './shared/shared.module';
     EventComponent,
     DictionaryComponent,
     CrossfitComponent,
-    EntryComponent
+    EntryComponent,
+    GermanWeekDayPipe
   ],
   imports: [
     BrowserModule,

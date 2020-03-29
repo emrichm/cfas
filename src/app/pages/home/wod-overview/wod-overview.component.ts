@@ -1,5 +1,6 @@
-import { Wod } from 'src/app/models/wod';
-import { WodService } from 'src/app/services/wod.service';
+import { Observable } from 'rxjs';
+import { WodsOverviewPerDay } from 'src/app/pages/home/wod-overview/models/wod';
+import { WodService } from 'src/app/pages/home/wod-overview/services/wod.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,14 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WodOverviewComponent implements OnInit {
   panelOpenState = false;
-  wodList: Wod[];
+  wodList$: Observable<WodsOverviewPerDay>;
   dayOfWeekIndex: number;
 
   constructor(private wodService: WodService) { }
 
   ngOnInit() {
-    this.wodList = this.wodService.wodList;
-    const day = new Date().getDay();
-    this.dayOfWeekIndex = day === 0 ? 6 : day - 1;
+    this.wodList$ = this.wodService.wodList;
+    this.dayOfWeekIndex = (new Date().getDay() + 6) % 7;
   }
 }

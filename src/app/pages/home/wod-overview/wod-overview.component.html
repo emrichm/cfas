@@ -1,14 +1,18 @@
 <div class="row justify-content-center">
   <div class="col-md-7 col-lg-5 px-0 pr-md-3">
-    <mat-accordion>
-      <mat-expansion-panel *ngFor="let wod of wodList; let i = index" [expanded]="i === dayOfWeekIndex">
+    <mat-accordion *ngIf="wodList$ | async as wodList">
+      <mat-expansion-panel *ngFor="let wodDay of wodList.wodDays" [expanded]="wodDay.dayOfWeek === dayOfWeekIndex">
         <mat-expansion-panel-header>
           <mat-panel-title>
-            {{ wod.dayOfWeek }}
+            {{ wodDay.dayOfWeek | germanWeekDay }}
+            <span class="ml-auto">{{ wodDay.scheduledDate | date: 'dd.MM.' }}</span>
           </mat-panel-title>
         </mat-expansion-panel-header>
-        <div class="pl-3">
-          <ng-container *ngFor="let wodLine of wod.wod">{{ wodLine }}<br></ng-container>
+        <div *ngFor="let wod of wodDay.wods">
+          <h4 class="font-weight-bold">{{ wod.title }}</h4>
+          <p>
+            <ng-container *ngFor="let line of wod.descriptionLines">{{ line }}<br></ng-container>
+          </p>
         </div>
       </mat-expansion-panel>
     </mat-accordion>
