@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'cfas-hours',
+  selector: 'cfas-schedule',
   templateUrl: './schedule.component.html',
-  styleUrls: ['./schedule.component.scss']
+  styleUrls: ['./schedule.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class ScheduleComponent {
 

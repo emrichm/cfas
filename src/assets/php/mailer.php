@@ -1,4 +1,3 @@
-
 <?php
     switch($_SERVER['REQUEST_METHOD']){
         case("OPTIONS"):
@@ -41,4 +40,3 @@
             header("Allow: POST", true, 405);
             exit;
         }
-?>

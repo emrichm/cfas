@@ -1,48 +1,47 @@
-header {
-  height: 50%;
-  background-image: url(src/assets/images/style-images/teamup-calendar-7d.jpg);
-  background-size: 100%;
-  background-position: 0 75px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 66%;
+cfas-schedule {
+  header {
+    background-image: url(src/assets/images/style-images/teamup-calendar-7d.jpg);
+    background-size: 100%;
+    background-position: 0 75px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: calc(100vh - 56px);
 
-  @media screen and (min-width: 960px) {
-    background-attachment: scroll;
-    background-size: 77% 77%;
-    height: 90%;
-  }
-
-  div div {
-    width: 100%;
-    height: fit-content;
-    top: 275px;
-    border-radius: 25px;
-
-    h1 {
-      font-size: 2.2rem;
+    @media screen and (min-width: 960px) {
+      background-attachment: scroll;
+      background-size: 77% 77%;
+      height: 90%;
     }
 
-    button {
-      font-size: 1.1rem;
-      color: white;
-      border: solid 2px white;
+    div div {
+      height: fit-content;
+      top: 275px;
+      border-radius: 25px;
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      a {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .dark {
+    background-color: #212121;
+    color: white;
+
+    a {
+      border-color: white !important;
+
+      &:hover {
+        box-shadow: 0 0 5px 0px white !important;
+      }
     }
   }
 }
 
-.dark {
-  background-color: #212121;
-
-  p {
-    color: white;
-  }
-
-  button {
-    background-color: #212121;
-
-    &:hover {
-      background-color: rgba($color: #212121, $alpha: 0.7);
-    }
-  }
+.navbar-padding cfas-schedule header {
+  height: calc(100vh - 56px - 55px)
 }
