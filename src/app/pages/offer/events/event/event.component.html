@@ -1,6 +1,6 @@
 <mat-card>
   <mat-card-header>
-    <mat-card-title>{{ event.date }} - {{ event.time }}</mat-card-title>
+    <mat-card-title>{{ event.date | date: 'dd.MM.yyyy - hh:mm' }}</mat-card-title>
   </mat-card-header>
   <img mat-card-image [src]="event.image.url" [alt]="event.image.alt">
   <mat-card-content>
