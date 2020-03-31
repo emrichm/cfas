@@ -11,14 +11,14 @@
     font-size: 10.0rem;
     width: fit-content;
     margin: auto;
+    text-shadow:
+      2px 2px 5px black,
+      -2px 2px 5px black,
+      2px -2px 5px black,
+      -2px -2px 5px black;
 
     @media (max-width: 960px) {
       font-size: 15vw;
-      text-shadow:
-        2px 2px 5px white,
-        -2px 2px 5px white,
-        2px -2px 5px white,
-        -2px -2px 5px white;
     }
   }
 }
