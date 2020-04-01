@@ -9,8 +9,8 @@ header {
 #introduction {
   h1 {
     font-weight: 600;
-    font-size: 5.0rem;
-    letter-spacing: 1.7rem;
+    font-size: 4.0rem;
+    letter-spacing: 1.5rem;
 
     @media screen and (max-width: 960px) {
       font-size: 5vw;
@@ -19,11 +19,11 @@ header {
   }
 
   p {
-    font-size: 2.2rem;
-    font-weight: 400;
+    font-size: 2.0rem;
+    font-weight: 300;
 
     @media screen and (max-width: 960px) {
-      font-size: 3vw;
+      font-size: 2.5vw;
     }
   }
 }
