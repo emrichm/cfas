@@ -16,7 +16,7 @@ export class ClassDescriptionService {
         image: {
           url: 'assets/static/images/style-images/basics.jpeg',
           alt: '',
-          position: ''
+          position: 'center'
         }
       },
       {
@@ -62,7 +62,7 @@ export class ClassDescriptionService {
         image: {
           url: 'assets/static/images/style-images/weightlifting.jpeg',
           alt: '',
-          position: ''
+          position: 'center'
         }
       },
       {
@@ -73,7 +73,7 @@ export class ClassDescriptionService {
         image: {
           url: 'assets/static/images/style-images/performance.jpg',
           alt: '',
-          position: ''
+          position: 'center'
         }
       },
       {
@@ -83,7 +83,7 @@ export class ClassDescriptionService {
         image: {
           url: 'assets/static/images/style-images/pumpin-iron.jpeg',
           alt: '',
-          position: ''
+          position: 'top'
         }
       },
       {
@@ -93,7 +93,7 @@ export class ClassDescriptionService {
         image: {
           url: 'assets/static/images/style-images/kettle-bell.jpg',
           alt: '',
-          position: ''
+          position: 'bottom'
         }
       },
       {
@@ -123,7 +123,7 @@ export class ClassDescriptionService {
         image: {
           url: 'assets/static/images/style-images/open-gym.jpeg',
           alt: '',
-          position: ''
+          position: 'center'
         }
       },
     ]

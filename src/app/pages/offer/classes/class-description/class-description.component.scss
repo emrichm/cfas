@@ -1,11 +1,8 @@
 .image {
   min-height: 200px;
   background-size: cover;
-  background-position: center;
 
   @media screen and (max-width: 960px) {
-    background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
   }
 }
