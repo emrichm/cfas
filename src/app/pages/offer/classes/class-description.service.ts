@@ -103,7 +103,7 @@ export class ClassDescriptionService {
         image: {
           url: 'assets/static/images/style-images/active-recovery.jpeg',
           alt: '',
-          position: ''
+          position: 'center center'
         }
       },
       {
