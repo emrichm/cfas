@@ -1,6 +1,6 @@
 <div class="row light mb-5">
   <ng-container *ngIf="index % 2 || (isHandset$ | async); then image; else description"></ng-container>
-  <ng-container *ngIf="!(index % 2) && !(isHandset$ | async); then image; else description"></ng-container>
+  <ng-container *ngIf="index % 2 || (isHandset$ | async); then description; else image"></ng-container>
 </div>
 
 <ng-template #image>

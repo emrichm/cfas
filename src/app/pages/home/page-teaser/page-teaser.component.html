@@ -1,17 +1,17 @@
-<div class="row light my-5">
-  <ng-container *ngIf="!(index % 2); then image; else description"></ng-container>
-  <ng-container *ngIf="index % 2; then image; else description"></ng-container>
+<div class="row light my-4">
+  <ng-container *ngIf="!(index % 2) || (isHandset$ | async); then image; else description"></ng-container>
+  <ng-container *ngIf="!(index % 2) || (isHandset$ | async); then description; else image"></ng-container>
 </div>
 
 <ng-template #image>
-  <div class="col-md p-3 shadow" [ngClass]="{'mb-4 mb-md-0': !(index % 2), 'mt-4 mt-md-0': index % 2}">
+  <div class="col-md p-3 shadow">
     <img [src]="pageTeaser.image.url" [alt]="pageTeaser.image.alt">
   </div>
 </ng-template>
 
 <ng-template #description>
   <div class="col-md mx-auto d-flex align-items-center">
-    <div [ngClass]="{'text-left pl-md-5': !(index % 2), 'text-right pr-md-5': index % 2}">
+    <div [ngClass]="{'text-left pl-md-5': !(index % 2), 'text-right pr-md-5': index % 2, 'mt-4': (isHandset$ | async)}">
       <h2 class="mb-3">{{ pageTeaser.title }}</h2>
       <p *ngFor="let paragraph of pageTeaser.paragraphs">{{ paragraph }}</p>
       <button mat-stroked-button [routerLink]="pageTeaser.button.link"
