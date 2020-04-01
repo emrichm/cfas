@@ -8,7 +8,7 @@ import { Inquiry } from '../../models/inquiry';
   providedIn: 'root'
 })
 export class MailerService {
-  private serverUrl = './assets/';
+  private serverUrl = './assets/static/';
   private httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   }

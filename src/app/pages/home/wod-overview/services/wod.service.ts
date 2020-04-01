@@ -24,7 +24,7 @@ export class WodService {
     const dates = this.createDatesOfCurrentWeek();
 
     if (environment.production) {
-      return this.http.get(environment.apiUrl + '/assets/static/php/get-wods.php?dates=' + dates)
+      return this.http.get('./assets/static/php/get-wods.php?dates=' + dates)
         .pipe(map((wods: Wods) => new WodsOverviewPerDay(wods)));
     } else {
       return this.fetchWodsFake();
