@@ -31,6 +31,7 @@ import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
 import { ImageGalleryModalComponent } from './shared/components/image-gallery-modal/image-gallery-modal.component';
 import { ImageGalleryComponent } from './shared/components/image-gallery/image-gallery.component';
 import { SharedModule } from './shared/shared.module';
+import { ShopComponent } from './pages/offer/shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { SharedModule } from './shared/shared.module';
     DictionaryComponent,
     CrossfitComponent,
     EntryComponent,
-    GermanWeekDayPipe
+    GermanWeekDayPipe,
+    ShopComponent
   ],
   imports: [
     BrowserModule,

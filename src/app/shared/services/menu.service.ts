@@ -75,6 +75,10 @@ export class MenuService {
           {
             name: 'Preise',
             path: '/offer/prices'
+          },
+          {
+            name: 'Shop',
+            path: '/offer/shop'
           }
         ]
       },

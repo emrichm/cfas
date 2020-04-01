@@ -16,6 +16,7 @@ import { ClassesComponent } from './pages/offer/classes/classes.component';
 import { EventsComponent } from './pages/offer/events/events.component';
 import { PricesComponent } from './pages/offer/prices/prices.component';
 import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
+import { ShopComponent } from './pages/offer/shop/shop.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -45,7 +46,8 @@ const routes: Routes = [
       { path: 'events', component: EventsComponent },
       { path: 'schedule', component: ScheduleComponent },
       { path: 'classes', component: ClassesComponent },
-      { path: 'prices', component: PricesComponent }
+      { path: 'prices', component: PricesComponent },
+      { path: 'shop', component: ShopComponent }
     ]
   },
   { path: 'contact', component: ContactComponent },
