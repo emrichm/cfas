@@ -1,4 +1,4 @@
-import { DictionaryItem } from 'src/app/models/dictionary-item';
+import { DictionaryItem } from 'src/app/pages/new-comer/dictionary/dictionary-item';
 import { DictionaryService } from 'src/app/pages/new-comer/dictionary/dictionary.service';
 import { Component, OnInit } from '@angular/core';
 

@@ -4,7 +4,11 @@
       <div class="row justify-content-center">
         <div class="col-12 col-sm-6 col-md-4 item" *ngFor="let dictionaryItem of dictionary">
           <h2 class="text-center">{{ dictionaryItem.term }}</h2>
-          <p> {{ dictionaryItem.description }} </p>
+          <p>
+            <ng-container *ngFor="let descriptionsRow of dictionaryItem.description; let last = last">
+              {{ descriptionsRow }} <ng-container *ngIf="!last"><br></ng-container>
+            </ng-container>
+          </p>
         </div>
       </div>
     </div>

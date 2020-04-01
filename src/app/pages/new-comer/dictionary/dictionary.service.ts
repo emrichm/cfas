@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as dictonaryDTO from '../../../../assets/dynamic/data/dictionary.json';
-import { DictionaryItem } from '../../../models/dictionary-item';
+import { DictionaryItem } from './dictionary-item';
 
 let dictionary: DictionaryItem[] = dictonaryDTO.dictionaryItems;
 
