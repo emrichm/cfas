@@ -28,31 +28,31 @@ export class AppComponent implements OnInit {
   ) {
     this.matIconRegistry.addSvgIcon(
       `arrow_right`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/arrow_right-24px.svg`)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/arrow_right-24px.svg`)
     );
     this.matIconRegistry.addSvgIcon(
       `barbell`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/barbell.svg`)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/barbell.svg`)
     );
     this.matIconRegistry.addSvgIcon(
       `kettlebell`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/kettlebell.svg`)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/kettlebell.svg`)
     );
     this.matIconRegistry.addSvgIcon(
       `facebook_black`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/facebook_black.svg`)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/facebook_black.svg`)
     );
     this.matIconRegistry.addSvgIcon(
       `facebook_white`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/facebook_white.svg`)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/facebook_white.svg`)
     );
     this.matIconRegistry.addSvgIcon(
       `instagram_black`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/instagram_black.svg`)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/instagram_black.svg`)
     );
     this.matIconRegistry.addSvgIcon(
       `instagram_white`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/icons/instagram_white.svg`)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/instagram_white.svg`)
     );
   }
 

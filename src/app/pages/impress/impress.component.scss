@@ -1,4 +1,4 @@
-@import "../../../assets/scss/variables";
+@import "../../../assets/static/scss/variables";
 
 cfas-impress {
 
@@ -17,7 +17,7 @@ cfas-impress {
   header {
     height: 50vh;
     line-height: 50vh;
-    background-image: url(src/assets/images/style-images/maps-bg.jpg);
+    background-image: url(src/assets/static/images/style-images/maps-bg.jpg);
     background-attachment: fixed;
     vertical-align: baseline;
 
