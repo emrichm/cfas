@@ -2,7 +2,7 @@ cfas-shop {
   header {
     background-image: url(src/assets/static/images/style-images/spreadshirt.jpg);
     background-position: 0 70px;
-    height: calc(100vh - 56px);
+    height: calc(100vh - 64px);
 
     div div {
       height: fit-content;
@@ -33,6 +33,6 @@ cfas-shop {
   }
 }
 
-.navbar-padding cfas-schedule header {
-  height: calc(100vh - 56px - 55px)
+.navbar-padding cfas-shop header {
+  height: calc(100vh - 119px)
 }

@@ -5,7 +5,7 @@ cfas-schedule {
     background-position: 0 75px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: calc(100vh - 56px);
+    height: calc(100vh - 64px);
 
     @media screen and (min-width: 960px) {
       background-attachment: scroll;
@@ -43,5 +43,5 @@ cfas-schedule {
 }
 
 .navbar-padding cfas-schedule header {
-  height: calc(100vh - 56px - 55px)
+  height: calc(100vh - 119px)
 }
