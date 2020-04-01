@@ -37,12 +37,12 @@ descriptions = [
   {
     title: 'Workouts',
     description: [
-      `Wie CrossFit es beschreibt, „the magic is in the movements“.
-      Die Magie liegt in den Bewegungen welche wir ausführen.
-      Jeden Tag gibt es ein anderes Workout und dies wird stets so angepasst,
+      `Wie CrossFit es beschreibt: „the magic is in the movements“.
+      Die Magie liegt in den Bewegungen, welche wir ausführen.
+      Jeden Tag gibt es ein anderes Workout und dieses wird stets so angepasst,
       dass jeder seine individuellen Ziele verfolgen und erreichen wird.`,
-      `Egal wie alt Du bist oder welches Fitnesslevel du gerade hast.`,
-      `Starte jetzt Dein training bei uns, mit unserem heutigen Workout!`
+      `Egal wie alt Du bist oder welches Fitnesslevel Du gerade hast.`,
+      `Starte jetzt Dein Training bei uns, mit unserem heutigen Workout!`
     ]
   },
   {

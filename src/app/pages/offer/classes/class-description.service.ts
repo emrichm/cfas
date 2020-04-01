@@ -11,8 +11,8 @@ export class ClassDescriptionService {
         title: 'Basics',
         text: `Unsere Basic Class – Reihe dient der detaillierten Grundlagenschulung (Techniken und Umgang mit Equipment). 
         Wir empfehlen besonders Neueinsteigern zunächst den Besuch dieser Klassen. 
-        Doch auch unseren Fortgeschrittenen Athleten legen wir diese Kurse, zur Wiederholung und Vertiefung ihrer Technik nahe. 
-        Ein anstrengendes WOD ist selbstverständlich auch hier teil der Stunde.`,
+        Doch auch unseren Fortgeschrittenen Athleten legen wir diese Kurse, zur Wiederholung und Vertiefung ihrer Technik, nahe. 
+        Ein anstrengendes WOD ist selbstverständlich auch hier Teil der Stunde.`,
         image: {
           url: 'assets/static/images/style-images/basics.jpeg',
           alt: '',
@@ -22,9 +22,9 @@ export class ClassDescriptionService {
       {
         title: 'Workout of the Day (WOD)',
         text: `Workout Of the Day, das Workout des Tages. 
-        Hier bieten wir euch klassisches CrossFit „at it´s best!“ 
-        Jeden Tag gibt es ein anderes Workout zusammengesetzt aus den Bereichen des Ausdauersports, 
-        der Gymnastik und dem Gewichtheben, sowie Strongman.`,
+        Hier bieten wir euch klassisches CrossFit „at it´s best!“. 
+        Jeden Tag gibt es ein anderes Workout, zusammengesetzt aus den Bereichen des Ausdauersports, 
+        der Gymnastik, dem Gewichtheben sowie Disziplinen des Strongman.`,
         image: {
           url: 'assets/static/images/style-images/wod.jpeg',
           alt: '',
@@ -33,10 +33,10 @@ export class ClassDescriptionService {
       },
       {
         title: 'Teamwod',
-        text: `Teamworkouts sind WODS welche in 2-er, 3-er oder auch mal 4-er Teams 
+        text: `Teamworkouts sind WODS, welche in 2-er, 3-er oder auch mal 4-er Teams 
         absolviert werden. Auch diese Workouts wechseln täglich im Aufbau und auch 
         in ihrer Intensität. Du kannst selbstverständlich auch ohne Teampartner kommen. 
-        Den findest du vor Ort. Eine tolle Gelegenheit, andere Athleten aus der Box kennen zu lernen.`,
+        Den findest Du vor Ort. Eine tolle Gelegenheit, andere Athleten aus der Box kennen zu lernen.`,
         image: {
           url: 'assets/static/images/style-images/teamwod.jpeg',
           alt: '',
@@ -47,7 +47,7 @@ export class ClassDescriptionService {
         title: 'Gymnastics',
         text: `Die Gymnastics Class ist eine Technikstunde mit einem kleinen Workout 
         „FOR QUALITY“ am Ende. Hier gehen wir speziell auf die gymnastischen Bewegungen wie 
-        beispielsweise den Handstand oder auch Ring Muscle ups ein und holen jeden Athleten dort ab wo er sich gerade befindet.`,
+        beispielsweise den Handstand oder auch Ring Muscle ups ein und holen jeden Athleten dort ab, wo er sich gerade befindet.`,
         image: {
           url: 'assets/static/images/style-images/gymnastics.jpeg',
           alt: '',
@@ -57,7 +57,7 @@ export class ClassDescriptionService {
       {
         title: 'Weightlifting',
         text: `Im Weightlifting geht es um die schweren Gewichte. 
-        Egal ob Klassik olympisches Gewichtheben oder Kraftdreikampf. 
+        Egal ob klassisches olympisches Gewichtheben oder Kraftdreikampf. 
         Hier geht es um die richtige Technik für schweres Gewicht.`,
         image: {
           url: 'assets/static/images/style-images/weightlifting.jpeg',
@@ -78,8 +78,8 @@ export class ClassDescriptionService {
       },
       {
         title: 'Pumpin\' Iron',
-        text: `Functional Bodybuilding ist ein Trainingsansatz, welchen wir einsetzen um deine Kraft gezielt zu steigern, 
-        Muskuläre Ungleichgewichte zu korrigieren und deine Bewegungsqualität zu festigen.`,
+        text: `Functional Bodybuilding ist ein Trainingsansatz, welchen wir einsetzen, um deine Kraft gezielt zu steigern, 
+        muskuläre Ungleichgewichte zu korrigieren und deine Bewegungsqualität zu festigen.`,
         image: {
           url: 'assets/static/images/style-images/pumpin-iron.jpeg',
           alt: '',
@@ -98,8 +98,8 @@ export class ClassDescriptionService {
       },
       {
         title: 'Active Recovery',
-        text: `Diese Stunde soll unseren Athleten eine Möglichkeit bieten, an ihren Rest-Days ihrem Körper etwas gutes zu tun. 
-        In dieser Stunde werden Yoga, Dehn- und Mobilisationstechniken miteinander vereint.`,
+        text: `Diese Stunde soll unseren Athleten eine Möglichkeit bieten, an ihren Rest-Days ihrem Körper etwas Gutes zu tun. 
+        In dieser Stunde werden Yoga-, Dehn- und Mobilisationstechniken miteinander vereint.`,
         image: {
           url: 'assets/static/images/style-images/active-recovery.jpeg',
           alt: '',
@@ -108,8 +108,8 @@ export class ClassDescriptionService {
       },
       {
         title: 'ROMWOD',
-        text: `Optimize your Range Of Motion – Jederzeit zugänglich ist unsere ROMWOD-AREA für unsere Mitglieder. 
-        Nicht nur die Erweiterung des Bewegungsradius, sondern auch die Erholung für Körper und Geist steht hier im Mittelpunkt.`,
+        text: `Optimize your Range Of Motion – Jederzeit für unsere Mitglieder zugänglich ist unsere ROMWOD-AREA. 
+        Nicht nur die Erweiterung des Bewegungsradius, sondern auch die Erholung für Körper und Geist stehen hier im Mittelpunkt.`,
         image: {
           url: 'assets/static/images/style-images/romwod.jpg',
           alt: '',
@@ -119,7 +119,7 @@ export class ClassDescriptionService {
       {
         title: 'Open Gym',
         text: `Freies Training ohne Coach. 
-        In Deiner Open Gym Stunde hast du die Möglichkeit außerhalb der regulär angebotenen Klassen an deinen Skills zu arbeiten.`,
+        In Deiner Open Gym Stunde hast Du die Möglichkeit, außerhalb der regulär angebotenen Klassen an deinen Skills zu arbeiten.`,
         image: {
           url: 'assets/static/images/style-images/open-gym.jpeg',
           alt: '',
