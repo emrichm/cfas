@@ -1,5 +1,5 @@
 <mat-sidenav-container>
-  <mat-sidenav #sidenav role="navigation" position="end" opened="true">
+  <mat-sidenav #sidenav role="navigation" position="end">
     <cfas-sidenav [menu]="menu" (sidenavClose)="sidenav.close()"></cfas-sidenav>
   </mat-sidenav>
   <mat-sidenav-content [class.navbar-padding]="!(isHandset$ | async)">
