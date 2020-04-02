@@ -7,6 +7,8 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./sidenav.component.scss']
 })
 export class SidenavComponent {
+  panelOpened = false;
+
   @Input() menu: MenuItem[];
   @Output() sidenavClose = new EventEmitter();
 

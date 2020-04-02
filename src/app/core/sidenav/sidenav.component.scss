@@ -1,11 +1,14 @@
+@import "../../../assets/static/scss/variables";
+
 #nav-list {
   a {
     text-decoration: none;
     color: white;
+    padding-left: 8px;
   }
 
-  .active {
-    background-color: rgba($color: white, $alpha: 0.1);
+  .active:not(.mat-expanded) {
+    background-color: rgba($color: white, $alpha: 0.1) !important;
   }
 }
 

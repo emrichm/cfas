@@ -8,15 +8,25 @@
     </ng-container>
 
     <ng-template #withSubMenu>
-      <a mat-list-item class="border-bottom">
-        <span class="nav-caption">{{ menuItem.name }}</span>
-      </a>
-      <ng-container *ngFor="let subMenuItem of menuItem.subMenuItems">
-        <a mat-list-item class="border-bottom" [routerLink]="subMenuItem.path" routerLinkActive="active"
-          (click)="closeSidenav()">
-          <mat-icon svgIcon="arrow_right"></mat-icon> <span class="nav-caption">{{ subMenuItem.name }}</span>
-        </a>
-      </ng-container>
+
+      <mat-accordion class="dark">
+        <mat-expansion-panel class="border-bottom" style="background-color: #171717" routerLinkActive="active">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <span class="nav-caption">{{ menuItem.name }}</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <ng-container *ngFor="let subMenuItem of menuItem.subMenuItems; let last = last">
+            <a mat-list-item [ngClass]="{'border-bottom': !last}" [routerLink]="subMenuItem.path"
+              routerLinkActive="active" (click)="closeSidenav()">
+              <span class="nav-caption">{{ subMenuItem.name }}</span>
+            </a>
+          </ng-container>
+
+        </mat-expansion-panel>
+      </mat-accordion>
+
     </ng-template>
   </ng-container>
 </mat-nav-list>
