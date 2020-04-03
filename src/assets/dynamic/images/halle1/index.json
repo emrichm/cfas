@@ -1,0 +1,171 @@
+{
+	"url": {
+		"html": "/assets/dynamic/images/halle1/",
+		"scss": "/src"
+	},
+	"content": [{
+			"name": "halle-1-bell",
+			"sizes": {
+				"original": "halle-1-bell.jpg",
+				"150": "halle-1-bell-150x150.jpg",
+				"300": "halle-1-bell-300x200.jpg",
+				"768": "halle-1-bell-768x512.jpg",
+				"1024": "halle-1-bell-1024x682.jpg",
+				"1200": "halle-1-bell-1200x800.jpg",
+				"1536": "halle-1-bell-1536x1024.jpg",
+				"1980": "halle-1-bell-1980x1320.jpg",
+				"2048": null,
+				"scaled": null
+			}
+    },
+		{
+			"name": "IMG_0927",
+			"sizes": {
+				"original": "IMG_0927.jpg",
+				"150": "IMG_0927-150x150.jpg",
+				"300": "IMG_0927-300x200.jpg",
+				"768": "IMG_0927-768x512.jpg",
+				"1024": "IMG_0927-1024x683.jpg",
+				"1200": "IMG_0927-1200x800.jpg",
+				"1536": "IMG_0927-1536x1024.jpg",
+				"1980": "IMG_0927-1980x1320.jpg",
+				"2048": "IMG_0927-2048x1365.jpg",
+				"scaled": "IMG_0927-scaled.jpg"
+			}
+	},
+		{
+			"name": "IMG_0928",
+			"sizes": {
+				"original": "IMG_0928.jpg",
+				"150": "IMG_0928-150x150.jpg",
+				"300": "IMG_0928-300x200.jpg",
+				"768": "IMG_0928-768x512.jpg",
+				"1024": "IMG_0928-1024x683.jpg",
+				"1200": "IMG_0928-1200x800.jpg",
+				"1536": "IMG_0928-1536x1024.jpg",
+				"1980": "IMG_0928-1980x1320.jpg",
+				"2048": "IMG_0928-2048x1365.jpg",
+				"scaled": "IMG_0928-scaled.jpg"
+			}
+	},
+		{
+			"name": "IMG_1004",
+			"sizes": {
+				"original": "IMG_1004.jpg",
+				"150": "IMG_1004-150x150.jpg",
+				"300": "IMG_1004-300x200.jpg",
+				"768": "IMG_1004-768x512.jpg",
+				"1024": "IMG_1004-1024x683.jpg",
+				"1200": "IMG_1004-1200x800.jpg",
+				"1536": "IMG_1004-1536x1024.jpg",
+				"1980": "IMG_1004-1980x1320.jpg",
+				"2048": "IMG_1004-2048x1365.jpg",
+				"scaled": "IMG_1004-scaled.jpg"
+			}
+	},
+		{
+			"name": "IMG_1005",
+			"sizes": {
+				"original": "IMG_1005.jpg",
+				"150": "IMG_1005-150x150.jpg",
+				"300": "IMG_1005-300x200.jpg",
+				"768": "IMG_1005-768x512.jpg",
+				"1024": "IMG_1005-1024x683.jpg",
+				"1200": "IMG_1005-1200x800.jpg",
+				"1536": "IMG_1005-1536x1024.jpg",
+				"1980": "IMG_1005-1980x1320.jpg",
+				"2048": "IMG_1005-2048x1365.jpg",
+				"scaled": "IMG_1005-scaled.jpg"
+			}
+	},
+		{
+			"name": "IMG_1006",
+			"sizes": {
+				"original": "IMG_1006.jpg",
+				"150": "IMG_1006-150x150.jpg",
+				"300": "IMG_1006-300x200.jpg",
+				"768": "IMG_1006-768x512.jpg",
+				"1024": "IMG_1006-1024x683.jpg",
+				"1200": "IMG_1006-1200x800.jpg",
+				"1536": "IMG_1006-1536x1024.jpg",
+				"1980": "IMG_1006-1980x1320.jpg",
+				"2048": "IMG_1006-2048x1365.jpg",
+				"scaled": "IMG_1006-scaled.jpg"
+			}
+	},
+		{
+			"name": "IMG_1008",
+			"sizes": {
+				"original": "IMG_1008.jpg",
+				"150": "IMG_1008-150x150.jpg",
+				"300": "IMG_1008-300x200.jpg",
+				"768": "IMG_1008-768x512.jpg",
+				"1024": "IMG_1008-1024x683.jpg",
+				"1200": "IMG_1008-1200x800.jpg",
+				"1536": "IMG_1008-1536x1024.jpg",
+				"1980": "IMG_1008-1980x1320.jpg",
+				"2048": "IMG_1008-2048x1365.jpg",
+				"scaled": "IMG_1008-scaled.jpg"
+			}
+	},
+		{
+			"name": "IMG_1013",
+			"sizes": {
+				"original": "IMG_1013.jpg",
+				"150": "IMG_1010-150x150.jpg",
+				"300": "IMG_1010-300x200.jpg",
+				"768": "IMG_1010-768x512.jpg",
+				"1024": "IMG_1010-1024x683.jpg",
+				"1200": "IMG_1010-1200x800.jpg",
+				"1536": "IMG_1010-1536x1024.jpg",
+				"1980": "IMG_1010-1980x1320.jpg",
+				"2048": "IMG_1010-2048x1365.jpg",
+				"scaled": "IMG_1010-scaled.jpg"
+			}
+	},
+		{
+			"name": "IMG_1013",
+			"sizes": {
+				"original": "IMG_1013.jpg",
+				"150": "IMG_1013-150x150.jpg",
+				"300": "IMG_1013-300x200.jpg",
+				"768": "IMG_1013-768x512.jpg",
+				"1024": "IMG_1013-1024x683.jpg",
+				"1200": "IMG_1013-1200x800.jpg",
+				"1536": "IMG_1013-1536x1024.jpg",
+				"1980": "IMG_1013-1980x1320.jpg",
+				"2048": "IMG_1013-2048x1365.jpg",
+				"scaled": "IMG_1013-scaled.jpg"
+			}
+	},
+		{
+			"name": "kinderecke-1",
+			"sizes": {
+				"original": "kinderecke-1.jpg",
+				"150": "kinderecke-1-150x150.jpg",
+				"300": "kinderecke-1-300x200.jpg",
+				"768": "kinderecke-1-768x512.jpg",
+				"1024": "kinderecke-1-1024x682.jpg",
+				"1200": "kinderecke-1-1200x800.jpg",
+				"1536": "kinderecke-1-1536x1024.jpg",
+				"1980": "kinderecke-1-1980x1320.jpg",
+				"2048": null,
+				"scaled": null
+			}
+	},
+		{
+			"name": "kinderecke-2",
+			"sizes": {
+				"original": "kinderecke-2.jpg",
+				"150": "kinderecke-2-150x150.jpg",
+				"300": "kinderecke-2-300x200.jpg",
+				"768": "kinderecke-2-768x512.jpg",
+				"1024": "kinderecke-2-1024x682.jpg",
+				"1200": "kinderecke-2-1200x800.jpg",
+				"1536": "kinderecke-2-1536x1024.jpg",
+				"1980": "kinderecke-2-1980x1320.jpg",
+				"2048": null,
+				"scaled": null
+			}
+	}]
+}

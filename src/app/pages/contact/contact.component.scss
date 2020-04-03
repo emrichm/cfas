@@ -1,41 +1,43 @@
 header {
-  min-height: 80%;
-  position: relative;
-  overflow: hidden;
-
-  &::before {
+    min-height: 80%;
+    position: relative;
+    overflow: visible;
     background-color: black;
-    background-image: url(src/assets/static/images/style-images/contact-hero.jpg);
+    background: url(src/assets/static/images/style-images/contact-hero.jpg) no-repeat top center;
     background-size: cover;
-    background-position: top center;
-    position: fixed;
 
-    content: '';
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 100%;
-    will-change: transform;
-    z-index: -1;
-  }
+    // &:before {
+    //   background-color: black;
+    //   background: url(src/assets/static/images/style-images/contact-hero.jpg) no-repeat top center;
+    //   background-size: cover;
+    //   position: fixed;
+
+    //   content: '';
+    //   height: 100%;
+    //   left: 0;
+    //   top: 0;
+    //   width: 100%;
+    //   will-change: transform;
+    //   z-index: -10;
+    // }
 }
 
 mat-list {
-  width: fit-content;
+    width: fit-content;
 }
 
 mat-list button {
-  font-size: 1.1rem;
-  border: solid 2px #212121 !important;
-  border-radius: 25px;
+    font-size: 1.1rem;
+    border: solid 2px #212121 !important;
+    border-radius: 25px;
 
-  &:hover {
-    background-color: rgba($color: #212121, $alpha: 0.1);
-  }
+    &:hover {
+        background-color: rgba($color: #212121, $alpha: 0.1);
+    }
 }
 
 #map {
-  height: 300px;
-  background-image: url(src/assets/static/images/dummy-1.png);
-  background-size: 50%;
+    height: 300px;
+    // background-image: url(src/assets/static/images/dummy-1.png);
+    background-size: 50%;
 }

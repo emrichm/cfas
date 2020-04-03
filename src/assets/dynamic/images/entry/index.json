@@ -1,0 +1,48 @@
+{
+  "content": [{
+    "first": {
+      "original": "first.jpeg",
+      "150": "first-150x150.jpeg",
+      "300": "first-200x300.jpeg",
+      "768": null,
+      "1024": "first-683x1024.jpeg",
+      "1152": "first-768x1152.jpeg",
+      "1200": "first-1024x1536.jpeg",
+      "1800": "first-1200x1800.jpeg",
+      "2048": "first-1366x2048.jpeg"
+    },
+    "recovery": {
+      "original": "recovery.jpeg",
+      "150": "recovery-150x150.jpeg",
+      "300": "recovery-200x300.jpeg",
+      "768": null,
+      "1024": "recovery-683x1024.jpeg",
+      "1152": null,
+      "1200": "recovery-1024x1536.jpeg",
+      "1800": null,
+      "2048": null
+    },
+    "second": {
+      "original": "second.jpeg",
+      "150": "second-150x150.jpeg",
+      "300": "second-200x300.jpeg",
+      "768": "second-768x576.jpeg",
+      "1024": null,
+      "1152": null,
+      "1200": null,
+      "1800": null,
+      "2048": null
+    },
+    "third": {
+      "original": "third.jpeg",
+      "150": "third-150x150.jpeg",
+      "300": "third-200x300.jpeg",
+      "768": null,
+      "1024": "third-683x1024.jpeg",
+      "1152": "third-768x1152.jpeg",
+      "1200": "third-1024x1536.jpeg",
+      "1800": "third-1200x1800.jpeg",
+      "2048": "third-1366x2048.jpeg"
+    }
+  }]
+}

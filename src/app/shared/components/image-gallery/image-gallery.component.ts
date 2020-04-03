@@ -9,14 +9,19 @@ import { ImageGalleryModalComponent } from '../image-gallery-modal/image-gallery
   styleUrls: ['./image-gallery.component.scss']
 })
 export class ImageGalleryComponent {
-  @Input() images: string[] = [];
+  @Input() images: {
+    teaser: string,
+    highRes: string
+  }[] = [];
+  @Input() columns?= 3;
+
   slideIndex = 0;
 
   constructor(public dialog: MatDialog) { }
 
-  openModal(startIndex: number): void {
+  openModal(highResUrl: string): void {
     this.dialog.open(ImageGalleryModalComponent, {
-      data: { images: this.images, startIndex: startIndex },
+      data: highResUrl,
       backdropClass: 'backdrop-background'
     });
   }

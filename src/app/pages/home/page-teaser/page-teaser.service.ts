@@ -18,7 +18,7 @@ export class PageTeaserService {
           link: '/our-box/coaches'
         },
         image: {
-          url: 'assets/static/images/style-images/GruppeHandstand3.jpg',
+          url: 'assets/static/images/style-images/GruppeHandstand3-1024x402.jpg',
           alt: ''
         }
       },
@@ -33,7 +33,7 @@ export class PageTeaserService {
           link: '/our-box/philosophy'
         },
         image: {
-          url: 'assets/static/images/fitness-pyramide.jpg',
+          url: 'assets/static/images/style-images/fitness-pyramide-768x512.jpg',
           alt: ''
         }
       },
@@ -49,7 +49,7 @@ export class PageTeaserService {
           link: '/our-box/halle1'
         },
         image: {
-          url: 'assets/static/images/halle1-rower-bg-logo.jpg',
+          url: 'assets/static/images/style-images/halle1-rower-bg-logo-768x512.jpg',
           alt: ''
         }
       },
@@ -66,7 +66,7 @@ export class PageTeaserService {
           link: '/our-box/werkstatt'
         },
         image: {
-          url: 'assets/static/images/werkstatt-top.jpg',
+          url: 'assets/static/images/style-images/werkstatt-top-768x512.jpg',
           alt: ''
         }
       },
@@ -81,7 +81,7 @@ export class PageTeaserService {
           link: '/offer/schedule'
         },
         image: {
-          url: 'assets/static/images/teamup-calendar.png',
+          url: 'assets/static/images/style-images/teamup-calendar-768x676.png',
           alt: ''
         }
       },
@@ -97,7 +97,7 @@ export class PageTeaserService {
           link: '/offer/prices'
         },
         image: {
-          url: 'assets/static/images/style-images/mitgliedschaften.jpg',
+          url: 'assets/static/images/style-images/mitgliedschaften-768x576.jpg',
           alt: ''
         }
       }

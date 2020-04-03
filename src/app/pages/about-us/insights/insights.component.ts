@@ -7,11 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./insights.component.scss']
 })
 export class InsightsComponent implements OnInit {
-  images: string[] = [];
+  images: {
+    teaser: string,
+    highRes: string
+  }[] = [];
 
   constructor(private imageService: ImageService) { }
 
   ngOnInit() {
-    this.images = this.imageService.getImages('insights');
+    this.images = this.imageService.getImages('insights', '1024', 'scaled');
   }
 }

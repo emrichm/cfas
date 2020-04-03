@@ -1,81 +1,119 @@
 <div id="wrapper">
-  <section id="title"
-    [ngStyle]="(isHandset$ | async) && {'background-image': 'url(assets/static/images/style-images/pvc-pipes.jpg)'}">
-    <div class="text-center">
-      <h1 class="jaeggers text-uppercase">Dein Einstieg</h1>
-    </div>
-  </section>
-
-  <section class="grey-section">
-    <div class="container mx-auto col-10 col-md-8">
-      <div class="row">
-        <div class="col description text-center">
-          In unseren Trainings begleiten wir Dich an Deine Grenzen und manchmal auch ein Stückchen darüber hinaus. Wir
-          möchten Deine Komfortzone erweitern und Dich Stück für Stück auf jegliche Situationen im Leben vorbereiten.
+    <section
+        id="title"
+        class="grey-section"
+    >
+        <!-- [ngStyle]="(isHandset$ | async) && {'background-image': 'url(assets/static/images/style-images/pvc-pipes.jpg)'}"> -->
+        <div class="text-center">
+            <h1 class="jaeggers text-uppercase">Dein Einstieg</h1>
         </div>
-      </div>
+    </section>
 
-      <div class="row my-4">
-        <div id="first" class="col-12 col-md-4 image"
-          [style.background-image]="'url(/assets/static/images/entry/first.jpeg)'" [style.background-position]="'top'">
-        </div>
-        <div class="col-12 col-md-8 description" [ngClass]="{'text-center': (isHandset$ | async)}">
-          <h2 class="mb-4">FIRST - Kostenloses Probetraining</h2>
-          <p>Wir laden Dich herzlich zu Deinem kostenlosen Probetraining ein! Dieses kannst Du jederzeit in einer
-            unseren
-            regulären Klassen machen und dich umfassend bei unseren Mitgliedern und von den Coaches informieren und
-            beraten lassen.</p>
-          <a mat-stroked-button [routerLink]="['/contact']" [queryParams]="{trail: true}"
+    <section>
+        <div class="container mx-auto col-10 col-md-8">
+            <div class="row">
+                <div class="col description text-center">
+                    In unseren Trainings begleiten wir Dich an Deine Grenzen und manchmal auch ein
+                    Stückchen darüber hinaus. Wir
+                    möchten Deine Komfortzone erweitern und Dich Stück für Stück auf jegliche
+                    Situationen im Leben vorbereiten.
+                </div>
+            </div>
+
+            <div class="row my-4">
+                <div
+                    id="first"
+                    class="col-12 col-md-4 image"
+                    [style.background-image]="'url(/assets/static/images/entry/first-683x1024.jpeg)'"
+                    [style.background-position]="'top'"
+                >
+                </div>
+                <div
+                    class="col-12 col-md-8 description"
+                    [ngClass]="{'text-center': (isHandset$ | async)}"
+                >
+                    <h2 class="mb-4">FIRST - Kostenloses Probetraining</h2>
+                    <p>Wir laden Dich herzlich zu Deinem kostenlosen Probetraining ein! Dieses
+                        kannst Du jederzeit in einer
+                        unseren
+                        regulären Klassen machen und dich umfassend bei unseren Mitgliedern und von
+                        den Coaches informieren und
+                        beraten lassen.</p>
+                    <a mat-stroked-button [routerLink]="['/contact']" [queryParams]="{trail: true}"
             class="float-right py-1 px-3 text-uppercase">Zum
             Probetraining</a>
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div class="row my-4">
-        <div id="second" class="col-12 col-md-4 image"
-          [style.background-image]="'url(/assets/static/images/entry/second.jpeg)'"
-          [style.background-position]="'right'">
-        </div>
-        <div class="col-12 col-md-8 description" [ngClass]="{'text-center': (isHandset$ | async)}">
-          <h2 class="mb-4">SECOND - Mitgliedschaft</h2>
-          <p>Dir hat Dein Probetraining gefallen!</p>
-          <p>Jetzt entscheidest Du Dich für Deine passende Mitgliedschaft. Ganz ohne Zwänge entscheidest Du, welches
-            Modell am besten zu Dir passt und</p>
-          <a mat-stroked-button [routerLink]="['/offer/prices']" class="float-right py-1 px-3 text-uppercase">Deine
+            <div class="row my-4">
+                <div
+                    id="second"
+                    class="col-12 col-md-4 image"
+                    [style.background-image]="'url(/assets/static/images/entry/second-768x576.jpeg)'"
+                    [style.background-position]="'right'"
+                >
+                </div>
+                <div
+                    class="col-12 col-md-8 description"
+                    [ngClass]="{'text-center': (isHandset$ | async)}"
+                >
+                    <h2 class="mb-4">SECOND - Mitgliedschaft</h2>
+                    <p>Dir hat Dein Probetraining gefallen!</p>
+                    <p>Jetzt entscheidest Du Dich für Deine passende Mitgliedschaft. Ganz ohne
+                        Zwänge entscheidest Du, welches
+                        Modell am besten zu Dir passt und</p>
+                    <a mat-stroked-button [routerLink]="['/offer/prices']" class="float-right py-1 px-3 text-uppercase">Deine
             Mitgliedschaft</a>
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div class="row my-4">
-        <div id="third" class="col-12 col-md-4 image"
-          [style.background-image]="'url(/assets/static/images/entry/third.jpeg)'" [style.background-position]="'top'">
-        </div>
-        <div class="col-12 col-md-8 description" [ngClass]="{'text-center': (isHandset$ | async)}">
-          <h2 class="mb-4">THIRD - Basic Classes</h2>
-          <p>Unsere Basic Classes bringen Dir Schritt für Schritt die fundamentalen Grundlagen der verschiedenen Übungen
-            im CrossFit näher. Diese Klassen empfehlen wir jedem Neueinsteiger, aber auch unseren „alten Hasen“, um sich
-            regelmäßig Zeit zu nehmen, damit die Technik sitzt.</p>
-          <a mat-stroked-button [routerLink]="['/offer/schedule']" class="float-right py-1 px-3 text-uppercase">Dein
+            <div class="row my-4">
+                <div
+                    id="third"
+                    class="col-12 col-md-4 image"
+                    [style.background-image]="'url(/assets/static/images/entry/third-683x1024.jpeg)'"
+                    [style.background-position]="'top'"
+                >
+                </div>
+                <div
+                    class="col-12 col-md-8 description"
+                    [ngClass]="{'text-center': (isHandset$ | async)}"
+                >
+                    <h2 class="mb-4">THIRD - Basic Classes</h2>
+                    <p>Unsere Basic Classes bringen Dir Schritt für Schritt die fundamentalen
+                        Grundlagen der verschiedenen Übungen
+                        im CrossFit näher. Diese Klassen empfehlen wir jedem Neueinsteiger, aber
+                        auch unseren „alten Hasen“, um sich
+                        regelmäßig Zeit zu nehmen, damit die Technik sitzt.</p>
+                    <a mat-stroked-button [routerLink]="['/offer/schedule']" class="float-right py-1 px-3 text-uppercase">Dein
             Kursplan</a>
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div class="row my-4">
-        <div id="recovery" class="col-12 col-md-4 image"
-          [style.background-image]="'url(/assets/static/images/entry/recovery.jpeg)'"
-          [style.background-position]="'top'">
-        </div>
-        <div class="col-12 col-md-8 description" [ngClass]="{'text-center': (isHandset$ | async)}">
-          <h2 class="mb-4">Recovery Phasen</h2>
-          <p>Jeder Körper braucht nach einer Anstrengung auch Erholung!</p>
-          <p>Sogenannte „Rest-Days“ sind für Dich und Deinen Körper extrem wichtig. Um seinem Körper auch aktiv Ruhe
-            und Entspannung bieten zu können, findest Du in unserem Kursplan die „Active Recovery Class“ und hast
-            jederzeit Zugang zu unserer ROMWOD-AREA in der Werkstatt.</p>
-          <a mat-stroked-button href="http://romwod.com" target="_blank"
+            <div class="row my-4">
+                <div
+                    id="recovery"
+                    class="col-12 col-md-4 image"
+                    [style.background-image]="'url(/assets/static/images/entry/recovery-768x1024.jpeg)'"
+                    [style.background-position]="'top'"
+                >
+                </div>
+                <div
+                    class="col-12 col-md-8 description"
+                    [ngClass]="{'text-center': (isHandset$ | async)}"
+                >
+                    <h2 class="mb-4">Recovery Phasen</h2>
+                    <p>Jeder Körper braucht nach einer Anstrengung auch Erholung!</p>
+                    <p>Sogenannte „Rest-Days“ sind für Dich und Deinen Körper extrem wichtig. Um
+                        seinem Körper auch aktiv Ruhe
+                        und Entspannung bieten zu können, findest Du in unserem Kursplan die „Active
+                        Recovery Class“ und hast
+                        jederzeit Zugang zu unserer ROMWOD-AREA in der Werkstatt.</p>
+                    <a mat-stroked-button href="http://romwod.com" target="_blank"
             class="float-right py-1 px-3 text-uppercase">What's
             ROMWOD?</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 </div>

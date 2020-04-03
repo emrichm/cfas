@@ -7,12 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./werkstatt.component.scss']
 })
 export class WerkstattComponent implements OnInit {
-  images: string[] = [];
+  images: {
+    teaser: string,
+    highRes: string
+  }[] = [];
 
   constructor(private imageService: ImageService) { }
 
   ngOnInit() {
-    this.images = this.imageService.getImages('werkstatt');
+    this.images = this.imageService.getImages('werkstatt', '768', '1980');
   }
 
 }

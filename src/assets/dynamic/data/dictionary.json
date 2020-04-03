@@ -1,46 +1,46 @@
 {
   "dictionaryItems": [{
     "term": "AirSquat",
-    "description": ["Kniebeuge ohne zusätzliches Gewicht"]
+    "description": ["Kniebeuge ohne zusätzliches Gewicht."]
   }, {
-    "term": "Ass To Grass",
-    "description": ["So tief wie möglich in die Kniebeuge gehen"]
+    "term": "Ass to Grass",
+    "description": ["So tief wie möglich in die Kniebeuge gehen."]
   }, {
     "term": "AMRAP",
-    "description": ["As Many Reps/Rounds As Possible"]
+    "description": ["As Many Reps/Rounds As Possible."]
   }, {
     "term": "Affiliate",
-    "description": ["CrossFit-Box"]
+    "description": ["CrossFit-Box."]
   }, {
     "term": "Animals",
-    "description": ["Übungen zum aufwärmen welche Bewegungen von Tieren imitieren"]
+    "description": ["Übungen zum Aufwärmen, welche Bewegungen von Tieren imitieren."]
   }, {
     "term": "American Swings",
-    "description": ["Kettlebell-Swing bis Überkopf"]
+    "description": ["Kettlebell-Swing bis Überkopf."]
   }, {
     "term": "Barbell",
-    "description": ["Langhantel"]
+    "description": ["Langhantel."]
   }, {
     "term": "Bar Facing Burpee",
-    "description": ["Burpee mit frontalem Sprung über die Langhantel"]
+    "description": ["Burpee mit frontalem Sprung über die Langhantel."]
   }, {
     "term": "Bear Crawl",
-    "description": ["Teil des CF ZOO. Eines der Tierbewegungen welche zum warm-up dienen."]
+    "description": ["Teil des CF ZOO. Eines der Tierbewegungen, welche zum Warm-up dienen."]
   }, {
     "term": "Back Squat",
     "description": ["Kniebeuge mit Gewicht auf dem oberen Rücken."]
   }, {
     "term": "Box",
-    "description": ["Ort an welchem CrossFitter trainieren."]
+    "description": ["Ort, an welchem CrossFitter trainieren."]
   }, {
     "term": "Burpee Box Jump",
-    "description": ["Übung bei welcher man erst einen Burpee macht und dann auf eine Box springt."]
+    "description": ["Übung, bei welcher man erst einen Burpee macht und dann auf eine Box springt."]
   }, {
     "term": "Benchmark",
-    "description": ["Standardisierte WODs welche immer mal wiederholt werden um seinen Leistungsfortschritt dokumentieren zu können."]
+    "description": ["Standardisierte WODs welche immer mal wiederholt werden, um seinen Leistungsfortschritt dokumentieren zu können."]
   }, {
     "term": "Bench Press",
-    "description": ["Bankdrücken"]
+    "description": ["Bankdrücken."]
   }, {
     "term": "Burpee Lateral",
     "description": ["Burpee seitlich über Langhantel gesprungen."]
@@ -48,41 +48,41 @@
     "term": "Butterfly Pull-Up",
     "description": ["Klimmzug Variante für fortgeschrittene Athleten."]
   }, {
-    "term": "BumperPlate",
-    "description": ["Hantelscheiben"]
+    "term": "Bumper Plate",
+    "description": ["Hantelscheiben."]
   }, {
     "term": "Box Jump",
-    "description": ["Übung bei welcher man aus dem Stand mit beiden Beinen auf eine Box springt"]
+    "description": ["Übung, bei welcher man aus dem Stand mit beiden Beinen gleichzeitig auf eine Box springt."]
   }, {
     "term": "Burpee",
-    "description": ["Liegestütz gefolgt von einem Hock-Strecksprung"]
+    "description": ["Liegestütz gefolgt von einem Hock-Strecksprung."]
   }, {
     "term": "C&J",
-    "description": ["Clean & Jerk. Umsetzen und Stoßen. Bewegung aus dem Olympischen Gewichtheben. Hier wird erst das Gewicht von Boden auf die Schultern gehoben und danach über Kopf gebracht."]
+    "description": ["Clean & Jerk. Umsetzen und Stoßen. Bewegung aus dem Olympischen Gewichtheben. Hier wird erst das Gewicht vom Boden auf die Schultern gehoben und danach über Kopf gebracht."]
   }, {
     "term": "Chalk",
-    "description": ["Kreide/Magnesiumcarbonat. Nahrungsmittel für unsere Kreidemonster, zur Griffstärkung und Trocknung der Handinnenflächen"]
+    "description": ["Kreide/Magnesiumcarbonat. Nahrungsmittel für unsere Kreidemonster, zur Griffstärkung und Trocknung der Handinnenflächen."]
   }, {
     "term": "Chipper",
-    "description": ["Ein Workout mit mehr als drei Movements"]
+    "description": ["Ein Workout mit mehr als drei Movements."]
   }, {
     "term": "Coach",
-    "description": ["Dein Trainer"]
+    "description": ["Dein Trainer."]
   }, {
     "term": "C2B",
-    "description": ["Chest to Bar Pull-Up. Klimmzug mit der Brust an die Stange"]
+    "description": ["Chest to Bar Pull-Up. Klimmzug mit der Brust an die Stange."]
   }, {
     "term": "Chin-Up",
-    "description": ["Klimmzug im Supinationsgriff. Handflächen zeigen zu einem selbst."]
+    "description": ["Klimmzug im Supinationsgriff. Handflächen zeigen zu einem selbst. Man zieht sich so weit nach oben, bis das Kinn über der Stange ist."]
   }, {
     "term": "Clean",
     "description": ["Umsetzen."]
   }, {
     "term": "CrossFit Games",
-    "description": ["Weltmeisterschaft im CrossFit an welchem jeder Athlet teilnehmen kann."]
+    "description": ["Weltmeisterschaft im CrossFit, an welcher jeder Athlet teilnehmen kann."]
   }, {
     "term": "Double Unders",
-    "description": ["Eine Art des Seilspringens. Während einen Sprung, schlägt das seil doppelt unter den Füßen durch."]
+    "description": ["Eine Art des Seilspringens. Während eines Sprungs, schlägt das Seil doppelt unter den Füßen durch."]
   }, {
     "term": "Deadlift",
     "description": ["Kreuzheben. Eine der drei Übungen aus dem Powerlifting."]
@@ -99,8 +99,8 @@
     "term": "Dave Castro",
     "description": ["Organisator der CF Games"]
   }, {
-    "term": "Double Anders",
-    "description": ["Eine Art des Seilspringens. Während einen Sprung, schlägt das seil doppelt unter den Füßen durch."]
+    "term": "EMOM",
+    "description": ["Every Minute On the Minute. Ein Trainingsschema. Immer zum Beginn der Minute wird gearbeitet."]
   }, {
     "term": "Front Squat",
     "description": ["Kniebeuge mit Gewicht auf den Schultern in der Front Rack Position."]
@@ -132,7 +132,7 @@
     "description": ["Ein Snatch welcher von der Bewegung erst über dem Knie gestartet wird."]
   }, {
     "term": "Hero WOD",
-    "description": ["Workout Of the Day, welche im andenken an im Krieg gefallene Soldaten kreiert wurden."]
+    "description": ["Workout of the Day, welche im Andenken an im Krieg gefallene Soldaten kreiert wurden."]
   }, {
     "term": "Handstand Walk",
     "description": ["Auf den Händen laufen."]
@@ -146,7 +146,7 @@
     "term": "Knee Raise",
     "description": ["An der Stange hängend werden die Knie so weit wie möglich angezogen."]
   }, {
-    "term": "K2E",
+    "term": "Knee to Elbow - K2E",
     "description": ["Gymnastische Bewegung in welcher man, an der Stange hängend die Knie zu den Ellenbogen bringt."]
   }, {
     "term": "MetCon",
@@ -156,7 +156,7 @@
     "description": ["Kombination aus Pull-Up und Dip"]
   }, {
     "term": "L-Sit",
-    "description": ["Gymnastische Übung bei welcher mal man die Beine ausgestreckt im rechten Winkel zum Oberkörper hält."]
+    "description": ["Gymnastische Übung, bei welcher mal man die Beine ausgestreckt im rechten Winkel zum Oberkörper hält."]
   }, {
     "term": "Lunges",
     "description": ["Ausfallschritte"]
@@ -165,7 +165,7 @@
     "description": ["Ein Clean mit dem Medizinball"]
   }, {
     "term": "No Rep",
-    "description": ["Eine Wiederholung die nicht zählt weil der Bewegungsstandard nicht eingehalten wurde."]
+    "description": ["Eine Wiederholung, die nicht zählt, weil der Bewegungsstandard nicht eingehalten wurde."]
   }, {
     "term": "Olympic Lifts",
     "description": ["Umsetzen und Stoßen (Clean & Jerk) und Reißen (Snatch)"]
@@ -174,10 +174,10 @@
     "description": ["Überkopf Kniebeuge"]
   }, {
     "term": "Power Clean",
-    "description": ["Ein Clean startend von Boden, Endet mit der Hüfte oberhalb vom Knie."]
+    "description": ["Ein Clean startend von Boden, Fangposition ist mit der Hüfte oberhalb vom Knie und endet mit dem Gewicht auf den Schultern im vollen Stand."]
   }, {
     "term": "Power Snatch",
-    "description": ["Ein Snatch startend von Boden, Endet mit der Hüfte oberhalb vom Knie"]
+    "description": ["Ein Snatch startend von Boden, Fangposition ist mit der Hüfte oberhalb vom Knie und endet mit dem Gewicht über Kopf im vollen Stand."]
   }, {
     "term": "PR",
     "description": ["Persönlicher Rekord."]
@@ -189,13 +189,13 @@
     "description": ["Gewicht wird Überkopf gedrückt ohne Einsatz der Beine."]
   }, {
     "term": "Progression",
-    "description": ["„Entwicklungsschritte“ der einzelnen Movements um sie in Teile aufbrechen und schulen zu können."]
+    "description": ["„Entwicklungsschritte“ der einzelnen Movements, um sie in Teile aufbrechen und schulen zu können."]
   }, {
     "term": "Pull-Up",
     "description": ["Klimmzug"]
   }, {
     "term": "Push Jerk",
-    "description": ["Standstoßen"]
+    "description": ["Schwungdrücken"]
   }, {
     "term": "Push Up",
     "description": ["Liegestütz"]
@@ -203,26 +203,26 @@
     "term": "Rack/Rig",
     "description": ["Metallkonstruktion für Klimmzüge etc. "]
   }, {
-    "term": "Range Of Motion",
+    "term": "Range of Motion",
     "description": ["Bewegungsumfang der Gelenke"]
   }, {
-    "term": "Repitition (Rep)",
+    "term": "Repetition (Rep)",
     "description": ["Wiederholung"]
   }, {
     "term": "Ring Row",
-    "description": ["Skalierung für Klimmzüge. Man hält sich an den Ringen fest und lehnt sich nach hinten, dann zieht man sich hoch bis die Brust die Ringe berührt."]
+    "description": ["Man hält sich an den Ringen fest und lehnt sich nach hinten, dann zieht man sich hoch, bis die Brust die Ringe berührt."]
   }, {
     "term": "Rope Climb",
     "description": ["Seil klettern"]
   }, {
     "term": "Rounds For Time",
-    "description": ["WOD variation in welcher man eine bestimmte Rundenanzahl auf Zeit absolvieren soll."]
+    "description": ["WOD Variation, in welcher man eine bestimmte Rundenanzahl auf Zeit absolvieren soll."]
   }, {
     "term": "Row",
     "description": ["Rudern"]
   }, {
     "term": "Rx\"d",
-    "description": ["As prescribed. Wie beschrieben. Heißt man hat das WOD gemacht wie es vom Gewicht her definiert wurde."]
+    "description": ["As prescribed. Wie beschrieben. Heißt man hat das WOD gemacht wie es definiert wurde."]
   }, {
     "term": "Skill",
     "description": ["Fertigkeit"]
@@ -249,9 +249,9 @@
     "description": ["Reifenschubsen"]
   }, {
     "term": "TGU",
-    "description": ["Turkish Get Up. Bewegung mit einer KettleBell ausgehend vom liegen aus den Boden bis in die stehende Überkopf Position."]
+    "description": ["Turkish Get Up. Bewegung mit einer KettleBell ausgehend vom Liegen auf dem Boden bis in die stehende Überkopf Position."]
   }, {
-    "term": "Toes To Bar",
+    "term": "Toes To Bar - T2B",
     "description": ["Übung an der Stange hängend. Füße müssen die Stange zwischen den Händen berühren."]
   }, {
     "term": "Toes To Rings",

@@ -1,52 +1,36 @@
-
 import { Injectable } from '@angular/core';
+import * as halle1DTO from '../../../assets/dynamic/images/halle1/index.json';
+import * as insightsDTO from '../../../assets/dynamic/images/insights/index.json';
+import * as werkstattDTO from '../../../assets/dynamic/images/werkstatt/index.json';
+
+const registry = {
+  halle1: { url: halle1DTO.url, content: halle1DTO.content },
+  insights: { url: insightsDTO.url, content: insightsDTO.content },
+  werkstatt: { url: werkstattDTO.url, content: werkstattDTO.content }
+}
 
 @Injectable({
   providedIn: 'root'
 })
 export class ImageService {
-  private images = {
-    halle1: [
-      '/assets/static/images/halle1/halle-1-bell-480.JPG',
-      '/assets/static/images/halle1/halle-1-goals-480.JPG',
-      '/assets/static/images/halle1/IMG_0927-480.JPG',
-      '/assets/static/images/halle1/IMG_0928-480.JPG',
-      '/assets/static/images/halle1/IMG_1004-480.JPG',
-      '/assets/static/images/halle1/IMG_1005-480.JPG',
-      '/assets/static/images/halle1/IMG_1006-480.JPG',
-      '/assets/static/images/halle1/IMG_1008-480.JPG',
-      '/assets/static/images/halle1/IMG_1010-480.JPG',
-      '/assets/static/images/halle1/IMG_1013-480.JPG',
-      '/assets/static/images/halle1/kinderecke-1-480.JPG',
-      '/assets/static/images/halle1/kinderecke-2-480.JPG'
-    ],
-    werkstatt: [
-      '/assets/static/images/werkstatt/IMG_0858-480.JPG',
-      '/assets/static/images/werkstatt/IMG_1015-480.JPG',
-      '/assets/static/images/werkstatt/IMG_1028-480.JPG',
-      '/assets/static/images/werkstatt/IMG_1031-480.JPG',
-      '/assets/static/images/werkstatt/Werkstatt-480.JPG',
-      '/assets/static/images/werkstatt/Werkstatt-ROMWOD-480.jpeg',
-      '/assets/static/images/werkstatt/WERKSTATT-ROMWOD1-480.jpeg',
-      '/assets/static/images/werkstatt/Werkstatt-tires-480.JPG'
-    ],
-    insights: [
-      '/assets/static/images/insights/_F3A0031-480.jpeg',
-      '/assets/static/images/insights/_F3A8043-480.jpeg',
-      '/assets/static/images/insights/_F3A8081-480.jpeg',
-      '/assets/static/images/insights/_F3A8223-480.jpeg',
-      '/assets/static/images/insights/_F3A8340-480.jpeg',
-      '/assets/static/images/insights/_F3A8383-480.jpeg',
-      '/assets/static/images/insights/_F3A8585-480.jpeg',
-      '/assets/static/images/insights/_F3A9122-480.jpeg',
-      '/assets/static/images/insights/_F3A9568-480.jpeg',
-      '/assets/static/images/insights/_F3A9749-480.jpeg',
-      '/assets/static/images/insights/_F3A9900-480.jpeg',
-      '/assets/static/images/insights/_F3A9979-480.jpeg'
-    ]
-  };
+  getImage(galleryName: string, imageName: string, resolution: string): string {
+    let imageUrl: string = registry[galleryName].url.html;
+    imageUrl = imageUrl.concat(registry[galleryName].content.find(image => image.name === imageName).sizes[resolution]);
 
-  getImages(galleryName: string): string[] {
-    return this.images[galleryName];
+    return imageUrl;
+  }
+
+  getImages(galleryName: string, resolution: string, highRes?: string): any[] {
+    const imageUrls = [];
+    const imageBaseUrl: string = registry[galleryName].url.html;
+
+    registry[galleryName].content.forEach((image: any) => {
+      imageUrls.push({
+        teaser: imageBaseUrl.concat(image.sizes[resolution]),
+        highRes: highRes ? imageBaseUrl.concat(image.sizes[highRes]) : ''
+      });
+    });
+
+    return imageUrls;
   }
 }

@@ -7,11 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./halle1.component.scss']
 })
 export class Halle1Component implements OnInit {
-  images: string[] = [];
+  images: {
+    teaser: string,
+    highRes: string
+  }[] = [];
 
   constructor(private imageService: ImageService) { }
 
   ngOnInit() {
-    this.images = this.imageService.getImages('halle1');
+    this.images = this.imageService.getImages('halle1', '768', '1980');
   }
 }

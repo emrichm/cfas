@@ -1,0 +1,216 @@
+{
+  "content": [{
+    "active-recovery": {
+      "150": "active-recovery-150x150.jpeg",
+      "300": "active-recovery-300x200.jpeg",
+      "768": "active-recovery-768x512.jpeg",
+      "1024": "active-recovery-1024x683.jpeg",
+      "1200": "active-recovery-1200x800.jpeg",
+      "1536": "active-recovery-1536x1024.jpeg",
+      "1980": "active-recovery-1980x1320.jpeg"
+    },
+    "basics": {
+      "150": "basics-150x150.jpeg",
+      "300": "basics-300x167.jpeg",
+      "768": "basics-768x428.jpeg",
+      "1024": "basics-1024x570.jpeg",
+      "1200": "basics-1200x668.jpeg",
+      "1536": "basics-1536x855.jpeg",
+      "1980": "basics-1980x1102.jpeg"
+    },
+    "bg-floor": {
+      "150": "bg-floor-150x150.jpg",
+      "300": "bg-floor-300x225.jpg",
+      "768": "bg-floor-768x576.jpg",
+      "1024": "bg-floor-1024x768.jpg",
+      "1200": "bg-floor-1200x900.jpg",
+      "1536": "bg-floor-1536x1152.jpg",
+      "1980": "bg-floor-1980x1485.jpg"
+    },
+    "contact-hero": {
+      "150": "contact-hero-150x150.jpg",
+      "300": "contact-hero-300x190.jpg",
+      "768": "contact-hero-768x488.jpg",
+      "1024": "contact-hero-1024x650.jpg",
+      "1200": "contact-hero-1200x762.jpg",
+      "1536": "contact-hero-1536x975.jpg",
+      "1980": "contact-hero-1980x1257.jpg"
+    },
+    "crossfit-3712058_1280": {
+      "150": "crossfit-3712058_1280-150x150.jpg",
+      "300": "crossfit-3712058_1280-300x201.jpg",
+      "768": "crossfit-3712058_1280-768x514.jpg",
+      "1024": "crossfit-3712058_1280-1024x685.jpg",
+      "1200": "crossfit-3712058_1280-1200x803.jpg",
+      "1536": null,
+      "1980": null
+    },
+    "GruppeHandstand3": {
+      "150": "GruppeHandstand3-150x150.jpg",
+      "300": "GruppeHandstand3-300x118.jpg",
+      "768": "GruppeHandstand3-768x302.jpg",
+      "1024": "GruppeHandstand3-1024x402.jpg",
+      "1200": "GruppeHandstand3-1200x471.jpg",
+      "1536": "GruppeHandstand3-1536x603.jpg",
+      "1980": "GruppeHandstand3-1980x778.jpg"
+    },
+    "gymnastics": {
+      "150": "gymnastics-150x150.jpeg",
+      "300": "gymnastics-200x300.jpeg",
+      "768": "gymnastics-683x1024.jpeg",
+      "1024": "gymnastics-768x1152.jpeg",
+      "1200": "gymnastics-1024x1536.jpeg",
+      "1536": "gymnastics-1200x1800.jpeg",
+      "1980": "gymnastics-1366x2048.jpeg"
+    },
+    "kettle-bell": {
+      "150": "kettle-bell-150x150.jpg",
+      "300": "kettle-bell-300x166.jpg",
+      "768": "kettle-bell-768x424.jpg",
+      "1024": "kettle-bell-1024x565.jpg",
+      "1200": "kettle-bell-1200x662.jpg",
+      "1536": "kettle-bell-1536x848.jpg",
+      "1980": "kettle-bell-1980x1093.jpg"
+    },
+    "kw34": {
+      "original": "kw34.jpg",
+      "150": "kw34-150x150.jpg",
+      "300": "kw34-300x200.jpg",
+      "768": "kw34-768x512.jpg",
+      "1024": "kw34-1024x682.jpg",
+      "1200": "kw34-1200x800.jpg",
+      "1536": "kw34-1536x1024.jpg",
+      "1980": "kw34-1980x1320.jpg"
+    },
+    "maps-bg": {
+      "original": "maps-bg.jpg",
+      "150": "maps-bg-150x150.jpg",
+      "300": "maps-bg-300x200.jpg",
+      "768": "maps-bg-768x512.jpg",
+      "1024": "maps-bg-1024x683.jpg",
+      "1200": "maps-bg-1200x800.jpg",
+      "1536": "maps-bg-1536x1024.jpg",
+      "1980": null
+    },
+    "mitgliedschaften": {
+      "original": "mitgliedschaften.jpg",
+      "150": "mitgliedschaften-150x150.jpg",
+      "300": "mitgliedschaften-300x225.jpg",
+      "768": "mitgliedschaften-768x576.jpg",
+      "1024": null,
+      "1200": null,
+      "1536": null,
+      "1980": null
+    },
+    "open-gym": {
+      "original": "open-gym.jpeg",
+      "150": "open-gym-150x150.jpeg",
+      "300": "open-gym-300x200.jpeg",
+      "768": "open-gym-768x512.jpeg",
+      "1024": "open-gym-1024x683.jpeg",
+      "1200": "open-gym-1200x800.jpeg",
+      "1536": "open-gym-1536x1024.jpeg",
+      "1980": "open-gym-1980x1320.jpeg"
+    },
+    "performance": {
+      "original": "performance.jpg",
+      "150": "performance-150x150.jpg",
+      "300": "performance-300x200.jpg",
+      "768": "performance-768x512.jpg",
+      "1024": "performance-1024x682.jpg",
+      "1200": "performance-1200x800.jpg",
+      "1536": "performance-1536x1024.jpg",
+      "1980": "performance-1980x1320.jpg"
+    },
+    "philosophy-hero": {
+      "original": "philosophy-hero.jpeg",
+      "150": "philosophy-hero-150x150.jpeg",
+      "300": "philosophy-hero-300x198.jpeg",
+      "768": "philosophy-hero-768x508.jpeg",
+      "1024": "philosophy-hero-1024x677.jpeg",
+      "1200": "philosophy-hero-1200x794.jpeg",
+      "1536": "philosophy-hero-1536x1016.jpeg",
+      "1980": "philosophy-hero-1980x1309.jpeg"
+    },
+    "pumpin-iron": {
+      "original": "pumpin-iron.jpeg",
+      "150": "pumpin-iron-150x150.jpeg",
+      "300": "pumpin-iron-300x179.jpeg",
+      "768": "pumpin-iron-768x457.jpeg",
+      "1024": "pumpin-iron-1024x610.jpeg",
+      "1200": "pumpin-iron-1200x714.jpeg",
+      "1536": "pumpin-iron-1536x914.jpeg",
+      "1980": "pumpin-iron-1980x1179.jpeg"
+    },
+    "pvc-pipes": {
+      "original": "pvc-pipes.jpg",
+      "150": "pvc-pipes-150x150.jpg",
+      "300": "pvc-pipes-300x200.jpg",
+      "768": "pvc-pipes-768x512.jpg",
+      "1024": "pvc-pipes-1024x682.jpg",
+      "1200": "pvc-pipes-1200x800.jpg",
+      "1536": "pvc-pipes-1536x1024.jpg",
+      "1980": "pvc-pipes-1980x1320.jpg"
+    },
+    "romwod": {
+      "original": "romwod.jpg",
+      "150": "romwod-150x150.jpg",
+      "300": "romwod-300x200.jpg",
+      "768": "romwod-768x512.jpg",
+      "1024": "romwod-1024x682.jpg",
+      "1200": "romwod-1200x800.jpg",
+      "1536": "romwod-1536x1024.jpg",
+      "1980": "romwod-1980x1320.jpg"
+    },
+    "spreadshirt": {
+      "original": "spreadshirt.jpg",
+      "150": "spreadshirt-150x150.jpg",
+      "300": "spreadshirt-300x232.jpg",
+      "768": null,
+      "1024": null,
+      "1200": null,
+      "1536": null,
+      "1980": null
+    },
+    "teamup-calendar-7d": {
+      "original": "teamup-calendar-7d.jpg",
+      "150": "teamup-calendar-7d-150x150.jpg",
+      "300": "teamup-calendar-7d-300x169.jpg",
+      "768": "teamup-calendar-7d-768x433.jpg",
+      "1024": "teamup-calendar-7d-1024x578.jpg",
+      "1200": "teamup-calendar-7d-1200x677.jpg",
+      "1536": "teamup-calendar-7d-1536x867.jpg",
+      "1980": "teamup-calendar-7d-1980x1117.jpg"
+    },
+    "teamwod": {
+      "original": "teamwod.jpeg",
+      "150": "teamwod-150x150.jpeg",
+      "300": "teamwod-214x300.jpeg",
+      "768": "teamwod-730x1024.jpeg",
+      "1024": "teamwod-768x1077.jpeg",
+      "1200": "teamwod-1096x1536.jpeg",
+      "1536": "teamwod-1200x1682.jpeg",
+      "1980": "teamwod-1461x2048.jpeg"
+    },
+    "weightlifting": {
+      "original": "weightlifting.jpeg",
+      "150": "weightlifting-150x150.jpeg",
+      "300": "weightlifting-200x300.jpeg",
+      "768": "weightlifting-683x1024.jpeg",
+      "1024": "weightlifting-768x1152.jpeg",
+      "1200": "weightlifting-1024x1536.jpeg",
+      "1536": "weightlifting-1200x1800.jpeg",
+      "1980": "weightlifting-1366x2048.jpeg"
+    },
+    "wod": {
+      "original": "wod.jpeg",
+      "150": "wod-150x150.jpeg",
+      "300": "wod-200x300.jpeg",
+      "768": "wod-683x1024.jpeg",
+      "1024": "wod-768x1152.jpeg",
+      "1200": "wod-1024x1536.jpeg",
+      "1536": "wod-1200x1800.jpeg",
+      "1980": "wod-1366x2048.jpeg"
+    }
+  }]
+}

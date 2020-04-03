@@ -1,94 +1,102 @@
+@import "../../../../assets/static/scss/variables";
+
 #title {
-  padding-top: 20vh;
-  font-size: 9.0rem;
-
-  @media (max-width: 960px) {
+    padding-top: 5vh;
+    font-size: 9.0rem;
+    background-image: url(src/assets/static/images/style-images/pvc-pipes-768x512.jpg);
     background-size: cover;
-  }
 
-  h1 {
-    font-weight: 600;
-    font-size: 10.0rem;
-    width: fit-content;
-    margin: auto;
-    text-shadow:
-      2px 2px 5px black,
-      -2px 2px 5px black,
-      2px -2px 5px black,
-      -2px -2px 5px black;
+    // @media (max-width: 960px) {
+    //   background-size: cover;
+    // }
 
-    @media (max-width: 960px) {
-      font-size: 15vw;
+    h1 {
+        font-weight: 600;
+        font-size: 10.0rem;
+        width: fit-content;
+        margin: auto;
+        text-shadow:
+            2px 2px 5px black,
+            -2px 2px 5px black,
+            2px -2px 5px black,
+            -2px -2px 5px black;
+
+        @media (max-width: 960px) {
+            font-size: 15vw;
+        }
     }
-  }
 }
 
 @media (min-width: 960px) {
-  .grey-section {
-    background-color: transparent;
-    min-height: 100%;
-    position: relative;
-    overflow: hidden;
+    .grey-section {
+        // background-color: transparent;
+        // min-height: 100%;
+        // position: relative;
+        // overflow: hidden;
+        // background-image: url(src/assets/static/images/style-images/pvc-pipes.jpg);
+        // background-attachment: fixed;
+        // background-size: cover;
+        // background-position: bottom right;
 
-    &::before {
-      background-image: url(src/assets/static/images/style-images/pvc-pipes.jpg);
-      background-attachment: fixed;
-      background-size: cover;
-      background-position: bottom right;
+        // &::before {
+        //   background-image: url(src/assets/static/images/style-images/pvc-pipes.jpg);
+        //   background-attachment: fixed;
+        //   background-size: cover;
+        //   background-position: bottom right;
 
-      background-color: black;
-      position: fixed;
+        //   background-color: black;
+        //   position: fixed;
 
-      content: '';
-      height: 100%;
-      left: 0;
-      top: 0;
-      width: 100%;
-      will-change: transform;
-      z-index: -1;
+        //   content: '';
+        //   height: 100%;
+        //   left: 0;
+        //   top: 0;
+        //   width: 100%;
+        //   will-change: transform;
+        //   z-index: -1;
+        // }
     }
-  }
 }
 
 .description {
-  padding: 50px 70px;
-  line-height: 3.5rem;
-  background-color: white;
-  text-align: justify;
+    padding: 50px 70px;
+    line-height: 3.5rem;
+    background-color: $bgGrey;
+    text-align: justify;
 
-  @media (max-width: 960px) {
-    padding: 20px;
+    @media (max-width: 960px) {
+        padding: 20px;
 
-    .mat-stroked-button {
-      width: 100%;
-      margin-bottom: 5px;
+        .mat-stroked-button {
+            width: 100%;
+            margin-bottom: 5px;
+        }
     }
-  }
 
 }
 
 .image {
-  min-height: 200px;
-  background-size: cover;
-  background-position: center;
-
-  @media (max-width: 960px) {
-    // background-attachment: fixed;
+    min-height: 200px;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-  }
+
+    @media (max-width: 960px) {
+        // background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 a {
-  margin-top: 20px;
-  margin-bottom: -15px;
-  font-size: 1.1rem;
-  color: white;
-  background-color: rgba($color: #212121, $alpha: 0.75);
-  border: solid 2px white;
-  border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgba($color: #212121, $alpha: 0.75);
+    border: solid 2px white;
+    border-radius: 25px;
 
-  &:hover {
-    background-color: #212121;
-  }
+    &:hover {
+        background-color: #212121;
+    }
 }

@@ -14,7 +14,7 @@ export class ClassDescriptionService {
         Doch auch unseren Fortgeschrittenen Athleten legen wir diese Kurse, zur Wiederholung und Vertiefung ihrer Technik, nahe. 
         Ein anstrengendes WOD ist selbstverständlich auch hier Teil der Stunde.`,
         image: {
-          url: 'assets/static/images/style-images/basics.jpeg',
+          url: 'assets/static/images/style-images/basics-768x428.jpeg',
           alt: '',
           position: 'center'
         }
@@ -26,7 +26,7 @@ export class ClassDescriptionService {
         Jeden Tag gibt es ein anderes Workout, zusammengesetzt aus den Bereichen des Ausdauersports, 
         der Gymnastik, dem Gewichtheben sowie Disziplinen des Strongman.`,
         image: {
-          url: 'assets/static/images/style-images/wod.jpeg',
+          url: 'assets/static/images/style-images/wod-768x512.jpeg',
           alt: '',
           position: 'top'
         }
@@ -38,7 +38,7 @@ export class ClassDescriptionService {
         in ihrer Intensität. Du kannst selbstverständlich auch ohne Teampartner kommen. 
         Den findest Du vor Ort. Eine tolle Gelegenheit, andere Athleten aus der Box kennen zu lernen.`,
         image: {
-          url: 'assets/static/images/style-images/teamwod.jpeg',
+          url: 'assets/static/images/style-images/teamwod-768x512.jpeg',
           alt: '',
           position: 'top'
         }
@@ -49,7 +49,7 @@ export class ClassDescriptionService {
         „FOR QUALITY“ am Ende. Hier gehen wir speziell auf die gymnastischen Bewegungen wie 
         beispielsweise den Handstand oder auch Ring Muscle ups ein und holen jeden Athleten dort ab, wo er sich gerade befindet.`,
         image: {
-          url: 'assets/static/images/style-images/gymnastics.jpeg',
+          url: 'assets/static/images/style-images/gymnastics-768x512.jpeg',
           alt: '',
           position: 'bottom'
         }
@@ -60,7 +60,7 @@ export class ClassDescriptionService {
         Egal ob klassisches olympisches Gewichtheben oder Kraftdreikampf. 
         Hier geht es um die richtige Technik für schweres Gewicht.`,
         image: {
-          url: 'assets/static/images/style-images/weightlifting.jpeg',
+          url: 'assets/static/images/style-images/weightlifting-768x512.jpeg',
           alt: '',
           position: 'center'
         }
@@ -71,7 +71,7 @@ export class ClassDescriptionService {
         Neben Technik-, Kraft- und Ausdauertrainingseinheiten erwarten euch Strategieanalysen sowie anspruchsvolle Crossfit-Workouts, 
         in denen sowohl Anfänger als auch Fortgeschrittene über sich hinauswachsen können.`,
         image: {
-          url: 'assets/static/images/style-images/performance.jpg',
+          url: 'assets/static/images/style-images/performance-768x512.jpg',
           alt: '',
           position: 'center'
         }
@@ -81,7 +81,7 @@ export class ClassDescriptionService {
         text: `Functional Bodybuilding ist ein Trainingsansatz, welchen wir einsetzen, um deine Kraft gezielt zu steigern, 
         muskuläre Ungleichgewichte zu korrigieren und deine Bewegungsqualität zu festigen.`,
         image: {
-          url: 'assets/static/images/style-images/pumpin-iron.jpeg',
+          url: 'assets/static/images/style-images/pumpin-iron-768x457.jpeg',
           alt: '',
           position: 'top'
         }
@@ -91,7 +91,7 @@ export class ClassDescriptionService {
         text: `Unter Anleitung eines erfahrenen RKC Trainers liegt der Fokus hier auf den Grundübungen mit der Kettlebell: 
         Swing, TGU, Snatch, Clean, Squat und Press. Es gibt Techniktraining und ein tolles Workout.`,
         image: {
-          url: 'assets/static/images/style-images/kettle-bell.jpg',
+          url: 'assets/static/images/style-images/kettle-bell-768x424.jpg',
           alt: '',
           position: 'bottom'
         }
@@ -101,7 +101,7 @@ export class ClassDescriptionService {
         text: `Diese Stunde soll unseren Athleten eine Möglichkeit bieten, an ihren Rest-Days ihrem Körper etwas Gutes zu tun. 
         In dieser Stunde werden Yoga-, Dehn- und Mobilisationstechniken miteinander vereint.`,
         image: {
-          url: 'assets/static/images/style-images/active-recovery.jpeg',
+          url: 'assets/static/images/style-images/active-recovery-768x512.jpeg',
           alt: '',
           position: 'center center'
         }
@@ -111,7 +111,7 @@ export class ClassDescriptionService {
         text: `Optimize your Range Of Motion – Jederzeit für unsere Mitglieder zugänglich ist unsere ROMWOD-AREA. 
         Nicht nur die Erweiterung des Bewegungsradius, sondern auch die Erholung für Körper und Geist stehen hier im Mittelpunkt.`,
         image: {
-          url: 'assets/static/images/style-images/romwod.jpg',
+          url: 'assets/static/images/style-images/romwod-768x512.jpg',
           alt: '',
           position: ''
         }
@@ -121,7 +121,7 @@ export class ClassDescriptionService {
         text: `Freies Training ohne Coach. 
         In Deiner Open Gym Stunde hast Du die Möglichkeit, außerhalb der regulär angebotenen Klassen an deinen Skills zu arbeiten.`,
         image: {
-          url: 'assets/static/images/style-images/open-gym.jpeg',
+          url: 'assets/static/images/style-images/open-gym-768x512.jpeg',
           alt: '',
           position: 'center'
         }
