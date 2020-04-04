@@ -21,8 +21,4 @@ describe('Halle1Component', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-
-  it('should return urls without -480', () => {
-    expect(component.images[0]).toEqual('/assets/static/images/halle1/IMG_0927.jpeg');
-  })
 });

@@ -1,90 +1,90 @@
 $aspect: "(min-aspect-ratio: 3/2)";
 
 cfas-crossfit {
-  $imageHeight: 100vh;
-  $imageWidth: calc(#{$imageHeight} / 3 * 2);
+    $imageHeight: 100vh;
+    $imageWidth: calc(#{$imageHeight} / 3 * 2);
 
 
 
-  .imageContainer {
-    text-align: center;
-    background-color: #212121;
+    .imageContainer {
+        text-align: center;
+        background-color: #212121;
 
-    @media #{$aspect} {
-      text-align: left;
-      float: left;
-      width: $imageWidth;
-      height: 100%;
-    }
-
-    img {
-      width: 100%;
-
-      @media (min-width: 750px) {
-        width: 50%;
-      }
-
-      @media #{$aspect} {
-        position: fixed;
-        height: $imageHeight;
-        width: $imageWidth;
-        z-index: 100;
-      }
-    }
-  }
-
-
-  #contentContainer {
-    text-align: justify;
-
-    @media #{$aspect} {
-      width: calc(100% - #{$imageWidth});
-      float: left;
-    }
-
-    .row {
-      padding: 8.0rem;
-      margin: 0;
-
-      @media (max-width: 600px) {
-        padding: 6.0rem;
-      }
-
-      div {
-        padding: 0;
-      }
-
-      h2 {
-        font-size: 8.0rem;
-        font-weight: 400;
-        display: inline-block;
-
-        @media (max-width: 920px) {
-          font-size: 11vw;
+        @media #{$aspect} {
+            text-align: left;
+            float: left;
+            width: $imageWidth;
+            height: 100%;
         }
 
-        @media ($aspect) {
-          font-size: 11vw;
-        }
+        img {
+            width: 100%;
 
-        @media (max-width: 600px) {
-          font-size: 15vw;
-        }
-      }
+            @media (min-width: 750px) {
+                width: 50%;
+            }
 
-      p {
-        font-size: 2.2rem;
-      }
+            @media #{$aspect} {
+                position: fixed;
+                height: $imageHeight;
+                width: $imageWidth;
+                z-index: 100;
+            }
+        }
     }
-  }
+
+
+    #contentContainer {
+        text-align: justify;
+
+        @media #{$aspect} {
+            width: calc(100% - (#{$imageHeight} / 3 * 2));
+            float: left;
+        }
+
+        .row {
+            padding: 8.0rem;
+            margin: 0;
+
+            @media (max-width: 600px) {
+                padding: 6.0rem;
+            }
+
+            div {
+                padding: 0;
+            }
+
+            h2 {
+                font-size: 8.0rem;
+                font-weight: 400;
+                display: inline-block;
+
+                @media (max-width: 920px) {
+                    font-size: 11vw;
+                }
+
+                @media ($aspect) {
+                    font-size: 11vw;
+                }
+
+                @media (max-width: 600px) {
+                    font-size: 15vw;
+                }
+            }
+
+            p {
+                font-size: 2.2rem;
+            }
+        }
+    }
 }
 
 .navbar-padding {
-  cfas-crossfit {
-    img {
-      @media #{$aspect} {
-        height: calc(100vh - 49px);
-      }
+    cfas-crossfit {
+        img {
+            @media #{$aspect} {
+                height: calc(100vh - 49px);
+            }
+        }
     }
-  }
 }

@@ -1,120 +1,123 @@
 header {
-  position: relative;
-  height: 60rem;
-  width: 100%;
-  overflow: hidden;
+    position: relative;
+    height: 60rem;
+    width: 100%;
+    overflow: hidden;
 
-  @media (max-width: 960px) {
-    height: 55rem;
-  }
+    @media (max-width: 960px) {
+        height: 55rem;
+    }
 
-  @media (max-width: 550px) {
-    height: 100vw;
-  }
+    @media (max-width: 550px) {
+        height: 100vw;
+    }
 
-  @media (max-width: 400px) {
-    height: 115vw;
-  }
+    @media (max-width: 400px) {
+        height: 115vw;
+    }
 }
 
 header video {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  min-width: 100%;
-  min-height: calc(100% + 150px);
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+    background-image: url(/assets/static/images/style-images/bg-video-768x349.jpeg);
+    background-size: 100%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    min-width: 100%;
+    min-height: calc(100% + 150px);
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 header .container {
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.85;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.85;
+    z-index: 1;
 }
 
 #mainLogo {
-  padding-top: 50px;
+    padding-top: 50px;
 
-  div {
-    width: 600px;
-    max-width: 90%;
-    position: relative;
+    div {
+        width: 600px;
+        max-width: 90%;
+        position: relative;
 
-    img {
-      width: 100%;
-      z-index: 2;
-    }
-
-    .jaeggers {
-      font-size: 10rem;
-      text-shadow:
-        2px 2px 5px black,
-        -2px 2px 5px black,
-        2px -2px 5px black,
-        -2px -2px 5px black;
-      position: absolute;
-      top: 170px;
-      left: 30px;
-      z-index: 3;
-
-      opacity: 0;
-      animation: fadeInAnimation ease 3s;
-      animation-delay: 1s;
-      animation-iteration-count: 1;
-      animation-fill-mode: forwards;
-
-      @keyframes fadeInAnimation {
-        0% {
-          opacity: 0;
+        img {
+            width: 100%;
+            z-index: 2;
+            background-color: transparent;
         }
 
-        100% {
-          opacity: 1;
+        .jaeggers {
+            font-size: 10rem;
+            text-shadow:
+                2px 2px 5px black,
+                -2px 2px 5px black,
+                2px -2px 5px black,
+                -2px -2px 5px black;
+            position: absolute;
+            top: 170px;
+            left: 30px;
+            z-index: 3;
+
+            opacity: 0;
+            animation: fadeInAnimation ease 3s;
+            animation-delay: 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @media (max-width: 600px) {
+                top: 35%;
+                font-size: 15vw;
+            }
         }
-      }
 
-      @media (max-width: 600px) {
-        top: 35%;
-        font-size: 15vw;
-      }
+        button {
+            font-size: 1.1rem;
+            color: white;
+            background-color: rgba($color: #212121, $alpha: 0.75);
+            border: solid 2px white;
+            border-radius: 25px;
+
+            &:hover {
+                background-color: #212121;
+            }
+        }
     }
-
-    button {
-      font-size: 1.1rem;
-      color: white;
-      background-color: rgba($color: #212121, $alpha: 0.75);
-      border: solid 2px white;
-      border-radius: 25px;
-
-      &:hover {
-        background-color: #212121;
-      }
-    }
-  }
 }
 
 #kettlebell {
-  height: fit-content;
-  width: 4.0rem;
+    height: fit-content;
+    width: 4.0rem;
 }
 
 #barbell {
-  height: fit-content;
-  width: 6.0rem;
+    height: fit-content;
+    width: 6.0rem;
 }

@@ -1,13 +1,13 @@
 .row {
-  margin: 4rem auto;
+    margin: 4rem auto;
 }
 
 img {
-  max-height: 100%;
-  max-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
 
-  @media (min-width: 960px) {
-    max-height: 10rem;
-    max-width: 35rem;
-  }
+    @media (min-width: 1000px) {
+        max-height: 10rem;
+        max-width: 35rem;
+    }
 }

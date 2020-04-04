@@ -37,14 +37,22 @@ export class WodService {
     const monday = new Date(today.getTime() - (moSuDayOfWeek * 24 * 60 * 60 * 1000));
     const sunday = new Date(today.getTime() + ((6 - moSuDayOfWeek) * 24 * 60 * 60 * 1000));
 
-    let dates = '';
+    let dates = '', tmp = '';
+    // from
     dates = dates.concat(monday.getFullYear().toString());
-    dates = dates.concat(String((monday.getMonth() + 1).toString()).padStart(2, '0'));
-    dates = dates.concat(String(monday.getDate().toString()).padStart(2, '0'));
+    tmp = (monday.getMonth() + 1).toString();
+    dates = dates.concat(tmp.length === 1 ? '0' + tmp : tmp);
+    tmp = monday.getDate().toString();
+    dates = dates.concat(tmp.length === 1 ? '0' + tmp : tmp);
+
     dates = dates.concat('-');
+
+    // to
     dates = dates.concat(sunday.getFullYear().toString());
-    dates = dates.concat(String((sunday.getMonth() + 1).toString()).padStart(2, '0'));
-    dates = dates.concat(String(sunday.getDate().toString()).padStart(2, '0'));
+    tmp = (sunday.getMonth() + 1).toString()
+    dates = dates.concat(tmp.length === 1 ? '0' + tmp : tmp);
+    tmp = sunday.getDate().toString()
+    dates = dates.concat(tmp.length === 1 ? '0' + tmp : tmp);
 
     return dates;
   }
