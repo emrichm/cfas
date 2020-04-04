@@ -40,7 +40,7 @@ export class CoachProfileComponent implements OnInit, OnDestroy {
     return this.coach.interview.slice(this.coach.interview.length / 2);
   }
 
-  // navigateBack() {
-  //   this.location.back();
-  // }
+  navigateBack() {
+    window.history.back();
+  }
 }
