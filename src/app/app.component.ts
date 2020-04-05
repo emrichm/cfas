@@ -39,20 +39,12 @@ export class AppComponent implements OnInit {
       this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/kettlebell.svg`)
     );
     this.matIconRegistry.addSvgIcon(
-      `facebook_black`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/facebook_black.svg`)
+      `facebook`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/facebook.svg`)
     );
     this.matIconRegistry.addSvgIcon(
-      `facebook_white`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/facebook_white.svg`)
-    );
-    this.matIconRegistry.addSvgIcon(
-      `instagram_black`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/instagram_black.svg`)
-    );
-    this.matIconRegistry.addSvgIcon(
-      `instagram_white`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/instagram_white.svg`)
+      `instagram`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl(`assets/static/icons/instagram.svg`)
     );
   }
 

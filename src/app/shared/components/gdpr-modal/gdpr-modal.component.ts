@@ -9,6 +9,7 @@ import { CookieService } from '../../services/cookie.service';
   styleUrls: ['./gdpr-modal.component.scss']
 })
 export class GdprModalComponent implements OnInit {
+  aggreed = false;
   remember = false;
   externInfos: ExternInformation;
 

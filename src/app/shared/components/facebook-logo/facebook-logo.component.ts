@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { GdprService } from '../../services/gdpr.service';
 
 @Component({
@@ -7,6 +7,7 @@ import { GdprService } from '../../services/gdpr.service';
   styleUrls: ['./facebook-logo.component.scss']
 })
 export class FacebookLogoComponent {
+  @Input() color: string;
   infos = {
     name: 'facebook',
     buttonIcon: 'tab',

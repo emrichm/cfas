@@ -1,0 +1,11 @@
+a {
+    cursor: pointer;
+}
+
+.mat-icon {
+    &:first-child {
+        &.white {
+            filter: invert(1);
+        }
+    }
+}

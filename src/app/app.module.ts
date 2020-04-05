@@ -1,7 +1,5 @@
 
 import { NgModule } from '@angular/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { RouterOutletDirective } from './directives/router-outlet.directive';
@@ -34,8 +32,6 @@ import { GdprModalComponent } from './shared/components/gdpr-modal/gdpr-modal.co
 import { ImageGalleryModalComponent } from './shared/components/image-gallery-modal/image-gallery-modal.component';
 import { ImageGalleryComponent } from './shared/components/image-gallery/image-gallery.component';
 import { SharedModule } from './shared/shared.module';
-import { FacebookLogoComponent } from './shared/components/facebook-logo/facebook-logo.component';
-import { InstagramLogoComponent } from './shared/components/instagram-logo/instagram-logo.component';
 
 @NgModule({
   declarations: [
@@ -67,19 +63,13 @@ import { InstagramLogoComponent } from './shared/components/instagram-logo/insta
     CrossfitComponent,
     EntryComponent,
     GermanWeekDayPipe,
-    ShopComponent,
-    GdprModalComponent,
-    FacebookLogoComponent,
-    InstagramLogoComponent
+    ShopComponent
   ],
   entryComponents: [
     GdprModalComponent
   ],
   imports: [
-    BrowserModule,
     CoreModule,
-    FormsModule,
-    ReactiveFormsModule,
     SharedModule
   ],
   providers: [],

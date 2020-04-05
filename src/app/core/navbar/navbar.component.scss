@@ -1,36 +1,37 @@
 @import "../../../assets/static/scss/variables";
 
 .navbar {
-  color: white;
-  background-color: black;
-  opacity: 0.95;
+    line-height: 100%;
+    color: white;
+    background-color: black;
+    opacity: 0.95;
 }
 
 .is-handset {
-  width: fit-content;
-  float: right;
-  opacity: 70%;
-  border-bottom-left-radius: 5px;
+    width: fit-content;
+    float: right;
+    opacity: 70%;
+    border-bottom-left-radius: 5px;
 
-  &:hover {
-    opacity: inherit;
-  }
+    &:hover {
+        opacity: inherit;
+    }
 }
 
 button {
-  height: 100%;
-  border-radius: 0;
+    height: 100%;
+    border-radius: 0;
 
-  &:hover {
-    background-color: rgba(white, 0.05);
-  }
+    &:hover {
+        background-color: rgba(white, 0.05);
+    }
 
-  &.active {
-    border-bottom: solid 6px $jeaggerBlue;
-    border-top: solid 6px rgba($color: #000000, $alpha: 0);
-  }
+    &.active {
+        border-bottom: solid 6px $jeaggerBlue;
+        border-top: solid 6px rgba($color: #000000, $alpha: 0);
+    }
 }
 
 .mat-menu-panel {
-  width: fit-content;
+    width: fit-content;
 }

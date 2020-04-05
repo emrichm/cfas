@@ -1,32 +1,47 @@
 <mat-nav-list id="nav-list">
-  <ng-container *ngFor="let menuItem of menu">
-    <ng-container *ngIf="!menuItem.subMenuItems; else withSubMenu">
-      <a mat-list-item class="border-bottom" [routerLink]="menuItem.path" routerLinkActive="active"
+    <ng-container *ngFor="let menuItem of menu">
+        <ng-container *ngIf="!menuItem.subMenuItems; else withSubMenu">
+            <a mat-list-item class="border-bottom" [routerLink]="menuItem.path" routerLinkActive="active"
         [routerLinkActiveOptions]="{ exact: true }" (click)="closeSidenav()">
         <span class="nav-caption">{{ menuItem.name }}</span>
       </a>
-    </ng-container>
+        </ng-container>
 
-    <ng-template #withSubMenu>
+        <ng-template #withSubMenu>
 
-      <mat-accordion class="dark">
-        <mat-expansion-panel class="border-bottom" style="background-color: #171717" routerLinkActive="active">
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <span class="nav-caption">{{ menuItem.name }}</span>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
+            <mat-accordion class="dark">
+                <mat-expansion-panel
+                    class="border-bottom"
+                    style="background-color: #171717"
+                    routerLinkActive="active"
+                >
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <span class="nav-caption">{{ menuItem.name }}</span>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
 
-          <ng-container *ngFor="let subMenuItem of menuItem.subMenuItems; let last = last">
-            <a mat-list-item [ngClass]="{'border-bottom': !last}" [routerLink]="subMenuItem.path"
+                    <ng-container
+                        *ngFor="let subMenuItem of menuItem.subMenuItems; let last = last">
+                        <a mat-list-item [ngClass]="{'border-bottom': !last}" [routerLink]="subMenuItem.path"
               routerLinkActive="active" (click)="closeSidenav()">
               <span class="nav-caption">{{ subMenuItem.name }}</span>
             </a>
-          </ng-container>
+                    </ng-container>
 
-        </mat-expansion-panel>
-      </mat-accordion>
+                </mat-expansion-panel>
+            </mat-accordion>
 
-    </ng-template>
-  </ng-container>
+        </ng-template>
+    </ng-container>
+    <div class="mt-3">
+        <cfas-facebook-logo
+            color="white"
+            class="mx-3"
+        ></cfas-facebook-logo>
+        <cfas-instagram-logo
+            color="white"
+            class="mx-3"
+        ></cfas-instagram-logo>
+    </div>
 </mat-nav-list>
