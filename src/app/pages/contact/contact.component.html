@@ -31,14 +31,15 @@
                             <cfas-instagram-logo class="mx-3"></cfas-instagram-logo>
                         </div>
                     </mat-list-item>
-                    <!-- <mat-list-item *ngIf="!showMap">
-            <p mat-line class="pt-5"><button mat-stroked-button (click)="acceptMap()">Karte einblenden</button></p>
-          </mat-list-item> -->
+                    <mat-list-item *ngIf="!showMap">
+            <p mat-line class="pt-5"><button mat-stroked-button (click)="acceptMap(map)">Karte einblenden</button></p>
+          </mat-list-item>
                 </mat-list>
             </div>
         </div>
     </div>
 </section>
 
-<!-- <section id="map" *ngIf="showMap">
-</section> -->
+<section #map id="map" class="p-0" [ngClass]="{'d-none': !showMap}">
+    <cfas-google-maps *ngIf="showMap"></cfas-google-maps>
+</section>

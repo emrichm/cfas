@@ -32,6 +32,7 @@ import { GdprModalComponent } from './shared/components/gdpr-modal/gdpr-modal.co
 import { ImageGalleryModalComponent } from './shared/components/image-gallery-modal/image-gallery-modal.component';
 import { ImageGalleryComponent } from './shared/components/image-gallery/image-gallery.component';
 import { SharedModule } from './shared/shared.module';
+import { GoogleMapsComponent } from './pages/contact/google-maps/google-maps.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { SharedModule } from './shared/shared.module';
     CrossfitComponent,
     EntryComponent,
     GermanWeekDayPipe,
-    ShopComponent
+    ShopComponent,
+    GoogleMapsComponent
   ],
   entryComponents: [
     GdprModalComponent

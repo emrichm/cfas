@@ -1,7 +1,11 @@
 <div class="wrapper">
-    <div>Wir leiten dich nun an
+    <div *ngIf="externInfos.url">Wir leiten dich nun an
         <strong>{{ externInfos.url }}</strong>
         weiter. Bitte stimme der Weitergabe deiner Persönlichen Daten zu:</div>
+    <div *ngIf="externInfos.name === 'google-maps'">
+        Wir laden nun <strong>Google Maps</strong> um unseren Standort dort anzuzeigen. 
+        Bitte stimme der Weitergabe deiner Persönlichen Daten zu:
+    </div>
     <div class="my-3 checkbox">
         <mat-checkbox
             [(ngModel)]="aggreed"
