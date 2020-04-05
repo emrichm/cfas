@@ -14,10 +14,11 @@ export class GoogleMapsComponent implements OnInit {
     ScriptLoaderService.loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyAssdDyTMv1qIVBBWTEeiETjFt40aBRnY4').then(
       () => {
         setTimeout(() => {
-          const mapProp = {
+          const mapProp: google.maps.MapOptions = {
             center: new google.maps.LatLng(47.651281, 9.503248),
             zoom: 14,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            gestureHandling: 'cooperative'
           };
           const map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
 

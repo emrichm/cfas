@@ -24,6 +24,8 @@ export class GdprService {
   private async openModal(externInfos: ExternInformation): Promise<boolean> {
     const dialogRef = this.dialog.open(GdprModalComponent, {
       width: '500px',
+      maxWidth: '97vw',
+      maxHeight: '95vh',
       data: externInfos
     });
 
