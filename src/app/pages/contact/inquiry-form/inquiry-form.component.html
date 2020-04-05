@@ -1,85 +1,137 @@
-<form [formGroup]="inquiryForm" (ngSubmit)="onSubmit()">
-  <mat-card class="contact-form-card">
-    <mat-card-header class="text-center">
-      <mat-card-title>Schreib uns doch!</mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input matInput placeholder="Vorname" formControlName="firstName">
-          </mat-form-field>
-        </div>
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input matInput placeholder="Nachname" formControlName="lastName">
-          </mat-form-field>
-        </div>
-      </div>
+<form
+    [formGroup]="inquiryForm"
+    (ngSubmit)="onSubmit()"
+>
+    <mat-card class="contact-form-card">
+        <mat-card-header class="text-center">
+            <mat-card-title>Schreib uns doch!</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field class="full-width">
+                        <input
+                            matInput
+                            placeholder="Vorname"
+                            formControlName="firstName"
+                        >
+                    </mat-form-field>
+                </div>
+                <div class="col">
+                    <mat-form-field class="full-width">
+                        <input
+                            matInput
+                            placeholder="Nachname"
+                            formControlName="lastName"
+                        >
+                    </mat-form-field>
+                </div>
+            </div>
 
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input matInput placeholder="E-Mail-Adresse" formControlName="email">
-          </mat-form-field>
-        </div>
-      </div>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field class="full-width">
+                        <input
+                            matInput
+                            placeholder="E-Mail-Adresse"
+                            formControlName="email"
+                        >
+                    </mat-form-field>
+                </div>
+            </div>
 
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <mat-select placeholder="Betreff" formControlName="subject">
-              <mat-option *ngFor="let subject of subjects" [value]="subject">
-                {{ subject }}
-              </mat-option>
-            </mat-select>
-          </mat-form-field>
-        </div>
-      </div>
-      <div class="row" *ngIf="this.inquiry.subject && this.inquiry.subject != 'Anderes'">
-        <div class="col col-md-6">
-          <mat-form-field class="full-width">
-            <input matInput [min]="fromDate" [max]="toDate" [matDatepicker]="picker" placeholder="Wunschdatum"
-              formControlName="wishDate" (dateChange)="setHours()">
-            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-            <mat-datepicker #picker></mat-datepicker>
-          </mat-form-field>
-        </div>
-        <div class="col col-md-6">
-          <mat-form-field class="full-width">
-            <mat-select placeholder="Uhrzeit" formControlName="hour" [disabled]="!this.inquiry.wishDate">
-              <mat-option *ngFor="let hour of hours" [value]="hour">
-                {{ hour }}
-              </mat-option>
-            </mat-select>
-          </mat-form-field>
-        </div>
-      </div>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field class="full-width">
+                        <mat-select
+                            placeholder="Betreff"
+                            formControlName="subject"
+                        >
+                            <mat-option
+                                *ngFor="let subject of subjects"
+                                [value]="subject"
+                            >
+                                {{ subject }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+            <div
+                class="row"
+                *ngIf="this.inquiry.subject && this.inquiry.subject != 'Anderes'"
+            >
+                <div class="col col-md-6">
+                    <mat-form-field class="full-width">
+                        <input
+                            matInput
+                            [min]="fromDate"
+                            [max]="toDate"
+                            [matDatepicker]="picker"
+                            placeholder="Wunschdatum"
+                            formControlName="wishDate"
+                            (dateChange)="setHours()"
+                        >
+                        <mat-datepicker-toggle
+                            matSuffix
+                            [for]="picker"
+                        ></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                </div>
+                <div class="col col-md-6">
+                    <mat-form-field class="full-width">
+                        <mat-select
+                            placeholder="Uhrzeit"
+                            formControlName="hour"
+                            [disabled]="!this.inquiry.wishDate"
+                        >
+                            <mat-option
+                                *ngFor="let hour of hours"
+                                [value]="hour"
+                            >
+                                {{ hour }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
 
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <textarea matInput [placeholder]="messageBox.placeholder" formControlName="message"
-              [required]="messageBox.required"></textarea>
-          </mat-form-field>
-        </div>
-      </div>
+            <div class="row">
+                <div class="col">
+                    <mat-form-field class="full-width">
+                        <textarea
+                            matInput
+                            [placeholder]="messageBox.placeholder"
+                            formControlName="message"
+                            [required]="messageBox.required"
+                        ></textarea>
+                    </mat-form-field>
+                </div>
+            </div>
 
-      <div class="row">
-        <div class="col" class="agreement">
-          <mat-checkbox formControlName="agreement"></mat-checkbox>
-          <label>
-            <a class="link" [routerLink]="['/dataprotection']" target="_blank">Datenschutzinformationen</a>
-            wurden gelesen und akzeptiert
-          </label>
-        </div>
-      </div>
+            <div class="row">
+                <div
+                    class="col"
+                    class="agreement"
+                >
+                    <mat-checkbox formControlName="agreement"></mat-checkbox>
+                    <label>
+                        <a class="link" [routerLink]="['/dataprotection']" fragment="general" target="_blank">Datenschutzinformationen</a>
+                        wurden gelesen und akzeptiert
+                    </label>
+                </div>
+            </div>
 
-      <mat-card-actions class="px-3 mt-3">
-        <button mat-raised-button color="primary" type="submit"
-          [disabled]="inquiryForm.invalid || inquiryForm.disabled">Anfrage
-          senden</button>
-      </mat-card-actions>
-    </mat-card-content>
-  </mat-card>
+            <mat-card-actions class="px-3 mt-3">
+                <button
+                    mat-raised-button
+                    color="primary"
+                    type="submit"
+                    [disabled]="inquiryForm.invalid || inquiryForm.disabled"
+                >Anfrage
+                    senden</button>
+            </mat-card-actions>
+        </mat-card-content>
+    </mat-card>
 </form>

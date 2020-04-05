@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
 import {
     MAT_DATE_LOCALE, MatButtonModule, MatCardModule, MatCheckboxModule, MatDatepickerModule, MatDialogModule,
     MatExpansionModule, MatIconModule, MatInputModule, MatListModule, MatMenuModule, MatRadioModule, MatSelectModule,
@@ -24,8 +23,7 @@ const modules = [
   MatSidenavModule,
   MatSnackBarModule,
   MatTabsModule,
-  MatToolbarModule,
-  ReactiveFormsModule
+  MatToolbarModule
 ];
 
 @NgModule({

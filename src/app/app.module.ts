@@ -1,5 +1,6 @@
 
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
@@ -28,10 +29,11 @@ import { EventComponent } from './pages/offer/events/event/event.component';
 import { EventsComponent } from './pages/offer/events/events.component';
 import { PricesComponent } from './pages/offer/prices/prices.component';
 import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
+import { ShopComponent } from './pages/offer/shop/shop.component';
+import { GdprModalComponent } from './shared/components/gdpr-modal/gdpr-modal.component';
 import { ImageGalleryModalComponent } from './shared/components/image-gallery-modal/image-gallery-modal.component';
 import { ImageGalleryComponent } from './shared/components/image-gallery/image-gallery.component';
 import { SharedModule } from './shared/shared.module';
-import { ShopComponent } from './pages/offer/shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -63,11 +65,17 @@ import { ShopComponent } from './pages/offer/shop/shop.component';
     CrossfitComponent,
     EntryComponent,
     GermanWeekDayPipe,
-    ShopComponent
+    ShopComponent,
+    GdprModalComponent
+  ],
+  entryComponents: [
+    GdprModalComponent
   ],
   imports: [
     BrowserModule,
     CoreModule,
+    FormsModule,
+    ReactiveFormsModule,
     SharedModule
   ],
   providers: [],

@@ -1,7 +1,8 @@
-import { Subscription } from 'rxjs';
-import { distinctUntilChanged, filter } from 'rxjs/operators';
+import { Subject } from 'rxjs';
+import { distinctUntilChanged, filter, takeUntil } from 'rxjs/operators';
 import { Directive, ElementRef, OnDestroy, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { CookieService } from '../shared/services/cookie.service';
 
 type WindowXY = [number, number];
 @Directive({
@@ -9,22 +10,22 @@ type WindowXY = [number, number];
   selector: 'router-outlet'
 })
 export class RouterOutletDirective implements OnInit, OnDestroy {
-  private routerEventsSubscription: Subscription;
+  private unsubscribeAll = new Subject();
   private currentXY: WindowXY;
 
   constructor(
     private elementRef: ElementRef,
-    private router: Router
+    private router: Router,
+    private cookieService: CookieService
   ) {
     this.elementRef = elementRef;
     this.router = router;
-    this.routerEventsSubscription = null;
   }
 
   public ngOnInit(): void {
-
     this.currentXY = this.windowCoordinates;
-    this.routerEventsSubscription = this.router.events.pipe(
+    this.router.events.pipe(
+      takeUntil(this.unsubscribeAll),
       filter((event) => event instanceof NavigationEnd),
       distinctUntilChanged((prev: NavigationEnd, next: NavigationEnd) => next && next.url === prev.url)
     )
@@ -37,9 +38,7 @@ export class RouterOutletDirective implements OnInit, OnDestroy {
   }
 
   public ngOnDestroy(): void {
-    if (this.routerEventsSubscription) {
-      this.routerEventsSubscription.unsubscribe();
-    }
+    this.unsubscribeAll.next();
     this.windowCoordinates = this.currentXY;
   }
 
