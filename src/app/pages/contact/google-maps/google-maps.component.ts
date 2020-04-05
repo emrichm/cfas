@@ -1,4 +1,5 @@
 import {} from 'googlemaps';
+import { ScriptLoaderService } from 'src/app/shared/utils/script-loader.service';
 import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
@@ -8,29 +9,33 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 })
 export class GoogleMapsComponent implements OnInit {
   @ViewChild('gmap', { static: true }) gmapElement: any;
-  map: google.maps.Map;
 
   ngOnInit() {
-    const mapProp = {
-      center: new google.maps.LatLng(47.651281, 9.503248),
-      zoom: 14,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
+    ScriptLoaderService.loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyAssdDyTMv1qIVBBWTEeiETjFt40aBRnY4').then(
+      () => {
+        setTimeout(() => {
+          const mapProp = {
+            center: new google.maps.LatLng(47.651281, 9.503248),
+            zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          const map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
 
-    const marker = new google.maps.Marker(
-      {
-        position: new google.maps.LatLng(47.651281, 9.503248),
-        map: this.map,
-        title: 'CrossFit am See in Friedrichshafen'
-      });
+          const marker = new google.maps.Marker(
+            {
+              position: new google.maps.LatLng(47.651281, 9.503248),
+              map: map,
+              title: 'CrossFit am See in Friedrichshafen'
+            });
 
-    const infoWindow = new google.maps.InfoWindow(
-      {
-        content:
-          '<div class="text-center"><div><strong>CrossFit am See</strong></div><div class="mt-1">in Friedrichshafen</div></div>'
-      });
-    infoWindow.open(this.map, marker);
+          const infoWindow = new google.maps.InfoWindow(
+            {
+              content:
+                '<div class="text-center"><div><strong>CrossFit am See</strong></div><div class="mt-1">in Friedrichshafen</div></div>'
+            });
+          infoWindow.open(map, marker);
+        }, 750);
+      }
+    );
   }
-
 }
