@@ -1,4 +1,5 @@
 <mat-nav-list id="nav-list">
+            <mat-accordion class="dark">
     <ng-container *ngFor="let menuItem of menu">
         <ng-container *ngIf="!menuItem.subMenuItems; else withSubMenu">
             <a mat-list-item class="border-bottom" [routerLink]="menuItem.path" routerLinkActive="active"
@@ -9,7 +10,6 @@
 
         <ng-template #withSubMenu>
 
-            <mat-accordion class="dark">
                 <mat-expansion-panel
                     class="border-bottom"
                     style="background-color: #171717"
@@ -30,7 +30,6 @@
                     </ng-container>
 
                 </mat-expansion-panel>
-            </mat-accordion>
 
         </ng-template>
     </ng-container>
@@ -44,4 +43,5 @@
             class="mx-3"
         ></cfas-instagram-logo>
     </div>
+            </mat-accordion>
 </mat-nav-list>
