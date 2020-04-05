@@ -1,5 +1,6 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
+import { ExternInformation } from '../../models/extern-information';
 import { CookieService } from '../../services/cookie.service';
 
 @Component({
@@ -9,16 +10,12 @@ import { CookieService } from '../../services/cookie.service';
 })
 export class GdprModalComponent implements OnInit {
   remember = false;
-  externInfos: {
-    name: string,
-    text: string[],
-    buttonIcon: string
-  }
+  externInfos: ExternInformation;
 
   constructor(
     private cookieService: CookieService,
     private dialogRef: MatDialogRef<GdprModalComponent>,
-    @Inject(MAT_DIALOG_DATA) private data: { name: string, text: string[], buttonIcon: string, url: string, details: string }
+    @Inject(MAT_DIALOG_DATA) private data: ExternInformation
   ) { }
 
   ngOnInit() {
@@ -27,7 +24,7 @@ export class GdprModalComponent implements OnInit {
 
   submit(follow: boolean) {
     if (!follow) {
-      this.dialogRef.close(true);
+      this.dialogRef.close(false);
       return;
     }
 
