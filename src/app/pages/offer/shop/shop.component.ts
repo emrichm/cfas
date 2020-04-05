@@ -10,7 +10,6 @@ import { Component, ViewEncapsulation } from '@angular/core';
 export class ShopComponent {
   infos = {
     name: 'spreadshirt',
-    text: ['Mit dem Laden der externen Webseite', 'Spreadshirt'],
     buttonIcon: 'tab',
     url: 'shop.spreadshirt.de/CFamSee',
     details: 'sprd.net AG, Gießerstraße 27, 04229 Leipzig, Deutschland'

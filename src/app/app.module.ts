@@ -34,6 +34,8 @@ import { GdprModalComponent } from './shared/components/gdpr-modal/gdpr-modal.co
 import { ImageGalleryModalComponent } from './shared/components/image-gallery-modal/image-gallery-modal.component';
 import { ImageGalleryComponent } from './shared/components/image-gallery/image-gallery.component';
 import { SharedModule } from './shared/shared.module';
+import { FacebookLogoComponent } from './shared/components/facebook-logo/facebook-logo.component';
+import { InstagramLogoComponent } from './shared/components/instagram-logo/instagram-logo.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +68,9 @@ import { SharedModule } from './shared/shared.module';
     EntryComponent,
     GermanWeekDayPipe,
     ShopComponent,
-    GdprModalComponent
+    GdprModalComponent,
+    FacebookLogoComponent,
+    InstagramLogoComponent
   ],
   entryComponents: [
     GdprModalComponent
