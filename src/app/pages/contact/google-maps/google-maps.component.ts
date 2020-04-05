@@ -34,7 +34,8 @@ export class GoogleMapsComponent implements OnInit {
 
         const infoWindow = new google.maps.InfoWindow({
           content:
-            '<div class="p-2 text-center"><div><strong>CrossFit am See</strong></div><div class="mt-1">in Friedrichshafen</div></div>',
+            `<div class="pr-2 pb-2 text-center"><div><strong>CrossFit am See</strong></div>
+            <div class="mt-1">in Friedrichshafen</div></div>`,
         });
         infoWindow.open(map, marker);
       }, 750);

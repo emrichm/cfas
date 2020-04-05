@@ -1,5 +1,5 @@
 <mat-toolbar
-    class="navbar justify-content-end"
+    class="navbar d-flex"
     [class.is-handset]="isHandset$ | async"
 >
     <ng-container *ngIf="(isHandset$ | async); else screenNav">
@@ -15,7 +15,7 @@
         <cfas-facebook-logo color="white"></cfas-facebook-logo>
         <cfas-instagram-logo
             color="white"
-            class="pr-3"
+            class="mr-auto pr-3"
         ></cfas-instagram-logo>
         <ng-container *ngFor="let menuItem of menu">
             <ng-container *ngIf="!menuItem.subMenuItems; else withSubMenu">
