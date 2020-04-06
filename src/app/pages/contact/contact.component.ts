@@ -37,7 +37,7 @@ export class ContactComponent implements OnInit, OnDestroy {
     this.gdprService.checkRegulation(this.infos).then((resolve: boolean) => {
       if (resolve) {
         this.showMap = !this.showMap;
-        setTimeout(() => element.scrollIntoView({ behavior: 'smooth', block: 'start' }), 250);
+        setTimeout(() => element.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
       }
     });
   }
