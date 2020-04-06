@@ -1,16 +1,24 @@
 <div id="wrapper">
-  <div>
-    <div class="container mx-auto col-10">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-6 col-md-4 item" *ngFor="let dictionaryItem of dictionary">
-          <h2 class="text-center">{{ dictionaryItem.term }}</h2>
-          <p>
-            <ng-container *ngFor="let descriptionsRow of dictionaryItem.description; let last = last">
-              {{ descriptionsRow }} <ng-container *ngIf="!last"><br></ng-container>
-            </ng-container>
-          </p>
+    <div class="overlay">
+        <div class="container mx-auto col-10">
+            <div class="text-center">
+                <mat-form-field appearance="outline">
+                    <input matInput #searchBox type="text" [(ngModel)]="query" (keyup)="filter()" class="px-2 query-input" placeholder="Filter..." autocomplete="off">
+                    <mat-icon matSuffix *ngIf="query" (click)="reset(searchBox)">cancel</mat-icon>
+                </mat-form-field>
+            </div>
+            <div class="row justify-content-center">
+                <div class="mt-5 no-result" *ngIf="filteredDictionary.length === 0">Keine Treffer...</div>
+                <div class="col-12 col-sm-6 col-md-4 item" *ngFor="let dictionaryItem of filteredDictionary">
+                    <h2 class="text-center">{{ dictionaryItem.term }}</h2>
+                    <p>
+                        <ng-container *ngFor="let descriptionsRow of dictionaryItem.description; let last = last">
+                            {{ descriptionsRow }}
+                            <ng-container *ngIf="!last"><br></ng-container>
+                        </ng-container>
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
