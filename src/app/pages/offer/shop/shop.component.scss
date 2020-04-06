@@ -1,38 +1,16 @@
 cfas-shop {
-    header {
-        background-image: url(src/assets/static/images/style-images/spreadshirt.jpg);
-        background-position: 0 70px;
+    #loading {
         height: calc(100vh - 50px);
-
-        div div {
-            height: fit-content;
-            top: 240px;
-            border-radius: 25px;
-
-            h1 {
-                font-size: 2.2rem;
-            }
-
-            a {
-                font-size: 1.1rem;
-            }
-        }
-    }
-
-    .dark {
-        background-color: #212121;
-        color: white;
-
-        a {
-            border-color: white !important;
-
-            &:hover {
-                box-shadow: 0 0 5px 0px white !important;
-            }
+        line-height: calc(100vh - 50px);
+        width: 100%;
+        text-align: center;
+        mat-spinner {
+            margin: auto;
         }
     }
 }
 
-.navbar-padding cfas-shop header {
+.navbar-padding cfas-shop #loading {
     height: calc(100vh - 100px);
+    line-height: calc(100vh - 100px);
 }

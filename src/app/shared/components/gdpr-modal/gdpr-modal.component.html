@@ -1,46 +1,31 @@
-<div class="wrapper">
-  <div *ngIf="externInfos.url">
-    Wir leiten dich nun an
-    <strong>{{ externInfos.url }}</strong>
-    weiter. Bitte stimme der Weitergabe deiner Persönlichen Daten zu:
-  </div>
-  <div *ngIf="externInfos.name === 'google-maps'">
-    Wir laden nun <strong>Google Maps</strong> um unseren Standort dort
-    anzuzeigen. Bitte stimme der Weitergabe deiner Persönlichen Daten zu:
-  </div>
-  <div class="my-3 checkbox">
-    <mat-checkbox [(ngModel)]="aggreed" color="primary"
-      >Ja, ich willige ein, dass meine IP-Adresse an den Server der Anbieters
-      weitergegeben wird. Mir ist auch bekannt, der der Anbieter bösartige
-      Cookies anlegen, auslesen und speichern kann.<br />Anbieterinformationen:<br />{{
-        externInfos.details
-      }}</mat-checkbox
-    >
-  </div>
-  <div class="d-flex justify-content-between flex-wrap">
-    <a mat-raised-button class="mx-auto my-2" color="warn" (click)="submit(false)">
+<div class="wrapper text-justify">
+    <div *ngIf="externInfos.url && externInfos.name !== 'spreadshirt'">
+        Wir leiten dich nun an
+        <strong>{{ externInfos.url }}</strong> weiter. Bitte stimme der Weitergabe deiner Persönlichen Daten zu:
+    </div>
+    <div *ngIf="externInfos.url && externInfos.name === 'spreadshirt'">
+        Wir laden nun unseren externen bereitgestellten Shop
+        <strong>{{ externInfos.url }}</strong> auf dieser Seite. Bitte stimme der Weitergabe deiner Persönlichen Daten zu:
+    </div>
+    <div *ngIf="externInfos.name === 'google-maps'">
+        Wir laden nun <strong>Google Maps</strong> um unseren Standort dort anzuzeigen. Bitte stimme der Weitergabe deiner Persönlichen Daten zu:
+    </div>
+    <div class="my-3 checkbox">
+        <mat-checkbox [(ngModel)]="aggreed" color="primary">Ja, ich willige ein, dass meine IP-Adresse an den Server der Anbieters weitergegeben wird. Mir ist auch bekannt, der der Anbieter bösartige Cookies anlegen, auslesen und speichern kann.<br />Anbieterinformationen:<br />{{ externInfos.details }}
+        </mat-checkbox>
+    </div>
+    <div class="d-flex justify-content-between flex-wrap">
+        <a mat-raised-button class="mx-auto my-2" color="warn" (click)="submit(false)">
       Lieber nicht
     </a>
-    <a
-      mat-raised-button
-      class="mx-auto my-2"
-      color="primary"
-      (click)="submit(true)"
-      [disabled]="!aggreed"
-    >
-      <span class="material-icons mr-1">{{ externInfos.buttonIcon }}</span>
-      <ng-container *ngIf="externInfos.url">Link folgen</ng-container>
-      <ng-container *ngIf="!externInfos.url">Laden</ng-container>
-    </a>
-  </div>
-  <div class="d-flex justify-content-between flex-wrap-reverse">
-    <a
-      mat-stroked-button
-      class="mx-auto"
-      routerLink="/dataprotection"
-      fragment="data"
-      target="_blank"
-      >Cookie-Nutzung</a
+        <a mat-raised-button class="mx-auto my-2" color="primary" (click)="submit(true)" [disabled]="!aggreed">
+            <span class="material-icons mr-1">{{ externInfos.buttonIcon }}</span>
+            <ng-container *ngIf="externInfos.url && externInfos.name !== 'spreadshirt'">Link folgen</ng-container>
+            <ng-container *ngIf="!externInfos.url || externInfos.name === 'spreadshirt'">Laden</ng-container>
+        </a>
+    </div>
+    <div class="d-flex justify-content-between flex-wrap-reverse">
+        <a mat-stroked-button class="mx-auto" routerLink="/dataprotection" fragment="data" target="_blank">Cookie-Nutzung</a
     >
     <mat-checkbox class="mx-auto mb-1" [(ngModel)]="remember" color="primary"
       >Einwilligung merken</mat-checkbox

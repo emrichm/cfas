@@ -1,5 +1,6 @@
 import { GdprService } from 'src/app/shared/services/gdpr.service';
-import { Component, ViewEncapsulation } from '@angular/core';
+import { ScriptLoaderService } from 'src/app/shared/utils/script-loader.service';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'cfas-shop',
@@ -7,21 +8,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./shop.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class ShopComponent {
-  infos = {
-    name: 'spreadshirt',
-    buttonIcon: 'tab',
-    url: 'shop.spreadshirt.de/CFamSee',
-    details: 'sprd.net AG, Gießerstraße 27, 04229 Leipzig, Deutschland'
-  }
-
-  constructor(private gdprService: GdprService) { }
-
-  navigate() {
-    this.gdprService.checkRegulation(this.infos).then((resolve: boolean) => {
-      if (resolve) {
-        window.open('https://shop.spreadshirt.de/CFamSee', '_blank');
-      }
-    });
+export class ShopComponent implements OnInit {
+  ngOnInit() {
+    ScriptLoaderService.loadScript('https://shop.spreadshirt.de/shopfiles/shopclient/shopclient.nocache.js');
   }
 }

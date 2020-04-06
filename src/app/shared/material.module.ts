@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import {
     MAT_DATE_LOCALE, MatButtonModule, MatCardModule, MatCheckboxModule, MatDatepickerModule, MatDialogModule,
-    MatExpansionModule, MatIconModule, MatInputModule, MatListModule, MatMenuModule, MatRadioModule, MatSelectModule,
-    MatSidenavModule, MatSnackBarModule, MatTabsModule, MatToolbarModule
+    MatExpansionModule, MatIconModule, MatInputModule, MatListModule, MatMenuModule, MatProgressSpinnerModule,
+    MatRadioModule, MatSelectModule, MatSidenavModule, MatSnackBarModule, MatTabsModule, MatToolbarModule
 } from '@angular/material';
 import { MAT_MOMENT_DATE_ADAPTER_OPTIONS, MatMomentDateModule } from '@angular/material-moment-adapter';
 
@@ -18,6 +18,7 @@ const modules = [
   MatListModule,
   MatMenuModule,
   MatMomentDateModule,
+  MatProgressSpinnerModule,
   MatRadioModule,
   MatSelectModule,
   MatSidenavModule,

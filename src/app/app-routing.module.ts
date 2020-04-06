@@ -17,6 +17,7 @@ import { EventsComponent } from './pages/offer/events/events.component';
 import { PricesComponent } from './pages/offer/prices/prices.component';
 import { ScheduleComponent } from './pages/offer/schedule/schedule.component';
 import { ShopComponent } from './pages/offer/shop/shop.component';
+import { ShopGdprGuard } from './pages/offer/shop/shop.gdpr-guard';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -47,7 +48,7 @@ const routes: Routes = [
       { path: 'schedule', component: ScheduleComponent },
       { path: 'classes', component: ClassesComponent },
       { path: 'prices', component: PricesComponent },
-      { path: 'shop', component: ShopComponent }
+      { path: 'shop', component: ShopComponent, canActivate: [ShopGdprGuard] }
     ]
   },
   { path: 'contact', component: ContactComponent },
