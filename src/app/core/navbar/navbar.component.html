@@ -1,44 +1,31 @@
-<mat-toolbar
-    class="navbar d-flex"
-    [class.is-handset]="isHandset$ | async"
->
+<mat-toolbar class="navbar d-flex" [class.is-handset]="isHandset$ | async">
     <ng-container *ngIf="(isHandset$ | async); else screenNav">
-        <button
-            mat-button
-            (click)="toggleSidenav()"
-        >
+        <button mat-button (click)="toggleSidenav()">
             <mat-icon>menu</mat-icon>
         </button>
     </ng-container>
 
     <ng-template #screenNav>
         <cfas-facebook-logo color="white"></cfas-facebook-logo>
-        <cfas-instagram-logo
-            color="white"
-            class="mr-auto pr-3"
-        ></cfas-instagram-logo>
+        <cfas-instagram-logo color="white" class="mr-auto pr-3"></cfas-instagram-logo>
         <ng-container *ngFor="let menuItem of menu">
             <ng-container *ngIf="!menuItem.subMenuItems; else withSubMenu">
                 <a [routerLink]="menuItem.path"><button mat-button routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }">{{ menuItem.name }}</button></a>
             </ng-container>
             <ng-template #withSubMenu>
-                <button
-                    mat-button
-                    [matMenuTriggerFor]="subMenu"
-                    routerLinkActive="active"
-                >
+                <button mat-button [matMenuTriggerFor]="subMenu" routerLinkActive="active">
                     {{ menuItem.name }}
                     <mat-icon>arrow_drop_down</mat-icon>
                     <mat-menu #subMenu="matMenu">
                         <ng-container *ngFor="let subMenuItem of menuItem.subMenuItems">
                             <a [routerLink]="subMenuItem.path">
                 <button mat-menu-item>{{ subMenuItem.name }}</button>
-              </a>
-                        </ng-container>
-                    </mat-menu>
-                </button>
-            </ng-template>
+                </a>
+        </ng-container>
+        </mat-menu>
+        </button>
+        </ng-template>
         </ng-container>
     </ng-template>
 </mat-toolbar>
