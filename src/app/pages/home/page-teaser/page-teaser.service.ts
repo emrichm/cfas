@@ -81,7 +81,7 @@ export class PageTeaserService {
           link: '/offer/schedule'
         },
         image: {
-          url: 'assets/static/images/style-images/teamup-calendar-768x676.png',
+          url: 'assets/static/images/style-images/teamup-calendar-7d-768x433.jpg',
           alt: ''
         }
       },

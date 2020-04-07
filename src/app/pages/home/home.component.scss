@@ -3,15 +3,12 @@ header {
     height: 60rem;
     width: 100%;
     overflow: hidden;
-
     @media (max-width: 960px) {
         height: 55rem;
     }
-
     @media (max-width: 550px) {
         height: 100vw;
     }
-
     @media (max-width: 400px) {
         height: 115vw;
     }
@@ -52,59 +49,47 @@ header .overlay {
 
 #mainLogo {
     padding-top: 50px;
-
     div {
         width: 600px;
         max-width: 90%;
         position: relative;
-
         img {
+            filter: invert(1);
             width: 100%;
             z-index: 2;
             background-color: transparent;
         }
-
         .jaeggers {
             font-size: 10rem;
-            text-shadow:
-                2px 2px 5px black,
-                -2px 2px 5px black,
-                2px -2px 5px black,
-                -2px -2px 5px black;
+            text-shadow: 2px 2px 5px black, -2px 2px 5px black, 2px -2px 5px black, -2px -2px 5px black;
             position: absolute;
             top: 170px;
             left: 30px;
             z-index: 3;
-
             opacity: 0;
             animation: fadeInAnimation ease 3s;
             animation-delay: 1s;
             animation-iteration-count: 1;
             animation-fill-mode: forwards;
-
             @keyframes fadeInAnimation {
                 0% {
                     opacity: 0;
                 }
-
                 100% {
                     opacity: 1;
                 }
             }
-
             @media (max-width: 600px) {
                 top: 35%;
                 font-size: 15vw;
             }
         }
-
         button {
             font-size: 1.1rem;
             color: white;
             background-color: rgba($color: #212121, $alpha: 0.75);
             border: solid 2px white;
             border-radius: 25px;
-
             &:hover {
                 background-color: #212121;
             }
@@ -114,10 +99,10 @@ header .overlay {
 
 #kettlebell {
     height: fit-content;
-    width: 4.0rem;
+    width: 4rem;
 }
 
 #barbell {
     height: fit-content;
-    width: 6.0rem;
+    width: 6rem;
 }
