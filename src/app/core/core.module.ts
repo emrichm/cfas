@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -15,6 +16,7 @@ const components = [
     ...components
   ],
   imports: [
+    RouterModule,
     SharedModule
   ],
   exports: [
