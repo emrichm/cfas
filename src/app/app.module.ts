@@ -1,5 +1,8 @@
 
-import { NgModule } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localeDe from '@angular/common/locales/de';
+import localeEn from '@angular/common/locales/en';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { RouterOutletDirective } from './directives/router-outlet.directive';
@@ -11,11 +14,11 @@ import { InsightsComponent } from './pages/about-us/insights/insights.component'
 import { PhilosophyComponent } from './pages/about-us/philosophy/philosophy.component';
 import { WerkstattComponent } from './pages/about-us/werkstatt/werkstatt.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { GoogleMapsComponent } from './pages/contact/google-maps/google-maps.component';
 import { InquiryFormComponent } from './pages/contact/inquiry-form/inquiry-form.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PageTeaserComponent } from './pages/home/page-teaser/page-teaser.component';
 import { PartnersComponent } from './pages/home/partners/partners.component';
-import { GermanWeekDayPipe } from './pages/home/wod-overview/pipes/german-week-day.pipe';
 import { WodOverviewComponent } from './pages/home/wod-overview/wod-overview.component';
 import { ImpressComponent } from './pages/impress/impress.component';
 import { CrossfitComponent } from './pages/new-comer/crossfit/crossfit.component';
@@ -32,7 +35,6 @@ import { GdprModalComponent } from './shared/components/gdpr-modal/gdpr-modal.co
 import { ImageGalleryModalComponent } from './shared/components/image-gallery-modal/image-gallery-modal.component';
 import { ImageGalleryComponent } from './shared/components/image-gallery/image-gallery.component';
 import { SharedModule } from './shared/shared.module';
-import { GoogleMapsComponent } from './pages/contact/google-maps/google-maps.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +65,6 @@ import { GoogleMapsComponent } from './pages/contact/google-maps/google-maps.com
     DictionaryComponent,
     CrossfitComponent,
     EntryComponent,
-    GermanWeekDayPipe,
     ShopComponent,
     GoogleMapsComponent
   ],
@@ -74,7 +75,12 @@ import { GoogleMapsComponent } from './pages/contact/google-maps/google-maps.com
     CoreModule,
     SharedModule
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'de' }],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() {
+    registerLocaleData(localeDe);
+    registerLocaleData(localeEn);
+  }
+}

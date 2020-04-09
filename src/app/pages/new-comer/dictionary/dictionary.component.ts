@@ -33,7 +33,7 @@ export class DictionaryComponent implements OnInit, OnDestroy {
     this.filteredDictionary = this.query ?
       this.dictionary.filter(dictionaryItem =>
         dictionaryItem.term.toLowerCase().includes(this.query.toLowerCase()) ||
-        dictionaryItem.description.filter(line => line.toLowerCase().includes(this.query.toLowerCase())).length > 0
+        dictionaryItem.description.some(line => line.toLowerCase().includes(this.query.toLowerCase()))
       ) :
       this.dictionary;
   }

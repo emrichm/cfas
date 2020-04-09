@@ -11,12 +11,12 @@ import { Component, OnInit } from '@angular/core';
 export class WodOverviewComponent implements OnInit {
   panelOpenState = false;
   wodList$: Observable<WodsOverviewPerDay>;
-  dayOfWeekIndex: number;
+  today: Date;
 
   constructor(private wodService: WodService) { }
 
   ngOnInit() {
     this.wodList$ = this.wodService.wodList;
-    this.dayOfWeekIndex = (new Date().getDay() + 6) % 7;
+    this.today = new Date();
   }
 }

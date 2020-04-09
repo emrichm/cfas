@@ -38,7 +38,6 @@ export interface Wods {
 export class WodsOverviewPerDay {
     wodDays: {
         scheduledDate: Date,
-        dayOfWeek: number,
         wods: {
             displayOrder: number,
             title: string,
@@ -59,7 +58,6 @@ export class WodsOverviewPerDay {
 
                 this.wodDays.push({
                     scheduledDate: missingDay,
-                    dayOfWeek,
                     wods: [{
                         displayOrder: 1,
                         title: 'Kein WOD angegeben.',
@@ -81,7 +79,6 @@ export class WodsOverviewPerDay {
 
             this.wodDays.push({
                 scheduledDate: new Date(dailyWods[0].attributes.scheduled_date),
-                dayOfWeek,
                 wods
             });
         }
