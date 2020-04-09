@@ -1,15 +1,15 @@
 <section id="title">
-  <div class="text-center">
-    <h1 class="text-uppercase">Events 2020</h1>
-  </div>
+    <div class="text-center">
+        <h1 class="text-uppercase">Events {{ yearText }}</h1>
+    </div>
 </section>
 
 <section>
-  <div class="container col-10 mx-auto">
-    <div class="row justify-content-center dark">
-      <div class="col-12 col-sm-6 col-md-4" *ngFor="let event of events">
-        <cfas-event [event]="event"></cfas-event>
-      </div>
+    <div class="container col-10 mx-auto">
+        <div class="row justify-content-center dark">
+            <div class="col-12 col-sm-6 col-md-4" *ngFor="let event of events">
+                <cfas-event [event]="event"></cfas-event>
+            </div>
+        </div>
     </div>
-  </div>
 </section>

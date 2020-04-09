@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as eventDTO from '../../../../assets/dynamic/data/events.json';
-import { Event, EventDTO } from './event';
+import { Event, EventDTO } from './event/event';
 
 let events = (eventDTO.events as EventDTO[]).map(event => new Event(event));
 events = events.filter(event => event.expDate.getTime() >= new Date().getTime());

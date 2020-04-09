@@ -1,4 +1,4 @@
-import { Event } from 'src/app/pages/offer/events/event';
+import { Event } from 'src/app/pages/offer/events/event/event';
 import { Component, Input } from '@angular/core';
 
 @Component({
