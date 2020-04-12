@@ -1,8 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CrossfitModule } from './crossfit/crossfit.module';
-import { DictionaryModule } from './dictionary/dictionary.module';
-import { EntryModule } from './entry/entry.module';
 
 const routes: Routes = [
   {
@@ -21,10 +18,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forChild(routes),
-    CrossfitModule,
-    DictionaryModule,
-    EntryModule
+    RouterModule.forChild(routes)
   ]
 })
 export class NewComerModule { }

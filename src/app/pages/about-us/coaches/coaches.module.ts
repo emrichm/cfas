@@ -5,9 +5,9 @@ import { CoachesOverviewComponent } from './coaches.component';
 import { CoachProfileComponent } from './components/coach-profile/coach-profile.component';
 import { CoachTeaserComponent } from './components/coach-teaser/coach-teaser.component';
 
-const routes: Routes = [ // ToDo
-  // { path: 'coaches:name', component: CoachProfileComponent },
-  // { path: '', component: CoachesOverviewComponent }
+const routes: Routes = [
+  { path: '', component: CoachesOverviewComponent },
+  { path: ':name', component: CoachProfileComponent }
 ]
 
 @NgModule({

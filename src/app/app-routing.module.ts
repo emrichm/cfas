@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ImpressComponent } from './pages/impress/impress.component';
 
 const routes: Routes = [
   {
@@ -23,16 +22,16 @@ const routes: Routes = [
     path: 'contact',
     loadChildren: () => import('./pages/contact/contact.module').then(module => module.ContactModule)
   },
-  { path: 'impress', component: ImpressComponent, data: { tab: 'impress' } },
-  { path: 'dataprotection', component: ImpressComponent, data: { tab: 'dataprotection' } },
-  // {
-  //   path: 'impress',
-  //   loadChildren: () => import('./pages/impress/impress.module').then(module => module.ImpressModule)
-  // },
-  // {
-  //   path: 'dataprotection',
-  //   loadChildren: () => import('./pages/impress/impress.module').then(module => module.ImpressModule)
-  // },
+  {
+    path: 'impress',
+    loadChildren: () => import('./pages/impress/impress.module').then(module => module.ImpressModule),
+    data: { tab: 'impress' }
+  },
+  {
+    path: 'dataprotection',
+    loadChildren: () => import('./pages/impress/impress.module').then(module => module.ImpressModule),
+    data: { tab: 'dataprotection' }
+  },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

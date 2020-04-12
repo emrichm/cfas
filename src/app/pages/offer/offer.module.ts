@@ -1,10 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ClassesModule } from './classes/classes.module';
-import { EventsModule } from './events/events.module';
-import { PricesModule } from './prices/prices.module';
-import { ScheduleModule } from './schedule/schedule.module';
-import { ShopModule } from './shop/shop.module';
 
 const routes: Routes = [
   {
@@ -31,12 +26,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forChild(routes),
-    ClassesModule,
-    EventsModule,
-    PricesModule,
-    ScheduleModule,
-    ShopModule
+    RouterModule.forChild(routes)
   ]
 })
 export class OfferModule { }
