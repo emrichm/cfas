@@ -1,0 +1,42 @@
+# This is workflow for staging
+
+name: Staging CI/CD
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the staging branch
+on:
+  push:
+    branches: [ staging ]
+  pull_request:
+    branches: [ staging ]
+
+jobs:
+
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+    - uses: actions/checkout@master
+    
+    - name: Node $
+      uses: actions/setup-node@master
+      with:
+        node-version: '10.x'
+
+    - name: Run a one-line script
+      run: echo Hello, world!
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run Lint
+      run: ng lint
+
+    - name: Run Unit-Tests
+      run: ng test --no-watch --no-progress
+
+    - name: Run Build
+      run: ng build --prod --no-progress
