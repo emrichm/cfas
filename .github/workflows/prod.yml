@@ -1,14 +1,14 @@
 # This is workflow for staging
 
-name: Staging CI/CD
+name: Prod CI/CD
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the staging branch
 on:
   push:
-    branches: [staging]
+    branches: [prod]
   pull_request:
-    branches: [staging]
+    branches: [prod]
 
 jobs:
   build:
