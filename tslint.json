@@ -1,29 +1,25 @@
 {
-  "rulesDirectory": [
-    "node_modules/codelyzer",
-    "tslint-consistent-codestyle"
-  ],
+  "extends": "tslint:recommended",
   "rules": {
     "array-type": false,
     "arrow-parens": false,
-    "component-class-suffix": true,
-    "component-selector": [
-      true,
-      "element",
-      "cfas",
-      "kebab-case"
-    ],
-    "contextual-lifecycle": true,
-    "cyclomatic-complexity": true,
     "deprecation": {
       "severity": "warning"
     },
+    "component-class-suffix": true,
+    "contextual-lifecycle": true,
     "directive-class-suffix": true,
     "directive-selector": [
       true,
       "attribute",
       "cfas",
       "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "cfas",
+      "kebab-case"
     ],
     "import-blacklist": [
       true,
@@ -47,33 +43,7 @@
         ]
       }
     ],
-    "naming-convention": [
-      true,
-      {
-        "type": "default",
-        "format": "camelCase",
-        "leadingUnderscore": "forbid",
-        "trailingUnderscore": "forbid"
-      },
-      {
-        "type": "method",
-        "modifiers": "public",
-        "format": "camelCase"
-      },
-      {
-        "type": "member",
-        "modifiers": "private",
-        "leadingUnderscore": "allow"
-      },
-      {
-        "type": "type",
-        "format": "PascalCase"
-      }
-    ],
-    "no-boolean-literal-compare": true,
-    "no-conditional-assignment": true,
-    "no-conflicting-lifecycle": true,
-    "no-consecutive-blank-lines": true,
+    "no-consecutive-blank-lines": false,
     "no-console": [
       true,
       "debug",
@@ -83,26 +53,13 @@
       "trace"
     ],
     "no-empty": false,
-    "no-host-metadata-property": true,
     "no-inferrable-types": [
       true,
       "ignore-params"
     ],
-    "no-input-rename": true,
-    "no-inputs-metadata-property": true,
-    "no-invalid-template-strings": true,
     "no-non-null-assertion": true,
-    "no-output-native": true,
-    "no-output-on-prefix": true,
-    "no-output-rename": true,
-    "no-outputs-metadata-property": true,
     "no-redundant-jsdoc": true,
-    "no-sparse-arrays": true,
     "no-switch-case-fall-through": true,
-    "no-unbound-method": [
-      true,
-      "ignore-static"
-    ],
     "no-use-before-declare": true,
     "no-var-requires": false,
     "object-literal-key-quotes": [
@@ -115,11 +72,25 @@
       true,
       "single"
     ],
-    "restrict-plus-operands": true,
+    "trailing-comma": false,
+    "no-conflicting-lifecycle": true,
+    "no-host-metadata-property": true,
+    "no-input-rename": true,
+    "no-inputs-metadata-property": true,
+    "no-output-native": true,
+    "no-output-on-prefix": true,
+    "no-output-rename": true,
+    "no-outputs-metadata-property": true,
     "template-banana-in-box": true,
     "template-no-negated-async": true,
-    "trailing-comma": false,
     "use-lifecycle-interface": true,
-    "use-pipe-transform-interface": true
-  }
+    "use-pipe-transform-interface": true,
+    "variable-name": [
+      true,
+      "allow-leading-underscore"
+    ]
+  },
+  "rulesDirectory": [
+    "codelyzer"
+  ]
 }

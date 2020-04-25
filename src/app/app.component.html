@@ -2,8 +2,12 @@
   <mat-sidenav #sidenav role="navigation" position="end">
     <cfas-sidenav [menu]="menu" (sidenavClose)="sidenav.close()"></cfas-sidenav>
   </mat-sidenav>
-  <mat-sidenav-content [class.navbar-padding]="!(isHandset$ | async)">
-    <cfas-navbar class="fixed-top" [menu]="menu" (sidenavToggle)="sidenav.toggle()"></cfas-navbar>
+  <mat-sidenav-content [class.navbar-padding]="(isHandset$ | async) === false">
+    <cfas-navbar
+      class="fixed-top"
+      [menu]="menu"
+      (sidenavToggle)="sidenav.toggle()"
+    ></cfas-navbar>
     <router-outlet></router-outlet>
     <cfas-footer></cfas-footer>
   </mat-sidenav-content>

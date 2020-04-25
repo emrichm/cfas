@@ -1,6 +1,6 @@
 export interface Wod {
-    type: string,
-    id: string,
+    type: string;
+    id: string;
     attributes: {
         created_at: string,
         scheduled_date_int: number,
@@ -21,10 +21,10 @@ export interface Wod {
         publish_at: string,
         is_published: boolean,
         movement_ids: string[]
-    },
+    };
     links: {
         ui_results: string
-    }
+    };
 }
 
 export interface Wods {
@@ -32,7 +32,7 @@ export interface Wods {
     links: {
         self: string,
         ui_calendar: string
-    }
+    };
 }
 
 export class WodsOverviewPerDay {

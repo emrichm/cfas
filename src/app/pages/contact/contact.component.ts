@@ -17,7 +17,7 @@ export class ContactComponent implements OnInit, OnDestroy {
     name: 'google-maps',
     buttonIcon: 'place',
     details: 'Google LLC, 1600 Amphitheatre Parkway Mountain View, CA 94043, USA'
-  }
+  };
 
   constructor(
     private snackBar: MatSnackBar,

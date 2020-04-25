@@ -13,7 +13,7 @@ export class ImageGalleryComponent {
     teaser: string,
     highRes: string
   }[] = [];
-  @Input() columns?= 3;
+  @Input() columns ?= 3;
 
   slideIndex = 0;
 
@@ -30,41 +30,41 @@ export class ImageGalleryComponent {
     document.getElementById('imgModal').style.display = 'none';
   }
 
-  plusSlides(n: number): void {
-    this.showSlides(this.slideIndex += n);
-  }
+  // plusSlides(n: number): void {
+  //   this.showSlides(this.slideIndex += n);
+  // }
 
-  currentSlide(n: number) {
-    this.showSlides(this.slideIndex = n);
-  }
+  // currentSlide(n: number) {
+  //   this.showSlides(this.slideIndex = n);
+  // }
 
-  showSlides(slideIndex: number): void;
+  // showSlides(slideIndex: number): void;
 
   // TODO refactoring/optimization
-  showSlides(n: number) {
-    const slides = document.getElementsByClassName('img-slides') as HTMLCollectionOf<HTMLElement>;
-    const dots = document.getElementsByClassName('images') as HTMLCollectionOf<HTMLElement>;
+  // showSlides(n: number) {
+  //   const slides = document.getElementsByClassName('img-slides') as HTMLCollectionOf<HTMLElement>;
+  //   const dots = document.getElementsByClassName('images') as HTMLCollectionOf<HTMLElement>;
 
-    if (n > slides.length) {
-      this.slideIndex = 1;
-    }
+  //   if (n > slides.length) {
+  //     this.slideIndex = 1;
+  //   }
 
-    if (n < 1) {
-      this.slideIndex = slides.length;
-    }
+  //   if (n < 1) {
+  //     this.slideIndex = slides.length;
+  //   }
 
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = 'none';
-    }
+  //   for (let i = 0; i < slides.length; i++) {
+  //     slides[i].style.display = 'none';
+  //   }
 
-    for (let i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(' active', '');
-    }
+  //   for (let i = 0; i < dots.length; i++) {
+  //     dots[i].className = dots[i].className.replace(' active', '');
+  //   }
 
-    slides[this.slideIndex - 1].style.display = 'block';
+  //   slides[this.slideIndex - 1].style.display = 'block';
 
-    if (dots && dots.length > 0) {
-      dots[this.slideIndex - 1].className += ' active';
-    }
-  }
+  //   if (dots && dots.length > 0) {
+  //     dots[this.slideIndex - 1].className += ' active';
+  //   }
+  // }
 }

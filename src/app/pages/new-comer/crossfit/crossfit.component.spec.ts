@@ -1,16 +1,14 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { CrossfitComponent } from './crossfit.component';
 
-describe('CrossfitComponent', () => {
+xdescribe('CrossfitComponent', () => {
   let component: CrossfitComponent;
   let fixture: ComponentFixture<CrossfitComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CrossfitComponent ]
-    })
-    .compileComponents();
+      declarations: [CrossfitComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

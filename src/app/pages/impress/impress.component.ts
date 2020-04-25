@@ -19,7 +19,7 @@ export class ImpressComponent implements OnInit {
       name: 'Datenschutz',
       link: 'dataprotection'
     }
-  ]
+  ];
 
   constructor(
     private location: Location,

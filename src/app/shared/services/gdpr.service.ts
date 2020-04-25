@@ -15,11 +15,12 @@ export class GdprService {
   ) { }
 
   checkRegulation(externInfos: ExternInformation): Promise<boolean> {
-    if (this.cookieService.hasCookieValue(externInfos.name))
+    if (this.cookieService.hasCookieValue(externInfos.name)) {
       return of(true).toPromise();
+    }
 
     return this.openModal(externInfos);
-  };
+  }
 
   private async openModal(externInfos: ExternInformation): Promise<boolean> {
     const dialogRef = this.dialog.open(GdprModalComponent, {

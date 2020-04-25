@@ -8,7 +8,7 @@ const components = [
   FooterComponent,
   NavbarComponent,
   SidenavComponent
-]
+];
 
 @NgModule({
   declarations: [

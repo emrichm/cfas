@@ -14,8 +14,9 @@ export class WodService {
   constructor(private http: HttpClient) { }
 
   get wodList(): Observable<WodsOverviewPerDay> {
-    if (!this.wods$)
+    if (!this.wods$) {
       this.wods$ = this.fetchWods();
+    }
 
     return this.wods$;
   }
@@ -37,7 +38,8 @@ export class WodService {
     const monday = new Date(today.getTime() - (moSuDayOfWeek * 24 * 60 * 60 * 1000));
     const sunday = new Date(today.getTime() + ((6 - moSuDayOfWeek) * 24 * 60 * 60 * 1000));
 
-    let dates = '', tmp = '';
+    let dates = '';
+    let tmp = '';
     // from
     dates = dates.concat(monday.getFullYear().toString());
     tmp = (monday.getMonth() + 1).toString();
@@ -49,9 +51,9 @@ export class WodService {
 
     // to
     dates = dates.concat(sunday.getFullYear().toString());
-    tmp = (sunday.getMonth() + 1).toString()
+    tmp = (sunday.getMonth() + 1).toString();
     dates = dates.concat(tmp.length === 1 ? '0' + tmp : tmp);
-    tmp = sunday.getDate().toString()
+    tmp = sunday.getDate().toString();
     dates = dates.concat(tmp.length === 1 ? '0' + tmp : tmp);
 
     return dates;

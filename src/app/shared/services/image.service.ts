@@ -7,7 +7,7 @@ const registry = {
   halle1: { url: halle1DTO.url, content: halle1DTO.content },
   insights: { url: insightsDTO.url, content: insightsDTO.content },
   werkstatt: { url: werkstattDTO.url, content: werkstattDTO.content }
-}
+};
 
 @Injectable({
   providedIn: 'root'

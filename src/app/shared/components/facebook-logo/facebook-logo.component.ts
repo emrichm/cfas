@@ -13,7 +13,7 @@ export class FacebookLogoComponent {
     buttonIcon: 'tab',
     url: 'www.facebook.com/CrossFitamSee',
     details: 'Facebook Ireland Limited, 4 Grand Canal Square, Dublin 2, Irland'
-  }
+  };
 
   constructor(private gdprService: GdprService) { }
 
