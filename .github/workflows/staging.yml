@@ -6,37 +6,35 @@ name: Staging CI/CD
 # events but only for the staging branch
 on:
   push:
-    branches: [ staging ]
+    branches: [staging]
   pull_request:
-    branches: [ staging ]
+    branches: [staging]
 
 jobs:
-
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    
-    - uses: actions/checkout@master
-    
-    - name: Node $
-      uses: actions/setup-node@master
-      with:
-        node-version: '10.x'
+      - uses: actions/checkout@master
 
-    - name: Run a one-line script
-      run: echo Hello, world!
+      - name: Node $
+        uses: actions/setup-node@master
+        with:
+          node-version: "10.x"
 
-    - name: Install dependencies
-      run: npm ci
+      - name: Run a one-line script
+        run: echo Hello, world!
 
-    - name: Run Lint
-      run: ng lint
+      - name: Install dependencies
+        run: npm ci
 
-    - name: Run Unit-Tests
-      run: ng test --no-watch --no-progress
+      - name: Run Lint
+        run: npm run lint
 
-    - name: Run Build
-      run: ng build --prod --no-progress
+      - name: Run Unit-Tests
+        run: npm run test --no-watch --no-progress
+
+      - name: Run Build
+        run: npm run build --prod --no-progress
