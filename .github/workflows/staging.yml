@@ -10,32 +10,32 @@ on:
   pull_request:
     branches: [staging]
 
-    jobs:
-      build:
-        # The type of runner that the job will run on
-        runs-on: ubuntu-latest
-    
-        # Steps represent a sequence of tasks that will be executed as part of the job
-        steps:
-          - uses: actions/checkout@master
-    
-          - name: Cache node modules
-            uses: actions/cache@v1
-            with:
-              path: ~/.npm
-              key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-              restore-keys: |
-                ${{ runner.os }}-node-
-          - name: Node ${{ matrix.node-version }}
-            uses: actions/setup-node@master
-            with:
-              node-version: ${{ matrix.node-version }}
-    
-          - name: Install dependencies
-            run: npm ci
-    
-          - name: Run Lint
-            run: npm run lint
-    
-          - name: Run Unit-Tests
-            run: npm run test:ci
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Node ${{ matrix.node-version }}
+        uses: actions/setup-node@master
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Lint
+        run: npm run lint
+
+      - name: Run Unit-Tests
+        run: npm run test:ci
