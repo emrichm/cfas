@@ -1,16 +1,14 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ClassesComponent } from './classes.component';
 
-describe('ClassesComponent', () => {
+xdescribe("ClassesComponent", () => {
   let component: ClassesComponent;
   let fixture: ComponentFixture<ClassesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ClassesComponent ]
-    })
-    .compileComponents();
+      declarations: [ClassesComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +17,7 @@ describe('ClassesComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

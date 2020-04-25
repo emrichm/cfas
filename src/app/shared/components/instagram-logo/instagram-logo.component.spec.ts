@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { InstagramLogoComponent } from './instagram-logo.component';
+import { InstagramLogoComponent } from "./instagram-logo.component";
 
-describe('InstagramLogoComponent', () => {
+xdescribe("InstagramLogoComponent", () => {
   let component: InstagramLogoComponent;
   let fixture: ComponentFixture<InstagramLogoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ InstagramLogoComponent ]
-    })
-    .compileComponents();
+      declarations: [InstagramLogoComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('InstagramLogoComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
