@@ -19,6 +19,19 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Node ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
       - name: Node $
         uses: actions/setup-node@master
         with:
@@ -31,7 +44,4 @@ jobs:
         run: npm run lint
 
       - name: Run Unit-Tests
-        run: npm run test --no-watch --no-progress
-
-      - name: Run Build
-        run: npm run build --prod --no-progress
+        run: npm run test:ci
