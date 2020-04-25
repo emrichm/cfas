@@ -1,14 +1,14 @@
 # This is workflow for staging
 
-name: Staging CI/CD
+name: Dev CI/CD
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the staging branch
 on:
   push:
-    branches: [staging]
+    branches: [dev]
   pull_request:
-    branches: [staging]
+    branches: [dev]
 
 jobs:
   build:
@@ -32,6 +32,3 @@ jobs:
 
       - name: Run Unit-Tests
         run: npm run test --no-watch --no-progress
-
-      - name: Run Build
-        run: npm run build --prod --no-progress
