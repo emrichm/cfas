@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { PageTeaserComponent } from './page-teaser.component';
 
-xdescribe("PageTeaserComponent", () => {
+xdescribe('PageTeaserComponent', () => {
   let component: PageTeaserComponent;
   let fixture: ComponentFixture<PageTeaserComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("PageTeaserComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

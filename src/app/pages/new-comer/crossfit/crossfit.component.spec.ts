@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { CrossfitComponent } from './crossfit.component';
 
-xdescribe("CrossfitComponent", () => {
+xdescribe('CrossfitComponent', () => {
   let component: CrossfitComponent;
   let fixture: ComponentFixture<CrossfitComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("CrossfitComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

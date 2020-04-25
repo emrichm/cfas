@@ -1,7 +1,7 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
-import { ScheduleComponent } from "./schedule.component";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ScheduleComponent } from './schedule.component';
 
-xdescribe("ScheduleComponent", () => {
+xdescribe('ScheduleComponent', () => {
   let component: ScheduleComponent;
   let fixture: ComponentFixture<ScheduleComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("ScheduleComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

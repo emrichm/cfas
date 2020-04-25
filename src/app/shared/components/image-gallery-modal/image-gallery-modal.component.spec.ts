@@ -1,8 +1,7 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ImageGalleryModalComponent } from './image-gallery-modal.component';
 
-import { ImageGalleryModalComponent } from "./image-gallery-modal.component";
-
-xdescribe("ImageGalleryModalComponent", () => {
+xdescribe('ImageGalleryModalComponent', () => {
   let component: ImageGalleryModalComponent;
   let fixture: ComponentFixture<ImageGalleryModalComponent>;
 
@@ -18,7 +17,7 @@ xdescribe("ImageGalleryModalComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

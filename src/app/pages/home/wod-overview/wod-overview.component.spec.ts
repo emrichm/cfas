@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { WodOverviewComponent } from './wod-overview.component';
 
-xdescribe("WodOverviewComponent", () => {
+xdescribe('WodOverviewComponent', () => {
   let component: WodOverviewComponent;
   let fixture: ComponentFixture<WodOverviewComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("WodOverviewComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

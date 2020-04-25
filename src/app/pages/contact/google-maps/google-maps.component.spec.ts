@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { GoogleMapsComponent } from './google-maps.component';
 
-xdescribe("GoogleMapsComponent", () => {
+xdescribe('GoogleMapsComponent', () => {
   let component: GoogleMapsComponent;
   let fixture: ComponentFixture<GoogleMapsComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("GoogleMapsComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

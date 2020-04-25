@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { SidenavComponent } from './sidenav.component';
 
-xdescribe("SidenavComponent", () => {
+xdescribe('SidenavComponent', () => {
   let component: SidenavComponent;
   let fixture: ComponentFixture<SidenavComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("SidenavComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

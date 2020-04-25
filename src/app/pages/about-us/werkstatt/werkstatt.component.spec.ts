@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { WerkstattComponent } from './werkstatt.component';
 
-xdescribe("WerkstattComponent", () => {
+xdescribe('WerkstattComponent', () => {
   let component: WerkstattComponent;
   let fixture: ComponentFixture<WerkstattComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("WerkstattComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

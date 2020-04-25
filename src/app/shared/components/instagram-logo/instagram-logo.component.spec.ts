@@ -1,8 +1,7 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { InstagramLogoComponent } from './instagram-logo.component';
 
-import { InstagramLogoComponent } from "./instagram-logo.component";
-
-xdescribe("InstagramLogoComponent", () => {
+xdescribe('InstagramLogoComponent', () => {
   let component: InstagramLogoComponent;
   let fixture: ComponentFixture<InstagramLogoComponent>;
 
@@ -18,7 +17,7 @@ xdescribe("InstagramLogoComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

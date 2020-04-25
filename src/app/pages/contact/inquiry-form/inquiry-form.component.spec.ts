@@ -8,7 +8,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { InquiryFormComponent } from './inquiry-form.component';
 
-xdescribe("InquiryFormComponent", () => {
+xdescribe('InquiryFormComponent', () => {
   let component: InquiryFormComponent;
   let fixture: ComponentFixture<InquiryFormComponent>;
 
@@ -33,7 +33,7 @@ xdescribe("InquiryFormComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should compile", () => {
+  it('should compile', () => {
     expect(component).toBeTruthy();
   });
 });

@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { CoachTeaserComponent } from './coach-teaser.component';
 
-xdescribe("CoachTeaserComponent", () => {
+xdescribe('CoachTeaserComponent', () => {
   let component: CoachTeaserComponent;
   let fixture: ComponentFixture<CoachTeaserComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("CoachTeaserComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

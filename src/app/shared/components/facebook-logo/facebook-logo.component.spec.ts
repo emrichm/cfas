@@ -1,8 +1,7 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { FacebookLogoComponent } from './facebook-logo.component';
 
-import { FacebookLogoComponent } from "./facebook-logo.component";
-
-xdescribe("FacebookLogoComponent", () => {
+xdescribe('FacebookLogoComponent', () => {
   let component: FacebookLogoComponent;
   let fixture: ComponentFixture<FacebookLogoComponent>;
 
@@ -18,7 +17,7 @@ xdescribe("FacebookLogoComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

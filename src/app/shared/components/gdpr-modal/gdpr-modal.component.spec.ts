@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { GdprModalComponent } from './gdpr-modal.component';
 
-xdescribe("GdprModalComponent", () => {
+xdescribe('GdprModalComponent', () => {
   let component: GdprModalComponent;
   let fixture: ComponentFixture<GdprModalComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("GdprModalComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

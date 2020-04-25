@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { DictionaryComponent } from './dictionary.component';
 
-xdescribe("DictionaryComponent", () => {
+xdescribe('DictionaryComponent', () => {
   let component: DictionaryComponent;
   let fixture: ComponentFixture<DictionaryComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("DictionaryComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

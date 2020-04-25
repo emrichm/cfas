@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { InsightsComponent } from './insights.component';
 
-xdescribe("InsightsComponent", () => {
+xdescribe('InsightsComponent', () => {
   let component: InsightsComponent;
   let fixture: ComponentFixture<InsightsComponent>;
 
@@ -17,7 +17,7 @@ xdescribe("InsightsComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });
