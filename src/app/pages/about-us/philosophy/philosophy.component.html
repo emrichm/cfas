@@ -1,7 +1,6 @@
 <header></header>
 
 <section class="grey-section text-center">
-
   <div class="container mx-auto col-10 px-4">
     <div class="row justify-content-center mb-4 pt-md-4 p-4">
       <h1 class="jaeggers mt-4 mb-2">better together</h1>
@@ -9,38 +8,56 @@
   </div>
 
   <div class="container mx-auto col-10 px-4">
-    <div class="row justify-content-center mb-4 pt-md-4" [ngClass]="{'roof': !(isHandset$ | async)}">
+    <div
+      class="row justify-content-center mb-4 pt-md-4"
+      [ngClass]="{ roof: (isHandset$ | async) === false }"
+    >
       <div>
-        <p>Gestützt durch die Pfeiler HAPPY. HEALTHY. HUNGRY.<br>
-          steht bei uns die COMMUNITY im Mittelpunkt und an oberster Stelle!</p>
-        <p>Wir machen zusammen Sport, wir feiern gemeinsam Bestleistungen,
-          wir essen und lachen gemeinsam.</p>
-        <p class="font-weight-bold">Denn wir sind <i class="font-weight-bold">better together!</i></p>
+        <p>
+          Gestützt durch die Pfeiler HAPPY. HEALTHY. HUNGRY.<br />
+          steht bei uns die COMMUNITY im Mittelpunkt und an oberster Stelle!
+        </p>
+        <p>
+          Wir machen zusammen Sport, wir feiern gemeinsam Bestleistungen, wir
+          essen und lachen gemeinsam.
+        </p>
+        <p class="font-weight-bold">
+          Denn wir sind <i class="font-weight-bold">better together!</i>
+        </p>
       </div>
     </div>
   </div>
 
   <div class="container mx-auto col-10">
     <div class="row justify-content-center">
-
       <div class="col-12 col-md-4 mb-4">
         <div class="phil-card p-4">
           <h2 class="jaeggers">Happy</h2>
-          <p>Der Spaß und die Freude am Sport bringt uns zusammen und beides findet massig Platz in unseren
-            Stunden.
+          <p>
+            Der Spaß und die Freude am Sport bringt uns zusammen und beides
+            findet massig Platz in unseren Stunden.
           </p>
-          <p>Denn Lachen ist gesund und gemeinsam lacht es sich bekanntlich doppelt so gut!</p>
+          <p>
+            Denn Lachen ist gesund und gemeinsam lacht es sich bekanntlich
+            doppelt so gut!
+          </p>
         </div>
       </div>
 
       <div class="col-12 col-md-4 mb-4">
         <div class="phil-card p-4">
           <h2 class="jaeggers">Healthy</h2>
-          <p>Ein bis ins hohe Alter gesundes Leben zu führen, ist unser Ziel.</p>
-          <p>Da spielt nicht nur Sport eine Rolle, sondern auch Ernährung, Erholung, Gesellschaft und auch die Art
-            und Weise wie wir unseren Alltag leben. </p>
-          <p>Gemeinsam betrachten wir immer wieder einzelne Themen aus diesen Gebieten und motivieren uns
-            gegenseitig.
+          <p>
+            Ein bis ins hohe Alter gesundes Leben zu führen, ist unser Ziel.
+          </p>
+          <p>
+            Da spielt nicht nur Sport eine Rolle, sondern auch Ernährung,
+            Erholung, Gesellschaft und auch die Art und Weise wie wir unseren
+            Alltag leben.
+          </p>
+          <p>
+            Gemeinsam betrachten wir immer wieder einzelne Themen aus diesen
+            Gebieten und motivieren uns gegenseitig.
           </p>
         </div>
       </div>
@@ -48,12 +65,14 @@
       <div class="col-12 col-md-4 mb-4">
         <div class="phil-card p-4">
           <h2 class="jaeggers">Hungry</h2>
-          <p>Wir sind Hungrig. Nicht nur bezogen auf unsere Ernährung. Wir sind hungrig nach unseren Zielen, welche
-            wir uns setzen und fokussieren. Wir hören niemals auf uns weiterzuentwickeln, sind offen für Neues und
-            lernen stets von den Besten.</p>
+          <p>
+            Wir sind Hungrig. Nicht nur bezogen auf unsere Ernährung. Wir sind
+            hungrig nach unseren Zielen, welche wir uns setzen und fokussieren.
+            Wir hören niemals auf uns weiterzuentwickeln, sind offen für Neues
+            und lernen stets von den Besten.
+          </p>
         </div>
       </div>
-
     </div>
   </div>
 </section>
