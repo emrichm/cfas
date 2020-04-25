@@ -42,11 +42,11 @@ jobs:
         run: npm run prod
 
       - name: Deploy
-      uses: SamKirkland/FTP-Deploy-Action@2.0.0
-      env:
-        FTP_SERVER: 62.108.32.134
-        FTP_USERNAME: smbzgwry
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        LOCAL_DIR: ./dist/crossfitamsee
-        REMOTE_DIR:  crossfitamsee-cons
-        ARGS: --delete
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
+        env:
+          FTP_SERVER: 62.108.32.134
+          FTP_USERNAME: smbzgwry
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          LOCAL_DIR: ./dist/crossfitamsee
+          REMOTE_DIR:  crossfitamsee-cons
+          ARGS: --delete
