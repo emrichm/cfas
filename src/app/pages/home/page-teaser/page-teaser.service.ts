@@ -10,7 +10,7 @@ export class PageTeaserService {
       {
         title: 'CFaS Coaches-Team',
         paragraphs: [
-          `Du möchtest unsere Coaches kennen lernen? 
+          `Du möchtest unsere Coaches kennen lernen?
           Wir stellen sie vor! Persönliches und Qualifikationen findest Du hier.`
         ],
         button: {
@@ -25,7 +25,7 @@ export class PageTeaserService {
       {
         title: 'CFaS Philosophie',
         paragraphs: [
-          `Bei uns steht die COMMUNITY im Mittelpunkt. 
+          `Bei uns steht die COMMUNITY im Mittelpunkt.
           Unser Leitbild und die damit verbundenen Werte HAPPY, HEALTHY, HUNGRY stellen wir Dir hier vor.`
         ],
         button: {
@@ -40,7 +40,7 @@ export class PageTeaserService {
       {
         title: 'HALLE EINS',
         paragraphs: [
-          `Die Halle EINS ist die „Küche“ unserer Box. 
+          `Die Halle EINS ist die „Küche“ unserer Box.
           Erste Anlaufstelle und Hauptbühne der CrossFit am See Athleten.`,
           `Hier hat alles begonnen und hier findet klassisches CrossFit statt.`
         ],
@@ -56,7 +56,7 @@ export class PageTeaserService {
       {
         title: 'WERKSTATT',
         paragraphs: [
-          `Unsere zweite Halle, die WERKSTATT, 
+          `Unsere zweite Halle, die WERKSTATT,
           ist reserviert für Open Gym und jegliche Art an Spezialkursen.`,
           `Hier gibt es den Extraplatz zum individuellen Trainieren für alle.`,
           `Auch unser ROMWOD-Bereich ist hier angegliedert und dient der Erweiterung deiner "Range of Motion"`
@@ -73,7 +73,7 @@ export class PageTeaserService {
       {
         title: 'Kursplan & Klassen',
         paragraphs: [
-          `Beschreibungen der verschiedenen Klassen 
+          `Beschreibungen der verschiedenen Klassen
           sowie den aktuellen Kursplan findest Du auf den folgenden Seiten.`
         ],
         button: {
@@ -88,7 +88,7 @@ export class PageTeaserService {
       {
         title: 'Preise',
         paragraphs: [
-          `Du möchtest Dich informieren, was eine Mitgliedschaft bei CrossFit am See kostet? 
+          `Du möchtest Dich informieren, was eine Mitgliedschaft bei CrossFit am See kostet?
           Dann bist Du hier genau richtig.
           Wir bieten Dir faire Preise für klassisches CrossFit und das gewisse Etwas an mehr!`
         ],
@@ -101,7 +101,7 @@ export class PageTeaserService {
           alt: ''
         }
       }
-    ]
+    ];
     return pagesTeaser;
   }
 }

@@ -13,7 +13,7 @@ export class ScheduleComponent {
     buttonIcon: 'tab',
     url: 'goteamup.com/p/1695186-crossfit-am-see/',
     details: 'TeamUp Sports Inc, 530 Lytton St, 2nd Floor, Palo Alto, California, 94301, USA'
-  }
+  };
 
   constructor(private gdprService: GdprService) { }
 

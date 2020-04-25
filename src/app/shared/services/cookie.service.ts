@@ -26,11 +26,13 @@ export class CookieService {
   private addCookie(storage: Storage, cookieValue: string) {
     const cookie: string[] = [];
 
-    if (storage.getItem(cookieName))
+    if (storage.getItem(cookieName)) {
       storage.getItem(cookieName).split(',').forEach(value => cookie.push(value));
+    }
 
-    if (!cookie.includes(cookieValue))
+    if (!cookie.includes(cookieValue)) {
       cookie.push(cookieValue);
+    }
 
     storage.setItem(cookieName, cookie.toString());
   }

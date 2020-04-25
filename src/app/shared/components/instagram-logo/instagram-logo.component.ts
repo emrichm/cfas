@@ -13,7 +13,7 @@ export class InstagramLogoComponent {
     buttonIcon: 'tab',
     url: 'www.instagram.com/crossfitamsee',
     details: 'Facebook Ireland Limited, 4 Grand Canal Square, Dublin 2, Irland'
-  }
+  };
 
   constructor(private gdprService: GdprService) { }
 

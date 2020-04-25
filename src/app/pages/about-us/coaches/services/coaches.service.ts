@@ -15,8 +15,8 @@ export class CoachesService {
   }
 
   getCoachInterview(name: string): CoachInterview {
-    const coach: Coach = this.coaches.find((coach: Coach) =>
-      coach.name.toLowerCase() === name.toLowerCase()
+    const coach: Coach = this.coaches.find((_coach: Coach) =>
+      _coach.name.toLowerCase() === name.toLowerCase()
     );
     return new CoachInterview(coach);
   }

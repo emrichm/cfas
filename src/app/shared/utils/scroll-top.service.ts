@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 export class ScrollTopService {
 
   constructor(
-    @Inject(PLATFORM_ID) private platformId: Object,
+    @Inject(PLATFORM_ID) private platformId,
     private router: Router,
     private viewportScroller: ViewportScroller
   ) {

@@ -29,7 +29,7 @@ export class CoachProfileComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.subscription.unsubscribe()
+    this.subscription.unsubscribe();
   }
 
   get firstHalfQuestions(): Interview[] {

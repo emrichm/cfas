@@ -20,8 +20,9 @@ export class ShopGdprGuard implements CanActivate {
 
   async canActivate(): Promise<boolean> {
     return this.gdprService.checkRegulation(this.infos).then((resolve: boolean) => {
-      if (!resolve && !this.router.navigated)
+      if (!resolve && !this.router.navigated) {
         this.router.navigate(['/']);
+      }
 
       return resolve;
     });

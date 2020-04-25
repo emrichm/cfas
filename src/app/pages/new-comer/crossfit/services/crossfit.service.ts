@@ -48,9 +48,9 @@ descriptions = [
   {
     title: 'Lebenseinstellung',
     description: [
-      `CrossFit kann auch Lebenseinstellung sein! 
+      `CrossFit kann auch Lebenseinstellung sein!
        Denn nur eine Kombination aus Bewegung und Ernährung bringt Dir nachhaltige Fitness und Gesundheit.`,
       `Lebe jetzt mit uns den CrossFit Lifestyle!`
     ]
   }
-]
+];

@@ -5,7 +5,7 @@ export class Event {
     image: {
         url: string;
         alt: string;
-    }
+    };
 
     constructor(eventDTO: EventDTO) {
         this.date = new Date(eventDTO.date);
@@ -22,5 +22,5 @@ export interface EventDTO {
     image: {
         url: string;
         alt: string;
-    }
+    };
 }

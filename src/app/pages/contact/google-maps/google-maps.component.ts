@@ -28,7 +28,7 @@ export class GoogleMapsComponent implements OnInit {
 
         const marker = new google.maps.Marker({
           position: new google.maps.LatLng(47.651281, 9.503248),
-          map: map,
+          map,
           title: 'CrossFit am See in Friedrichshafen',
         });
 

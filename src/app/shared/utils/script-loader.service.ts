@@ -1,4 +1,3 @@
-import { Observable, of } from 'rxjs';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -7,10 +6,10 @@ import { Injectable } from '@angular/core';
 export class ScriptLoaderService {
   static loadScript(url: string): Promise<boolean> {
     return new Promise((resolve) => {
-      var isFound = false;
-      var scripts = document.getElementsByTagName('script')
-      for (var i = 0; i < scripts.length; ++i) {
-        if (scripts[i].getAttribute('src') != null && scripts[i].getAttribute('src').includes('loader')) {
+      let isFound = false;
+      const scripts = Array.from(document.getElementsByTagName('script'));
+      for (const script of scripts) {
+        if (script.getAttribute('src') != null && script.getAttribute('src').includes('loader')) {
           isFound = true;
         }
       }
@@ -18,9 +17,9 @@ export class ScriptLoaderService {
       if (!isFound) {
         const dynamicScripts = [url];
 
-        for (var i = 0; i < dynamicScripts.length; i++) {
+        for (const dynamicScript of dynamicScripts) {
           const node = document.createElement('script');
-          node.src = dynamicScripts[i];
+          node.src = dynamicScript;
           node.type = 'text/javascript';
           node.async = true;
           node.defer = true;

@@ -86,7 +86,7 @@ export class MenuService {
         name: 'Kontakt',
         path: '/contact'
       }
-    ]
+    ];
     return menu;
   }
 }

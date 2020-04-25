@@ -15,14 +15,14 @@ export class ClassHoursService {
           '17:00 - 18:00',
           '18:00 - 19:00',
           '19:00 - 20:00'
-        ]
+        ];
         break;
       case WeekDay.Tuesday:
         classHours = [
           '17:00 - 18:00',
           '18:00 - 19:00',
           '19:00 - 20:00'
-        ]
+        ];
         break;
       case WeekDay.Wednesday:
         classHours = [
@@ -30,14 +30,14 @@ export class ClassHoursService {
           '17:00 - 18:00',
           '18:00 - 19:00',
           '19:00 - 20:00'
-        ]
+        ];
         break;
       case WeekDay.Thursday:
         classHours = [
           '17:00 - 18:00',
           '18:00 - 19:00',
           '19:00 - 20:00'
-        ]
+        ];
         break;
       case WeekDay.Friday:
         classHours = [
@@ -45,17 +45,17 @@ export class ClassHoursService {
           '16:00 - 17:00',
           '17:00 - 18:00',
           '18:00 - 19:00'
-        ]
+        ];
         break;
       case WeekDay.Saturday:
         classHours = [
           '10:00 - 11:30'
-        ]
+        ];
         break;
       case WeekDay.Sunday:
         classHours = [
           '10:00 - 11:30'
-        ]
+        ];
         break;
     }
     return classHours;

@@ -24,14 +24,14 @@ export class InquiryFormComponent implements OnInit {
     message: [''],
     agreement: [false, Validators.requiredTrue]
   });
-  subjects = ['Drop-In', 'Probetraining', 'Anderes']
+  subjects = ['Drop-In', 'Probetraining', 'Anderes'];
   fromDate: Date;
   toDate: Date;
   hours: string[] = [];
   messageBox = {
     placeholder: 'Zusätzliche Nachricht',
     required: false
-  }
+  };
 
   constructor(
     private fb: FormBuilder,
@@ -45,7 +45,7 @@ export class InquiryFormComponent implements OnInit {
     this.route.queryParams.pipe(filter(params => params.trail))
       .subscribe(trail => {
         if (trail) {
-          this.inquiryForm.controls['subject'].setValue('Probetraining');
+          this.inquiryForm.controls.subject.setValue('Probetraining');
         }
       });
   }
@@ -69,19 +69,21 @@ export class InquiryFormComponent implements OnInit {
   }
 
   get inquiry(): Inquiry {
-    this._inquiry.firstName = this.inquiryForm.controls['firstName'].value;
-    this._inquiry.lastName = this.inquiryForm.controls['lastName'].value;
-    this._inquiry.email = this.inquiryForm.controls['email'].value;
-    this._inquiry.subject = this.inquiryForm.controls['subject'].value;
+    this.inquiry.firstName = this.inquiryForm.controls.firstName.value;
+    this.inquiry.lastName = this.inquiryForm.controls.lastName.value;
+    this.inquiry.email = this.inquiryForm.controls.email.value;
+    this.inquiry.subject = this.inquiryForm.controls.subject.value;
 
-    if (this.inquiryForm.controls['wishDate'].value)
-      this._inquiry.wishDate = this.inquiryForm.controls['wishDate'].value.toDate();
+    if (this.inquiryForm.controls.wishDate.value) {
+      this.inquiry.wishDate = this.inquiryForm.controls.wishDate.value.toDate();
+    }
 
-    if (this.inquiryForm.controls['hour'].value)
-      this._inquiry.hour = this.inquiryForm.controls['hour'].value;
+    if (this.inquiryForm.controls.hour.value) {
+      this.inquiry.hour = this.inquiryForm.controls.hour.value;
+    }
 
-    this._inquiry.message = this.inquiryForm.controls['message'].value;
-    return this._inquiry;
+    this.inquiry.message = this.inquiryForm.controls.message.value;
+    return this.inquiry;
   }
 
   private setFromToDates(): void {

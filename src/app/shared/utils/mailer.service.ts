@@ -11,7 +11,7 @@ export class MailerService {
   private serverUrl = './assets/static/';
   private httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-  }
+  };
 
   constructor(private http: HttpClient) { }
 
@@ -20,7 +20,7 @@ export class MailerService {
       this.serverUrl + 'php/mailer.php', inquiry, this.httpOptions
     ).pipe(
       catchError(error => this.handleError(error))
-    )
+    );
   }
 
   private handleError(error: HttpErrorResponse): Observable<never> {
