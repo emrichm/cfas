@@ -50,4 +50,4 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           LOCAL_DIR: ./dist/crossfitamsee
           REMOTE_DIR:  crossfitamsee-cons
-          ARGS: --delete
+          ARGS: --delete --verbose --dry-run
