@@ -1,6 +1,6 @@
 import { of } from 'rxjs';
 import { Injectable } from '@angular/core';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 import { GdprModalComponent } from '../components/gdpr-modal/gdpr-modal.component';
 import { ExternInformation } from '../models/extern-information';
 import { CookieService } from './cookie.service';

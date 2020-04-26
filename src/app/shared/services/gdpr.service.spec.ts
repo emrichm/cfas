@@ -5,7 +5,7 @@ xdescribe('GdprService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: GdprService = TestBed.get(GdprService);
+    const service: GdprService = TestBed.inject(GdprService);
     expect(service).toBeTruthy();
   });
 });

@@ -22,7 +22,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/.htaccess",
@@ -41,20 +41,22 @@
                 "src/assets",
                 "src/googled6e3f029f829be7c.html"
               ],
-              "fileReplacements": [{
-                "replace": "src/environments/environment.ts",
-                "with": "src/environments/environment.prod.ts"
-              }],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "budgets": [{
+              "budgets": [
+                {
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
@@ -67,20 +69,22 @@
               ]
             },
             "staging": {
-              "fileReplacements": [{
-                "replace": "src/environments/environment.ts",
-                "with": "src/environments/environment.staging.ts"
-              }],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.staging.ts"
+                }
+              ],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "budgets": [{
+              "budgets": [
+                {
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
@@ -158,5 +162,8 @@
       }
     }
   },
-  "defaultProject": "crossfitamsee"
+  "defaultProject": "crossfitamsee",
+  "cli": {
+    "analytics": "d894fdc1-24dd-4398-a435-8d047550b044"
+  }
 }

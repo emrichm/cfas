@@ -4,7 +4,7 @@ import { filter, first, map } from 'rxjs/operators';
 import { CookieService } from 'src/app/shared/services/cookie.service';
 import { GdprService } from 'src/app/shared/services/gdpr.service';
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'cfas-contact',

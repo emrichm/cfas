@@ -5,7 +5,7 @@ xdescribe('WodService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: WodService = TestBed.get(WodService);
+    const service: WodService = TestBed.inject(WodService);
     expect(service).toBeTruthy();
   });
 });

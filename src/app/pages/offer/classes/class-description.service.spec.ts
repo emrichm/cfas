@@ -5,7 +5,7 @@ xdescribe('ClassDescriptionService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: ClassDescriptionService = TestBed.get(
+    const service: ClassDescriptionService = TestBed.inject(
       ClassDescriptionService
     );
     expect(service).toBeTruthy();
