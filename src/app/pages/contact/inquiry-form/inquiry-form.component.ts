@@ -51,7 +51,7 @@ export class InquiryFormComponent implements OnInit {
   }
 
   onSubmit(): void {
-    this.mailerService.sendInquiry(this.inquiry).subscribe(
+    this.mailerService.sendInquiry(this._inquiry).subscribe(
       () => {
         this.sentMail.emit(true);
         this.inquiryForm.disable();
@@ -64,26 +64,26 @@ export class InquiryFormComponent implements OnInit {
   }
 
   setHours(): void {
-    const dayOfWeek = this.inquiry.wishDate.getDay();
+    const dayOfWeek = this._inquiry.wishDate.getDay();
     this.hours = this.classHoursService.getClassHoursForDayOfWeek(dayOfWeek);
   }
 
   get inquiry(): Inquiry {
-    this.inquiry.firstName = this.inquiryForm.controls.firstName.value;
-    this.inquiry.lastName = this.inquiryForm.controls.lastName.value;
-    this.inquiry.email = this.inquiryForm.controls.email.value;
-    this.inquiry.subject = this.inquiryForm.controls.subject.value;
+    this._inquiry.firstName = this.inquiryForm.controls.firstName.value;
+    this._inquiry.lastName = this.inquiryForm.controls.lastName.value;
+    this._inquiry.email = this.inquiryForm.controls.email.value;
+    this._inquiry.subject = this.inquiryForm.controls.subject.value;
 
     if (this.inquiryForm.controls.wishDate.value) {
-      this.inquiry.wishDate = this.inquiryForm.controls.wishDate.value.toDate();
+      this._inquiry.wishDate = this.inquiryForm.controls.wishDate.value.toDate();
     }
 
     if (this.inquiryForm.controls.hour.value) {
-      this.inquiry.hour = this.inquiryForm.controls.hour.value;
+      this._inquiry.hour = this.inquiryForm.controls.hour.value;
     }
 
-    this.inquiry.message = this.inquiryForm.controls.message.value;
-    return this.inquiry;
+    this._inquiry.message = this.inquiryForm.controls.message.value;
+    return this._inquiry;
   }
 
   private setFromToDates(): void {

@@ -24,6 +24,7 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+              
       - name: Node ${{ matrix.node-version }}
         uses: actions/setup-node@master
         with:
@@ -37,3 +38,6 @@ jobs:
 
       - name: Run Unit-Tests
         run: npm run test:ci
+
+      - name: Run Build
+        run: npm run build
