@@ -1,13 +1,15 @@
-img {
-  max-height: 90vh;
-  max-width: 90vw;
-  background: #212121;
-}
+cfas-image-gallery-modal {
+  img {
+    max-height: 90vh;
+    max-width: 90vw;
+    background: #212121;
+  }
 
-.backdrop-background {
-  background-color: rgba($color: #212121, $alpha: 0.9);
-}
+  .backdrop-background {
+    background-color: rgba($color: #212121, $alpha: 0.9);
+  }
 
-.mat-dialog-container {
-  padding: 0;
+  .mat-dialog-container {
+    padding: 0;
+  }
 }
