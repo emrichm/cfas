@@ -5,7 +5,7 @@ import { PricesComponent } from './prices.component';
 
 const routes: Routes = [
   { path: '', component: PricesComponent }
-]
+];
 
 @NgModule({
   declarations: [

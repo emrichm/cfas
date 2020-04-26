@@ -8,7 +8,7 @@ import { WodOverviewComponent } from './wod-overview/wod-overview.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }
-]
+];
 
 @NgModule({
   declarations: [

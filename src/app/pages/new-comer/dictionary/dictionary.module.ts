@@ -5,7 +5,7 @@ import { DictionaryComponent } from './dictionary.component';
 
 const routes: Routes = [
   { path: '', component: DictionaryComponent }
-]
+];
 
 @NgModule({
   declarations: [

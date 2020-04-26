@@ -5,7 +5,7 @@ import { ScheduleComponent } from './schedule.component';
 
 const routes: Routes = [
   { path: '', component: ScheduleComponent }
-]
+];
 
 @NgModule({
   declarations: [

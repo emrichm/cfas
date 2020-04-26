@@ -7,7 +7,7 @@ import { InquiryFormComponent } from './inquiry-form/inquiry-form.component';
 
 const routes: Routes = [
   { path: '', component: ContactComponent }
-]
+];
 
 @NgModule({
   declarations: [

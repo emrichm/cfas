@@ -5,7 +5,7 @@ import { ShopComponent } from './shop.component';
 
 const routes: Routes = [
   { path: '', component: ShopComponent }
-]
+];
 
 @NgModule({
   declarations: [

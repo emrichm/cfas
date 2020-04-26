@@ -5,7 +5,7 @@ import { EntryComponent } from './entry.component';
 
 const routes: Routes = [
   { path: '', component: EntryComponent }
-]
+];
 
 @NgModule({
   declarations: [

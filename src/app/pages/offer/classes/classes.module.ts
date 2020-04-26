@@ -6,7 +6,7 @@ import { ClassesComponent } from './classes.component';
 
 const routes: Routes = [
   { path: '', component: ClassesComponent }
-]
+];
 
 @NgModule({
   declarations: [

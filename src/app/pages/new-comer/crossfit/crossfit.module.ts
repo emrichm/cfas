@@ -5,7 +5,7 @@ import { CrossfitComponent } from './crossfit.component';
 
 const routes: Routes = [
   { path: '', component: CrossfitComponent }
-]
+];
 
 @NgModule({
   declarations: [

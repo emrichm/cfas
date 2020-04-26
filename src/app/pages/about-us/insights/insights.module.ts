@@ -5,7 +5,7 @@ import { InsightsComponent } from './insights.component';
 
 const routes: Routes = [
   { path: '', component: InsightsComponent }
-]
+];
 
 @NgModule({
   declarations: [

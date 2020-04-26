@@ -22,7 +22,7 @@ const routes: Routes = [
     path: 'impressions',
     loadChildren: () => import('./insights/insights.module').then(module => module.InsightsModule)
   }
-]
+];
 
 @NgModule({
   imports: [

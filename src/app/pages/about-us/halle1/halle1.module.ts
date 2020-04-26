@@ -5,7 +5,7 @@ import { Halle1Component } from './halle1.component';
 
 const routes: Routes = [
   { path: '', component: Halle1Component }
-]
+];
 
 @NgModule({
   declarations: [

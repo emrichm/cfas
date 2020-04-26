@@ -8,7 +8,7 @@ import { CoachTeaserComponent } from './components/coach-teaser/coach-teaser.com
 const routes: Routes = [
   { path: '', component: CoachesOverviewComponent },
   { path: ':name', component: CoachProfileComponent }
-]
+];
 
 @NgModule({
   declarations: [

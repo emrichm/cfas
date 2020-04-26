@@ -5,7 +5,7 @@ import { PhilosophyComponent } from './philosophy.component';
 
 const routes: Routes = [
   { path: '', component: PhilosophyComponent }
-]
+];
 
 @NgModule({
   declarations: [

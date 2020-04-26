@@ -14,7 +14,7 @@ const routes: Routes = [
     path: 'cf-dictionary',
     loadChildren: () => import('./dictionary/dictionary.module').then(module => module.DictionaryModule)
   }
-]
+];
 
 @NgModule({
   imports: [

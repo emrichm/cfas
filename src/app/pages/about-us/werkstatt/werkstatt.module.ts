@@ -5,7 +5,7 @@ import { WerkstattComponent } from './werkstatt.component';
 
 const routes: Routes = [
   { path: '', component: WerkstattComponent }
-]
+];
 
 @NgModule({
   declarations: [
