@@ -27,7 +27,7 @@ export class ImpressComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.selectedIndex = this.tabLabels.findIndex(label => label.link === this.route.snapshot.url[0].path);
+    this.selectedIndex = this.tabLabels.findIndex(label => label.link === this.route.snapshot.data.tab);
   }
 
   set selectedTab(selectedIndex: number) {
