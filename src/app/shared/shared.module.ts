@@ -4,27 +4,28 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AppRoutingModule } from '../app-routing.module';
+import { RouterModule } from '@angular/router';
 import { FacebookLogoComponent } from './components/facebook-logo/facebook-logo.component';
 import { GdprModalComponent } from './components/gdpr-modal/gdpr-modal.component';
 import { ImageGalleryModalComponent } from './components/image-gallery-modal/image-gallery-modal.component';
+import { ImageGalleryComponent } from './components/image-gallery/image-gallery.component';
 import { InstagramLogoComponent } from './components/instagram-logo/instagram-logo.component';
 import { MaterialModule } from './material.module';
 
 const modules = [
-  AppRoutingModule,
-  BrowserModule,
-  BrowserAnimationsModule,
   CommonModule,
   FormsModule,
   HttpClientModule,
   MaterialModule,
-  ReactiveFormsModule
+  ReactiveFormsModule,
+  RouterModule
 ];
 
 @NgModule({
   declarations: [
     GdprModalComponent,
+    ImageGalleryComponent,
+    ImageGalleryModalComponent,
     FacebookLogoComponent,
     InstagramLogoComponent
   ],
@@ -33,11 +34,14 @@ const modules = [
   ],
   exports: [
     ...modules,
+    GdprModalComponent,
+    ImageGalleryComponent,
     FacebookLogoComponent,
     InstagramLogoComponent
   ],
   entryComponents: [
-    ImageGalleryModalComponent
+    ImageGalleryModalComponent,
+    GdprModalComponent
   ]
 })
 export class SharedModule { }
