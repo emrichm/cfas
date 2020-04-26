@@ -5,7 +5,7 @@ xdescribe('ImageService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: ImageService = TestBed.get(ImageService);
+    const service: ImageService = TestBed.inject(ImageService);
     expect(service).toBeTruthy();
   });
 });

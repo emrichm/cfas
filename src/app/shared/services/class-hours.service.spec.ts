@@ -5,7 +5,7 @@ describe('ClassHoursService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: ClassHoursService = TestBed.get(ClassHoursService);
+    const service: ClassHoursService = TestBed.inject(ClassHoursService);
     expect(service).toBeTruthy();
   });
 });

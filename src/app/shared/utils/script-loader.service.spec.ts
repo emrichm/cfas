@@ -5,7 +5,7 @@ xdescribe('ScriptLoaderService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: ScriptLoaderService = TestBed.get(ScriptLoaderService);
+    const service: ScriptLoaderService = TestBed.inject(ScriptLoaderService);
     expect(service).toBeTruthy();
   });
 });
