@@ -34,7 +34,7 @@ jobs:
         run: npm ci
 
       - name: Run Build
-        run: npm run prod
+        run: npm run build:prod
 
       - name: Deploy
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
