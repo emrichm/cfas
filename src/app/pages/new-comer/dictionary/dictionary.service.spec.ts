@@ -5,7 +5,7 @@ xdescribe('DictionaryService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: DictionaryService = TestBed.get(DictionaryService);
+    const service: DictionaryService = TestBed.inject(DictionaryService);
     expect(service).toBeTruthy();
   });
 });

@@ -5,7 +5,7 @@ xdescribe('PageTeaserService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: PageTeaserService = TestBed.get(PageTeaserService);
+    const service: PageTeaserService = TestBed.inject(PageTeaserService);
     expect(service).toBeTruthy();
   });
 });

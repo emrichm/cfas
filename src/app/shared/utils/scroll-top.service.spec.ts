@@ -5,7 +5,7 @@ xdescribe('ScrollTopService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: ScrollTopService = TestBed.get(ScrollTopService);
+    const service: ScrollTopService = TestBed.inject(ScrollTopService);
     expect(service).toBeTruthy();
   });
 });

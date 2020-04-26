@@ -5,7 +5,7 @@ xdescribe('CrossfitService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: CrossfitService = TestBed.get(CrossfitService);
+    const service: CrossfitService = TestBed.inject(CrossfitService);
     expect(service).toBeTruthy();
   });
 });
