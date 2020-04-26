@@ -7,8 +7,6 @@ name: Prod CI/CD
 on:
   push:
     branches: [prod]
-  pull_request:
-    branches: [prod]
 
 jobs:
   build:
@@ -39,7 +37,7 @@ jobs:
       - name: Deploy
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
         env:
-          FTP_SERVER: 62.108.32.134
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           LOCAL_DIR: ./dist/crossfitamsee

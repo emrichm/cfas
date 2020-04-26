@@ -36,6 +36,9 @@
           "configurations": {
             "production": {
               "assets": [
+                "src/favicon.ico",
+                "src/.htaccess",
+                "src/assets",
                 "src/googled6e3f029f829be7c.html"
               ],
               "fileReplacements": [{
