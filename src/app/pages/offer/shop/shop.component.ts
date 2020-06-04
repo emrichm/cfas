@@ -1,4 +1,3 @@
-import { GdprService } from 'src/app/shared/services/gdpr.service';
 import { ScriptLoaderService } from 'src/app/shared/utils/script-loader.service';
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
