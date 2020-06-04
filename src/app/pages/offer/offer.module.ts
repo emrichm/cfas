@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ShopGdprGuard } from './shop/shop.gdpr-guard';
 
 const routes: Routes = [
   {
@@ -20,7 +21,8 @@ const routes: Routes = [
   },
   {
     path: 'shop',
-    loadChildren: () => import('./shop/shop.module').then(module => module.ShopModule)
+    loadChildren: () => import('./shop/shop.module').then(module => module.ShopModule),
+    canActivate: [ShopGdprGuard]
   }
 ];
 

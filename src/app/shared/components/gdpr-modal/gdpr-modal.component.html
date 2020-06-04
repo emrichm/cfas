@@ -4,14 +4,14 @@
         <strong>{{ externInfos.url }}</strong> weiter. Bitte stimme der Weitergabe deiner Persönlichen Daten zu:
     </div>
     <div *ngIf="externInfos.url && externInfos.name === 'spreadshirt'">
-        Wir laden nun unseren externen bereitgestellten Shop
+        Wir laden nun unseren extern bereitgestellten Online-Shop
         <strong>{{ externInfos.url }}</strong> auf dieser Seite. Bitte stimme der Weitergabe deiner Persönlichen Daten zu:
     </div>
     <div *ngIf="externInfos.name === 'google-maps'">
         Wir laden nun <strong>Google Maps</strong> um unseren Standort dort anzuzeigen. Bitte stimme der Weitergabe deiner Persönlichen Daten zu:
     </div>
     <div class="my-3 checkbox">
-        <mat-checkbox [(ngModel)]="aggreed" color="primary">Ja, ich willige ein, dass meine IP-Adresse an den Server der Anbieters weitergegeben wird. Mir ist auch bekannt, der der Anbieter bösartige Cookies anlegen, auslesen und speichern kann.<br />Anbieterinformationen:<br />{{ externInfos.details }}
+        <mat-checkbox [(ngModel)]="aggreed" color="primary">Ja, ich willige ein, dass meine IP-Adresse an den Server des Anbieters weitergegeben wird. Mir ist auch bekannt, dass der Anbieter bösartige Cookies anlegen, auslesen und speichern kann.<br />Anbieterinformationen:<br />{{ externInfos.details }}
         </mat-checkbox>
     </div>
     <div class="d-flex justify-content-between flex-wrap">
@@ -25,10 +25,9 @@
         </a>
     </div>
     <div class="d-flex justify-content-between flex-wrap-reverse">
-        <a mat-stroked-button class="mx-auto" routerLink="/dataprotection" fragment="data" target="_blank">Cookie-Nutzung</a
-    >
+        
     <mat-checkbox class="mx-auto mb-1" [(ngModel)]="remember" color="primary"
-      >Einwilligung merken</mat-checkbox
+      >Einwilligung per Cookie merken <a class="mx-auto" routerLink="/dataprotection" fragment="data" target="_blank" title="Zu den Cookie-Informationen"><span class="material-icons">info</span></a></mat-checkbox
     >
   </div>
 </div>
