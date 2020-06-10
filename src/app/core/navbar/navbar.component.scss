@@ -4,6 +4,17 @@
     color: white;
     background-color: black;
     opacity: 0.95;
+
+    #navbar-logo {
+        &:hover {
+            background-color: inherit;
+        }       
+
+        img {
+            filter: invert(1);
+            height: inherit;
+        }
+    }
 }
 
 .is-handset {
