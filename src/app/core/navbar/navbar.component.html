@@ -6,8 +6,11 @@
     </ng-container>
 
     <ng-template #screenNav>
-        <cfas-facebook-logo color="white"></cfas-facebook-logo>
-        <cfas-instagram-logo color="white" class="mr-auto pr-3"></cfas-instagram-logo>
+        <!-- <cfas-facebook-logo color="white"></cfas-facebook-logo>
+        <cfas-instagram-logo color="white" class="mr-auto pr-3"></cfas-instagram-logo> -->
+        <a id="navbar-logo" class="mr-auto" [routerLink]="['/']">
+            <img src="assets/static/images/logos/crossfitamsee-logo.svg" alt="Logo - CrossFit am See est. 2018">
+        </a>
         <ng-container *ngFor="let menuItem of menu">
             <ng-container *ngIf="!menuItem.subMenuItems; else withSubMenu">
                 <a [routerLink]="menuItem.path"><button mat-button routerLinkActive="active"
@@ -20,12 +23,12 @@
                     <mat-menu #subMenu="matMenu">
                         <ng-container *ngFor="let subMenuItem of menuItem.subMenuItems">
                             <a [routerLink]="subMenuItem.path">
-                <button mat-menu-item>{{ subMenuItem.name }}</button>
-                </a>
-        </ng-container>
-        </mat-menu>
-        </button>
-        </ng-template>
+                                <button mat-menu-item>{{ subMenuItem.name }}</button>
+                            </a>
+                        </ng-container>
+                    </mat-menu>
+                </button>
+            </ng-template>
         </ng-container>
     </ng-template>
 </mat-toolbar>
