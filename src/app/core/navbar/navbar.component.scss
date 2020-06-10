@@ -4,12 +4,23 @@
     color: white;
     background-color: black;
     opacity: 0.95;
+
+    #navbar-logo {
+        &:hover {
+            background-color: inherit;
+        }       
+
+        img {
+            filter: invert(1);
+            height: inherit;
+        }
+    }
 }
 
 .is-handset {
     width: fit-content;
     float: right;
-    opacity: 70%;
+    opacity: 0.85;
     border-bottom-left-radius: 5px;
     &:hover {
         opacity: inherit;
