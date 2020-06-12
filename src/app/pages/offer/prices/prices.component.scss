@@ -11,9 +11,9 @@ header {
     font-size: 4.0rem;
     letter-spacing: 1.5rem;
 
-    @media screen and (max-width: 960px) {
+    @media (max-width: 960px) {
       font-size: 5vw;
-      letter-spacing: 0.9rem;
+      letter-spacing: 0.7rem;
     }
   }
 
@@ -21,8 +21,8 @@ header {
     font-size: 2.0rem;
     font-weight: 300;
 
-    @media screen and (max-width: 960px) {
-      font-size: 2.5vw;
+    @media (max-width: 960px) {
+      font-size: 3.5vw;
     }
   }
 }
@@ -70,8 +70,4 @@ button {
   &:hover {
     background-color: rgba($color: #212121, $alpha: 0.1);
   }
-}
-
-#plusicon {
-  font-size: 5rem;
 }
