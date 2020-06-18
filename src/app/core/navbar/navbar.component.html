@@ -6,10 +6,8 @@
     </ng-container>
 
     <ng-template #screenNav>
-        <!-- <cfas-facebook-logo color="white"></cfas-facebook-logo>
-        <cfas-instagram-logo color="white" class="mr-auto pr-3"></cfas-instagram-logo> -->
         <a id="navbar-logo" class="mr-auto" [routerLink]="['/']">
-            <img src="assets/static/images/logos/crossfitamsee-logo.svg" alt="Logo - CrossFit am See est. 2018">
+            <img src="assets/static/images/logos/crossfitamsee-logo-white.svg" alt="Logo - CrossFit am See est. 2018">
         </a>
         <ng-container *ngFor="let menuItem of menu">
             <ng-container *ngIf="!menuItem.subMenuItems; else withSubMenu">
