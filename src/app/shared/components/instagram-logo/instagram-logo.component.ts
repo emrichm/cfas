@@ -7,7 +7,7 @@ import { GdprService } from '../../services/gdpr.service';
   styleUrls: ['./instagram-logo.component.scss']
 })
 export class InstagramLogoComponent {
-  @Input() color: string;
+  @Input() icon: string;
   infos = {
     name: 'instagram',
     buttonIcon: 'tab',
