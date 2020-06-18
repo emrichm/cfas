@@ -7,7 +7,7 @@ import { GdprService } from '../../services/gdpr.service';
   styleUrls: ['./facebook-logo.component.scss']
 })
 export class FacebookLogoComponent {
-  @Input() color: string;
+  @Input() icon: string;
   infos = {
     name: 'facebook',
     buttonIcon: 'tab',
