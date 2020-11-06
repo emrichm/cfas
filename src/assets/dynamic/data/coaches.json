@@ -26,7 +26,9 @@
       "interview": [
         {
           "question": "Was machst Du beruflich?",
-          "answer": ["Headcoach bei CrossFit am See und Betriebswirtin - aktuell in Elternzeit "]
+          "answer": [
+            "Headcoach bei CrossFit am See und Betriebswirtin - aktuell in Elternzeit "
+          ]
         },
         {
           "question": "Warum machst Du CrossFit?",
@@ -36,43 +38,66 @@
         },
         {
           "question": "Seit wann machst Du CrossFit?",
-          "answer": ["seit 2014"]
+          "answer": [
+            "seit 2014"
+          ]
         },
         {
           "question": "Seit wann bist Du Coach?",
-          "answer": ["seit 2015"]
+          "answer": [
+            "seit 2015"
+          ]
         },
         {
           "question": "CrossFit am See in einem Wort?",
-          "answer": ["GEMEINSCHAFT"]
+          "answer": [
+            "GEMEINSCHAFT"
+          ]
         },
         {
           "question": "Dein Ziel 2020?",
-          "answer": ["einen Bar Muscle Up"]
+          "answer": [
+            "einen Bar Muscle Up"
+          ]
         },
         {
           "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": ["eindeutig Hoodie"]
+          "answer": [
+            "eindeutig Hoodie"
+          ]
         },
         {
           "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": ["Chips und Pizza"]
+          "answer": [
+            "Chips und Pizza"
+          ]
         },
         {
           "question": "Dein Tipp für Samstagabend?",
-          "answer": ["Camping, Caipi, Couch"]
+          "answer": [
+            "Camping, Caipi, Couch"
+          ]
         },
         {
           "question": "Dein Lieblings-WOD?",
-          "answer": ["\"ANNIE\"", "50-40-30-20-10", "Double Unders", "Sit-Ups"]
+          "answer": [
+            "\"ANNIE\"",
+            "50-40-30-20-10",
+            "Double Unders",
+            "Sit-Ups"
+          ]
         },
         {
           "question": "Deine Hobbies neben CrossFit?",
-          "answer": ["Kochen, Garten, Campen"]
+          "answer": [
+            "Kochen, Garten, Campen"
+          ]
         },
         {
           "question": "Aus welchem Sport kommst Du?",
-          "answer": ["Leichtathletik"]
+          "answer": [
+            "Leichtathletik"
+          ]
         }
       ]
     },
@@ -98,7 +123,9 @@
       "interview": [
         {
           "question": "Was machst Du beruflich?",
-          "answer": ["Marketing Manager bei ZF Sachs Micro Mobility "]
+          "answer": [
+            "Marketing Manager bei ZF Sachs Micro Mobility"
+          ]
         },
         {
           "question": "Warum machst Du CrossFit?",
@@ -108,43 +135,63 @@
         },
         {
           "question": "Seit wann machst Du CrossFit?",
-          "answer": ["seit 2013"]
+          "answer": [
+            "seit 2013"
+          ]
         },
         {
           "question": "Seit wann bist Du Coach?",
-          "answer": ["seit 2020"]
+          "answer": [
+            "seit 2020"
+          ]
         },
         {
           "question": "CrossFit am See in einem Wort?",
-          "answer": ["SpaßundLeiden"]
+          "answer": [
+            "SpaßundLeiden"
+          ]
         },
         {
           "question": "Dein Ziel 2020?",
-          "answer": ["Fit, gesund und aktiv bleiben"]
+          "answer": [
+            "Fit, gesund und aktiv bleiben"
+          ]
         },
         {
           "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": ["Hoodie"]
+          "answer": [
+            "Hoodie"
+          ]
         },
         {
           "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": ["Ach, da gibt’s zu viele, um die aufzulisten!"]
+          "answer": [
+            "Ach, da gibt’s zu viele, um die aufzulisten!"
+          ]
         },
         {
           "question": "Dein Tipp für Samstagabend?",
-          "answer": ["Freunde treffen, Couch oder Netflix"]
+          "answer": [
+            "Freunde treffen, Couch oder Netflix"
+          ]
         },
         {
           "question": "Dein Lieblings-WOD?",
-          "answer": ["Chipper jeglicher Art"]
+          "answer": [
+            "Chipper jeglicher Art"
+          ]
         },
         {
           "question": "Deine Hobbies neben CrossFit?",
-          "answer": ["Kochen, Tennis, Laufen"]
+          "answer": [
+            "Kochen, Tennis, Laufen"
+          ]
         },
         {
           "question": "Aus welchem Sport kommst Du?",
-          "answer": ["Tennis, Laufen"]
+          "answer": [
+            "Tennis, Laufen"
+          ]
         }
       ]
     },
@@ -161,11 +208,15 @@
         "Darf es ein wenig mehr zu Axel sein?"
       ],
       "buttonText": "Zum Interview",
-      "qualifications": ["CrossFit Level 1 Trainer (CF-L1)"],
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1)"
+      ],
       "interview": [
         {
           "question": "Was machst Du beruflich?",
-          "answer": ["Beteiligungscontroller"]
+          "answer": [
+            "Beteiligungscontroller"
+          ]
         },
         {
           "question": "Warum machst Du CrossFit?",
@@ -175,121 +226,159 @@
         },
         {
           "question": "Seit wann machst Du CrossFit?",
-          "answer": ["seit 2013"]
+          "answer": [
+            "seit 2013"
+          ]
         },
         {
           "question": "Seit wann bist Du Coach?",
-          "answer": ["seit 2018"]
+          "answer": [
+            "seit 2018"
+          ]
         },
         {
           "question": "CrossFit am See in einem Wort?",
-          "answer": ["Suchtmittel"]
+          "answer": [
+            "Suchtmittel"
+          ]
         },
         {
           "question": "Dein Ziel 2020?",
-          "answer": ["Bar Muscle Up"]
+          "answer": [
+            "Bar Muscle Up"
+          ]
         },
         {
           "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": ["Hoodie"]
-        },
-        {
-          "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": ["Kuchen und Pizza"]
-        },
-        {
-          "question": "Dein Tipp für Samstagabend?",
-          "answer": ["Ins Kino oder ins Theater gehen"]
-        },
-        {
-          "question": "Dein Lieblings-WOD?",
-          "answer": ["\"Diane\"", "21-15-9", "Deadlifts", "Handstand Push-Up"]
-        },
-        {
-          "question": "Deine Hobbies neben CrossFit?",
-          "answer": ["Aktien"]
-        },
-        {
-          "question": "Aus welchem Sport kommst Du?",
-          "answer": ["Brazilian Jiu-Jitsu"]
-        }
-      ]
-    },
-    {
-      "name": "Silvia",
-      "position": "Coach",
-      "image": {
-        "url": "assets/dynamic/images/coaches/Silvia.jpg",
-        "alt": ""
-      },
-      "teaser": [
-        "Silvia macht bereits seit sieben Jahren CrossFit. Im Januar 2017 hat Sie angefangen, hauptberuflich als CrossFit - Coach zu arbeiten und 2018 zusammen mit Anna CrossFit am See gegründet.",
-        "Zwischenzeitlich hat Sie sich zwei Jahre voll aufs olympische Gewichtheben konzentriert und den Fokus in den letzten beiden Jahren vermehrt auf CrossFit während und nach der Schwangerschaft gelegt. Sie freut sich darauf, Dir eine saubere Technik zu vermitteln und so für verletzungsfreien Spaß an der Hantel zu sorgen.",
-        "Weitere Infos über Silvia?"
-      ],
-      "buttonText": "Zum Interview",
-      "qualifications": [
-        "CrossFit Level 1 Trainer (CF-L1)",
-        "CrossFit Level 2 (CF-L2)",
-        "Pregnancy and Postpartum Athleticism Coach",
-        "C-Lizenz Leistungssport Gewichtheben",
-        "C-Lizenz Breitensport Kraft und Fitness",
-        "CrossFit Lesson Planning Course",
-        "CrossFit Spot the flaw Course",
-        "CrossFit Scaling Course"
-      ],
-      "interview": [
-        {
-          "question": "Was machst Du beruflich?",
-          "answer": ["Headcoach bei CrossFit am See und Mama"]
-        },
-        {
-          "question": "Warum machst Du CrossFit?",
-          "answer": ["CrossFit macht Spaß und hat Sinn. Außerdem sind die Leute super."]
-        },
-        {
-          "question": "Seit wann machst Du CrossFit?",
-          "answer": ["seit 2013"]
-        },
-        {
-          "question": "Seit wann bist Du Coach?",
-          "answer": ["seit 2017"]
-        },
-        {
-          "question": "CrossFit am See in einem Wort?",
-          "answer": ["Wundertüte"]
-        },
-        {
-          "question": "Dein Ziel 2020?",
-          "answer": ["stabile Mitte wiederfinden"]
-        },
-        {
-          "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": ["Hoodie!"]
+          "answer": [
+            "Hoodie"
+          ]
         },
         {
           "question": "Dein Lieblings \"CHEAT-Meal\"?",
           "answer": [
-            "Gibt's nicht.Ich betrachte keine meiner Mahlzeiten als„ Cheat“. Meine Ernährung ist eine Lebenseinstellung und ich bescheiße mich nicht selbst.Aber: ich mag Kuchen😉 "
+            "Kuchen und Pizza"
           ]
         },
         {
           "question": "Dein Tipp für Samstagabend?",
-          "answer": ["ich verstehe die Frage nicht - habe ein Kleinkind zuhause"]
+          "answer": [
+            "Ins Kino oder ins Theater gehen"
+          ]
         },
         {
           "question": "Dein Lieblings-WOD?",
-          "answer": ["Open 14.5/16.5:", "21-18-15-12-9-6-3", "Thruster", "Burpees over Bar"]
+          "answer": [
+            "\"Diane\"",
+            "21-15-9",
+            "Deadlifts",
+            "Handstand Push-Up"
+          ]
         },
         {
           "question": "Deine Hobbies neben CrossFit?",
-          "answer": ["Gemüsegärtnern"]
+          "answer": [
+            "Aktien"
+          ]
         },
         {
           "question": "Aus welchem Sport kommst Du?",
           "answer": [
-            "Alles, was mein Dorf hergegeben hat:",
-            "Ballet, Turnen, Tennis, Fußball, Jujutsu, Handball, am längsten aber Schwimmen: 13 Jahre DLRG "
+            "Brazilian Jiu-Jitsu"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Charly",
+      "position": "Coach",
+      "image": {
+        "url": "assets/dynamic/images/coaches/Charly.jpg",
+        "alt": ""
+      },
+      "teaser": [
+        "„Charly the Machine“ kommt eigentlich aus dem klassischen Fitness Bereich und hat vor zwei Jahren zu CrossFit am See gefunden. Doch neben dem heben von schweren Gewichten, liebt sie auch die Ruhe der Berge. Unsere Charly nutzt die Wochenenden am liebsten damit wandern zu gehen, natürlich auch dies nicht mal eben so sondern auch gern mal 24h am Stück.",
+        "In CrossFit hat sie einen super Ausgleich zum beruflichen Alltag eines Tax Consultants gefunden und freut sich darauf auch dir mit Rat und Tat in der Box für dich da sein zu können!",
+        "Weitere Infos über Charly?"
+      ],
+      "buttonText": "Zum Interview",
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1)  ",
+        "B-Lizenz \"Kraft und Fitness\"",
+        "C-Lizenz \"Fitness Aerobic\""
+      ],
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Tax Consultant"
+          ]
+        },
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
+            "Weil man sich jedes Mal wenn man in die Box kommt wie zu Hause fühlt und gemeinsam mit der Community jeden Tag super abwechslungsreiche Workouts rockt."
+          ]
+        },
+        {
+          "question": "Seit wann machst Du CrossFit?",
+          "answer": [
+            "seit 2018"
+          ]
+        },
+        {
+          "question": "Seit wann bist Du Coach?",
+          "answer": [
+            "seit 2020"
+          ]
+        },
+        {
+          "question": "CrossFit am See in einem Wort?",
+          "answer": [
+            "Community"
+          ]
+        },
+        {
+          "question": "Dein Ziel 2020?",
+          "answer": [
+            "Strict Pull up"
+          ]
+        },
+        {
+          "question": "Bist Du Team Hoodie oder Zipper?",
+          "answer": [
+            "Team Hoodie"
+          ]
+        },
+        {
+          "question": "Dein Lieblings \"CHEAT-Meal\"?",
+          "answer": [
+            "Ben & Jerry ́s Chunky Monkey"
+          ]
+        },
+        {
+          "question": "Dein Tipp für Samstagabend?",
+          "answer": [
+            "Spieleabend mit Freunden"
+          ]
+        },
+        {
+          "question": "Dein Lieblings-WOD?",
+          "answer": [
+            "Grace",
+            "30 Clean and Jerks"
+          ]
+        },
+        {
+          "question": "Deine Hobbies neben CrossFit?",
+          "answer": [
+            "Bergsteigen"
+          ]
+        },
+        {
+          "question": "Aus welchem Sport kommst Du?",
+          "answer": [
+            "Klassisches Fitnesstraining"
           ]
         }
       ]
@@ -306,18 +395,21 @@
         "Neben seinen Tätigkeiten in der Softwareentwicklung gönnt er sich gerne den Ausgleich im Workout und freut sich darauf, auch Dich durch Deine besten 60 Minuten deines Tages zu begleiten.",
         "Du möchtest Mark noch besser kennenlernen?"
       ],
-			"buttonText": "Zum Interview",
-			"qualifications": [
+      "buttonText": "Zum Interview",
+      "qualifications": [
         "CrossFit Level 1 Trainer (CF-L1)",
         "CrossFit Anatomy Certificate"
       ],
-			"interview": [{
-					"question": "Was machst Du beruflich?",
-					"answer": ["Softwareentwickler"]
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Softwareentwickler"
+          ]
         },
-				{
-					"question": "Warum machst Du CrossFit?",
-					"answer": [
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
             "Kurzfristig betrachtet, freue ich mich über die Community und über die abwechslungsreiche Art, ein gesünderes Leben zu führen.Langfristig betrachtet, möchte ich auch noch in hohem Alter vital und voller Leben sein können."
           ]
         },
@@ -329,27 +421,39 @@
         },
         {
           "question": "Seit wann bist Du Coach?",
-          "answer": ["seit 2019"]
+          "answer": [
+            "seit 2019"
+          ]
         },
         {
           "question": "CrossFit am See in einem Wort?",
-          "answer": ["Freundetreff"]
+          "answer": [
+            "Freundetreff"
+          ]
         },
         {
           "question": "Dein Ziel 2020?",
-          "answer": ["Butterfly Pull-ups und Handstand Walk"]
+          "answer": [
+            "Butterfly Pull-ups und Handstand Walk"
+          ]
         },
         {
           "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": ["Hoodie!"]
+          "answer": [
+            "Hoodie!"
+          ]
         },
         {
           "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": ["Pizza"]
+          "answer": [
+            "Pizza"
+          ]
         },
         {
           "question": "Dein Tipp für Samstagabend?",
-          "answer": ["Ein Kurztrip in eine benachbarte Stadt, an einen fremden Ort."]
+          "answer": [
+            "Ein Kurztrip in eine benachbarte Stadt, an einen fremden Ort."
+          ]
         },
         {
           "question": "Dein Lieblings-WOD?",
@@ -363,11 +467,15 @@
         },
         {
           "question": "Deine Hobbies neben CrossFit?",
-          "answer": ["Billard"]
+          "answer": [
+            "Billard"
+          ]
         },
         {
           "question": "Aus welchem Sport kommst Du?",
-          "answer": ["Klassisches Fitness-Studio"]
+          "answer": [
+            "Klassisches Fitness-Studio"
+          ]
         }
       ]
     },
@@ -393,7 +501,9 @@
       "interview": [
         {
           "question": "Was machst Du beruflich?",
-          "answer": ["Pilot"]
+          "answer": [
+            "Pilot"
+          ]
         },
         {
           "question": "Warum machst Du CrossFit?",
@@ -403,31 +513,45 @@
         },
         {
           "question": "Seit wann machst Du CrossFit?",
-          "answer": ["2017"]
+          "answer": [
+            "2017"
+          ]
         },
         {
           "question": "Seit wann bist Du Coach?",
-          "answer": ["seit 2018"]
+          "answer": [
+            "seit 2018"
+          ]
         },
         {
           "question": "CrossFit am See in einem Wort?",
-          "answer": ["Zuhause"]
+          "answer": [
+            "Zuhause"
+          ]
         },
         {
           "question": "Dein Ziel 2020?",
-          "answer": ["+ 1.5 kg Muskelmasse"]
+          "answer": [
+            "+ 1.5 kg Muskelmasse"
+          ]
         },
         {
           "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": ["Hoodie"]
+          "answer": [
+            "Hoodie"
+          ]
         },
         {
           "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": ["Ben & Jerry‘s"]
+          "answer": [
+            "Ben & Jerry‘s"
+          ]
         },
         {
           "question": "Dein Tipp für Samstagabend?",
-          "answer": ["Arbeiten 🙂"]
+          "answer": [
+            "Arbeiten 🙂"
+          ]
         },
         {
           "question": "Dein Lieblings-WOD?",
@@ -441,11 +565,15 @@
         },
         {
           "question": "Deine Hobbies neben CrossFit?",
-          "answer": ["Alles im und um den Bodensee. Wandern, Baden"]
+          "answer": [
+            "Alles im und um den Bodensee. Wandern, Baden"
+          ]
         },
         {
           "question": "Aus welchem Sport kommst Du?",
-          "answer": ["Powerlifting​"]
+          "answer": [
+            "Powerlifting​"
+          ]
         }
       ]
     },
@@ -462,11 +590,15 @@
         "Mehr über Colin?"
       ],
       "buttonText": "Zum Interview",
-      "qualifications": ["CrossFit Level 1 Trainer (CF-L1)"],
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1)"
+      ],
       "interview": [
         {
           "question": "Was machst Du beruflich?",
-          "answer": ["Gymnasial- und Berufsschullehrer"]
+          "answer": [
+            "Gymnasial- und Berufsschullehrer"
+          ]
         },
         {
           "question": "Warum machst Du CrossFit?",
@@ -476,15 +608,21 @@
         },
         {
           "question": "Seit wann machst Du CrossFit?",
-          "answer": ["2014"]
+          "answer": [
+            "2014"
+          ]
         },
         {
           "question": "Seit wann bist Du Coach?",
-          "answer": ["seit 2020"]
+          "answer": [
+            "seit 2020"
+          ]
         },
         {
           "question": "CrossFit am See in einem Wort?",
-          "answer": ["LEIDENschaft"]
+          "answer": [
+            "LEIDENschaft"
+          ]
         },
         {
           "question": "Dein Ziel 2020?",
@@ -494,27 +632,134 @@
         },
         {
           "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": ["Hoodie"]
+          "answer": [
+            "Hoodie"
+          ]
         },
         {
           "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": ["Ben & Jerry‘s mit Milch und Oreo-Cookies"]
+          "answer": [
+            "Ben & Jerry‘s mit Milch und Oreo-Cookies"
+          ]
         },
         {
           "question": "Dein Tipp für Samstagabend?",
-          "answer": ["Netflix + Essen"]
+          "answer": [
+            "Netflix + Essen"
+          ]
         },
         {
           "question": "Dein Lieblings-WOD?",
-          "answer": ["\"AMANDA\"", "9-7-5", "Muscle-Ups", "Squat Snatches"]
+          "answer": [
+            "\"AMANDA\"",
+            "9-7-5",
+            "Muscle-Ups",
+            "Squat Snatches"
+          ]
         },
         {
           "question": "Deine Hobbies neben CrossFit?",
-          "answer": ["Snowboarden"]
+          "answer": [
+            "Snowboarden"
+          ]
         },
         {
           "question": "Aus welchem Sport kommst Du?",
-          "answer": ["Basketball"]
+          "answer": [
+            "Basketball"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kathrin",
+      "position": "BackOffice und Masseurin",
+      "image": {
+        "url": "assets/dynamic/images/coaches/Kathrin.jpg",
+        "alt": ""
+      },
+      "teaser": [
+        "Kathrin reist gerne um die Welt und kann einfach verdammt gut backen :P",
+        "2019 ist Sie zu CrossFit am See gekommen und hat ihre Karriere für einen Einsatz auf einem Kursschiff der AIDA-Flotte unterbrochen. Nun zurück von ihrer Reise, wird sie unser Team und die Athleten nicht nur im BackOffice aufmischen. Sie freut sich bereits darauf dir Ihr Wissen rund um das Thema Sport und Ernährung näher zu bringen und endlich ihre transportable Physioliege bei uns zu parken.",
+        "Du möchtest mehr über Kathrin erfahren?"
+      ],
+      "buttonText": "Zum Interview",
+      "qualifications": [
+        "Angehende Physiotherapeutin (B.Sc.)",
+        "Sport- und Bewegungstherapeutin DVGS",
+        "Bachelor of Arts B.A. \"Bewegung und Ernährung\""
+      ],
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Angehende Physiotherapeutin"
+          ]
+        },
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
+            "Das \"Cross-Fit-Gefühl\" zuhause zu sein und gemeinsam zu trainieren ist unbeschreiblich"
+          ]
+        },
+        {
+          "question": "Seit wann machst Du CrossFit?",
+          "answer": [
+            "Oktober 2019"
+          ]
+        },
+        {
+          "question": "CrossFit am See in einem Wort?",
+          "answer": [
+            "HassLiebe"
+          ]
+        },
+        {
+          "question": "Dein Ziel 2020?",
+          "answer": [
+            "10 DUs unbroken"
+          ]
+        },
+        {
+          "question": "Bist Du Team Hoodie oder Zipper?",
+          "answer": [
+            "ZIPPER!"
+          ]
+        },
+        {
+          "question": "Dein Lieblings \"CHEAT-Meal\"?",
+          "answer": [
+            "\"Omas Dampfnudle\" mit vieeeeel Vanillesoße"
+          ]
+        },
+        {
+          "question": "Dein Tipp für Samstagabend?",
+          "answer": [
+            "Nette Leute, gutes Essen – so kannst du sonntags noch mehr pressen"
+          ]
+        },
+        {
+          "question": "Dein Lieblings-WOD?",
+          "answer": [
+            "\"Pandemic\"",
+            "For Time",
+            "1 to 10 to 1 Reps (Pyramid with Multipliers) of:",
+            "1 Burpee",
+            "2 Mountain Climbers",
+            "3 Sit-Ups"
+          ]
+        },
+        {
+          "question": "Deine Hobbies neben CrossFit?",
+          "answer": [
+            "Wandern, Yoga und Backen"
+          ]
+        },
+        {
+          "question": "Aus welchem Sport kommst Du?",
+          "answer": [
+            "Turnen, Laufen"
+          ]
         }
       ]
     }
