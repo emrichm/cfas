@@ -221,7 +221,7 @@
     "term": "Row",
     "description": ["Rudern"]
   }, {
-    "term": "Rx\"d",
+    "term": "Rx'd",
     "description": ["As prescribed. Wie beschrieben. Heißt man hat das WOD gemacht wie es definiert wurde."]
   }, {
     "term": "Skill",
@@ -268,8 +268,5 @@
   }, {
     "term": "WOD",
     "description": ["Workout of the Day"]
-  }, {
-    "term": "Walking Lunges",
-    "description": ["Eine bestimmte Strecke wird mit Ausfallschritten zurück gelegt."]
   }]
 }
