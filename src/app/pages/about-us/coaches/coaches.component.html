@@ -2,16 +2,16 @@
     <img src="/assets/static/images/style-images/GruppeHandstand3.jpg" alt="">
 </header>
 
-    <section
-        class="row justify-content-center"
-        [ngClass]="{'grey-section': i % 2}"
-        *ngFor="let coachTeaser of coachesTeaser; let i = index"
-    >
-        <div class="col-10 col-md-8">
-            <cfas-coach-teaser
-                [coachTeaser]="coachTeaser"
-                [index]="i"
-            >
-            </cfas-coach-teaser>
-        </div>
-    </section>
+<section
+    class="row justify-content-center"
+    [ngClass]="{'grey-section': i % 2}"
+    *ngFor="let coachTeaser of coachesTeaser; let i = index"
+>
+    <div class="col-10 col-md-8">
+        <cfas-coach-teaser
+            [coachTeaser]="coachTeaser"
+            [index]="i"
+        >
+        </cfas-coach-teaser>
+    </div>
+</section>

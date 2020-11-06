@@ -33,11 +33,11 @@ export class CoachProfileComponent implements OnInit, OnDestroy {
   }
 
   get firstHalfQuestions(): Interview[] {
-    return this.coach.interview.slice(0, this.coach.interview.length / 2);
+    return this.coach.interview.slice(0, (this.coach.interview.length + 1) / 2);
   }
 
   get lastHalfQuestions(): Interview[] {
-    return this.coach.interview.slice(this.coach.interview.length / 2);
+    return this.coach.interview.slice((this.coach.interview.length + 1) / 2);
   }
 
   navigateBack() {
