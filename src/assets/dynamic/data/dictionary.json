@@ -10,7 +10,7 @@
     "description": ["As Many Reps/Rounds As Possible."]
   }, {
     "term": "Affiliate",
-    "description": ["CrossFit-Box."]
+    "description": ["CrossFit-Box"]
   }, {
     "term": "Animals",
     "description": ["Übungen zum Aufwärmen, welche Bewegungen von Tieren imitieren."]
@@ -19,7 +19,7 @@
     "description": ["Kettlebell-Swing bis Überkopf."]
   }, {
     "term": "Barbell",
-    "description": ["Langhantel."]
+    "description": ["Langhantel"]
   }, {
     "term": "Bar Facing Burpee",
     "description": ["Burpee mit frontalem Sprung über die Langhantel."]
@@ -40,7 +40,7 @@
     "description": ["Standardisierte WODs welche immer mal wiederholt werden, um seinen Leistungsfortschritt dokumentieren zu können."]
   }, {
     "term": "Bench Press",
-    "description": ["Bankdrücken."]
+    "description": ["Bankdrücken"]
   }, {
     "term": "Burpee Lateral",
     "description": ["Burpee seitlich über Langhantel gesprungen."]
@@ -49,7 +49,7 @@
     "description": ["Klimmzug Variante für fortgeschrittene Athleten."]
   }, {
     "term": "Bumper Plate",
-    "description": ["Hantelscheiben."]
+    "description": ["Hantelscheiben"]
   }, {
     "term": "Box Jump",
     "description": ["Übung, bei welcher man aus dem Stand mit beiden Beinen gleichzeitig auf eine Box springt."]
@@ -67,7 +67,7 @@
     "description": ["Ein Workout mit mehr als drei Movements."]
   }, {
     "term": "Coach",
-    "description": ["Dein Trainer."]
+    "description": ["Dein Trainer"]
   }, {
     "term": "C2B",
     "description": ["Chest to Bar Pull-Up. Klimmzug mit der Brust an die Stange."]
@@ -76,7 +76,7 @@
     "description": ["Klimmzug im Supinationsgriff. Handflächen zeigen zu einem selbst. Man zieht sich so weit nach oben, bis das Kinn über der Stange ist."]
   }, {
     "term": "Clean",
-    "description": ["Umsetzen."]
+    "description": ["Umsetzen"]
   }, {
     "term": "CrossFit Games",
     "description": ["Weltmeisterschaft im CrossFit, an welcher jeder Athlet teilnehmen kann."]
@@ -94,7 +94,7 @@
     "description": ["Man drückt sich an einer Stange oder in Ringen oder Boxen nach oben und lässt sich wieder runter. "]
   }, {
     "term": "Dumbbell",
-    "description": ["Kurzhantel."]
+    "description": ["Kurzhantel"]
   }, {
     "term": "Dave Castro",
     "description": ["Organisator der CF Games"]
@@ -221,7 +221,7 @@
     "term": "Row",
     "description": ["Rudern"]
   }, {
-    "term": "Rx\"d",
+    "term": "Rx'd",
     "description": ["As prescribed. Wie beschrieben. Heißt man hat das WOD gemacht wie es definiert wurde."]
   }, {
     "term": "Skill",
@@ -268,8 +268,5 @@
   }, {
     "term": "WOD",
     "description": ["Workout of the Day"]
-  }, {
-    "term": "Walking Lunges",
-    "description": ["Eine bestimmte Strecke wird mit Ausfallschritten zurück gelegt."]
   }]
 }
