@@ -1,32 +1,34 @@
-
 import { of } from 'rxjs';
 import { filter, first, map } from 'rxjs/operators';
 import { CookieService } from 'src/app/shared/services/cookie.service';
 import { GdprService } from 'src/app/shared/services/gdpr.service';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'cfas-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.scss'],
 })
 export class ContactComponent implements OnInit, OnDestroy {
   showMap: boolean;
   infos = {
     name: 'google-maps',
     buttonIcon: 'place',
-    details: 'Google LLC, 1600 Amphitheatre Parkway Mountain View, CA 94043, USA'
+    details: 'Google LLC, 1600 Amphitheatre Parkway Mountain View, CA 94043, USA',
   };
 
   constructor(
     private snackBar: MatSnackBar,
     private gdprService: GdprService,
-    private cookieService: CookieService
-  ) { }
+    private cookieService: CookieService,
+    private route: ActivatedRoute
+  ) {}
 
   ngOnInit() {
     this.showMap = this.cookieService.hasCookieValue(this.infos.name);
+    this.route.fragment.subscribe(this.scrollToId);
   }
 
   ngOnDestroy() {
@@ -45,5 +47,10 @@ export class ContactComponent implements OnInit, OnDestroy {
   displaySuccessMessage(success: boolean): void {
     const message = success ? 'Nachricht gesendet!' : 'Versand fehlgeschlagen!';
     this.snackBar.open(message, 'X');
+  }
+
+  scrollToId(selectorId: string): void {
+    const element = document.querySelector<HTMLInputElement>(`#${selectorId}`);
+    if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
