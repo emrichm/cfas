@@ -51,6 +51,8 @@ export class ContactComponent implements OnInit, OnDestroy {
 
   scrollToId(selectorId: string): void {
     const element = document.querySelector<HTMLInputElement>(`#${selectorId}`);
-    if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 }
