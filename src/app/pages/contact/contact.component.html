@@ -1,47 +1,47 @@
 <header></header>
 
-<section class="grey-section">
-    <div class="container mx-auto col-11 col-md-8">
-        <div class="row justify-content-center">
-            <div class="col-md-8 dark">
-                <cfas-contact-form (sentMail)="displaySuccessMessage($event)"></cfas-contact-form>
+<section id="inquiry" class="grey-section">
+  <div class="container mx-auto col-11 col-md-8">
+    <div class="row justify-content-center">
+      <div class="col-md-8 dark">
+        <cfas-contact-form (sentMail)="displaySuccessMessage($event)"></cfas-contact-form>
+      </div>
+      <div class="light col-md-4 p-md-4">
+        <mat-list id="contact-info" class="mx-auto text-center">
+          <h2 mat-header class="justify-content-center">CrossFit am See</h2>
+          <mat-list-item>
+            <mat-icon mat-list-icon>my_location</mat-icon>
+            <p mat-line>Anton-Sommer-Str. 7<br />88046 Friedrichshafen</p>
+          </mat-list-item>
+          <mat-list-item>
+            <mat-icon mat-list-icon>local_phone</mat-icon>
+            <p mat-line><a href="tel:+4917680789621">+49 (0)176 80789621</a></p>
+          </mat-list-item>
+          <mat-list-item>
+            <mat-icon mat-list-icon>email</mat-icon>
+            <p mat-line>
+              <a href="mailto:Anna@CrossFitamSee.de">Anna@CrossFitamSee.de</a>
+            </p>
+          </mat-list-item>
+          <mat-list-item>
+            <div class="col">
+              <cfas-facebook-logo icon="facebook-black" class="mx-3"></cfas-facebook-logo>
+              <cfas-instagram-logo icon="instagram-black" class="mx-3"></cfas-instagram-logo>
             </div>
-            <div class="light col-md-4 p-md-4">
-                <mat-list id="contact-info" class="mx-auto text-center">
-                    <h2 mat-header class="justify-content-center">CrossFit am See</h2>
-                    <mat-list-item>
-                        <mat-icon mat-list-icon>my_location</mat-icon>
-                        <p mat-line>Anton-Sommer-Str. 7<br />88046 Friedrichshafen</p>
-                    </mat-list-item>
-                    <mat-list-item>
-                        <mat-icon mat-list-icon>local_phone</mat-icon>
-                        <p mat-line><a href="tel:+4917680789621">+49 (0)176 80789621</a></p>
-                    </mat-list-item>
-                    <mat-list-item>
-                        <mat-icon mat-list-icon>email</mat-icon>
-                        <p mat-line>
-                            <a href="mailto:Anna@CrossFitamSee.de">Anna@CrossFitamSee.de</a>
-                        </p>
-                    </mat-list-item>
-                    <mat-list-item>
-                        <div class="col">
-                            <cfas-facebook-logo icon="facebook-black" class="mx-3"></cfas-facebook-logo>
-                            <cfas-instagram-logo icon="instagram-black" class="mx-3"></cfas-instagram-logo>
-                        </div>
-                    </mat-list-item>
-                    <mat-list-item class="mt-3 mb-1" *ngIf="!showMap">
-                        <p mat-line>
-                            <button mat-stroked-button (click)="acceptMap(map)">
+          </mat-list-item>
+          <mat-list-item class="mt-3 mb-1" *ngIf="!showMap">
+            <p mat-line>
+              <button mat-stroked-button (click)="acceptMap(map)">
                 Karte einblenden
               </button>
-                        </p>
-                    </mat-list-item>
-                </mat-list>
-            </div>
-        </div>
+            </p>
+          </mat-list-item>
+        </mat-list>
+      </div>
     </div>
+  </div>
 </section>
 
 <section #map id="map" class="p-0" [ngClass]="{ 'd-none': !showMap }">
-    <cfas-google-maps *ngIf="showMap"></cfas-google-maps>
+  <cfas-google-maps *ngIf="showMap"></cfas-google-maps>
 </section>
