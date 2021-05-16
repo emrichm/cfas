@@ -5,6 +5,7 @@ import { GdprService } from 'src/app/shared/services/gdpr.service';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { ActivatedRoute } from '@angular/router';
+import { ScrollService } from 'src/app/shared/utils/scroll-id.service';
 
 @Component({
   selector: 'cfas-contact',
@@ -23,12 +24,13 @@ export class ContactComponent implements OnInit, OnDestroy {
     private snackBar: MatSnackBar,
     private gdprService: GdprService,
     private cookieService: CookieService,
+    private scrollService: ScrollService,
     private route: ActivatedRoute
   ) {}
 
   ngOnInit() {
     this.showMap = this.cookieService.hasCookieValue(this.infos.name);
-    this.route.fragment.subscribe(this.scrollToId);
+    this.scrollService.scrollToRouteFragment(this.route);
   }
 
   ngOnDestroy() {
@@ -47,12 +49,5 @@ export class ContactComponent implements OnInit, OnDestroy {
   displaySuccessMessage(success: boolean): void {
     const message = success ? 'Nachricht gesendet!' : 'Versand fehlgeschlagen!';
     this.snackBar.open(message, 'X');
-  }
-
-  scrollToId(selectorId: string): void {
-    const element = document.querySelector<HTMLInputElement>(`#${selectorId}`);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
   }
 }
