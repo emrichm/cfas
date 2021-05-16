@@ -50,6 +50,4 @@ export class ContactComponent implements OnInit, OnDestroy {
     const message = success ? 'Nachricht gesendet!' : 'Versand fehlgeschlagen!';
     this.snackBar.open(message, 'X');
   }
-
-
 }
