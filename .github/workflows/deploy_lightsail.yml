@@ -35,17 +35,17 @@ jobs:
       - name: Adding Known Hosts
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Install dependencies
-        run: npm ci
+      #- name: Install dependencies
+      #  run: npm ci
 
-      - name: Run Lint
-        run: npm run lint
+      #- name: Run Lint
+      #  run: npm run lint
 
-      - name: Run Unit-Tests
-        run: npm run test:ci
+      #- name: Run Unit-Tests
+      #  run: npm run test:ci
 
-      - name: Run Build
-        run: npm run build:staging
+      #- name: Run Build
+      #  run: npm run build:staging
 
       - name: Deploy with rsync
-        run: rsync -avu -e ${{ secrets.SSH_PRIVATE_KEY }} --delete-after "./dist/crossfitamsee" ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/data-disk/Website/stage
+        run: rsync -avu --delete-after ./dist/crossfitamsee ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/data-disk/Website/stage
