@@ -48,4 +48,4 @@ jobs:
         run: npm run build:staging
 
       - name: Deploy with rsync
-        run: rsync -avW --delete-before -e ${{ secrets.SSH_PRIVATE_KEY }} ./dist/crossfitamsee ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/data-disk/Website/stage
+        run: rsync -avu -e ${{ secrets.SSH_PRIVATE_KEY }} --delete-after "./dist/crossfitamsee" ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/data-disk/Website/stage
