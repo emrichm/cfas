@@ -1,6 +1,6 @@
 # This is workflow for staging
 
-name: Staging CI/CD
+name: Deploy Lightsail CI/CD
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the staging branch
@@ -8,7 +8,6 @@ on:
   pull_request:
     branches: [staging]
   workflow_dispatch:
-    branches: [staging]
 
 jobs:
   build:
