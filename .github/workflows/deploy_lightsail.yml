@@ -46,6 +46,17 @@ jobs:
 
       #- name: Run Build
       #  run: npm run build:staging
-
+      
       - name: Deploy with rsync
-        run: rsync -avu --delete-after ./dist/crossfitamsee ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/data-disk/Website/stage
+        uses: trendyminds/github-actions-rsync@master
+        with:
+          RSYNC_OPTIONS: -avzr --delete-after --exclude node_modules --exclude '.git*'
+          RSYNC_TARGET: ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/data-disk/Website/stage
+          RSYNC_SOURCE: ./dist/crossfitamsee
+        env:
+          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+          SSH_USERNAME: ${{secrets.SSH_USER}}
+          SSH_HOSTNAME: ${{secrets.SSH_HOST}}
+
+      #- name: Deploy with rsync
+      #  run: rsync -avu --delete-after ./dist/crossfitamsee ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/data-disk/Website/stage
