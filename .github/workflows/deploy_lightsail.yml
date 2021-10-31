@@ -54,7 +54,7 @@ jobs:
         with:
           switches: -avzr --delete-after
           path: ./dist/crossfitamsee
-          remote_path: /home/${{ secrets.SSH_USER }}/data-disk/Website/stage
+          remote_path: /home/${{ secrets.SSH_USER }}/data-disk/Website/stage/
           remote_host: ${{ secrets.SSH_HOST }}
           remote_user: ${{ secrets.SSH_USER }}
           remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
