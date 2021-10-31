@@ -37,8 +37,8 @@ jobs:
       #- name: Adding Known Hosts
       #  run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
-      #- name: Install dependencies
-      #  run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
       #- name: Run Lint
       #  run: npm run lint
@@ -46,8 +46,8 @@ jobs:
       #- name: Run Unit-Tests
       #  run: npm run test:ci
 
-      #- name: Run Build
-      #  run: npm run build:staging
+      - name: Run Build
+        run: npm run build:staging
       
       - name: Deploy with rsync
         uses: burnett01/rsync-deployments@4.1
