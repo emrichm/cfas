@@ -50,15 +50,14 @@ jobs:
       #  run: npm run build:staging
       
       - name: Deploy with rsync
-        uses: trendyminds/github-actions-rsync@master
+        uses: burnett01/rsync-deployments@4.1
         with:
-          RSYNC_OPTIONS: -avzr --delete-after --exclude node_modules --exclude '.git*'
-          RSYNC_TARGET: ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/data-disk/Website/stage
-          RSYNC_SOURCE: ./dist/crossfitamsee
-        env:
-          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          SSH_USERNAME: ${{secrets.SSH_USER}}
-          SSH_HOSTNAME: ${{secrets.SSH_HOST}}
+          switches: -avzr --delete-after
+          path: ./dist/crossfitamsee
+          remote_path: /home/${{ secrets.SSH_USER }}/data-disk/Website/stage
+          remote_host: ${{ secrets.SSH_HOST }}
+          remote_user: ${{ secrets.SSH_USER }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       #- name: Deploy with rsync
       #  run: rsync -avu --delete-after ./dist/crossfitamsee ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/data-disk/Website/stage
