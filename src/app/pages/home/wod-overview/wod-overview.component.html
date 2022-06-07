@@ -1,31 +1,35 @@
 <div class="row justify-content-center">
-    <div class="col-md-7 col-lg-5 px-0 pr-md-3">
-        <mat-accordion *ngIf="wodList$ | async as wodList">
-            <mat-expansion-panel *ngFor="let wodDay of wodList.wodDays" [expanded]="(wodDay.scheduledDate | date:'shortDate') === (today | date:'shortDate')">
-                <mat-expansion-panel-header>
-                    <mat-panel-title>
-                        {{ wodDay.scheduledDate | date: 'EEEE' }}
-                        <span class="ml-auto">{{ wodDay.scheduledDate | date: 'shortDate' }}</span>
-                    </mat-panel-title>
-                </mat-expansion-panel-header>
-                <div *ngFor="let wod of wodDay.wods">
-                    <h4 class="font-weight-bold">{{ wod.title }}</h4>
-                    <p>
-                        <ng-container *ngFor="let line of wod.descriptionLines">{{ line }}<br>
-                        </ng-container>
-                    </p>
-                </div>
-            </mat-expansion-panel>
-        </mat-accordion>
-    </div>
+  <div class="col-md-7 col-lg-5 px-0 pr-md-3">
+    <mat-accordion *ngIf="wodList$ | async as wodList">
+      <mat-expansion-panel
+        *ngFor="let wodDay of wodList.wodDays | slice: 0:5"
+        [expanded]="(wodDay.scheduledDate | date: 'shortDate') === (today | date: 'shortDate')"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{ wodDay.scheduledDate | date: 'EEEE' }}
+            <span class="ml-auto">{{ wodDay.scheduledDate | date: 'shortDate' }}</span>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div *ngFor="let wod of wodDay.wods">
+          <h4 class="font-weight-bold">{{ wod.title }}</h4>
+          <p>
+            <ng-container *ngFor="let line of wod.descriptionLines">{{ line }}<br /> </ng-container>
+          </p>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
 
-    <div class="col-md-5 col-lg-7 mt-3 mt-md-0" style="
-    background-image: url(assets/static/images/style-images/rig-bg-community-1024x683.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 10px 8px 13px 2px rgba(0,0,0,0.5);
-    min-height: 300px;
-  ">
-    </div>
+  <div
+    class="col-md-5 col-lg-7 mt-3 mt-md-0"
+    style="
+      background-image: url(assets/static/images/style-images/rig-bg-community-1024x683.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      box-shadow: 10px 8px 13px 2px rgba(0, 0, 0, 0.5);
+      min-height: 300px;
+    "
+  ></div>
 </div>
