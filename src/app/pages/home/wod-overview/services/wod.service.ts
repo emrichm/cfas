@@ -663,4 +663,4 @@ const list = {
     self: 'https://api.sugarwod.com/v2/workouts?dates=20200322-20200329',
     ui_calendar: 'https://app.sugarwod.com/workouts/calendar?week=20200322'
   }
-}
+};
