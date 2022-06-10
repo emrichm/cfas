@@ -64,7 +64,8 @@ export class InquiryFormComponent implements OnInit {
   }
 
   setHours(): void {
-    const dayOfWeek = this._inquiry.wishDate.getDay();
+    console.log('[inquiry-form.component.ts->] this.inquiry.wishDate: ', this.inquiry.wishDate);
+    const dayOfWeek = this.inquiry.wishDate.getDay();
     this.hours = this.classHoursService.getClassHoursForDayOfWeek(dayOfWeek);
   }
 
