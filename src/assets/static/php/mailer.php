@@ -22,6 +22,9 @@ switch ($_SERVER['REQUEST_METHOD']) {
     $myemail = 'Alex@CrossFitamSee.de';
     $email_subject = "Webseiten-Anfrage: $subject";
     $email_body = "Name: $firstName $lastName";
+    if ($email) {
+      $email_body .= "\nE-Mail: $email";
+    }
     if ($wishDate) {
       $email_body .= "\nWunschtermin: $wishDate";
     }
