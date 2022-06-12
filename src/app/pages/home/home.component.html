@@ -1,58 +1,100 @@
 <header>
   <div class="overlay"></div>
   <video onloadedmetadata="this.muted=true" playsinline autoplay loop>
-    <source src="assets/static/videos/Crossfit-8765.mp4" type="video/mp4">
+    <source src="assets/static/videos/Crossfit-8765.mp4" type="video/mp4" />
   </video>
   <div id="mainLogo" class="container h-100">
     <div class="mx-auto text-center">
-      <img src="assets/static/images/logos/crossfitamsee-logo-white.svg" alt="Logo - CrossFit am See est. 2018">
+      <img
+        src="assets/static/images/logos/crossfitamsee-logo-white.svg"
+        alt="Logo - CrossFit am See est. 2018"
+      />
       <div class="jaeggers">better&nbsp;together</div>
-      <button mat-stroked-button [routerLink]="['/contact']" [queryParams]="{trail: true}"
-        class="mt-5 py-2 px-3 text-uppercase">Gratis
-        Probetraining</button>
+      <button
+        mat-stroked-button
+        [routerLink]="['/contact']"
+        [queryParams]="{ trail: true }"
+        class="mt-5 py-2 px-3 text-uppercase"
+      >
+        Gratis Probetraining
+      </button>
     </div>
   </div>
 </header>
 
+<section>
+  <div class="container mx-auto col-10 col-md-8">
+    <div class="row">
+      <div class="col boxed">
+        <p>
+          CrossFit ist ein Fitnessprogramm, das sich an den Bewegungen orientiert, die du auch in
+          der realen Welt machst. Jeden Tag bückst du dich und hebst Dinge auf, du hebst Dinge über
+          deinen Kopf, du gehst in die Hocke, du stehst auf, du rennst deinen Kindern hinterher oder
+          springst über eine Pfütze.
+        </p>
+        <p>
+          CrossFit bereitet dich auf all das und noch mehr vor, indem wir genau diese Bewegungen in
+          unseren Workouts üben. Wir bedienen uns an Übungen aus dem Gewichtheben, dem Turnen und
+          der Leichtathletik. Wir kombinieren und mischen sie täglich neu, damit sich dein Körper
+          ständig anpasst und dabei stärker, schneller und besser konditioniert wird.
+        </p>
+        <p>
+          Ein Schlüssel zu dem ganzen Programm ist, dass alle in der persönlich bestmöglichen
+          physischen und psychischen Intensität trainieren. Durch die großartige Community wird der
+          gemeinsame Weg zu einer spaßigen und motivierten Erfahrung.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="grey-section">
   <div class="container mx-auto col-10 col-md-8">
     <div class="row justify-content-center">
-      <div class="col-0 col-md" style="
-            background-image: url(assets/static/images/style-images/CrossFit-in-100-words-thumbnail-300x300.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            ">
-      </div>
+      <div
+        class="col-0 col-md"
+        style="
+          background-image: url(assets/static/images/style-images/CrossFit-in-100-words-thumbnail-300x300.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        "
+      ></div>
       <div class="col-12 col-md text-center" style="background-color: #dddddd;">
-        <div style="margin: 15%">
+        <div style="margin: 15%;">
           <mat-icon id="barbell" svgIcon="barbell"></mat-icon>
           <h3 class="text-uppercase my-3">Das tun wir hier!</h3>
-          <p>CrossFit &#8211; konstant variierende, hochintensive funktionelle Bewegungen in Workouts, gepaart mit
-            gesunder Ernährung.</p>
+          <p>
+            CrossFit &#8211; konstant variierende, hochintensive funktionelle Bewegungen in
+            Workouts, gepaart mit gesunder Ernährung.
+          </p>
           <p>Unsere Trainings sind kurz, knackig und jeden Tag anders.</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container mx-auto col-10 col-md-8 mt-3 mt-md-0 ">
+  <div class="container mx-auto col-10 col-md-8 mt-3 mt-md-0">
     <div class="row justify-content-center">
       <div class="col-12 col-md text-center" style="background-color: #dddddd;">
-        <div style="margin: 15%">
+        <div style="margin: 15%;">
           <mat-icon id="kettlebell" svgIcon="kettlebell"></mat-icon>
           <h3 class="text-uppercase my-3">Das bekommst Du!</h3>
-          <p>Gemeinschaft, Spaß, Motivation und Verbesserung Deiner Lebensqualität. Durch konsistente Ausführung
-            funktioneller Bewegungsabläufe, sichergestellt durch die intensive Betreuung von uns Coaches in Kleingruppen
-            (maximal 12 Personen).</p>
+          <p>
+            Gemeinschaft, Spaß, Motivation und Verbesserung Deiner Lebensqualität. Durch konsistente
+            Ausführung funktioneller Bewegungsabläufe, sichergestellt durch die intensive Betreuung
+            von uns Coaches in Kleingruppen (maximal 12 Personen).
+          </p>
         </div>
       </div>
-      <div class="col-0 col-md" style="
-            background-image: url(assets/static/images/style-images/clean-progression-hang-768x768.jpeg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            ">
-      </div>
+      <div
+        class="col-0 col-md"
+        style="
+          background-image: url(assets/static/images/style-images/clean-progression-hang-768x768.jpeg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        "
+      ></div>
     </div>
   </div>
 </section>
