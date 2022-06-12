@@ -2,10 +2,10 @@
   "coaches": [
     {
       "name": "Anna",
-      "position": "Headcoach",
+      "position": "Owner",
       "image": {
         "url": "assets/dynamic/images/coaches/Anna.jpg",
-        "alt": ""
+        "alt": "Owner Anna"
       },
       "teaser": [
         "Von klein auf hat Sie sich begeistert der Leichtathletik gewidmet. Begonnen im Dreikampf für Kinder, hat es Sie über Crossläufe Richtung Wurf-/ Stoßdisziplinen wie Speer, Diskus und Kugelstoßen verschlagen. Vor gut 5 Jahren hat nun CrossFit ihr Herz erobert.",
@@ -15,25 +15,25 @@
       "buttonText": "Zum Interview",
       "qualifications": [
         "CrossFit Level 2 Trainer (CF-L2)",
-        "Gymnastics Certificate (2018)",
         "CrossFit Anatomy Certificate",
-        "Lesson Planning Certificate",
-        "Scaling Certificate",
-        "Spot The Flaw Certificate",
-        "Judges Course 2019 English Certificate (2019)",
+        "CrossFit Gymnastics Certificate (2018)",
+        "CrossFit Lesson Planning Certificate",
+        "CrossFit Scaling Certificate",
+        "CrossFit Spot The Flaw Certificate",
+        "CrossFit Judges Course 2019 English Certificate (2019)",
         "Kinesiological Taping"
       ],
       "interview": [
         {
           "question": "Was machst Du beruflich?",
           "answer": [
-            "Headcoach bei CrossFit am See und Betriebswirtin - aktuell in Elternzeit "
+            "Headcoach bei CrossFit am See und Betriebswirtin - aktuell in Elternzeit"
           ]
         },
         {
           "question": "Warum machst Du CrossFit?",
           "answer": [
-            "weil es der abwechslungsreichste Sport mit der spaßigsten, offensten und stärksten Community ist, den ich kenne "
+            "Weil es der abwechslungsreichste Sport mit der spaßigsten, offensten und stärksten Community ist, den ich kenne."
           ]
         },
         {
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "question": "Dein Ziel 2020?",
+          "question": "Dein Ziel 2022?",
           "answer": [
             "einen Bar Muscle Up"
           ]
@@ -101,6 +101,293 @@
         }
       ]
     },
+    {
+      "name": "Mark",
+      "position": "Owner",
+      "image": {
+        "url": "assets/dynamic/images/coaches/Mark.jpg",
+        "alt": "Owner Mark"
+      },
+      "teaser": [
+        "Bereits bevor Mark CrossFit kennenlernte, hat er versucht, sein Fitness-Training so abwechslungsreich wie möglich zu gestalten. So war es nicht verwunderlich, dass er von CrossFit sofort fasziniert war und es bis heute ist.",
+        "Neben seinen Tätigkeiten in der Softwareentwicklung gönnt er sich gerne den Ausgleich im Workout und freut sich darauf, auch Dich durch Deine besten 60 Minuten deines Tages zu begleiten.",
+        "Du möchtest Mark noch besser kennenlernen?"
+      ],
+      "buttonText": "Zum Interview",
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1)",
+        "CrossFit Anatomy Certificate",
+        "CrossFit Judges Course 2022"
+      ],
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Softwareentwickler"
+          ]
+        },
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
+            "Kurzfristig betrachtet, freue ich mich über die Community und über die abwechslungsreiche Art, ein gesünderes Leben zu führen. Langfristig betrachtet, möchte ich auch noch in hohem Alter vital und voller Leben sein können."
+          ]
+        },
+        {
+          "question": "Seit wann machst Du CrossFit?",
+          "answer": [
+            "2014 habe ich von CrossFit gehört und seither bestmöglich Zuhause und in Fitness-Studios angewendet. Seit Juli 2018 bin ich bei CrossFit am See."
+          ]
+        },
+        {
+          "question": "Seit wann bist Du Coach?",
+          "answer": [
+            "seit 2019"
+          ]
+        },
+        {
+          "question": "CrossFit am See in einem Wort?",
+          "answer": [
+            "Freundetreff"
+          ]
+        },
+        {
+          "question": "Dein Ziel 2022?",
+          "answer": [
+            "Saubere Butterfly Pull-Ups und Handstand Walk"
+          ]
+        },
+        {
+          "question": "Bist Du Team Hoodie oder Zipper?",
+          "answer": [
+            "Hoodie!"
+          ]
+        },
+        {
+          "question": "Dein Lieblings \"CHEAT-Meal\"?",
+          "answer": [
+            "Pizza"
+          ]
+        },
+        {
+          "question": "Dein Tipp für Samstagabend?",
+          "answer": [
+            "Ein Kurztrip in eine benachbarte Stadt, an einen fremden Ort."
+          ]
+        },
+        {
+          "question": "Dein Lieblings-WOD?",
+          "answer": [
+            "\"HELEN\"",
+            "3 Rounds for Time of:",
+            "400m Run",
+            "21 Kettlebell Swings",
+            "12 Pull-Ups"
+          ]
+        },
+        {
+          "question": "Deine Hobbies neben CrossFit?",
+          "answer": [
+            "Billard"
+          ]
+        },
+        {
+          "question": "Aus welchem Sport kommst Du?",
+          "answer": [
+            "Klassisches Fitness-Studio"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Charly",
+      "position": "Coach",
+      "image": {
+        "url": "assets/dynamic/images/coaches/Charly.jpg",
+        "alt": "Coach Charly"
+      },
+      "teaser": [
+        "„Charly the Machine“ kommt eigentlich aus dem klassischen Fitness Bereich und hat vor zwei Jahren zu CrossFit am See gefunden. Doch neben dem heben von schweren Gewichten, liebt sie auch die Ruhe der Berge. Unsere Charly nutzt die Wochenenden am liebsten damit wandern zu gehen, natürlich auch dies nicht mal eben so sondern auch gern mal 24h am Stück.",
+        "In CrossFit hat sie einen super Ausgleich zum beruflichen Alltag eines Tax Consultants gefunden und freut sich darauf auch dir mit Rat und Tat in der Box für dich da sein zu können!",
+        "Weitere Infos über Charly?"
+      ],
+      "buttonText": "Zum Interview",
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1)  ",
+        "B-Lizenz \"Kraft und Fitness\"",
+        "C-Lizenz \"Fitness Aerobic\""
+      ],
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Tax Consultant"
+          ]
+        },
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
+            "Weil man sich jedes Mal wenn man in die Box kommt wie zu Hause fühlt und gemeinsam mit der Community jeden Tag super abwechslungsreiche Workouts rockt."
+          ]
+        },
+        {
+          "question": "Seit wann machst Du CrossFit?",
+          "answer": [
+            "seit 2018"
+          ]
+        },
+        {
+          "question": "Seit wann bist Du Coach?",
+          "answer": [
+            "seit 2020"
+          ]
+        },
+        {
+          "question": "CrossFit am See in einem Wort?",
+          "answer": [
+            "Community"
+          ]
+        },
+        {
+          "question": "Dein Ziel 2022?",
+          "answer": [
+            "Strict Pull up"
+          ]
+        },
+        {
+          "question": "Bist Du Team Hoodie oder Zipper?",
+          "answer": [
+            "Team Hoodie"
+          ]
+        },
+        {
+          "question": "Dein Lieblings \"CHEAT-Meal\"?",
+          "answer": [
+            "Ben & Jerry ́s Chunky Monkey"
+          ]
+        },
+        {
+          "question": "Dein Tipp für Samstagabend?",
+          "answer": [
+            "Spieleabend mit Freunden"
+          ]
+        },
+        {
+          "question": "Dein Lieblings-WOD?",
+          "answer": [
+            "Grace",
+            "30 Clean and Jerks"
+          ]
+        },
+        {
+          "question": "Deine Hobbies neben CrossFit?",
+          "answer": [
+            "Bergsteigen"
+          ]
+        },
+        {
+          "question": "Aus welchem Sport kommst Du?",
+          "answer": [
+            "Klassisches Fitnesstraining"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colin",
+      "position": "Coach",
+      "image": {
+        "url": "assets/dynamic/images/coaches/Colin.jpg",
+        "alt": "Coach Colin"
+      },
+      "teaser": [
+        "Für Colin gehören Sport und Bewegung einfach zu einem ausgeglichenen und glücklichen Leben dazu. Zu Hause im Snowboarden und Basketball, war CrossFit für ihn zunächst nur ein ergänzendes Fitnesstraining, entwickelte es sich jedoch schnell zu seiner neuen Leidenschaft. CrossFit hilft einem, auch in völlig anderen Sportarten besser zu werden und sein Potential als Athlet voll zu entfalten.",
+        "Als Coach möchte er dir helfen, deine Fitness zu verbessern und dich auf deinem ganz individuellen Weg begleiten, egal welche Ziele Du hast.",
+        "Mehr über Colin?"
+      ],
+      "buttonText": "Zum Interview",
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1)"
+      ],
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Gymnasial- und Berufsschullehrer"
+          ]
+        },
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
+            "Weil es der perfekte Ausgleich zu meinem „Schreibtischjob“ ist und es einfach verdammt viel Spaß macht, die Grenzen der eigenen physischen Leistungsfähigkeit ständig neu zu definieren."
+          ]
+        },
+        {
+          "question": "Seit wann machst Du CrossFit?",
+          "answer": [
+            "2014"
+          ]
+        },
+        {
+          "question": "Seit wann bist Du Coach?",
+          "answer": [
+            "seit 2020"
+          ]
+        },
+        {
+          "question": "CrossFit am See in einem Wort?",
+          "answer": [
+            "LEIDENschaft"
+          ]
+        },
+        {
+          "question": "Dein Ziel 2022?",
+          "answer": [
+            "Das sind so viele… man kann sie aber ganz gut unter „fitter werden“ zusammenfassen."
+          ]
+        },
+        {
+          "question": "Bist Du Team Hoodie oder Zipper?",
+          "answer": [
+            "Hoodie"
+          ]
+        },
+        {
+          "question": "Dein Lieblings \"CHEAT-Meal\"?",
+          "answer": [
+            "Ben & Jerry‘s mit Milch und Oreo-Cookies"
+          ]
+        },
+        {
+          "question": "Dein Tipp für Samstagabend?",
+          "answer": [
+            "Netflix + Essen"
+          ]
+        },
+        {
+          "question": "Dein Lieblings-WOD?",
+          "answer": [
+            "\"AMANDA\"",
+            "9-7-5",
+            "Muscle-Ups",
+            "Squat Snatches"
+          ]
+        },
+        {
+          "question": "Deine Hobbies neben CrossFit?",
+          "answer": [
+            "Snowboarden"
+          ]
+        },
+        {
+          "question": "Aus welchem Sport kommst Du?",
+          "answer": [
+            "Basketball"
+          ]
+        }
+      ]
+    }
+  ],
+  "former-coaches": [
     {
       "name": "Patrick",
       "position": "Coach",
@@ -152,7 +439,7 @@
           ]
         },
         {
-          "question": "Dein Ziel 2020?",
+          "question": "Dein Ziel 2022?",
           "answer": [
             "Fit, gesund und aktiv bleiben"
           ]
@@ -243,7 +530,7 @@
           ]
         },
         {
-          "question": "Dein Ziel 2020?",
+          "question": "Dein Ziel 2022?",
           "answer": [
             "Bar Muscle Up"
           ]
@@ -285,196 +572,6 @@
           "question": "Aus welchem Sport kommst Du?",
           "answer": [
             "Brazilian Jiu-Jitsu"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Charly",
-      "position": "Coach",
-      "image": {
-        "url": "assets/dynamic/images/coaches/Charly.jpg",
-        "alt": ""
-      },
-      "teaser": [
-        "„Charly the Machine“ kommt eigentlich aus dem klassischen Fitness Bereich und hat vor zwei Jahren zu CrossFit am See gefunden. Doch neben dem heben von schweren Gewichten, liebt sie auch die Ruhe der Berge. Unsere Charly nutzt die Wochenenden am liebsten damit wandern zu gehen, natürlich auch dies nicht mal eben so sondern auch gern mal 24h am Stück.",
-        "In CrossFit hat sie einen super Ausgleich zum beruflichen Alltag eines Tax Consultants gefunden und freut sich darauf auch dir mit Rat und Tat in der Box für dich da sein zu können!",
-        "Weitere Infos über Charly?"
-      ],
-      "buttonText": "Zum Interview",
-      "qualifications": [
-        "CrossFit Level 1 Trainer (CF-L1)  ",
-        "B-Lizenz \"Kraft und Fitness\"",
-        "C-Lizenz \"Fitness Aerobic\""
-      ],
-      "interview": [
-        {
-          "question": "Was machst Du beruflich?",
-          "answer": [
-            "Tax Consultant"
-          ]
-        },
-        {
-          "question": "Warum machst Du CrossFit?",
-          "answer": [
-            "Weil man sich jedes Mal wenn man in die Box kommt wie zu Hause fühlt und gemeinsam mit der Community jeden Tag super abwechslungsreiche Workouts rockt."
-          ]
-        },
-        {
-          "question": "Seit wann machst Du CrossFit?",
-          "answer": [
-            "seit 2018"
-          ]
-        },
-        {
-          "question": "Seit wann bist Du Coach?",
-          "answer": [
-            "seit 2020"
-          ]
-        },
-        {
-          "question": "CrossFit am See in einem Wort?",
-          "answer": [
-            "Community"
-          ]
-        },
-        {
-          "question": "Dein Ziel 2020?",
-          "answer": [
-            "Strict Pull up"
-          ]
-        },
-        {
-          "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": [
-            "Team Hoodie"
-          ]
-        },
-        {
-          "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": [
-            "Ben & Jerry ́s Chunky Monkey"
-          ]
-        },
-        {
-          "question": "Dein Tipp für Samstagabend?",
-          "answer": [
-            "Spieleabend mit Freunden"
-          ]
-        },
-        {
-          "question": "Dein Lieblings-WOD?",
-          "answer": [
-            "Grace",
-            "30 Clean and Jerks"
-          ]
-        },
-        {
-          "question": "Deine Hobbies neben CrossFit?",
-          "answer": [
-            "Bergsteigen"
-          ]
-        },
-        {
-          "question": "Aus welchem Sport kommst Du?",
-          "answer": [
-            "Klassisches Fitnesstraining"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Mark",
-      "position": "Coach",
-      "image": {
-        "url": "assets/dynamic/images/coaches/Mark.jpg",
-        "alt": ""
-      },
-      "teaser": [
-        "Bereits bevor Mark CrossFit kennenlernte, hat er versucht, sein Fitness-Training so abwechslungsreich wie möglich zu gestalten. So war es nicht verwunderlich, dass er von CrossFit sofort fasziniert war und es bis heute ist.",
-        "Neben seinen Tätigkeiten in der Softwareentwicklung gönnt er sich gerne den Ausgleich im Workout und freut sich darauf, auch Dich durch Deine besten 60 Minuten deines Tages zu begleiten.",
-        "Du möchtest Mark noch besser kennenlernen?"
-      ],
-      "buttonText": "Zum Interview",
-      "qualifications": [
-        "CrossFit Level 1 Trainer (CF-L1)",
-        "CrossFit Anatomy Certificate"
-      ],
-      "interview": [
-        {
-          "question": "Was machst Du beruflich?",
-          "answer": [
-            "Softwareentwickler"
-          ]
-        },
-        {
-          "question": "Warum machst Du CrossFit?",
-          "answer": [
-            "Kurzfristig betrachtet, freue ich mich über die Community und über die abwechslungsreiche Art, ein gesünderes Leben zu führen.Langfristig betrachtet, möchte ich auch noch in hohem Alter vital und voller Leben sein können."
-          ]
-        },
-        {
-          "question": "Seit wann machst Du CrossFit?",
-          "answer": [
-            "2014 habe ich von CrossFit gehört und seither bestmöglich Zuhause und in Fitness-Studios angewendet. Seit Juli 2018 bin ich bei CrossFit am See."
-          ]
-        },
-        {
-          "question": "Seit wann bist Du Coach?",
-          "answer": [
-            "seit 2019"
-          ]
-        },
-        {
-          "question": "CrossFit am See in einem Wort?",
-          "answer": [
-            "Freundetreff"
-          ]
-        },
-        {
-          "question": "Dein Ziel 2020?",
-          "answer": [
-            "Butterfly Pull-ups und Handstand Walk"
-          ]
-        },
-        {
-          "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": [
-            "Hoodie!"
-          ]
-        },
-        {
-          "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": [
-            "Pizza"
-          ]
-        },
-        {
-          "question": "Dein Tipp für Samstagabend?",
-          "answer": [
-            "Ein Kurztrip in eine benachbarte Stadt, an einen fremden Ort."
-          ]
-        },
-        {
-          "question": "Dein Lieblings-WOD?",
-          "answer": [
-            "\"HELEN\"",
-            "3 Rounds for Time of:",
-            "400m Run",
-            "21 Kettle-Bell Swings",
-            "12 Pull-Ups"
-          ]
-        },
-        {
-          "question": "Deine Hobbies neben CrossFit?",
-          "answer": [
-            "Billard"
-          ]
-        },
-        {
-          "question": "Aus welchem Sport kommst Du?",
-          "answer": [
-            "Klassisches Fitness-Studio"
           ]
         }
       ]
@@ -530,7 +627,7 @@
           ]
         },
         {
-          "question": "Dein Ziel 2020?",
+          "question": "Dein Ziel 2022?",
           "answer": [
             "+ 1.5 kg Muskelmasse"
           ]
@@ -573,100 +670,6 @@
           "question": "Aus welchem Sport kommst Du?",
           "answer": [
             "Powerlifting​"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Colin",
-      "position": "Coach",
-      "image": {
-        "url": "assets/dynamic/images/coaches/Colin.jpg",
-        "alt": ""
-      },
-      "teaser": [
-        "Für Colin gehören Sport und Bewegung einfach zu einem ausgeglichenen und glücklichen Leben dazu. Zu Hause im Snowboarden und Basketball, war CrossFit für ihn zunächst nur ein ergänzendes Fitnesstraining, entwickelte es sich jedoch schnell zu seiner neuen Leidenschaft. CrossFit hilft einem, auch in völlig anderen Sportarten besser zu werden und sein Potential als Athlet voll zu entfalten.",
-        "Als Coach möchte er dir helfen, deine Fitness zu verbessern und dich auf deinem ganz individuellen Weg begleiten, egal welche Ziele Du hast.",
-        "Mehr über Colin?"
-      ],
-      "buttonText": "Zum Interview",
-      "qualifications": [
-        "CrossFit Level 1 Trainer (CF-L1)"
-      ],
-      "interview": [
-        {
-          "question": "Was machst Du beruflich?",
-          "answer": [
-            "Gymnasial- und Berufsschullehrer"
-          ]
-        },
-        {
-          "question": "Warum machst Du CrossFit?",
-          "answer": [
-            "Weil es der perfekte Ausgleich zu meinem „Schreibtischjob“ ist und es einfach verdammt viel Spaß macht, die Grenzen der eigenen physischen Leistungsfähigkeit ständig neu zu definieren."
-          ]
-        },
-        {
-          "question": "Seit wann machst Du CrossFit?",
-          "answer": [
-            "2014"
-          ]
-        },
-        {
-          "question": "Seit wann bist Du Coach?",
-          "answer": [
-            "seit 2020"
-          ]
-        },
-        {
-          "question": "CrossFit am See in einem Wort?",
-          "answer": [
-            "LEIDENschaft"
-          ]
-        },
-        {
-          "question": "Dein Ziel 2020?",
-          "answer": [
-            "Das sind so viele… man kann sie aber ganz gut unter „fitter werden“ zusammenfassen."
-          ]
-        },
-        {
-          "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": [
-            "Hoodie"
-          ]
-        },
-        {
-          "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": [
-            "Ben & Jerry‘s mit Milch und Oreo-Cookies"
-          ]
-        },
-        {
-          "question": "Dein Tipp für Samstagabend?",
-          "answer": [
-            "Netflix + Essen"
-          ]
-        },
-        {
-          "question": "Dein Lieblings-WOD?",
-          "answer": [
-            "\"AMANDA\"",
-            "9-7-5",
-            "Muscle-Ups",
-            "Squat Snatches"
-          ]
-        },
-        {
-          "question": "Deine Hobbies neben CrossFit?",
-          "answer": [
-            "Snowboarden"
-          ]
-        },
-        {
-          "question": "Aus welchem Sport kommst Du?",
-          "answer": [
-            "Basketball"
           ]
         }
       ]
@@ -715,7 +718,7 @@
           ]
         },
         {
-          "question": "Dein Ziel 2020?",
+          "question": "Dein Ziel 2022?",
           "answer": [
             "10 DUs unbroken"
           ]
