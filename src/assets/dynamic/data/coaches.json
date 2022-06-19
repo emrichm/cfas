@@ -199,6 +199,111 @@
       ]
     },
     {
+      "name": "Dominic - aka Dom",
+      "position": "Headcoach & Personaltrainer",
+      "image": {
+        "url": "assets/dynamic/images/coaches/Dom.jpg",
+        "alt": "Headcoach Dom"
+      },
+      "teaser": [
+        "Sport ist schon von kleinauf ein fester Bestandteil von Doms Leben. Früher hatte er den Tennisschläger in der Hand, heute ist es die Barbell. So verschob sich sein Fokus über die Jahre mehr und mehr zu Kraftsport. Mit CrossFit und der großen Vielfalt an verschiedensten Bewegungen hat Dom nun seinen Sport gefunden, in dem er sich voll ausleben kann.",
+        "Die Coachingphilosophie von Dom stützt sich auf dem Prinzip der Hilfe zur Selbsthilfe. Er gibt dir die nötigen Werkzeuge an die Hand, mit denen Du Dein volles Potenzial entfalten kannst",
+        "Mehr über Dom?"
+      ],
+      "buttonText": "Zum Interview",
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1)",
+        "B. A. Gesundheitsmanagement",
+        "RESET Mobility Trainer",
+        "MEDLETICS Health Coach",
+        "REHAB-U Movement & Performance Therapy Specialist"
+      ],
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Headcoach bei CFaS"
+          ]
+        },
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
+            "Die Vielfalt fasziniert mich. CrossFit deckt alle Aspekte der menschlichen Bewegung ab und fördert somit alle motorische Fähigkeiten des Körpers. Darüberhinaus ist die Gruppendynamik einfach nur geil."
+          ]
+        },
+        {
+          "question": "Seit wann machst Du CrossFit?",
+          "answer": [
+            "2019"
+          ]
+        },
+        {
+          "question": "Seit wann bist Du Coach?",
+          "answer": [
+            "seit 2022"
+          ]
+        },
+        {
+          "question": "CrossFit am See in einem Wort?",
+          "answer": [
+            "zusammenschweißen"
+          ]
+        },
+        {
+          "question": "Dein Ziel 2022?",
+          "answer": [
+            "Prinzipiell vor allem meine Gymnastic - und Weightliftingskills verbessern Konkret bedeutet dies: 5 Ring Muscle-Ups und eigene Körpergewicht reißen."
+          ]
+        },
+        {
+          "question": "Bist Du Team Hoodie oder Zipper?",
+          "answer": [
+            "Hoodie"
+          ]
+        },
+        {
+          "question": "Dein Lieblings \"CHEAT-Meal\"?",
+          "answer": [
+            "Dampfnudle mit vieeel Vanillesoße"
+          ]
+        },
+        {
+          "question": "Dein Tipp für Samstagabend?",
+          "answer": [
+            "Dampfnudle zum Star Wars Marathon"
+          ]
+        },
+        {
+          "question": "Dein Lieblings-WOD?",
+          "answer": [
+            "\"Filthy 50\"",
+            "50 Box Jumps",
+            "50 Jumping Pull-Ups",
+            "50 Kettlebell Swings",
+            "50 Walking Lunges",
+            "50 Knees-to-Elbows",
+            "50 Push Presses",
+            "50 Back Extension",
+            "50 Wall Balls",
+            "50 Burpees",
+            "50 Douple-Unders"
+          ]
+        },
+        {
+          "question": "Deine Hobbies neben CrossFit?",
+          "answer": [
+            "Ein gutes Buch lesen, Zeit in den Bergen bzw. generell in der Natur verbringen"
+          ]
+        },
+        {
+          "question": "Aus welchem Sport kommst Du?",
+          "answer": [
+            "Tennis"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Charly",
       "position": "Coach",
       "image": {
@@ -206,7 +311,7 @@
         "alt": "Coach Charly"
       },
       "teaser": [
-        "„Charly the Machine“ kommt eigentlich aus dem klassischen Fitness Bereich und hat vor zwei Jahren zu CrossFit am See gefunden. Doch neben dem heben von schweren Gewichten, liebt sie auch die Ruhe der Berge. Unsere Charly nutzt die Wochenenden am liebsten damit wandern zu gehen, natürlich auch dies nicht mal eben so sondern auch gern mal 24h am Stück.",
+        "\"Charly the Machine\" kommt eigentlich aus dem klassischen Fitness Bereich und hat vor zwei Jahren zu CrossFit am See gefunden. Doch neben dem heben von schweren Gewichten, liebt sie auch die Ruhe der Berge. Unsere Charly nutzt die Wochenenden am liebsten damit wandern zu gehen, natürlich auch dies nicht mal eben so sondern auch gern mal 24h am Stück.",
         "In CrossFit hat sie einen super Ausgleich zum beruflichen Alltag eines Tax Consultants gefunden und freut sich darauf auch dir mit Rat und Tat in der Box für dich da sein zu können!",
         "Weitere Infos über Charly?"
       ],
@@ -250,7 +355,7 @@
         {
           "question": "Dein Ziel 2022?",
           "answer": [
-            "Strict Pull up"
+            "Mitteldistanz Triathlon"
           ]
         },
         {
@@ -262,7 +367,7 @@
         {
           "question": "Dein Lieblings \"CHEAT-Meal\"?",
           "answer": [
-            "Ben & Jerry ́s Chunky Monkey"
+            "Pancakes mit Ahornsirup"
           ]
         },
         {
@@ -281,7 +386,7 @@
         {
           "question": "Deine Hobbies neben CrossFit?",
           "answer": [
-            "Bergsteigen"
+            "Bergsteigen, Rennrad fahren und Triathlon"
           ]
         },
         {
@@ -318,7 +423,7 @@
         {
           "question": "Warum machst Du CrossFit?",
           "answer": [
-            "Weil es der perfekte Ausgleich zu meinem „Schreibtischjob“ ist und es einfach verdammt viel Spaß macht, die Grenzen der eigenen physischen Leistungsfähigkeit ständig neu zu definieren."
+            "Weil es der perfekte Ausgleich zu meinem \"Schreibtischjob\" ist und es einfach verdammt viel Spaß macht, die Grenzen der eigenen physischen Leistungsfähigkeit ständig neu zu definieren."
           ]
         },
         {
@@ -342,7 +447,7 @@
         {
           "question": "Dein Ziel 2022?",
           "answer": [
-            "Das sind so viele… man kann sie aber ganz gut unter „fitter werden“ zusammenfassen."
+            "Das sind so viele… man kann sie aber ganz gut unter \"fitter werden\" zusammenfassen."
           ]
         },
         {
@@ -382,6 +487,101 @@
           "question": "Aus welchem Sport kommst Du?",
           "answer": [
             "Basketball"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Theresa",
+      "position": "Coach",
+      "image": {
+        "url": "assets/dynamic/images/coaches/Theresa.jpg",
+        "alt": "Coach Theresa"
+      },
+      "teaser": [
+        "Theresa war schon immer sportbegeistert und tobte sich in ihrer Jugend viele Jahre lang im Gerätturnen aus.",
+        "Mittlerweile findet man sie in ihrer Freizeit vor allem draußen in den Bergen. Sei es zu Fuß, auf dem Rad, mit Ski und Snowboard oderam Kletterseil, Hauptsache es geht hoch hinaus!",
+        "Während ihres Studiums lernte sie CrossFit kennen und lieben. Neue Herausforderungen stehen hier an der Tagesordnung und das gemeinsame Training mit anderen sportbegeistertenMenschen macht besonders viel Spaß. Für Theresa ist das die beste Erholung nach einem anstrengenden Arbeitstag.",
+        "Mehr über Theresa?"
+      ],
+      "buttonText": "Zum Interview",
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1)"
+      ],
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Gymnasiallehrerin"
+          ]
+        },
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
+            "Ich liebe es mich neuen Herausforderungen zu stellen, mich selbst und andere in der Gruppe zu pushen. Es macht den Kopf frei und den Körper fitter, die perfekte Mischung!"
+          ]
+        },
+        {
+          "question": "Seit wann machst Du CrossFit?",
+          "answer": [
+            "Schwer zu sagen, abzüglich etlicher Auszeiten komme ich wahrscheinlich mittlerweile auf 4-5 Jahre."
+          ]
+        },
+        {
+          "question": "Seit wann bist Du Coach?",
+          "answer": [
+            "seit September 2021"
+          ]
+        },
+        {
+          "question": "CrossFit am See in einem Wort?",
+          "answer": [
+            "Community"
+          ]
+        },
+        {
+          "question": "Dein Ziel 2022?",
+          "answer": [
+            "meine Work-Life-Balance weiterhin so gut aufrecht zu erhalten"
+          ]
+        },
+        {
+          "question": "Bist Du Team Hoodie oder Zipper?",
+          "answer": [
+            "Hoodie"
+          ]
+        },
+        {
+          "question": "Dein Lieblings \"CHEAT-Meal\"?",
+          "answer": [
+            "Pizza und bei Süßspeisen im Sommer Eis, im Winter Waffeln und Schoki"
+          ]
+        },
+        {
+          "question": "Dein Tipp für Samstagabend?",
+          "answer": [
+            "gemeinsam lecker Kochen und Spieleabend mit Freunden"
+          ]
+        },
+        {
+          "question": "Dein Lieblings-WOD?",
+          "answer": [
+            "\"FRAN\"",
+            "21-15-9",
+            "Thrusters",
+            "Pull-Ups"
+          ]
+        },
+        {
+          "question": "Deine Hobbies neben CrossFit?",
+          "answer": [
+            "Ui, das sind viele! Eigentlich kann ich mich für so ziemlich jede Sportart begeistern, meistens bin ich jedoch in irgendeiner Form in den Bergen zu finden. Rennradfahren, Mountainbiken, Klettern, Wandern, Langlaufen, Skifahren, Snowboarden, … Die Nähe zum See zieht mich aber auch immer wieder ins Wasser zum Schwimmen oder Beachvolleyball und Spikelball spielen an Land. Neben sportlichen Hobbies gibt es natürlich auch noch Aktivitäten wie Kochen, Basteln und Gesellschaftsspiele. Also langweilig ist mir eigentlich nie!"
+          ]
+        },
+        {
+          "question": "Aus welchem Sport kommst Du?",
+          "answer": [
+            "Gerätturnen und Schwimmen"
           ]
         }
       ]
