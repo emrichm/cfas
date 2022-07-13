@@ -522,7 +522,7 @@
           ]
         },
         {
-          "question": "Seit wann machst Du CrossFit?",
+          "question": "Wie lange machst Du CrossFit?",
           "answer": [
             "Schwer zu sagen, abzüglich etlicher Auszeiten komme ich wahrscheinlich mittlerweile auf 4-5 Jahre."
           ]
@@ -582,6 +582,101 @@
           "question": "Aus welchem Sport kommst Du?",
           "answer": [
             "Gerätturnen und Schwimmen"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Torsten",
+      "position": "Coach",
+      "image": {
+        "url": "assets/dynamic/images/coaches/Torsten.jpg",
+        "alt": "Coach Torsten"
+      },
+      "teaser": [
+        "Torsten hat 2017 während einer Zeit, die hauptsächlich von Fitnessstudiobesuchen geprägt war, zum CrossFit gefunden. Die Abwechslung in allen Bereichen, das Arbeiten an Zielen, die zunächst unerreichbar erscheinen und das Trainieren in einer Gruppe haben ihn vom Crossfit begeistert. ",
+        "Als Coach möchte er sich auf deine individuellen Ziele fokussieren und dich auf dem Weg zu ihnen begleiten. Zudem spielt Spaß für Torsten immer eine große Rolle.",
+        "Mehr über Torsten?"
+      ],
+      "buttonText": "Zum Interview",
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1), Spot the Flaw Certificate."
+      ],
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Ingenieur"
+          ]
+        },
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
+            "Weil es einfach Spaß macht, mich zu ungeahnten Zielen führt und durch die Abwechslung und Ganzheitlichkeit nie langweilig wird."
+          ]
+        },
+        {
+          "question": "Seit wann machst Du CrossFit?",
+          "answer": [
+            "2017"
+          ]
+        },
+        {
+          "question": "Seit wann bist Du Coach?",
+          "answer": [
+            "seit 2021"
+          ]
+        },
+        {
+          "question": "CrossFit am See in einem Wort?",
+          "answer": [
+            "Gesundheitsspaß"
+          ]
+        },
+        {
+          "question": "Dein Ziel 2022?",
+          "answer": [
+            "90kg Snatch."
+          ]
+        },
+        {
+          "question": "Bist Du Team Hoodie oder Zipper?",
+          "answer": [
+            "Hoodie"
+          ]
+        },
+        {
+          "question": "Dein Lieblings \"CHEAT-Meal\"?",
+          "answer": [
+            "Saure Gummibärchen"
+          ]
+        },
+        {
+          "question": "Dein Tipp für Samstagabend?",
+          "answer": [
+            "In den See springen und genießen."
+          ]
+        },
+        {
+          "question": "Dein Lieblings-WOD?",
+          "answer": [
+            "\"Helen\"",
+            "3 Runden",
+            "400m Run",
+            "21 Kettlebell Swings",
+            "12 Pullups"
+          ]
+        },
+        {
+          "question": "Deine Hobbies neben CrossFit?",
+          "answer": [
+            "Rennrad / Mountainbike / Klettersteig / Wandern"
+          ]
+        },
+        {
+          "question": "Aus welchem Sport kommst Du?",
+          "answer": [
+            "Zur Schulzeit Fußball."
           ]
         }
       ]
