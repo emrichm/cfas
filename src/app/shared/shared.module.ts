@@ -3,6 +3,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { DescriptionPartComponent } from './components/description-part/description-part.component';
 import { FacebookLogoComponent } from './components/facebook-logo/facebook-logo.component';
 import { GdprModalComponent } from './components/gdpr-modal/gdpr-modal.component';
 import { ImageGalleryModalComponent } from './components/image-gallery-modal/image-gallery-modal.component';
@@ -25,7 +26,8 @@ const modules = [
     ImageGalleryComponent,
     ImageGalleryModalComponent,
     FacebookLogoComponent,
-    InstagramLogoComponent
+    InstagramLogoComponent,
+    DescriptionPartComponent
   ],
   imports: [
     ...modules
@@ -35,7 +37,8 @@ const modules = [
     GdprModalComponent,
     ImageGalleryComponent,
     FacebookLogoComponent,
-    InstagramLogoComponent
+    InstagramLogoComponent,
+    DescriptionPartComponent
   ]
 })
 export class SharedModule { }

@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
-import { ClassDescription } from 'src/app/models/class-description';
+import { DescriptionPart } from 'src/app/models/description-part';
 import { ClassDescriptionService } from 'src/app/pages/offer/classes/class-description.service';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, OnInit } from '@angular/core';
@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./classes.component.scss']
 })
 export class ClassesComponent implements OnInit {
-  classDescriptions: ClassDescription[];
+  descriptionParts: DescriptionPart[];
   isHandset$: Observable<boolean> = this.breakpointObserver.observe([Breakpoints.XSmall, Breakpoints.Small, Breakpoints.Handset])
     .pipe(
       map(result => result.matches),
@@ -24,6 +24,6 @@ export class ClassesComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.classDescriptions = this.classDescriptionService.classDescriptions;
+    this.descriptionParts = this.classDescriptionService.classDescriptions;
   }
 }

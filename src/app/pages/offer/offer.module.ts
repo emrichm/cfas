@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ShopGdprGuard } from './shop/shop.gdpr-guard';
+import { PersonalTrainingComponent } from './personal-training/personal-training.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,10 @@ const routes: Routes = [
   {
     path: 'classes',
     loadChildren: () => import('./classes/classes.module').then(module => module.ClassesModule)
+  },
+  {
+    path: 'pt',
+    loadChildren: () => import('./personal-training/personal-training.module').then(module => module.ClassesModule)
   },
   {
     path: 'prices',

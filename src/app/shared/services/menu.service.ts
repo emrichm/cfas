@@ -73,6 +73,10 @@ export class MenuService {
             path: '/offer/classes'
           },
           {
+            name: 'Personal Training',
+            path: '/offer/pt'
+          },
+          {
             name: 'Preise',
             path: '/offer/prices'
           },

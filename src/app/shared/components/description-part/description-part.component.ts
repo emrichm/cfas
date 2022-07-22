@@ -1,16 +1,16 @@
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
-import { ClassDescription } from 'src/app/models/class-description';
+import { DescriptionPart } from 'src/app/models/description-part';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'cfas-class-description',
-  templateUrl: './class-description.component.html',
-  styleUrls: ['./class-description.component.scss']
+  selector: 'cfas-description-part',
+  templateUrl: './description-part.component.html',
+  styleUrls: ['./description-part.component.scss']
 })
-export class ClassDescriptionComponent {
-  @Input() classDescription: ClassDescription;
+export class DescriptionPartComponent {
+  @Input() descriptionPart: DescriptionPart;
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe([Breakpoints.XSmall, Breakpoints.Small, Breakpoints.Handset])
     .pipe(

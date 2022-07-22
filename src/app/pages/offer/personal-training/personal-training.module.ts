@@ -1,15 +1,15 @@
 import { SharedModule } from 'src/app/shared/shared.module';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ClassesComponent } from './classes.component';
+import { PersonalTrainingComponent } from './personal-training.component';
 
 const routes: Routes = [
-  { path: '', component: ClassesComponent }
+  { path: '', component: PersonalTrainingComponent }
 ];
 
 @NgModule({
   declarations: [
-    ClassesComponent
+    PersonalTrainingComponent
   ],
   imports: [
     RouterModule.forChild(routes),
