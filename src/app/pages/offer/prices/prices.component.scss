@@ -30,6 +30,26 @@ header {
 mat-card {
   height: 100%;
   padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+
+  .price {
+    font-size: 5.0rem;
+    padding-bottom: 0;
+
+    small {
+      font-size: 2.0rem;
+    }
+  }
+
+  .per-month {
+    margin-top: -10px;
+    font-size: 2.0rem;
+  }
+
+  .flex-top {
+    flex-grow: 1;
+  }
 }
 
 .contract-name {
@@ -41,24 +61,15 @@ mat-card {
 
 mat-card-content {
   margin-top: 40px;
+  margin-bottom: auto;
+
+  .highlight {
+    font-weight: bold;
+  }
 
   ul {
     margin-bottom: 0;
     text-align: left;
-  }
-  
-  .price {
-    font-size: 5.0rem;
-    padding-bottom: 0;
-  
-    small {
-      font-size: 2.0rem;
-    }
-  }
-  
-  .per-month {
-    margin-top: -10px;
-    font-size: 2.0rem;
   }
 }
 

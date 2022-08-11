@@ -4,69 +4,106 @@
     <div id="introduction" class="row">
       <div class="col-md-10 offset-md-1 text-center">
         <h1 class="text-uppercase">Deine Mitgliedschaft</h1>
-        <p>Deine Mitgliedschaft bei CrossFit am See startet bei 90€ pro Monat.<br>Berichte uns mehr über deine Ziele!<br>Wir beraten dich gerne was am besten zu dir passt.</p>
+        <p>
+          Deine Mitgliedschaft bei CrossFit am See startet bei 90€ pro Monat.<br />Berichte uns mehr
+          über deine Ziele!<br />Wir beraten dich gerne was am besten zu dir passt.
+        </p>
       </div>
     </div>
 
     <div class="row">
       <div class="col my-3 text-center">
-        <button mat-stroked-button [routerLink]="['/contact']" [queryParams]="{trail: true}"
-          class="text-uppercase">Kontakt aufnehmen</button>
+        <button
+          mat-stroked-button
+          [routerLink]="['/contact']"
+          [queryParams]="{ trail: true }"
+          class="text-uppercase"
+        >
+          Kontakt aufnehmen
+        </button>
       </div>
     </div>
 
     <div class="row">
       <div class="col-12 col-md-4 my-4 text-center">
         <mat-card class="justify-content-center">
-          <p class="jaeggers contract-name">CFAS Starter<br>&nbsp;</p>
-          <mat-card-content>
-            <p class="text-left">Inkludiert</p>
-            <ul>
-              <li>Eine Klasse pro Tag</li>
-              <li>Newsletter und Facebook-Gruppe for Community and Accountability</li>
-              <li>RomWOD</li>
-              <li>SugarWOD optional zubuchbar</li>
-            </ul>
-          </mat-card-content>
+          <div class="flex-top">
+            <p class="jaeggers contract-name">CFAS Starter<br />&nbsp;</p>
+            <mat-card-content>
+              <!-- <p class="text-left">Inkludiert</p> -->
+              <ul>
+                <li class="highlight">Eine Klasse pro Tag</li>
+                <li class="highlight">Zugang zur RomWOD-Area für zusätzliches Bewegungstraining</li>
+                <li class="highlight">
+                  SugarWOD für eine sorgfältige Ergebnisdokumentation und connection innerhalb der
+                  Community
+                </li>
+              </ul>
+            </mat-card-content>
+          </div>
+          <div class="flex-bottom">
+            <p class="price"><small>ab</small> 90 €</p>
+            <p class="per-month">pro Monat</p>
+          </div>
         </mat-card>
       </div>
       <div class="col-12 col-md-4 my-4 text-center">
         <mat-card class="justify-content-center">
-          <p class="jaeggers contract-name">CFAS CrossFitter<br>&nbsp;</p>
-          <mat-card-content>
-            <p class="text-left">Inkludiert</p>
-            <ul>
-              <li>Zwei Klassen pro Tag (1&nbsp;WOD +&nbsp;1&nbsp;Extrastunde wie OpenGym, Gymnastics, etc.)</li>
-              <li>Newsletter und Facebook-Gruppe for Community and Accountability</li>
-              <li>RomWOD</li>
-              <li>SugarWOD</li>
-              <li>HomeWOD-Paket</li>
-              <li>Halbjährig ausführliches Zielgespräch</li>
-              <li>50% Rabatt auf interne Workshops</li>
-              <li>20% Rabatt auf Personal Training</li>
-            </ul>
-          </mat-card-content>
+          <div class="flex-top">
+            <p class="jaeggers contract-name">CFAS CrossFitter<br />&nbsp;</p>
+            <mat-card-content>
+              <!-- <p class="text-left">Inkludiert</p> -->
+              <ul>
+                <li class="highlight">
+                  Zwei Klassen pro Tag (z.B. Mobility oder Gymnastics zusätzlich)
+                </li>
+                <li>Zugang zur RomWOD-Area für zusätzliches Bewegungstraining</li>
+                <li>
+                  SugarWOD für eine sorgfältige Ergebnisdokumentation und connection innerhalb der
+                  Community
+                </li>
+                <li class="highlight">Halbjährliches ausführliches Zielgespräch</li>
+                <li class="highlight">Zusätzliches HomeWOD-Programming</li>
+                <li class="highlight">10% Rabatt auf Personal Training</li>
+                <li class="highlight">20% Rabatt auf interne Workshops</li>
+              </ul>
+            </mat-card-content>
+          </div>
+          <div class="flex-bottom">
+            <p class="price"><small>ab</small> 100 €</p>
+            <p class="per-month">pro Monat</p>
+          </div>
         </mat-card>
       </div>
       <div class="col-12 col-md-4 my-4 text-center">
         <mat-card class="justify-content-center">
-          <p class="jaeggers contract-name">CFAS CrossFitter<br>PLUS</p>
-          <mat-card-content>
-            <p class="text-left">Inkludiert</p>
-            <ul>
-              <li>Zwei Klassen pro Tag (1&nbsp;WOD +&nbsp;1&nbsp;Extrastunde wie OpenGym, Gymnastics, etc.)</li>
-              <li>Newsletter und Facebook-Gruppe for Community and Accountability</li>
-              <li>RomWOD</li>
-              <li>SugarWOD</li>
-              <li>HomeWOD-Paket</li>
-              <li>Vierteljährig ausführliches Zielgespräch</li>
-              <li>100% Rabatt auf interne Workshops</li>
-              <li>50% Rabatt auf externe Workshops</li>
-              <li>Ein Personal Training halbjährig</li>
-              <li>25% Rabatt auf Personal Training</li>
-              <li>Zusatz-Programming</li>
-            </ul>
-          </mat-card-content>
+          <div class="flex-top">
+            <p class="jaeggers contract-name">CFAS CrossFitter<br />PLUS</p>
+            <mat-card-content>
+              <!-- <p class="text-left">Inkludiert</p> -->
+              <ul>
+                <li>
+                  Zwei Klassen pro Tag (z.B. Mobility oder Gymnastics zusätzlich)
+                </li>
+                <li>Zugang zur RomWOD-Area für zusätzliches Bewegungstraining</li>
+                <li>
+                  SugarWOD für eine sorgfältige Ergebnisdokumentation und connection innerhalb der
+                  Community
+                </li>
+                <li>Halbjährliches ausführliches Zielgespräch</li>
+                <li>Zusätzliches HomeWOD-Programming</li>
+                <li class="highlight">Zusätzliches Competitor-Programming</li>
+                <li class="highlight">Zusätzliches Weightlift-Programming</li>
+                <li class="highlight">20% Rabatt auf Personal Training</li>
+                <li class="highlight">50% Rabatt auf interne Workshops</li>
+                <li class="highlight">20% Rabatt auf externe Workshops</li>
+              </ul>
+            </mat-card-content>
+          </div>
+          <div class="flex-bottom">
+            <p class="price"><small>ab</small> 125 €</p>
+            <p class="per-month">pro Monat</p>
+          </div>
         </mat-card>
       </div>
     </div>
@@ -74,11 +111,11 @@
     <div class="row">
       <div class="col-12 col-md-6 my-4 pt text-center">
         <mat-card class="justify-content-center">
-        <div><p class="jaeggers contract-name">Personal Training</p></div>
+          <div><p class="jaeggers contract-name">Personal Training</p></div>
           <mat-card-content>
-            <p class="price">80 €</p>
+            <p class="price"><small>ab</small> 67 €</p>
             <p class="per-month">pro Stunde</p>
-            <p class="contract-period">Staffelpreise auf Anfrage.</p>
+            <!-- <p class="contract-period">Staffelpreise auf Anfrage.</p> -->
           </mat-card-content>
         </mat-card>
       </div>
@@ -92,6 +129,5 @@
         </mat-card>
       </div>
     </div>
-
   </div>
 </section>
