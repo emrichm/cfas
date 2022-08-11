@@ -82,24 +82,3 @@ button {
     background-color: rgba($color: #212121, $alpha: 0.1);
   }
 }
-
-.self-center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-bold, th {
-  font-weight: bold;
-}
-
-table {
-  td, th {
-    border: 1px solid #121212;
-    font-size: 2.2rem;
-    padding: 20px;
-  }
-}
