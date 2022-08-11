@@ -60,10 +60,10 @@ export class MenuService {
         name: 'Angebot',
         path: null,
         subMenuItems: [
-          // {
-          //   name: 'Events',
-          //   path: '/offer/events'
-          // },
+          {
+            name: 'Events',
+            path: '/offer/events'
+          },
           {
             name: 'Kursplan',
             path: '/offer/schedule'
