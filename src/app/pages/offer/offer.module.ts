@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ShopGdprGuard } from './shop/shop.gdpr-guard';
 import { PersonalTrainingComponent } from './personal-training/personal-training.component';
+import { HallRentalComponent } from './hall-rental/hall-rental.component';
 
 const routes: Routes = [
   {
@@ -18,11 +19,15 @@ const routes: Routes = [
   },
   {
     path: 'pt',
-    loadChildren: () => import('./personal-training/personal-training.module').then(module => module.ClassesModule)
+    loadChildren: () => import('./personal-training/personal-training.module').then(module => module.PersonalTrainingModule)
   },
   {
     path: 'prices',
     loadChildren: () => import('./prices/prices.module').then(module => module.PricesModule)
+  },
+  {
+    path: 'hall-rental',
+    loadChildren: () => import('./hall-rental/hall-rental.module').then(module => module.HallRentalModules)
   },
   {
     path: 'shop',

@@ -81,6 +81,10 @@ export class MenuService {
             path: '/offer/prices'
           },
           {
+            name: 'Hallenmiete',
+            path: '/offer/hall-rental'
+          },
+          {
             name: 'Shop',
             path: '/offer/shop'
           }

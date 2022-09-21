@@ -1,0 +1,23 @@
+#title {
+  padding-top: 10vh;
+  font-size: 9rem;
+  background-image: url(src/assets/static/images/style-images/pvc-pipes-768x512.jpg);
+  background-size: cover;
+
+  h1 {
+    font-weight: 600;
+    font-size: 10rem;
+    width: fit-content;
+    margin: auto;
+    text-shadow: 2px 2px 5px black, -2px 2px 5px black, 2px -2px 5px black, -2px -2px 5px black;
+
+    @media (max-width: 960px) {
+      font-size: 15vw;
+    }
+  }
+}
+
+img {
+  width: 250px;
+  margin-bottom: 20px;
+}

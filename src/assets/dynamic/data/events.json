@@ -1,6 +1,24 @@
 {
   "events": [
     {
+      "date": "2022-10-19T10:30",
+      "expDate": "2022-10-19T20:00",
+      "description": "<p>HYROX PFT (Physical Fitness Test) mit anschließendem Grillen</p><p><a href='https://pft.hyrox.com/global' target='_blank' style='font-weight:bold;text-decoration:underline;'>Hier kostenlos anmelden</a></p>",
+      "image": {
+        "url": "assets/dynamic/images/events/20221019_Hyrox-PFT.png",
+        "alt": "HYROX PFT (Physical Fitness Test) at CrossFit am See"
+      }
+    },
+    {
+      "date": "2022-09-18T10:00",
+      "expDate": "2022-09-18T20:00",
+      "description": "<p>Tag der offenen Tür mit anschließendem Grillen</p>",
+      "image": {
+        "url": "assets/dynamic/images/events/20220918_TagDerOffenenTuer.jpeg",
+        "alt": "Tag der offenen Tür at CrossFit am See"
+      }
+    },
+    {
       "date": "2022-08-20T10:30",
       "expDate": "2022-08-20T20:00",
       "description": "<p>HYROX PFT (Physical Fitness Test) mit anschließendem Grillen</p><p><a href='https://pft.hyrox.com/global?_ga=2.107344578.1918691495.1659961757-990892045.1659961757' target='_blank' style='font-weight:bold;text-decoration:underline;'>Hier kostenlos anmelden</a></p>",
@@ -12,7 +30,7 @@
     {
       "date": "2021-03-15T12:00",
       "expDate": "2020-05-15T00:00",
-      "description": "CFAS Cloased due to COVID-19",
+      "description": "CFaS Cloased due to COVID-19",
       "image": {
         "url": "assets/dynamic/images/events/20200315_ClosingCovid19.jpg",
         "alt": "CrossFit am See vorerst geschlossen aufgrund Corona Virus Pandemie"
@@ -21,7 +39,7 @@
     {
       "date": "2020-03-15T12:00",
       "expDate": "2020-05-15T00:00",
-      "description": "CFAS - HomeWODs",
+      "description": "CFaS - HomeWODs",
       "image": {
         "url": "assets/dynamic/images/events/20200315_HomeWOD.jpg",
         "alt": "Dein Training für zu Hause von CrossFit am See"
@@ -30,7 +48,7 @@
     {
       "date": "2020-07-29T17:00",
       "expDate": "2020-07-30T00:00",
-      "description": "CFAS - CrossFit Games Kino",
+      "description": "CFaS - CrossFit Games Kino",
       "image": {
         "url": "assets/dynamic/images/events/20200729_KlappeActionCFGames.jpg",
         "alt": "Kinoabende zu den CrossFit Games 2020 bei CrossFit am See"
