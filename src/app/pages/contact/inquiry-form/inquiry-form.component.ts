@@ -24,7 +24,8 @@ export class InquiryFormComponent implements OnInit {
     message: [''],
     agreement: [false, Validators.requiredTrue]
   });
-  subjects = ['Drop-In', 'Probetraining', 'Anderes'];
+  subjects = ['Drop-In', 'Probetraining', 'Personal Training', 'Sportbehandlung und Schmerzcoaching', 'Anderes'];
+  withDateTimePicker = ['Drop-In', 'Probetraining'];
   fromDate: Date;
   toDate: Date;
   hours: string[] = [];
@@ -67,6 +68,10 @@ export class InquiryFormComponent implements OnInit {
     console.log('[inquiry-form.component.ts->] this.inquiry.wishDate: ', this.inquiry.wishDate);
     const dayOfWeek = this.inquiry.wishDate.getDay();
     this.hours = this.classHoursService.getClassHoursForDayOfWeek(dayOfWeek);
+  }
+
+  hasDateTimePicker = (subject: string): boolean => {
+    return this.withDateTimePicker.includes(subject);
   }
 
   get inquiry(): Inquiry {
