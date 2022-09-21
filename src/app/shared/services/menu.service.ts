@@ -77,12 +77,16 @@ export class MenuService {
             path: '/offer/pt'
           },
           {
-            name: 'Preise',
-            path: '/offer/prices'
+            name: 'Massage',
+            path: '/offer/massage'
           },
           {
             name: 'Hallenmiete',
             path: '/offer/hall-rental'
+          },
+          {
+            name: 'Preise',
+            path: '/offer/prices'
           },
           {
             name: 'Shop',

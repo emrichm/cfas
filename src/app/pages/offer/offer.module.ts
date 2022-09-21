@@ -22,12 +22,16 @@ const routes: Routes = [
     loadChildren: () => import('./personal-training/personal-training.module').then(module => module.PersonalTrainingModule)
   },
   {
-    path: 'prices',
-    loadChildren: () => import('./prices/prices.module').then(module => module.PricesModule)
+    path: 'massage',
+    loadChildren: () => import('./massage/massage.module').then(module => module.MassageModule)
   },
   {
     path: 'hall-rental',
-    loadChildren: () => import('./hall-rental/hall-rental.module').then(module => module.HallRentalModules)
+    loadChildren: () => import('./hall-rental/hall-rental.module').then(module => module.HallRentalModule)
+  },
+  {
+    path: 'prices',
+    loadChildren: () => import('./prices/prices.module').then(module => module.PricesModule)
   },
   {
     path: 'shop',

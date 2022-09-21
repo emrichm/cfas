@@ -1,0 +1,22 @@
+<div id="wrapper">
+  <section id="title" class="grey-section">
+    <!-- [ngStyle]="(isHandset$ | async) && {'background-image': 'url(assets/static/images/style-images/pvc-pipes.jpg)'}"> -->
+    <div class="text-center">
+      <h1 class="jaeggers text-uppercase">Sportbehandlung und<br />Schmerzcoaching</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mx-auto col-10 col-md-8">
+      <div class="row">
+        <div class="col description text-center">
+          Bewege dich wieder schmerzfrei durch den Alltag.
+        </div>
+      </div>
+
+      <ng-container *ngFor="let descriptionPart of descriptionParts">
+        <cfas-description-part [descriptionPart]="descriptionPart"></cfas-description-part>
+      </ng-container>
+    </div>
+  </section>
+</div>

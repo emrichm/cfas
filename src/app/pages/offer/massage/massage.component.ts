@@ -3,21 +3,27 @@ import { map, shareReplay } from 'rxjs/operators';
 import { DescriptionPart } from 'src/app/models/description-part';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, Input, OnInit } from '@angular/core';
+import { DescriptionPartService } from './description-part.service';
 
 @Component({
-  selector: 'cfas-description-part',
-  templateUrl: './description-part.component.html',
-  styleUrls: ['./description-part.component.scss']
+  selector: 'cfas-massage',
+  templateUrl: './massage.component.html',
+  styleUrls: ['./massage.component.scss']
 })
-export class DescriptionPartComponent {
-  @Input() descriptionPart: DescriptionPart;
-  @Input() positionY: 'bottom' | 'center' | 'top';
-
+export class MassageComponent implements OnInit {
+  descriptionParts: DescriptionPart[];
   isHandset$: Observable<boolean> = this.breakpointObserver.observe([Breakpoints.XSmall, Breakpoints.Small, Breakpoints.Handset])
     .pipe(
       map(result => result.matches),
       shareReplay()
     );
 
-  constructor(private breakpointObserver: BreakpointObserver) { }
+  constructor(
+    private descriptionPartService: DescriptionPartService,
+    private breakpointObserver: BreakpointObserver
+  ) { }
+
+  ngOnInit() {
+    this.descriptionParts = this.descriptionPartService.massageDescriptionParts;
+  }
 }

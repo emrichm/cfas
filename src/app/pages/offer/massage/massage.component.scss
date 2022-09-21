@@ -1,0 +1,64 @@
+@import '../../../../assets/static/scss/variables';
+
+#title {
+  padding-top: 10vh;
+  font-size: 9rem;
+  background-image: url(src/assets/static/images/style-images/praxisraum-landscape-768x512.jpg);
+  background-size: cover;
+  background-position-y: center;
+
+  // @media screen and (max-width: 960px) {
+  //   background-size: cover;
+  // }
+
+  h1 {
+    font-weight: 600;
+    font-size: 10rem;
+    width: fit-content;
+    margin: auto;
+    text-shadow: 2px 2px 5px black, -2px 2px 5px black, 2px -2px 5px black, -2px -2px 5px black;
+
+    @media (max-width: 960px) {
+      font-size: 10vw;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .grey-section {
+    // background-color: transparent;
+    // height: 100%;
+    // background-image: url(src/assets/static/images/style-images/pvc-pipes.jpg);
+    // background-attachment: fixed;
+    // background-size: cover;
+    // background-position: bottom right;
+
+    // &::before {
+    //   background-image: url(src/assets/static/images/style-images/pvc-pipes.jpg);
+    //   background-attachment: fixed;
+    //   background-size: cover;
+    //   background-position: bottom right;
+
+    //   background-color: black;
+    //   position: fixed;
+
+    //   content: '';
+    //   height: 100%;
+    //   left: 0;
+    //   top: 0;
+    //   width: 100%;
+    //   will-change: transform;
+    //   z-index: -1;
+    // }
+  }
+}
+
+.description {
+  padding: 50px 70px;
+  line-height: 3.5rem;
+  background-color: $bgGrey;
+
+  @media (max-width: 960px) {
+    padding: 25px;
+  }
+}
