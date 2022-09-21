@@ -43,6 +43,7 @@
               matInput
               [min]="fromDate"
               [max]="toDate"
+              [matDatepickerFilter]="dateFilter"
               [matDatepicker]="picker"
               placeholder="Wunschdatum"
               formControlName="wishDate"
@@ -57,7 +58,7 @@
             <mat-select
               placeholder="Uhrzeit"
               formControlName="hour"
-              [disabled]="!this.inquiry.wishDate"
+              [disabled]="!this.inquiry.wishDate || !hours.length"
             >
               <mat-option *ngFor="let hour of hours" [value]="hour">
                 {{ hour }}

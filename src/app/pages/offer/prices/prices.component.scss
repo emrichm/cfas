@@ -1,3 +1,7 @@
+@import '../../../../assets/static/scss/mixins';
+
+@include button-bordered;
+
 header {
   height: 50%;
   background-image: url(src/assets/static/images/style-images/mitgliedschaften.jpg);
@@ -8,7 +12,7 @@ header {
 #introduction {
   h1 {
     font-weight: 600;
-    font-size: 4.0rem;
+    font-size: 4rem;
     letter-spacing: 1.5rem;
 
     @media (max-width: 960px) {
@@ -18,7 +22,7 @@ header {
   }
 
   p {
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: 300;
 
     @media (max-width: 960px) {
@@ -34,17 +38,17 @@ mat-card {
   flex-direction: column;
 
   .price {
-    font-size: 5.0rem;
+    font-size: 5rem;
     padding-bottom: 0;
 
     small {
-      font-size: 2.0rem;
+      font-size: 2rem;
     }
   }
 
   .per-month {
     margin-top: -10px;
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
 
   .flex-top {
@@ -53,8 +57,8 @@ mat-card {
 }
 
 .contract-name {
-  font-size: 7.0rem;
-  line-height: 7.0rem;
+  font-size: 7rem;
+  line-height: 7rem;
   font-weight: 700;
   margin-bottom: -30px;
 }
@@ -70,15 +74,5 @@ mat-card-content {
   ul {
     margin-bottom: 0;
     text-align: left;
-  }
-}
-
-button {
-  font-size: 2.2rem;
-  border: solid 2px #212121 !important;
-  border-radius: 25px;
-
-  &:hover {
-    background-color: rgba($color: #212121, $alpha: 0.1);
   }
 }

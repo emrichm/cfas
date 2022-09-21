@@ -1,3 +1,7 @@
+@import '../../../../assets/static/scss/mixins';
+
+@include button-bordered;
+
 #title {
   padding-top: 10vh;
   font-size: 9rem;

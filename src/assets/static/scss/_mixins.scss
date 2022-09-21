@@ -1,0 +1,11 @@
+@mixin button-bordered {
+  button {
+    font-size: 2.2rem;
+    border: solid 2px #212121 !important;
+    border-radius: 25px;
+
+    &:hover {
+      background-color: rgba($color: #212121, $alpha: 0.1);
+    }
+  }
+}

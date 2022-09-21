@@ -6,6 +6,15 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 
+enum Subjects {
+  'drop-in' = 'Drop-In',
+  'trail' = 'Probetraining',
+  'pt' = 'Personal Training',
+  'massage' = 'Sportbehandlung und Schmerzcoaching',
+  'hall' = 'Hallenmiete',
+  'other' = 'Anderes'
+}
+
 @Component({
   selector: 'cfas-contact-form',
   templateUrl: './inquiry-form.component.html',
@@ -24,8 +33,8 @@ export class InquiryFormComponent implements OnInit {
     message: [''],
     agreement: [false, Validators.requiredTrue]
   });
-  subjects = ['Drop-In', 'Probetraining', 'Personal Training', 'Sportbehandlung und Schmerzcoaching', 'Anderes'];
-  withDateTimePicker = ['Drop-In', 'Probetraining'];
+  subjects = [Subjects['drop-in'], Subjects.trail, Subjects.pt, Subjects.massage, Subjects.hall, Subjects.other];
+  withDateTimePicker = [Subjects['drop-in'], Subjects.trail];
   fromDate: Date;
   toDate: Date;
   hours: string[] = [];
@@ -43,11 +52,9 @@ export class InquiryFormComponent implements OnInit {
 
   ngOnInit(): void {
     this.setFromToDates();
-    this.route.queryParams.pipe(filter(params => params.trail))
-      .subscribe(trail => {
-        if (trail) {
-          this.inquiryForm.controls.subject.setValue('Probetraining');
-        }
+    this.route.queryParams.pipe(filter(params => params.subject))
+      .subscribe(subject => {
+        this.inquiryForm.controls.subject.setValue(Subjects[subject.subject]);
       });
   }
 
@@ -65,14 +72,18 @@ export class InquiryFormComponent implements OnInit {
   }
 
   setHours(): void {
-    console.log('[inquiry-form.component.ts->] this.inquiry.wishDate: ', this.inquiry.wishDate);
     const dayOfWeek = this.inquiry.wishDate.getDay();
     this.hours = this.classHoursService.getClassHoursForDayOfWeek(dayOfWeek);
   }
 
   hasDateTimePicker = (subject: string): boolean => {
-    return this.withDateTimePicker.includes(subject);
+    return this.withDateTimePicker.includes(subject as Subjects);
   }
+
+  dateFilter = (date: Date) => {
+    const dayOfWeek = new Date(date).getDay();
+    return this.classHoursService.getClassHoursForDayOfWeek(dayOfWeek).length;
+  };
 
   get inquiry(): Inquiry {
     this._inquiry.firstName = this.inquiryForm.controls.firstName.value;
