@@ -17,7 +17,7 @@ export class DescriptionPartService {
         `,
         button: `<button mat-stroked-button routerLink="/offer/prices" class="mt-3 py-2 px-3 text-uppercase align-text-bottom">Preise</button>`,
         image: {
-          url: 'assets/static/images/style-images/praxisraum-portrait-768x457.jpg',
+          url: 'assets/dynamic/images/werkstatt/Werkstatt-Praxisraum-768x1024.jpg',
           alt: '',
           position: 'bottom'
         }

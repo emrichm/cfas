@@ -1,9 +1,18 @@
 {
   "events": [
     {
-      "date": "2022-10-19T10:30",
+      "date": "2022-10-30T10:30",
+      "expDate": "2022-10-30T20:00",
+      "description": "<p><strong>Pump' King Bash</strong></p><p>Halloween at CrossFit am See</p><p><a href='https://goteamup.com/p/1695186-crossfit-am-see/e/52465917-pump-king-bash/' target='_blank' style='font-weight:bold;text-decoration:underline;'>Hier kostenlos anmelden</a></p>",
+      "image": {
+        "url": "assets/dynamic/images/events/20221019_PumpKing_Bash.jpeg",
+        "alt": "Pump' King Bash - Halloween at CrossFit am See"
+      }
+    },
+    {
+      "date": "2022-10-19T17:00",
       "expDate": "2022-10-19T20:00",
-      "description": "<p>HYROX PFT (Physical Fitness Test) mit anschließendem Grillen</p><p><a href='https://pft.hyrox.com/global' target='_blank' style='font-weight:bold;text-decoration:underline;'>Hier kostenlos anmelden</a></p>",
+      "description": "<p>HYROX PFT (Physical Fitness Test)</p><p><a href='https://pft.hyrox.com/global' target='_blank' style='font-weight:bold;text-decoration:underline;'>Hier kostenlos anmelden</a></p>",
       "image": {
         "url": "assets/dynamic/images/events/20221019_Hyrox-PFT.png",
         "alt": "HYROX PFT (Physical Fitness Test) at CrossFit am See"
