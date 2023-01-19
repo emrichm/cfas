@@ -50,7 +50,7 @@ export class WodsOverviewPerDay {
   constructor(rawWods: Wods) {
     for (let dayOfWeek = 0; dayOfWeek < 7; dayOfWeek++) {
       const dailyWods = rawWods.data.filter(wod => {
-        return !scoreTypesNotToDisplay.includes(wod.attributes.title) && (new Date(wod.attributes.scheduled_date).getDay() + 6) % 7 === dayOfWeek;
+        return !scoreTypesNotToDisplay.includes(wod.attributes.score_type) && (new Date(wod.attributes.scheduled_date).getDay() + 6) % 7 === dayOfWeek;
       });
 
       if (!dailyWods.length) {
