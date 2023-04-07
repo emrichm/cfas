@@ -9,10 +9,7 @@ export class ClassDescriptionService {
     const classDescriptions: DescriptionPart[] = [
       {
         title: 'Workout Of the Day (WOD)',
-        text: `Workout Of the Day, das Workout des Tages.
-        Hier bieten wir euch klassisches CrossFit „at it's finest!“.
-        Jeden Tag gibt es ein anderes Workout, zusammengesetzt aus den Bereichen des Ausdauersports,
-        der Gymnastik, dem Gewichtheben sowie Disziplinen des Strongman.`,
+        text: `Workout Of the Day, das Workout des Tages: Dein ultimatives CrossFit-Erlebnis! Entdecke jeden Tag ein abwechslungsreiches und herausforderndes Training, das dir das Beste aus der Welt des CrossFit bietet. Lass dich von einer vielseitigen Mischung aus Ausdauersport, Gymnastik, Gewichtheben und Strongman-Disziplinen begeistern. Tauche ein in ein einzigartiges Fitnessabenteuer und entfalte dein volles Potential!`,
         image: {
           url: 'assets/static/images/style-images/wod-768x512.jpeg',
           alt: '',
@@ -21,10 +18,7 @@ export class ClassDescriptionService {
       },
       {
         title: 'TeamWOD',
-        text: `Teamworkouts sind WODS, welche in 2-er, 3-er oder auch mal 4-er Teams
-        absolviert werden. Auch diese Workouts wechseln täglich im Aufbau und auch
-        in ihrer Intensität. Du kannst selbstverständlich auch ohne Teampartner kommen.
-        Den findest Du vor Ort. Eine tolle Gelegenheit, andere Athleten aus der Box kennenzulernen.`,
+        text: `Erlebe gemeinsam beeindruckende Teamworkouts! Unsere WODs (Workouts of the Day) sind speziell für 2er-, 3er- oder sogar 4er-Teams konzipiert und bieten täglich abwechslungsreiche Herausforderungen sowohl in ihrem Aufbau als auch in ihrer Intensität. Keine Sorge, wenn du keinen Trainingspartner hast – bei uns wirst du vor Ort fündig und hast die großartige Möglichkeit, andere begeisterte Athleten aus unserer Box kennenzulernen. Zusammen erreicht ihr neue Höhen und stärkt euer Gemeinschaftsgefühl!`,
         image: {
           url: 'assets/static/images/style-images/teamwod-768x512.jpeg',
           alt: '',
@@ -33,9 +27,7 @@ export class ClassDescriptionService {
       },
       {
         title: 'Gymnastics',
-        text: `Die Gymnastics Class ist eine Technikstunde mit einem kleinen Workout
-        „FOR QUALITY“ am Ende. Hier gehen wir speziell auf die gymnastischen Bewegungen, die keine Zusatzgewichte verwenden, wie
-        den Handstand oder auch Ring Muscle-Ups, ein und holen jede:n Athleten oder Athletin dort ab, wo er oder sie sich gerade befindet.`,
+        text: `Entdecke die faszinierende Welt der Gymnastik in unserer Gymnastics Class! In dieser einzigartigen Technikstunde erwartet Dich ein inspirierendes Training, das mit einem sorgfältig ausgewählten "FOR QUALITY"-Workout abgerundet wird. Hier liegt der Fokus speziell auf den fesselnden gymnastischen Übungen ohne Zusatzgewichte, wie beispielsweise dem beeindruckenden Handstand oder den kraftvollen Ring Muscle-Ups. Ganz gleich, auf welchem Leistungsniveau Du Dich befindest – wir unterstützen jeden Athleten und jede Athletin individuell und begleiten Dich auf Deinem persönlichen Weg zur Verbesserung Deiner Technik und Fitness.`,
         image: {
           url: 'assets/static/images/style-images/gymnastics-768x512.jpeg',
           alt: '',
@@ -44,9 +36,7 @@ export class ClassDescriptionService {
       },
       {
         title: 'Performance',
-        text: `Für alle, welche die grundlegenden Bewegungen des CrossFit bereits kennen und an ihrer Performance arbeiten wollen.
-        Neben Technik-, Kraft- und Ausdauertrainingseinheiten erwarten euch Strategieanalysen sowie anspruchsvolle CrossFit-Workouts,
-        in denen sowohl Anfänger als auch Fortgeschrittene über sich hinauswachsen können.`,
+        text: `Erlebe ein intensives CrossFit-Abenteuer, das speziell auf all jene zugeschnitten ist, die bereits mit den grundlegenden Bewegungen vertraut sind und ihre Leistung auf die nächste Stufe heben möchten. In unserem Kurs erwarten dich eine Mischung aus technikorientiertem Training, Kraftaufbau und Ausdauereinheiten, die dir helfen, deine Fähigkeiten zu verfeinern und zu erweitern. Doch damit nicht genug: Wir bieten auch spannende Strategieanalysen und herausfordernde CrossFit-Workouts, die sowohl Neulinge als auch erfahrene Athleten dazu inspirieren, ihre persönlichen Grenzen zu sprengen und gemeinsam neue Höhen zu erklimmen.`,
         image: {
           url: 'assets/static/images/style-images/performance-768x512.jpg',
           alt: '',
@@ -55,39 +45,35 @@ export class ClassDescriptionService {
       },
       {
         title: 'Oly - Olympic Weightlifting',
-        text: `Olympisches Gewichtheben, aka Oly - Zwei Übungen, der Snatch und der Clean & Jerk!
-        Um die Komplexität dieser Übungen meistern zu können werden diese hier auf unterschiedliche Weisen herunter gebrochen und geübt.
-        Der Fokus liegt dabei auf der Technik und es findet kein WOD im klassischen Sinne statt.
-        Auch perfekt für Einsteiger, oder nach einer längeren Pause, geeignet.`,
+        text: `Erlebe die Faszination des olympischen Gewichthebens, auch bekannt als "Oly" – zwei beeindruckende Disziplinen: das Reißen (Snatch) und das Stoßen (Clean & Jerk)! In unserem speziellen Training erlernst du diese komplexen Übungen Schritt für Schritt, indem sie auf verschiedene Weise zerlegt und geübt werden. Dabei steht die Technik im Vordergrund, ohne das klassische WOD. Ob als Anfänger oder nach einer längeren Trainingspause – entdecke die Welt des Gewichthebens und verbessere deine Fähigkeiten in einer motivierenden Umgebung!`,
         image: {
           url: 'assets/static/images/style-images/weightlifting-768x512.jpeg',
           alt: '',
           position: 'center'
         }
       },
-      {
-        title: 'Rookies',
-        text: `Unsere Reihe an Rookie-Class dient der detaillierten Grundlagenschulung.
-        Hier geht es sowohl um Techniken, den Umgang mit Equipment, den Begriffen und Workoutarten also auch darum wer wir sind und woran wir glauben.
-        Wir empfehlen besonders Neueinsteigern zunächst den Besuch dieser Klassen.
-        Doch auch unseren Fortgeschrittenen Athleten legen wir diese Kurse, zur Wiederholung und Vertiefung ihrer Technik, nahe.
-        Ein anstrengendes WOD ist selbstverständlich auch hier Teil der Stunde.`,
-        image: {
-          url: 'assets/static/images/style-images/basics-768x428.jpeg',
-          alt: '',
-          position: 'center'
-        }
-      },
       // {
-      //   title: 'Pumpin\' Iron',
-      //   text: `Functional Bodybuilding ist ein Trainingsansatz, welchen wir einsetzen, um deine Kraft gezielt zu steigern,
-      //   muskuläre Ungleichgewichte zu korrigieren und deine Bewegungsqualität zu festigen.`,
+      //   title: 'Rookies',
+      //   text: `Unsere Reihe an Rookie-Class dient der detaillierten Grundlagenschulung.
+      //   Hier geht es sowohl um Techniken, den Umgang mit Equipment, den Begriffen und Workoutarten also auch darum wer wir sind und woran wir glauben.
+      //   Wir empfehlen besonders Neueinsteigern zunächst den Besuch dieser Klassen.
+      //   Doch auch unseren Fortgeschrittenen Athleten legen wir diese Kurse, zur Wiederholung und Vertiefung ihrer Technik, nahe.
+      //   Ein anstrengendes WOD ist selbstverständlich auch hier Teil der Stunde.`,
       //   image: {
-      //     url: 'assets/static/images/style-images/pumpin-iron-768x457.jpeg',
+      //     url: 'assets/static/images/style-images/basics-768x428.jpeg',
       //     alt: '',
-      //     position: 'top'
+      //     position: 'center'
       //   }
       // },
+      {
+        title: 'Pumpin\' Iron',
+        text: `Functional Bodybuilding: Entdecke die perfekte Symbiose aus Kraft, Balance und Bewegung. Entfalte dein volles körperliches Potential mit Functional Bodybuilding - dem ganzheitlichen Trainingsansatz, der deinen Körper auf effektive Weise transformiert. Durch gezielte Kraftsteigerung, Korrektur muskulärer Dysbalancen und Optimierung deiner Bewegungsqualität schafft es diese Methode, deine Fitness auf ein neues Level zu heben. Lass dich von der kraftvollen Synergie begeistern und erreiche neue persönliche Bestleistungen in deinem Training.`,
+        image: {
+          url: 'assets/static/images/style-images/pumpin-iron-768x457.jpeg',
+          alt: '',
+          position: 'top'
+        }
+      },
       // {
       //   title: 'KettleBell',
       //   text: `Unter Anleitung eines erfahrenen RKC Trainers liegt der Fokus hier auf den Grundübungen mit der Kettlebell:
@@ -98,16 +84,15 @@ export class ClassDescriptionService {
       //     position: 'bottom'
       //   }
       // },
-      // {
-      //   title: 'Active Recovery',
-      //   text: `Diese Stunde soll unseren Athleten eine Möglichkeit bieten, an ihren Rest-Days ihrem Körper etwas Gutes zu tun.
-      //   In dieser Stunde werden Yoga-, Dehn- und Mobilisationstechniken miteinander vereint.`,
-      //   image: {
-      //     url: 'assets/static/images/style-images/active-recovery-768x512.jpeg',
-      //     alt: '',
-      //     position: 'center center'
-      //   }
-      // },
+      {
+        title: 'Active Recovery',
+        text: `Gönnen Dir in dieser wohltuenden Stunde eine erholsame Auszeit für Körper und Geist. An Ruhetagen bieten wir mit dieser Einheit eine perfekte Balance aus Yoga, Dehnübungen und Mobilisationstechniken, um sowohl körperliche als auch mentale Regeneration zu fördern. Entdecken Sie die harmonische Verbindung dieser Elemente und unterstützen Sie Ihre Athleten dabei, neue Energie zu tanken und ihre Leistungsfähigkeit zu steigern.`,
+        image: {
+          url: 'assets/static/images/style-images/active-recovery-768x512.jpeg',
+          alt: '',
+          position: 'center center'
+        }
+      },
       // {
       //   title: 'ROMWOD',
       //   text: `Optimize your Range Of Motion – Jederzeit für unsere Mitglieder zugänglich ist unsere ROMWOD-AREA.
@@ -120,8 +105,7 @@ export class ClassDescriptionService {
       // },
       {
         title: 'Open Gym',
-        text: `Freies Training ohne Coach.
-        In Deiner Open Gym Stunde hast Du die Möglichkeit, außerhalb der regulär angebotenen Klassen an deinen Skills zu arbeiten.`,
+        text: `Erlebe das ultimative Trainingsvergnügen ganz nach Deinen Wünschen: Im Open Gym kannst Du ganz ohne Trainer auf eigene Faust trainieren und an Deinen Fähigkeiten feilen. Nutze diese einzigartige Gelegenheit, um außerhalb der regulären Kurse Deine Skills zu perfektionieren und Deine persönlichen Fitnessziele zu erreichen. Komm und entdecke die Freiheit, Dein Training selbst in die Hand zu nehmen!`,
         image: {
           url: 'assets/static/images/style-images/open-gym-768x512.jpeg',
           alt: '',
