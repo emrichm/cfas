@@ -1,100 +1,6 @@
 {
   "coaches": [
     {
-      "name": "Charly",
-      "position": "Coach",
-      "image": {
-        "url": "assets/dynamic/images/coaches/Charly.jpg",
-        "alt": "Coach Charly"
-      },
-      "teaser": [
-        "\"Charly the Machine\" kommt eigentlich aus dem klassischen Fitness Bereich und hat vor zwei Jahren zu CrossFit am See gefunden. Doch neben dem heben von schweren Gewichten, liebt sie auch die Ruhe der Berge. Unsere Charly nutzt die Wochenenden am liebsten damit wandern zu gehen, natürlich auch dies nicht mal eben so sondern auch gern mal 24h am Stück.",
-        "In CrossFit hat sie einen super Ausgleich zum beruflichen Alltag eines Tax Consultants gefunden und freut sich darauf auch dir mit Rat und Tat in der Box für dich da sein zu können!",
-        "Weitere Infos über Charly?"
-      ],
-      "buttonText": "Zum Interview",
-      "qualifications": [
-        "CrossFit Level 1 Trainer (CF-L1)  ",
-        "B-Lizenz \"Kraft und Fitness\"",
-        "C-Lizenz \"Fitness Aerobic\""
-      ],
-      "interview": [
-        {
-          "question": "Was machst Du beruflich?",
-          "answer": [
-            "Tax Consultant"
-          ]
-        },
-        {
-          "question": "Warum machst Du CrossFit?",
-          "answer": [
-            "Weil man sich jedes Mal wenn man in die Box kommt wie zu Hause fühlt und gemeinsam mit der Community jeden Tag super abwechslungsreiche Workouts rockt."
-          ]
-        },
-        {
-          "question": "Seit wann machst Du CrossFit?",
-          "answer": [
-            "seit 2018"
-          ]
-        },
-        {
-          "question": "Seit wann bist Du Coach?",
-          "answer": [
-            "seit 2020"
-          ]
-        },
-        {
-          "question": "CrossFit am See in einem Wort?",
-          "answer": [
-            "Community"
-          ]
-        },
-        {
-          "question": "Dein Ziel 2022?",
-          "answer": [
-            "Mitteldistanz Triathlon"
-          ]
-        },
-        {
-          "question": "Bist Du Team Hoodie oder Zipper?",
-          "answer": [
-            "Team Hoodie"
-          ]
-        },
-        {
-          "question": "Dein Lieblings \"CHEAT-Meal\"?",
-          "answer": [
-            "Pancakes mit Ahornsirup"
-          ]
-        },
-        {
-          "question": "Dein Tipp für Samstagabend?",
-          "answer": [
-            "Spieleabend mit Freunden"
-          ]
-        },
-        {
-          "question": "Dein Lieblings-WOD?",
-          "answer": [
-            "Grace",
-            "30 Clean and Jerks"
-          ]
-        },
-        {
-          "question": "Deine Hobbies neben CrossFit?",
-          "answer": [
-            "Bergsteigen, Rennrad fahren und Triathlon"
-          ]
-        },
-        {
-          "question": "Aus welchem Sport kommst Du?",
-          "answer": [
-            "Klassisches Fitnesstraining"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Colin",
       "position": "Coach",
       "image": {
@@ -401,6 +307,7 @@
       "qualifications": [
         "CrossFit Level 1 Trainer (CF-L1)",
         "CrossFit Anatomy Certificate",
+        "CrossFit Judges Course 2023",
         "CrossFit Judges Course 2022"
       ],
       "interview": [
@@ -771,6 +678,100 @@
           "question": "Aus welchem Sport kommst Du?",
           "answer": [
             "Leichtathletik"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Charly",
+      "position": "Coach",
+      "image": {
+        "url": "assets/dynamic/images/coaches/Charly.jpg",
+        "alt": "Coach Charly"
+      },
+      "teaser": [
+        "\"Charly the Machine\" kommt eigentlich aus dem klassischen Fitness Bereich und hat vor zwei Jahren zu CrossFit am See gefunden. Doch neben dem heben von schweren Gewichten, liebt sie auch die Ruhe der Berge. Unsere Charly nutzt die Wochenenden am liebsten damit wandern zu gehen, natürlich auch dies nicht mal eben so sondern auch gern mal 24h am Stück.",
+        "In CrossFit hat sie einen super Ausgleich zum beruflichen Alltag eines Tax Consultants gefunden und freut sich darauf auch dir mit Rat und Tat in der Box für dich da sein zu können!",
+        "Weitere Infos über Charly?"
+      ],
+      "buttonText": "Zum Interview",
+      "qualifications": [
+        "CrossFit Level 1 Trainer (CF-L1)  ",
+        "B-Lizenz \"Kraft und Fitness\"",
+        "C-Lizenz \"Fitness Aerobic\""
+      ],
+      "interview": [
+        {
+          "question": "Was machst Du beruflich?",
+          "answer": [
+            "Tax Consultant"
+          ]
+        },
+        {
+          "question": "Warum machst Du CrossFit?",
+          "answer": [
+            "Weil man sich jedes Mal wenn man in die Box kommt wie zu Hause fühlt und gemeinsam mit der Community jeden Tag super abwechslungsreiche Workouts rockt."
+          ]
+        },
+        {
+          "question": "Seit wann machst Du CrossFit?",
+          "answer": [
+            "seit 2018"
+          ]
+        },
+        {
+          "question": "Seit wann bist Du Coach?",
+          "answer": [
+            "seit 2020"
+          ]
+        },
+        {
+          "question": "CrossFit am See in einem Wort?",
+          "answer": [
+            "Community"
+          ]
+        },
+        {
+          "question": "Dein Ziel 2022?",
+          "answer": [
+            "Mitteldistanz Triathlon"
+          ]
+        },
+        {
+          "question": "Bist Du Team Hoodie oder Zipper?",
+          "answer": [
+            "Team Hoodie"
+          ]
+        },
+        {
+          "question": "Dein Lieblings \"CHEAT-Meal\"?",
+          "answer": [
+            "Pancakes mit Ahornsirup"
+          ]
+        },
+        {
+          "question": "Dein Tipp für Samstagabend?",
+          "answer": [
+            "Spieleabend mit Freunden"
+          ]
+        },
+        {
+          "question": "Dein Lieblings-WOD?",
+          "answer": [
+            "Grace",
+            "30 Clean and Jerks"
+          ]
+        },
+        {
+          "question": "Deine Hobbies neben CrossFit?",
+          "answer": [
+            "Bergsteigen, Rennrad fahren und Triathlon"
+          ]
+        },
+        {
+          "question": "Aus welchem Sport kommst Du?",
+          "answer": [
+            "Klassisches Fitnesstraining"
           ]
         }
       ]
