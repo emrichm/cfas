@@ -24,10 +24,10 @@ export class MenuService {
             name: 'Dein Einstieg',
             path: '/newcomer/entry'
           },
-          {
-            name: 'CrossFit Dictionary',
-            path: '/newcomer/cf-dictionary'
-          }
+          // {
+          //   name: 'CrossFit Dictionary',
+          //   path: '/newcomer/cf-dictionary'
+          // }
         ]
       },
       {
