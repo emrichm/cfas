@@ -24,10 +24,10 @@ export class MenuService {
             name: 'Dein Einstieg',
             path: '/newcomer/entry'
           },
-          {
-            name: 'CrossFit Dictionary',
-            path: '/newcomer/cf-dictionary'
-          }
+          // {
+          //   name: 'CrossFit Dictionary',
+          //   path: '/newcomer/cf-dictionary'
+          // }
         ]
       },
       {
@@ -60,10 +60,10 @@ export class MenuService {
         name: 'Angebot',
         path: null,
         subMenuItems: [
-          {
-            name: 'Events',
-            path: '/offer/events'
-          },
+          // {
+          //   name: 'Events',
+          //   path: '/offer/events'
+          // },
           {
             name: 'Kursplan',
             path: '/offer/schedule'
@@ -71,6 +71,18 @@ export class MenuService {
           {
             name: 'Classes',
             path: '/offer/classes'
+          },
+          {
+            name: 'Personal Training',
+            path: '/offer/pt'
+          },
+          {
+            name: 'Massage',
+            path: '/offer/massage'
+          },
+          {
+            name: 'Hallenmiete',
+            path: '/offer/hall-rental'
           },
           {
             name: 'Preise',

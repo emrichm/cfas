@@ -19,7 +19,6 @@ export class ClassHoursService {
         break;
       case WeekDay.Tuesday:
         classHours = [
-          '17:00 - 18:00',
           '18:00 - 19:00',
           '19:00 - 20:00'
         ];
@@ -34,8 +33,8 @@ export class ClassHoursService {
         break;
       case WeekDay.Thursday:
         classHours = [
+          '9:00 - 10:00',
           '17:00 - 18:00',
-          '18:00 - 19:00',
           '19:00 - 20:00'
         ];
         break;
@@ -49,13 +48,11 @@ export class ClassHoursService {
         break;
       case WeekDay.Saturday:
         classHours = [
-          '10:00 - 11:30'
+          '10:30 - 12:00'
         ];
         break;
       case WeekDay.Sunday:
-        classHours = [
-          '10:00 - 11:30'
-        ];
+        classHours = [];
         break;
     }
     return classHours;

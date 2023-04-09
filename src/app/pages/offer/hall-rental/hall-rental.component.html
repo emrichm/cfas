@@ -1,0 +1,49 @@
+<div id="wrapper">
+  <section id="title" class="grey-section">
+    <!-- [ngStyle]="(isHandset$ | async) && {'background-image': 'url(assets/static/images/style-images/pvc-pipes.jpg)'}"> -->
+    <div class="text-center">
+      <h1 class="jaeggers text-uppercase">Hallen-Miete</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="col my-3 text-center">
+        <button
+          mat-stroked-button
+          [routerLink]="['/contact']"
+          [queryParams]="{ subject: 'hall' }"
+          class="text-uppercase"
+        >
+          Kontakt aufnehmen
+        </button>
+      </div>
+    </div>
+
+    <div class="container mx-auto col-10 col-md-8">
+      <div class="row">
+        <div class="col text-center">
+          <img src="/assets/static/images/style-images/hall-rental-1.jpg" />
+          <img src="/assets/static/images/style-images/hall-rental-2.jpg" />
+          <img src="/assets/static/images/style-images/hall-rental-3.jpg" />
+          <img src="/assets/static/images/style-images/hall-rental-4.jpg" />
+          <img src="/assets/static/images/style-images/hall-rental-5.jpg" />
+          <img src="/assets/static/images/style-images/hall-rental-6.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col my-3 text-center">
+        <button
+          mat-stroked-button
+          [routerLink]="['/contact']"
+          [queryParams]="{ subject: 'hall' }"
+          class="text-uppercase"
+        >
+          Kontakt aufnehmen
+        </button>
+      </div>
+    </div>
+  </section>
+</div>

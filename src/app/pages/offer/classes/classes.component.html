@@ -10,15 +10,19 @@
     <div class="container mx-auto col-10 col-md-8">
       <div class="row">
         <div class="col description text-center">
-          Alle unsere Stunden beginnen am Whiteboard. Dort wird der Ablauf Deiner besten Stunde des Tages genau
-          besprochen und das Workout erklärt. Nach einem gemeinsamen Warm-up wiederholen wir die nötigen Techniken und
-          passen das Workout und die Movements entsprechend Deiner Bedürfnisse an. Dann geht’s ins Workout und
-          schlussendlich gibt es noch einen gemeinsamen Cool-down.
+          Entdecke die beeindruckende Welt unserer dynamischen Trainingsstunden, bei denen das
+          Abenteuer am Whiteboard beginnt. Hier enthüllen wir den Plan für die spannendste Stunde
+          deines Tages und erläutern das Workout mit all seinen Facetten. In gemeinsamer Motivation
+          starten wir mit einem aufregenden Warm-Up, bevor wir uns intensiv mit den erforderlichen
+          Techniken beschäftigen, um das Workout und die Bewegungsabläufe optimal auf deine
+          individuellen Bedürfnisse zuzuschneiden. Anschließend stürzen wir uns voller Elan in das
+          actionreiche Workout und lassen den Körper schließlich bei einem harmonischen Cool-Down
+          gemeinsam zur Ruhe kommen.
         </div>
       </div>
 
-      <ng-container *ngFor="let classDescription of classDescriptions">
-        <cfas-class-description [classDescription]="classDescription"></cfas-class-description>
+      <ng-container *ngFor="let descriptionPart of descriptionParts">
+        <cfas-description-part [descriptionPart]="descriptionPart"></cfas-description-part>
       </ng-container>
     </div>
   </section>

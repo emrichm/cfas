@@ -1,8 +1,0 @@
-<div class="row my-4">
-  <div class="col-12 col-md-4 image" [style.background-image]="'url(' + classDescription.image.url + ')'"
-    [style.background-position]="classDescription.image.position"></div>
-  <div class="col-12 col-md-8 description" [ngClass]="{'text-center': (isHandset$ | async)}">
-    <h2 class="mb-4">{{ classDescription.title }}</h2>
-    <p>{{ classDescription.text }}</p>
-  </div>
-</div>

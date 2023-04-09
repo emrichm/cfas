@@ -1,75 +1,112 @@
 {
-    "events": [{
-            "date": "2021-03-15T12:00",
-            "expDate": "2020-05-15T00:00",
-            "description": "CFAS Cloased due to COVID-19",
-            "image": {
-                "url": "assets/dynamic/images/events/20200315_ClosingCovid19.jpg",
-                "alt": "CrossFit am See vorerst geschlossen aufgrund Corona Virus Pandemie"
-            }
-        },
-        {
-            "date": "2020-03-15T12:00",
-            "expDate": "2020-05-15T00:00",
-            "description": "CFAS - HomeWODs",
-            "image": {
-                "url": "assets/dynamic/images/events/20200315_HomeWOD.jpg",
-                "alt": "Dein Training für zu Hause von CrossFit am See"
-            }
-        },
-        {
-            "date": "2020-07-29T17:00",
-            "expDate": "2020-07-30T00:00",
-            "description": "CFAS - CrossFit Games Kino",
-            "image": {
-                "url": "assets/dynamic/images/events/20200729_KlappeActionCFGames.jpg",
-                "alt": "Kinoabende zu den CrossFit Games 2020 bei CrossFit am See"
-            }
-        },
-        {
-            "date": "2020-08-29T18:00",
-            "expDate": "2020-08-30T00:00",
-            "description": "STAMMTISCH - FREUNDE ZU GAST",
-            "image": {
-                "url": "assets/dynamic/images/events/20200829_Stammtisch Freunde zu Gast.jpg",
-                "alt": "Monatlich wiederkehrender CrossFit am See Stammtisch, diesmal mit Besuch aus anderen Boxen"
-            }
-        },
-        {
-            "date": "2020-03-16T18:00",
-            "expDate": "2020-03-17T00:00",
-            "description": "RuderWorkshop Teil 2",
-            "image": {
-                "url": "assets/dynamic/images/events/20200429_RuderworkshopTeilzwei.jpg",
-                "alt": "Zweiter Ruderworkshop Teil zwei mit Lexi und Claire"
-            }
-        },
-        {
-            "date": "2020-03-23T18:00",
-            "expDate": "2020-03-24T00:00",
-            "description": "RuderWorkshop Teil 3",
-            "image": {
-                "url": "assets/dynamic/images/events/20200430_RuderworkshopTeildrei.jpg",
-                "alt": "Letzter Teil vom Ruderworkshop mit Lexi und Claire"
-            }
-        },
-        {
-            "date": "2020-04-04T10:00",
-            "expDate": "2020-04-05T00:00",
-            "description": "CROSSFIT AM SEE’s 🎁ZWEITER GEBURTSTAG🥳",
-            "image": {
-                "url": "assets/dynamic/images/events/20200404_Zweiter Geburtstag.jpg",
-                "alt": "Wir feiern unseren zweiten Geburtstag!"
-            }
-        },
-        {
-            "date": "2020-04-25T10:30",
-            "expDate": "2020-04-26T00:00",
-            "description": "Talk with ALN Nutrition Workshop",
-            "image": {
-                "url": "assets/dynamic/images/events/20200425_ALNWorkshop.jpg",
-                "alt": "Nutritionsworkshop mit Aleks von Angelove Nutrition"
-            }
-        }
-    ]
+  "events": [
+    {
+      "date": "2022-10-30T10:30",
+      "expDate": "2022-10-30T20:00",
+      "description": "<p><strong>Pump' King Bash</strong></p><p>Halloween at CrossFit am See</p><p><a href='https://goteamup.com/p/1695186-crossfit-am-see/e/52465917-pump-king-bash/' target='_blank' style='font-weight:bold;text-decoration:underline;'>Hier kostenlos anmelden</a></p>",
+      "image": {
+        "url": "assets/dynamic/images/events/20221019_PumpKing_Bash.jpeg",
+        "alt": "Pump' King Bash - Halloween at CrossFit am See"
+      }
+    },
+    {
+      "date": "2022-10-19T17:00",
+      "expDate": "2022-10-19T20:00",
+      "description": "<p>HYROX PFT (Physical Fitness Test)</p><p><a href='https://pft.hyrox.com/global' target='_blank' style='font-weight:bold;text-decoration:underline;'>Hier kostenlos anmelden</a></p>",
+      "image": {
+        "url": "assets/dynamic/images/events/20221019_Hyrox-PFT.png",
+        "alt": "HYROX PFT (Physical Fitness Test) at CrossFit am See"
+      }
+    },
+    {
+      "date": "2022-09-18T10:00",
+      "expDate": "2022-09-18T20:00",
+      "description": "<p>Tag der offenen Tür mit anschließendem Grillen</p>",
+      "image": {
+        "url": "assets/dynamic/images/events/20220918_TagDerOffenenTuer.jpeg",
+        "alt": "Tag der offenen Tür at CrossFit am See"
+      }
+    },
+    {
+      "date": "2022-08-20T10:30",
+      "expDate": "2022-08-20T20:00",
+      "description": "<p>HYROX PFT (Physical Fitness Test) mit anschließendem Grillen</p><p><a href='https://pft.hyrox.com/global?_ga=2.107344578.1918691495.1659961757-990892045.1659961757' target='_blank' style='font-weight:bold;text-decoration:underline;'>Hier kostenlos anmelden</a></p>",
+      "image": {
+        "url": "assets/dynamic/images/events/20220820_Hyrox-PFT.png",
+        "alt": "HYROX PFT (Physical Fitness Test) at CrossFit am See"
+      }
+    },
+    {
+      "date": "2021-03-15T12:00",
+      "expDate": "2020-05-15T00:00",
+      "description": "CFaS Cloased due to COVID-19",
+      "image": {
+        "url": "assets/dynamic/images/events/20200315_ClosingCovid19.jpg",
+        "alt": "CrossFit am See vorerst geschlossen aufgrund Corona Virus Pandemie"
+      }
+    },
+    {
+      "date": "2020-03-15T12:00",
+      "expDate": "2020-05-15T00:00",
+      "description": "CFaS - HomeWODs",
+      "image": {
+        "url": "assets/dynamic/images/events/20200315_HomeWOD.jpg",
+        "alt": "Dein Training für zu Hause von CrossFit am See"
+      }
+    },
+    {
+      "date": "2020-07-29T17:00",
+      "expDate": "2020-07-30T00:00",
+      "description": "CFaS - CrossFit Games Kino",
+      "image": {
+        "url": "assets/dynamic/images/events/20200729_KlappeActionCFGames.jpg",
+        "alt": "Kinoabende zu den CrossFit Games 2020 bei CrossFit am See"
+      }
+    },
+    {
+      "date": "2020-08-29T18:00",
+      "expDate": "2020-08-30T00:00",
+      "description": "STAMMTISCH - FREUNDE ZU GAST",
+      "image": {
+        "url": "assets/dynamic/images/events/20200829_Stammtisch Freunde zu Gast.jpg",
+        "alt": "Monatlich wiederkehrender CrossFit am See Stammtisch, diesmal mit Besuch aus anderen Boxen"
+      }
+    },
+    {
+      "date": "2020-03-16T18:00",
+      "expDate": "2020-03-17T00:00",
+      "description": "RuderWorkshop Teil 2",
+      "image": {
+        "url": "assets/dynamic/images/events/20200429_RuderworkshopTeilzwei.jpg",
+        "alt": "Zweiter Ruderworkshop Teil zwei mit Lexi und Claire"
+      }
+    },
+    {
+      "date": "2020-03-23T18:00",
+      "expDate": "2020-03-24T00:00",
+      "description": "RuderWorkshop Teil 3",
+      "image": {
+        "url": "assets/dynamic/images/events/20200430_RuderworkshopTeildrei.jpg",
+        "alt": "Letzter Teil vom Ruderworkshop mit Lexi und Claire"
+      }
+    },
+    {
+      "date": "2020-04-04T10:00",
+      "expDate": "2020-04-05T00:00",
+      "description": "CROSSFIT AM SEE’s 🎁ZWEITER GEBURTSTAG🥳",
+      "image": {
+        "url": "assets/dynamic/images/events/20200404_Zweiter Geburtstag.jpg",
+        "alt": "Wir feiern unseren zweiten Geburtstag!"
+      }
+    },
+    {
+      "date": "2020-04-25T10:30",
+      "expDate": "2020-04-26T00:00",
+      "description": "Talk with ALN Nutrition Workshop",
+      "image": {
+        "url": "assets/dynamic/images/events/20200425_ALNWorkshop.jpg",
+        "alt": "Nutritionsworkshop mit Aleks von Angelove Nutrition"
+      }
+    }
+  ]
 }

@@ -1,44 +1,44 @@
-@import "../../../assets/static/scss/variables";
+@import '../../../assets/static/scss/variables';
 .navbar {
-    line-height: 100%;
-    color: white;
-    background-color: black;
-    opacity: 0.95;
+  line-height: 100%;
+  color: white;
+  background-color: black;
+  opacity: 0.95;
 
-    #navbar-logo {
-        &:hover {
-            background-color: inherit;
-        }       
-
-        img {
-            height: inherit;
-        }
+  #navbar-logo {
+    &:hover {
+      background-color: inherit;
     }
+
+    img {
+      height: inherit;
+    }
+  }
 }
 
 .is-handset {
-    width: fit-content;
-    float: right;
-    opacity: 0.85;
-    border-bottom-left-radius: 5px;
-    &:hover {
-        opacity: inherit;
-    }
+  width: fit-content;
+  float: right;
+  opacity: 0.85;
+  border-bottom-left-radius: 5px;
+  &:hover {
+    opacity: inherit;
+  }
 }
 
 button,
 a {
-    height: 100%;
-    border-radius: 0;
-    &:hover {
-        background-color: rgba(white, 0.05);
-    }
-    &.active {
-        border-bottom: solid 6px $jeaggerBlue;
-        padding-top: 6px;
-    }
+  height: 100%;
+  border-radius: 0;
+  &:hover {
+    background-color: rgba(white, 0.05);
+  }
+  &.active {
+    border-bottom: solid 6px $cfasBlue;
+    padding-top: 6px;
+  }
 }
 
 .mat-menu-panel {
-    width: fit-content;
+  width: fit-content;
 }

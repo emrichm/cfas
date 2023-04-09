@@ -1,8 +1,15 @@
+@import '../../../../assets/static/scss/variables';
+
+.dark .mat-form-field .mat-input-element {
+  caret-color: green;
+}
+
 .full-width {
   width: 100%;
 }
 
 .contact-form-card {
+  background-color: darken($cfasBlue, 25%);
   min-width: 120px;
   margin: 20px auto;
   padding: 35px;

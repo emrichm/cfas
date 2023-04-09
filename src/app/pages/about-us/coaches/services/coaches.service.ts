@@ -1,4 +1,7 @@
 import { Injectable } from '@angular/core';
+
+import arrayShuffle from 'array-shuffle';
+
 import * as coachesDTO from '../../../../../assets/dynamic/data/coaches.json';
 import { Coach } from '../models/coach';
 import { CoachInterview } from '../models/coach-interview';
@@ -22,6 +25,6 @@ export class CoachesService {
   }
 
   get coaches(): Coach[] {
-    return coaches;
+    return arrayShuffle(coaches);
   }
 }

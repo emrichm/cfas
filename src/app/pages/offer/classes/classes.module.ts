@@ -1,7 +1,6 @@
 import { SharedModule } from 'src/app/shared/shared.module';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ClassDescriptionComponent } from './class-description/class-description.component';
 import { ClassesComponent } from './classes.component';
 
 const routes: Routes = [
@@ -10,8 +9,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    ClassesComponent,
-    ClassDescriptionComponent
+    ClassesComponent
   ],
   imports: [
     RouterModule.forChild(routes),

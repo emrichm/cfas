@@ -1,0 +1,48 @@
+<div id="wrapper">
+  <section id="title" class="grey-section">
+    <!-- [ngStyle]="(isHandset$ | async) && {'background-image': 'url(assets/static/images/style-images/pvc-pipes.jpg)'}"> -->
+    <div class="text-center">
+      <h1 class="jaeggers text-uppercase">Personal Training</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mx-auto col-10 col-md-8">
+      <div class="row">
+        <div class="col description text-center">
+          Dein Weg zu einem schmerzfreien Körper und mehr Leistungsfähigkeit im Sport und Alltag.
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col my-3 text-center">
+          <button
+            mat-stroked-button
+            [routerLink]="['/contact']"
+            [queryParams]="{ subject: 'pt' }"
+            class="text-uppercase"
+          >
+            Termin vereinbaren
+          </button>
+        </div>
+      </div>
+
+      <ng-container *ngFor="let descriptionPart of descriptionParts">
+        <cfas-description-part [descriptionPart]="descriptionPart"></cfas-description-part>
+      </ng-container>
+
+      <div class="row">
+        <div class="col my-3 text-center">
+          <button
+            mat-stroked-button
+            [routerLink]="['/contact']"
+            [queryParams]="{ subject: 'pt' }"
+            class="text-uppercase"
+          >
+            Termin vereinbaren
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

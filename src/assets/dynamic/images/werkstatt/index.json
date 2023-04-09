@@ -1,102 +1,116 @@
 {
-	"url": {
-		"html": "/assets/dynamic/images/werkstatt/",
-		"scss": "/src"
-	},
-	"content": [{
-			"name": "IMG_0858",
-			"sizes": {
-				"150": "IMG_0858-150x150.jpg",
-				"300": "IMG_0858-300x200.jpg",
-				"768": "IMG_0858-768x512.jpg",
-				"1024": "IMG_0858-1024x683.jpg",
-				"1200": "IMG_0858-1200x800.jpg",
-				"1536": "IMG_0858-1536x1024.jpg",
-				"1980": "IMG_0858-1980x1320.jpg"
-			}
+  "url": {
+    "html": "/assets/dynamic/images/werkstatt/",
+    "scss": "/src"
   },
-		{
-			"name": "IMG_1015",
-			"sizes": {
-				"150": "IMG_1015-150x150.jpg",
-				"300": "IMG_1015-300x200.jpg",
-				"768": "IMG_1015-768x512.jpg",
-				"1024": "IMG_1015-1024x683.jpg",
-				"1200": "IMG_1015-1200x800.jpg",
-				"1536": "IMG_1015-1536x1024.jpg",
-				"1980": "IMG_1015-1980x1320.jpg"
-			}
-  },
-		{
-			"name": "IMG_1028",
-			"sizes": {
-				"150": "IMG_1028-150x150.jpg",
-				"300": "IMG_1028-300x200.jpg",
-				"768": "IMG_1028-768x512.jpg",
-				"1024": "IMG_1028-1024x683.jpg",
-				"1200": "IMG_1028-1200x800.jpg",
-				"1536": "IMG_1028-1536x1024.jpg",
-				"1980": "IMG_1028-1980x1320.jpg"
-			}
-  },
-		{
-			"name": "IMG_1031",
-			"sizes": {
-				"150": "IMG_1031-150x150.jpg",
-				"300": "IMG_1031-300x200.jpg",
-				"768": "IMG_1031-768x512.jpg",
-				"1024": "IMG_1031-1024x683.jpg",
-				"1200": "IMG_1031-1200x800.jpg",
-				"1536": "IMG_1031-1536x1024.jpg",
-				"1980": "IMG_1031-1980x1320.jpg"
-			}
-  },
-		{
-			"name": "Werkstatt",
-			"sizes": {
-				"150": "Werkstatt-150x150.jpg",
-				"300": "Werkstatt-300x200.jpg",
-				"768": "Werkstatt-768x512.jpg",
-				"1024": "Werkstatt-1024x682.jpg",
-				"1200": "Werkstatt-1200x800.jpg",
-				"1536": "Werkstatt-1536x1024.jpg",
-				"1980": "Werkstatt-1980x1320.jpg"
-			}
-  },
-		{
-			"name": "Werkstatt-ROMWOD",
-			"sizes": {
-				"150": "Werkstatt-ROMWOD-150x150.jpeg",
-				"300": "Werkstatt-ROMWOD-300x205.jpeg",
-				"768": "Werkstatt-ROMWOD-768x576.jpeg",
-				"1024": "Werkstatt-ROMWOD-1024x768.jpeg",
-				"1200": "Werkstatt-ROMWOD-1200x900.jpeg",
-				"1536": "Werkstatt-ROMWOD-1536x1152.jpeg",
-				"1980": "Werkstatt-ROMWOD-1980x1485.jpeg"
-			}
-  },
-		{
-			"name": "WERKSTATT-ROMWOD1",
-			"sizes": {
-				"150": "WERKSTATT-ROMWOD1-150x150.jpeg",
-				"300": "WERKSTATT-ROMWOD1-225x300.jpeg",
-				"768": "WERKSTATT-ROMWOD1-768x1024.jpeg",
-				"1024": "WERKSTATT-ROMWOD1-1152x1536.jpeg",
-				"1200": "WERKSTATT-ROMWOD1-1200x1600.jpeg",
-				"1536": "WERKSTATT-ROMWOD1-1536x2048.jpeg",
-				"1980": "WERKSTATT-ROMWOD1-1980x2640.jpeg"
-			}
-  },
-		{
-			"name": "Werkstatt-tires",
-			"sizes": {
-				"150": "Werkstatt-tires-150x150.jpg",
-				"300": "Werkstatt-tires-300x200.jpg",
-				"768": "Werkstatt-tires-768x512.jpg",
-				"1024": "Werkstatt-tires-1024x682.jpg",
-				"1200": "Werkstatt-tires-1200x800.jpg",
-				"1536": "Werkstatt-tires-1536x1024.jpg",
-				"1980": "Werkstatt-tires-1980x1320.jpg"
-			}
-  }]
+  "content": [
+    {
+      "name": "IMG_0858",
+      "sizes": {
+        "150": "IMG_0858-150x150.jpg",
+        "300": "IMG_0858-300x200.jpg",
+        "768": "IMG_0858-768x512.jpg",
+        "1024": "IMG_0858-1024x683.jpg",
+        "1200": "IMG_0858-1200x800.jpg",
+        "1536": "IMG_0858-1536x1024.jpg",
+        "1980": "IMG_0858-1980x1320.jpg"
+      }
+    },
+    {
+      "name": "IMG_1015",
+      "sizes": {
+        "150": "IMG_1015-150x150.jpg",
+        "300": "IMG_1015-300x200.jpg",
+        "768": "IMG_1015-768x512.jpg",
+        "1024": "IMG_1015-1024x683.jpg",
+        "1200": "IMG_1015-1200x800.jpg",
+        "1536": "IMG_1015-1536x1024.jpg",
+        "1980": "IMG_1015-1980x1320.jpg"
+      }
+    },
+    {
+      "name": "IMG_1028",
+      "sizes": {
+        "150": "IMG_1028-150x150.jpg",
+        "300": "IMG_1028-300x200.jpg",
+        "768": "IMG_1028-768x512.jpg",
+        "1024": "IMG_1028-1024x683.jpg",
+        "1200": "IMG_1028-1200x800.jpg",
+        "1536": "IMG_1028-1536x1024.jpg",
+        "1980": "IMG_1028-1980x1320.jpg"
+      }
+    },
+    {
+      "name": "IMG_1031",
+      "sizes": {
+        "150": "IMG_1031-150x150.jpg",
+        "300": "IMG_1031-300x200.jpg",
+        "768": "IMG_1031-768x512.jpg",
+        "1024": "IMG_1031-1024x683.jpg",
+        "1200": "IMG_1031-1200x800.jpg",
+        "1536": "IMG_1031-1536x1024.jpg",
+        "1980": "IMG_1031-1980x1320.jpg"
+      }
+    },
+    {
+      "name": "Werkstatt",
+      "sizes": {
+        "150": "Werkstatt-150x150.jpg",
+        "300": "Werkstatt-300x200.jpg",
+        "768": "Werkstatt-768x512.jpg",
+        "1024": "Werkstatt-1024x682.jpg",
+        "1200": "Werkstatt-1200x800.jpg",
+        "1536": "Werkstatt-1536x1024.jpg",
+        "1980": "Werkstatt-1980x1320.jpg"
+      }
+    },
+    {
+      "name": "Werkstatt-tires",
+      "sizes": {
+        "150": "Werkstatt-tires-150x150.jpg",
+        "300": "Werkstatt-tires-300x200.jpg",
+        "768": "Werkstatt-tires-768x512.jpg",
+        "1024": "Werkstatt-tires-1024x682.jpg",
+        "1200": "Werkstatt-tires-1200x800.jpg",
+        "1536": "Werkstatt-tires-1536x1024.jpg",
+        "1980": "Werkstatt-tires-1980x1320.jpg"
+      }
+    },
+    {
+      "name": "Werkstatt-Praxisraum",
+      "sizes": {
+        "150": "Werkstatt-Praxisraum-150x150.jpg",
+        "300": "Werkstatt-Praxisraum-300x200.jpg",
+        "768": "Werkstatt-Praxisraum-768x1024.jpg",
+        "1024": "Werkstatt-Praxisraum-1024x682.jpg",
+        "1200": "Werkstatt-Praxisraum-1200x800.jpg",
+        "1536": "Werkstatt-Praxisraum-1536x1024.jpg",
+        "1980": "Werkstatt-Praxisraum-1980x2640.jpg"
+      }
+    },
+    {
+      "name": "Werkstatt-ROMWOD",
+      "sizes": {
+        "150": "Werkstatt-ROMWOD-150x150.jpeg",
+        "300": "Werkstatt-ROMWOD-300x205.jpeg",
+        "768": "Werkstatt-ROMWOD-768x576.jpeg",
+        "1024": "Werkstatt-ROMWOD-1024x768.jpeg",
+        "1200": "Werkstatt-ROMWOD-1200x900.jpeg",
+        "1536": "Werkstatt-ROMWOD-1536x1152.jpeg",
+        "1980": "Werkstatt-ROMWOD-1980x1485.jpeg"
+      }
+    },
+    {
+      "name": "WERKSTATT-ROMWOD1",
+      "sizes": {
+        "150": "WERKSTATT-ROMWOD1-150x150.jpeg",
+        "300": "WERKSTATT-ROMWOD1-225x300.jpeg",
+        "768": "WERKSTATT-ROMWOD1-768x1024.jpeg",
+        "1024": "WERKSTATT-ROMWOD1-1152x1536.jpeg",
+        "1200": "WERKSTATT-ROMWOD1-1200x1600.jpeg",
+        "1536": "WERKSTATT-ROMWOD1-1536x2048.jpeg",
+        "1980": "WERKSTATT-ROMWOD1-1980x2640.jpeg"
+      }
+    }
+  ]
 }
